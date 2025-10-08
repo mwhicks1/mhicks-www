@@ -2,7 +2,7 @@
 title: Courses
 description: |
   This is a list of courses taught, including current and past teaching activities.
-author: "The R Markdown Team @RStudio"
+author: "Mike Hicks"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
@@ -15,20 +15,16 @@ layout: list # list, list-sidebar
 sidebar:
   title: Courses
   description: |
-    This is a list of courses taught, including current
-    and past teaching activities. You can organize them
-    by semester, academic year, or course level.
-
-    Check out the _index.md file in the /course folder
-    to edit this content.
-  author: "The R Markdown Team @RStudio"
+    Online courses and teaching materials on software security,
+    cybersecurity, and programming languages.
+  author: "Mike Hicks"
   text_link_label: Subscribe via RSS
   text_link_url: /course/index.xml
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all pages inside course/
 cascade:
-  author: "The R Markdown Team @RStudio"
+  author: "Mike Hicks"
   show_author_byline: true
   show_post_date: true
   show_post_time: true
