@@ -67,4 +67,4 @@ The [quiz for this week](/course/software-security/assets/week3_quiz.docx) cover
 
 ## Project
 
-The [second project](/course/software-security/project3_badstore.html) tests your ability to exploit vulnerabilities in a web application called BadStore. It is due in three weeks, at the start of week 6. You will complete the work for the project on your own computer, and then take the [on-line assessment](/course/software-security/assets/week3_badstore_quiz.docx) to show that you've done so.
+The [second project](../project2) tests your ability to exploit vulnerabilities in a web application called BadStore. It is due in three weeks, at the start of week 6. You will complete the work for the project on your own computer, and then take the [on-line assessment](/course/software-security/assets/week3_badstore_quiz.docx) to show that you've done so.

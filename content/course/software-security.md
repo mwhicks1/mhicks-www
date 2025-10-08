@@ -1,7 +1,7 @@
 ---
 title: "Software Security"
 subtitle: "Online Course"
-excerpt: "This course explores the foundations of software security, covering important software vulnerabilities and attacks that exploit them, such as buffer overflows, SQL injection, and session hijacking."
+excerpt: "This course explores the foundations of software security, covering important software vulnerabilities and attacks that exploit them, such as buffer overflows, SQL injection, and session hijacking. The course also considers defenses that prevent or mitigate these attacks, including advanced testing and program analysis techniques. We take a 'build security in' mentality, considering techniques at each phase of the development cycle that can be used to strengthen the security of software systems."
 date: 2015-01-01
 author: "Mike Hicks"
 draft: false

@@ -100,4 +100,4 @@ The [quiz for this week](/course/software-security/assets/week5_quiz.docx) cover
 
 ## Project
 
-For [this week's project](/course/software-security/project3_fuzz_testing.html) you will get your feet wet using a symbolic execution tool called KLEE, and comparing its performance to a black box fuzzing tool called radamsa (which we will learn more about next week). When you finish it, take the [on-line assessment](/course/software-security/assets/week5_fuzz_quiz.docx), due in three weeks.
+For [this week's project](../project3) you will get your feet wet using a symbolic execution tool called KLEE, and comparing its performance to a black box fuzzing tool called radamsa (which we will learn more about next week). When you finish it, take the [on-line assessment](/courses/software-security/assets/week5_fuzz_quiz.docx), due in three weeks.

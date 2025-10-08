@@ -78,7 +78,7 @@ These are a few references linked in the lecture slides. We will cover secure co
 
 ## Project
 
-There is **no new project** this week. Don't forget to complete [Project 1](/course/software-security/project1_buffer_overflow.html) on exploiting buffer overflows. Take the [project quiz](/course/software-security/assets/week1_BOF_quiz.docx) when you have completed that project.
+There is **no new project** this week. Don't forget to complete [Project 1](../project1) on exploiting buffer overflows. Take the [project quiz](/courses/software-security/assets/week1_BOF_quiz.docx) when you have completed that project.
 
 ## Notes on Course Content
 

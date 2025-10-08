@@ -17,7 +17,7 @@ We will see that the symbolic executor is able to systematically explore the dif
 
 ## Setup
 
-We will be re-using the VM from Project 1. If you did not download that VM, or you have since erased it, directions for installation can be found on the [Project 1](/courses/software-security/project1_buffer_overflow.html) page.
+We will be re-using the VM from Project 1. If you did not download that VM, or you have since erased it, directions for installation can be found on the [Project 1](../project1) page.
 
 We have installed KLEE as a self-contained package in the **klee-cde-package** sub-directory of the **seed** user's home directory. To use the KLEE binaries we will set your PATH, below, to include the **bin** directory, which is a sub-directory of the root of the KLEE package. Note that because we've installed the cde version of the package, to run the KLEE executables you'll need to add .cde to the end of each executable name, e.g., llvm-gcc.cde and klee.cde. We installed **radamsa** in the usual place (/usr/bin).
 

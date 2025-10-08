@@ -52,7 +52,7 @@ The following readings are optional: They are meant to supplement the material y
 
 ## Project
 
-The [first project](/course/software-security/assets/week1_BOF_quiz.docx) is on exploiting buffer overflows; it is due in three weeks, just prior to the start of week 4. You will complete the work for the project on your own computer, and then take the [on-line assessment](/course/software-security/assets/week1_BOF_quiz.docx) to show that you've done so.
+The [first project](../project1) is on exploiting buffer overflows; it is due in three weeks, just prior to the start of week 4. You will complete the work for the project on your own computer, and then take the [on-line assessment](/courses/software-security/assets/week1_BOF_quiz.docx) to show that you've done so.
 
 ## Quiz
 

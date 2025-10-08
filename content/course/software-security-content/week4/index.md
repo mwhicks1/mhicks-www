@@ -65,4 +65,4 @@ The [quiz for this week](/course/software-security/assets/week4_quiz.docx) cover
 
 ## Project
 
-There is **no new project** this week. Don't forget that [Project 2](/course/software-security/project2_badstore.html) on exploiting web application vulnerabilities, issued last week, is still outstanding, and is due in two weeks.
+There is **no new project** this week. Don't forget that [Project 2](../project2) on exploiting web application vulnerabilities, issued last week, is still outstanding, and is due in two weeks.
