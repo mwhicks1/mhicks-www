@@ -1,0 +1,149 @@
+---
+title: "Syllabus"
+date: 2025-08-01
+author: "Mike Hicks"
+draft: false
+weight: 1
+layout: single
+build:
+  list: never
+---
+
+## Description
+
+The goal of this course is to explore *how to assess* the technology and practices that aim to enhance *computer security and privacy*. A key theme of the course is to understand how to measure whether security and privacy goals have been achieved. We will learn about promising work in this area, including relevant measurement and data analysis techniques. In studying it we aim to surface gaps and find opportunities to do better.
+
+This is a seminar course. Our main activity will be to read and discuss papers from the research literature, as well as blog posts, whitepapers, and the occasional textbook chapter. Students will be expected to read 1-2 papers per class and to submit a short review on each paper prior to class, to set the table for discussion.
+
+Students will also have the opportunity to present papers to the class (how many depends in part on the class size), and receive feedback. We will also have guest lectures from experts in the field. The culmination of the course's work will be a deep-dive, final project.
+
+## Prerequisites
+
+There are no specific course prerequisites for this course, but participants are expected to have a technical background in computer science or a related field. Knowledge of computer security is a benefit, but is not required. Permission to enroll is granted by the instructor (as per usual with CIS 7000-level courses).
+
+## List of topics (tentative)
+
+This course covers a variety of topics, aiming to explore the following questions (among others):
+
+- In what ways is cybersecurity (not) an empirical science?
+- How can we view cybersecurity from an economic perspective, e.g., as a matter of reducing risk (or failing to)?
+- What experiments, and experimental methods, can measure aspects of security? What are some measurement pitfalls?
+- Humans affect, or are affected by, security in many ways, such as when they act as end users, software/system developers, and operators: How can we measure or otherwise assess these effects?
+
+Our exploration will lead us to dig into the following topics (as well as others TBD!):
+
+- Economic view of cybersecurity
+- End users and cybersecurity
+- Cybersecurity as a scientific pursuit
+- Cybersecurity investment as risk assessment
+- Cybersecurity game theory
+- Cyberattack economics
+- Cybersecurity public health
+- Developers' and operators' actions, and security
+- Ethics in computer security experimentation
+- Network-based security measurement
+- Definitions of privacy, and how to assess them
+
+## Online resources
+
+**Website**: Various course materials will be made available on the class website, which can be accessed at [https://mhicks.me/course/cis-7000-fall2025](https://mhicks.me/course/cis-7000-fall2025)
+
+**Canvas**: Students enrolled in the class will have access to the [course canvas site](https://canvas.upenn.edu/courses/1880676). Use this site to access the Zoom link for remote attendance, to submit course assignments, and to see the gradebook.
+
+## Grading
+
+The final grade will consist of two main parts:
+
+**Class participation (55%)**. This consists of
+
+1. (20%) a written 2-3 paragraph **review for each paper we read**, due prior to the discussion date;
+2. (14%) **participation** during class;
+3. (20%) a **presentation** the student will give about a particular topic; and
+4. (1%) a one-on-one meeting with the course instructor
+
+**Final project (45%)**. The grade consists of
+
+1. (30%) project **report**
+2. (15%) project **presentation**
+
+## Class activities
+
+### Paper reviews
+
+For most papers that we read in the class, students must submit a **review of each paper**. These will be used to drive discussion of the paper during class -- we cannot discuss what we do not read! Each review should consist of two parts: (1) a paragraph with key takeaways gleaned from the paper; (2) a few questions on topics that merit deep-dive discussion, or clarification. Note that part (1) should almost certainly not be complete (i.e., not an at-a-distance summary) but rather should be used to set up sufficient context and justification for the questions in part (2). Doing so ensures the questions are not surface-level, but rather are thought-through and engaging. You are writing a review, which means I want to see your opinion and your evidence for it. **Reviews are due 3pm the day before the class**, to avoid a late penalty of 20%. Reviews are **graded on a score of 1-5**, where
+
+- 0: missing or showing no evidence of having read the paper
+- 1-3: minimal effort or non-insightful summary (anybody can copy an abstract)
+- 4: insightful, but not particularly crisp or incisive; oftentimes too long
+- 5: actively insightful, with interesting and well-sourced discussion points (it often takes students a couple stabs at it to get to consistent 5's)
+
+### Participating and presenting in class
+
+There is an expectation to **attend class and participate in discussions**. The participation score will be based in large part on attendance (which we will start noting during the second week), but also on the instructor's assessment of the thoughtfulness and insight of comments made during class.
+
+Each student will be expected to **present a paper and lead a discussion about it.** The presentation should be about 25-30 minutes, with the ensuring discussion about 15 minutes. The goal is to learn to deep-dive into a relevant topic, and develop good presentation skills. Doing well will require reading your paper(s) early and to be sure you fully understand them. Consider practicing your presentation beforehand.
+
+Presentations will be judged based on the following criteria:
+
+- **understanding**: does the presenter understand the material?
+- **thoughtfulness**: does the presenter have insights and opinions beyond what was in the paper?
+- **background/perspective**: did the presenter read background papers?
+- **clarity**: can the audience understand the presentation? is the "big picture" clear? are there useful examples?
+- **materials**: do the slides or use of blackboard illustrate and support the talk? are there diagrams to help convey the technicalities? (when your talk gets into deep territory, a diagram is worth 10K words)
+- **delivery**: has the the presenter practiced?
+- **non-regurgitation**: did the presenter do something beyond simply typing sections of the paper as bullet points? did the presenter motivate the ideas in their own words or just state ideas from the paper verbatim?
+- **answering questions**: can the presenter handle questions from the audience?
+
+Remember that you will likely be able to explain more detail than you can hope to cover in a single lecture. This is one reason that it's hard work to prepare a good presentation: not only do you need to understand the paper, but you need to filter out the irrelevant details and amplify the key arguments. You'll probably have omit entire sections of the paper from your talk -- don't worry about it. Simply mimicking the structure of the paper ("regurgitating it") tends to produce a disconnected sequence of boring facts. A good talk should tell a story; every idea should be motivated, and all facts should fit together in a coherent picture. Telling such a story in a short time often requires creating your own explanations, motivation, and examples.
+
+### Projects
+
+Each student will propose a project idea roughly 1/3 of the way through the semester, to be finalized 1/2 of the way through, and then completed by the end of the semester. Students may work alone, or in groups of 2 or 3 (with a greater expectation on the result).
+
+#### Project ideas
+
+Here are a few ideas for project types:
+
+- (1 person project) Deep *literature-based exploration of a particular area*, e.g., a cogent summarization of 10 or more technical papers, possibly augmented with experience using tools, etc.
+  - Related: A *proposal for new research*. Basically, summarize a bunch of prior work, and the gaps it exposes, and sketch the work you would like to see done that could fill those gaps.
+- *Reproduction, or extension, of a study* we have read about (or one in another paper we haven't read). (2-4 people depending on scope)
+- *Empirical study of some phenomenon*, e.g., a survey of humans or an examination (and/or construction of a data set) + data analysis (2-3 people depending on scope)
+- *Risk management-style model* for a particular phenomenon, informed by realistic datasets (1-2 people depending on scope)
+
+One thing to think about is publishing the results in a peer-reviewed venue. For that to be possible, it might be that you aim to do part of the work for this class, and then finish it next semester. So you need to scope the two parts. If you are working with humans, we might need to get IRB approval before you can do that.
+
+#### Project Proposals
+
+In class, each student (or student teams) will present a **project pitch**. This is a 5 minute presentation motivating the problem they would like to explore, and a sketch of what work they would do to explore it. The goal is to get feedback on ideas from the rest of the class, and to nail down the work to be done. Students/teams can pitch up to two projects, if they want advice to choose between them.
+
+A couple of weeks after the pitch, teams will turn in a **project proposal**, which formalizes what they will do. It should recap the motivation from the pitch, and include the timeline and deliverables for the project. It should also mention risks toward completing the project. Total length should be around 3 pages.
+
+#### Deliverables
+
+The **project report** will be graded by content -- how insightful, useful, and complete is the work covered -- as well as adherence to format and content guidelines from the class, including, for example, whether the introduction answers key questions about the motivation for the project, whether the results section provides and interprets a key result, whether the related work section distinguishes current effort from prior work, and so on.
+
+The **project presentation**, like the report, will be scored based on format and content matching guidelines given in class (one of the things you'll be learning is what it means to give a good talk, write a good report, and so on). Presentations should be about 20 minutes long, with 5 minutes for questions.
+
+The project report will be due 11:59:59pm EST of the day given in the project description for full credit. Project reports (and code, if relevant) may be submitted up to 24 hours late for a 10% penalty. (For example, a project that would have earned 90 points for an on-time submission will earn 81, that is, 90 times 0.90.) If you submit both on-time & late, your project will received the maximum of the penalty-adjusted scores.
+
+### Meet the professor
+
+At least one time during the semester, you get a "free" 1% to **meet with me at an arranged time**. It doesn't have to be for class/project help: we can chat about research, future plans, whatever!
+
+## Excused absences
+
+You are not required to come to class, but not coming will affect your class participation grade. There are several justifications for **excused** absences from class: illness, religious observation, participation in required university activities, or a family or personal emergency. We will work with you to make sure that you have a fair amount of time to make up for excused absences. The best way that we can help is if we know about absences as well in advance as possible.
+
+- Provide a request for absence in writing.
+- Provide appropriate documentation that shows the absence qualifies as excused.
+- Provide as much advance notice as is possible, safe, and appropriate.
+
+One self-signed note is permitted, during the semester.
+
+The policies for excused absences *do not* apply to project assignments. Projects will be assigned with sufficient time to be completed by students who have a reasonable understanding of the necessary material and begin promptly. In cases of *extremely serious* documented illness of *lengthy duration* or other protracted, severe emergency situations, the instructor may consider extensions on project assignments, depending upon the specific circumstances.
+
+Besides the policies in this syllabus, the University's policies apply during the semester.
+
+## Right to change information
+
+Although every effort has been made to be complete and accurate, unforeseen circumstances arising during the semester could require the adjustment of any material given here. Consequently, given due notice to students, the instructor reserves the right to change any information on this syllabus or in other course materials.
