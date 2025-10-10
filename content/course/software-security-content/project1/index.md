@@ -149,7 +149,7 @@ To exploit the program, you will have to enter sequences of binary bytes that co
 
 **Note**: runbin.sh is a shell script that is just a wrapper around the following code:
 
-```bash
+```
 while read -r line; do echo -e $line; done | ./wisdom-alt
 ```
 
