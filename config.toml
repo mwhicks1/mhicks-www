@@ -44,12 +44,12 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "michael_w_hicks"
   
   # use a built-in color theme
   # one of: earth / forest / grayscale / magma / paper / peach / plum /
   #         poppy / primer / sky / violet / water 
-  theme = "sky"
+  theme = "primer"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -63,7 +63,7 @@ enableEmoji = true
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
   customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customheadingFontFamily = "EB Garamond"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -153,7 +153,7 @@ enableEmoji = true
   # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Mike"
     url = "/about/"
     weight = 1
   [[menu.header]]
