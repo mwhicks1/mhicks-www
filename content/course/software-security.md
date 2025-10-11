@@ -67,7 +67,7 @@ To test whether you have sufficient background to take the course, we recommend 
 
 This course was originally put together in late 2014 and early 2015. Fortunately (for learning, not for security!), much of the course's core content is still relevant as of early 2024: The examples and some details are now nearly 10 years old, but the same sorts of vulnerabilities, attacks, defenses, methodologies, and technologies are still relevant.
 
-Some readings such as this one have some added discussion and links to newer versions, or generations, of tools and technologies, and/or writeups about them. The first such updates were made in 2020, and some of these links may be dead or out of date. **I welcome corrections and contributions!** If you come across a dead/wrong link or would like to suggest some commentary to add, please either **e-mail me** (mwh@cs.umd.edu) or better yet, make the suggested change and **submit a pull request on GitHub**, where these course materials are hosted.
+Some readings such as this one have some added discussion and links to newer versions, or generations, of tools and technologies, and/or writeups about them. The first such updates were made in 2020, and some of these links may be dead or out of date. **I welcome corrections and contributions!** If you come across a dead/wrong link or would like to suggest some commentary to add, please either **e-mail me** (mwh@cis.upenn.edu) or better yet, make the suggested change and **submit a pull request on GitHub**, where these course materials are hosted.
 
 ### Errata
 
