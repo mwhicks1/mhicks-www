@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Hugo Apéro</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Hugo Apéro"/><meta property="og:title" content="Publications | Hugo Apéro"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/><link rel="icon" href="img/favicon.ico" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Hugo Apéro"/><link rel="stylesheet" href="/style.main.min.258343044ddfb33c72268535d36d8d42ea11af827560eaf11cebadca3821dcaa.css" integrity="sha256-JYNDBE3fszxyJoU1022NQuoRr4J1YOrxHOutyjgh3Ko=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/blog/" title="Blog">Blog</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/publication/" title="Publications">Publications</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/course/" title="Courses">Courses</a></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy08air.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Verified Enforcement of Stateful Information Release Policies</b>.
+Nikhil Swamy and Michael Hicks.
+In <em>Proceedings of the ACM SIGPLAN Workshop on Programming
+Languages and Analysis for Security (PLAS)</em>, pages 21–32, June 2008.</font></p><p>Many organizations specify <em>information release</em> policies to
+describe the terms under which sensitive information may be released
+to other organizations. This paper presents a new approach for
+ensuring that security-critical software correctly enforces its
+information release policy. Our approach has two parts. First, an
+information release policy is specified as a security automaton
+written in a new language called AIR. Second, we enforce an AIR
+policy by translating it into an API for programs written in Lair,
+a core formalism for a functional programming language. Lair uses
+a novel combination of dependent, affine, and singleton types to
+ensure that the API is used correctly. As a consequence we can
+certify that programs written in Lair meet the requirements of
+the original AIR policy specification.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy07milcom.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Verified Enforcement of Security Policies for Cross-Domain Information
+Flows</b>.
+Nikhil Swamy, Michael Hicks, and Simon Tsang.
+In <em>Proceedings of the 2007 Military Communications Conference
+(MILCOM)</em>, October 2007.</font></p><p>We describe work in progress that uses program analysis to show that
+security-critical programs, such as cross-domain guards, correctly
+enforce cross-domain security policies.
+We are enhancing existing techniques from the field of
+security-oriented programming languages to construct a new language
+for the construction of secure networked applications, <em>SELinks</em>.
+In order to specify and enforce expressive and fine-grained policies,
+we advocate dynamically associating security labels with sensitive
+entities.
+Programs written in <em>SELinks</em> are statically guaranteed to
+correctly manipulate an entity’s security labels and to ensure that
+the appropriate policy checks mediate all operations that are
+performed on the entity.
+We discuss the design of our main case study: a web-based
+collaborative planning application that will permit a collection
+of users, with varying security requirements and clearances, to access
+sensitive data sources and collaboratively create documents based on
+these sources.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy07fableTR.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Fable: A Language for Enforcing User-defined Security Policies</b>.
+Nikhil Swamy, Brian J. Corcoran, and Michael Hicks.
+Technical Report CS-TR-4895, University of Maryland, Department of
+Computer Science, November 2007.
+Full version of Oakland 08 paper.</font></p><p>This paper presents Fable, a core formalism for a programming language
+in which programmers may specify security policies and reason that
+these policies are properly enforced. In Fable,
+security policies can be expressed by associating <em>security
+labels</em> with the data or actions they protect. Programmers define the
+semantics of labels in a separate part of the program called the
+<em>enforcement policy</em>. Fable prevents a policy from being circumvented
+by allowing labeled terms to be manipulated only within the enforcement
+policy; application code must treat labeled values abstractly.
+Together, these features
+facilitate straightforward proofs that programs implementing a
+particular policy achieve their high-level security goals. Fable is
+flexible enough to implement a wide variety of security policies,
+including access control, information flow, provenance, and security
+automata. We have implemented Fable as part of the Links web
+programming language; we call the resulting language SELinks. We
+report on our experience using SElinks to build two substantial
+applications, a wiki and an on-line store, equipped with a combination of
+access control and provenance policies.
+To our knowledge, no existing framework enables
+the enforcement of such a wide variety of security policies with an
+equally high level of assurance.</p><p>[ <a href="http://www.cs.umd.edu/~nswamy/papers/fable-tr.pdf">.pdf</a> ]
+<a name="swamy07fableTR"></a></p><pre>@techreport{swamy07fableTR,
+author = {Nikhil Swamy and Brian J. Corcoran and Michael Hicks},
+institution = {University of Maryland, Department of Computer Science},
+number = {CS-TR-4895},
+title = {Fable: A Language for Enforcing User-defined Security Policies},
+year = 2007,
+month = nov,
+note = {Full version of Oakland 08 paper}
+}
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy06rxtr.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Managing Policy Updates in Security-Typed Languages (Extended version)</b>.
+Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
+Technical Report CS-TR-4793, Department of Computer Science,
+University of Maryland, August 2006.
+Extends CSFW version to include full proofs and additional discussion
+about metapolicies.</font></p><p>This paper presents RX, a new security-typed
+programming language with features intended to make the management of
+information-flow policies more practical. Security labels in RX,
+in contrast to prior approaches, are defined in terms of <em>owned
+roles</em>, as found in the RT role-based trust-management framework.
+Role-based security policies allows flexible delegation, and our
+language RX provides constructs through which programs can robustly
+update policies and react to policy updates dynamically. Our dynamic
+semantics use statically verified <em>transactions</em> to eliminate
+illegal information flows across updates, which we call
+<em>transitive flow</em>. Because policy updates can be observed
+through dynamic queries, policy updates can potentially reveal
+sensitive information. As such, RX considers policy statements
+themselves to be potentially confidential information and subject to
+information-flow <em>metapolicies</em>.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy06rx.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Managing Policy Updates in Security-Typed Languages</b>.
+Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
+In <em>Proceedings of the Computer Security Foundations Workshop
+(CSFW)</em>, pages 202–216, July 2006.</font></p><p>This paper presents RX, a new security-typed
+programming language with features intended to make the management of
+information-flow policies more practical. Security labels in RX,
+in contrast to prior approaches, are defined in terms of <em>owned
+roles</em>, as found in the RT role-based trust-management framework.
+Role-based security policies allows flexible delegation, and our
+language RX provides constructs through which programs can robustly
+update policies and react to policy updates dynamically. Our dynamic
+semantics use statically verified <em>transactions</em> to eliminate
+illegal information flows across updates, which we call
+<em>transitive flow</em>. Because policy updates can be observed
+through dynamic queries, policy updates can potentially reveal
+sensitive information. As such, RX considers policy statements
+themselves to be potentially confidential information and subject to
+information-flow <em>metapolicies</em>.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/4/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">5 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/6/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 RStudio, Anywhere
+<span class="middot-divider"></span>
+Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=Gggzp7UAAAAJ" title="google-scholar" target="_blank" rel="me noopener"><i class="ai ai-google-scholar fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://dblp.org/pid/h/MichaelWHicks.html" title="dblp" target="_blank" rel="me noopener"><i class="ai ai-dblp fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0002-2759-9223" title="orcid" target="_blank" rel="me noopener"><i class="ai ai-orcid fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/blog/index.xml" title="rss"><i class="fas fa-rss fa-lg fa-fw"></i></a></div></div><div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0"><a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+<a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+<a class="dib pv1 ph2 link" href="/contributors/" title="Contributors">Contributors</a></div></nav><script>var i,text,code,codes=document.getElementsByTagName("code");for(let e=0;e<codes.length;){if(code=codes[e],code.parentNode.tagName!=="PRE"&&code.childElementCount===0&&(text=code.textContent,/^\$[^$]/.test(text)&&/[^$]\$$/.test(text)&&(text=text.replace(/^\$/,"\\(").replace(/\$$/,"\\)"),code.textContent=text),/^\\\((.|\s)+\\\)$/.test(text)||/^\\\[(.|\s)+\\\]$/.test(text)||/^\$(.|\s)+\$$/.test(text)||/^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text))){code.outerHTML=code.innerHTML;continue}e++}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous"/><script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script><script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body)"></script></footer></div></body></html>

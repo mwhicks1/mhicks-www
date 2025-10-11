@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Hugo Apéro</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Hugo Apéro"/><meta property="og:title" content="Publications | Hugo Apéro"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/><link rel="icon" href="img/favicon.ico" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Hugo Apéro"/><link rel="stylesheet" href="/style.main.min.258343044ddfb33c72268535d36d8d42ea11af827560eaf11cebadca3821dcaa.css" integrity="sha256-JYNDBE3fszxyJoU1022NQuoRr4J1YOrxHOutyjgh3Ko=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/blog/" title="Blog">Blog</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/publication/" title="Publications">Publications</a>
+<a class="link f6 f5-l dib pv1 ph2" href="/course/" title="Courses">Courses</a></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/disselkoen24vgd.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>How We Built Cedar: A Verification-Guided Approach</b>.
+Craig Disselkoen, Aaron Eline, Shaobo He, Kyle Headley, Michael
+Hicks, Kesha Hietala, John Kastner, Anwar Mamat, Matt McCutchen, Neha Rungta,
+Bhakti Shah, Emina Torlak, and Andrew Wells.
+In <em>Proceedings of the European Software Engineering Conference
+and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
+(ESEC/FSE)</em>, July 2024.
+Industry papers track.</font></p><p>This paper presents <em>verification-guided development</em> (VGD), a software development process that we used to develop Cedar, a new policy language for expressive, fast, safe, and analyzable authorization. Developing a system with VGD involves two activities: (1) writing a readable, executable model of the system and proving mechanically-verified properties about it; and (2) writing production code for the system, using extensive <em>differential random testing</em> (DRT) to check that the production code’s behavior matches that of the model, and <em>property-based testing</em> (PBT) to check properties of unmodeled components of the production code. Using VGD for Cedar has been beneficial: we are able to build fast, idiomatic production code and find and fix bugs during the development phase: when carrying out proofs we found and fixed four soundness bugs in Cedar’s policy validator, and when carrying out DRT and PBT we found and fixed 21 bugs in the Cedar parser, evaluator, authorizer, and validator.</p><p>[ <a href="https://www.amazon.science/publications/how-we-built-cedar-a-verification-guided-approach">http</a> ]
+<a name="disselkoen24vgd"></a></p><pre>@inproceedings{disselkoen24vgd,
+title = {How We Built Cedar: A Verification-Guided Approach},
+author = {Craig Disselkoen and Aaron Eline and Shaobo He and Kyle Headley and Michael Hicks and Kesha Hietala and John Kastner and Anwar Mamat and Matt McCutchen and Neha Rungta and Bhakti Shah and Emina Torlak and Andrew Wells},
+booktitle = {Proceedings of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)},
+note = {Industry papers track},
+year = 2024,
+month = jul
+}
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/despande05dbupdate.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Toward On-line Schema Evolution for Non-stop Systems</b>.
+Amol Deshpande and Michael Hicks.
+Presented at the 11th High Performance Transaction Systems Workshop,
+September 2005.</font></p><p>Considers how to perform handle database schema evolution for on-line systems that are actively using the database whose schema is to be changed.</p><p>[ <a href="https://mwhicks1.github.io/papers/db-dsu.pdf">.pdf</a> ]
+<a name="despande05dbupdate"></a></p><pre>@misc{despande05dbupdate,
+  author = {Amol Deshpande and Michael Hicks},
+  title = {Toward On-line Schema Evolution for Non-stop Systems},
+  howpublished = {Presented at the 11th High Performance Transaction Systems Workshop},
+  month = {September},
+  location = {Pacific Grove, CA},
+  year = 2005
+}
+</pre><hr/><p><em>This file was generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/deng23mqcc.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Automating NISQ Application Design with Meta Quantum Circuits with
+Constraints (MQCC)</b>.
+Haowei Deng, Yuxiang Peng, Michael Hicks, and Xiaodi Wu.
+<em>ACM Transactions on Quantum Computing (TQC)</em>, 4(3), April
+2023.</font></p><p>Near-term intermediate scale quantum (NISQ) computers are likely to have very restricted hardware resources, where precisely controllable qubits are expensive, error-prone, and scarce. Programmers of such computers must therefore balance trade-offs among a large number of (potentially heterogeneous) factors specific to the targeted application and quantum hardware. To assist them, we propose Meta Quantum Circuits with Constraints (MQCC), a meta-programming framework for quantum programs. Programmers express their application as a succinct collection of normal quantum circuits stitched together by a set of (manually or automatically) added meta-level choice variables, whose values are constrained according to a programmable set of quantitative optimization criteria. MQCC’s compiler generates the appropriate constraints and solves them via an SMT solver, producing an optimized, runnable program.
+We showcase a few MQCC’s applications for its generality including an automatic generation of efficient error syndrome extraction schemes for fault-tolerant quantum error correction with heterogeneous qubits and an approach to writing approximate quantum Fourier transformation and quantum phase estimation that smoothly trades off accuracy and resource use.
+We also illustrate that MQCC can easily encode prior one-off NISQ application designs —multi-programming (MP), crosstalk mitigation (CM)— as well as a combination of their optimization goals (i.e., a combined MP-CM).</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/darais21symphony.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Symphony: A Concise Language Model for MPC</b>.
+Ian Sweet, David Darais, David Heath, Ryan Estes, William Harris, and
+Michael Hicks.
+In <em>Informal Proceedings of the Workshop on Foundations on
+Computer Secuirty (FCS)</em>, June 2021.</font></p><p>Secure multi-party computation (MPC) allows mutually distrusting
+parties to cooperatively compute, using a cryptographic protocol, a
+function over their private data.
+This short paper presents Symphony, an expressive yet concise domain-specific
+language for expressing MPCs. Symphony starts with the standard,
+simply-typed λ calculus extended with integers, sums,
+products, recursive types, and references. It layers on two additional
+elements: (1) A datatype representing <em>secret shares</em>, which are
+the basis of multiparty computation, and (2) a simple mechanism called
+<em>par blocks</em> to express which scopes are to be executed by which
+parties, and which determine to whom various data values are visible
+at any given time. The meaning of a Symphony program can be expressed
+using a <em>single-threaded semantics</em> even though in actuality the
+program will be run by multiple communicating parties in parallel. Our
+<em>distributed semantics</em> is expressed naturally as piecewise,
+single-threaded steps of <em>slices</em> of the program among its
+parties. We prove that these two semantic interpretations of a program
+coincide, and we prove a standard type soundness result.
+To demonstrate Symphony’s expressiveness, we have built an interpreter
+for it (with some extensions) and used it to implement a number of
+realistic MPC applications, including sorting, statistical and numeric
+computations, and private information retrieval.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/darais20obliv.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>A Language for Probabilistically Oblivious Computation</b>.
+David Darais, Ian Sweet, Chang Liu, and Michael Hicks.
+In <em>Proceedings of the ACM Conference on Principles of
+Programming Languages (POPL)</em>, January 2020.</font></p><p>An oblivious computation is one that is free of direct and indirect
+information leaks, e.g., due to observable differences in timing and
+memory access patterns. This paper presents
+λ<sub>obliv</sub>, a core language whose type system enforces obliviousness.
+Prior work on type-enforced oblivious computation has focused on
+deterministic programs. λ<sub>obliv</sub> is new in its consideration of
+programs that implement <em>probabilistic</em> algorithms, such as
+those involved in cryptography. λ<sub>obliv</sub> employs a substructural type
+system and a novel notion of <em>probability region</em> to ensure that
+information is not leaked via the distribution of visible
+events. The use of regions was motivated by a source of unsoundness
+that we discovered in the type system of ObliVM, a language for implementing
+state of the art oblivious algorithms and data structures. We prove
+that λ<sub>obliv</sub>’s type system enforces obliviousness and show that it is
+expressive enough to typecheck advanced tree-based oblivious RAMs.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/37/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">38 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/39/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 RStudio, Anywhere
+<span class="middot-divider"></span>
+Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=Gggzp7UAAAAJ" title="google-scholar" target="_blank" rel="me noopener"><i class="ai ai-google-scholar fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://dblp.org/pid/h/MichaelWHicks.html" title="dblp" target="_blank" rel="me noopener"><i class="ai ai-dblp fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/0000-0002-2759-9223" title="orcid" target="_blank" rel="me noopener"><i class="ai ai-orcid fa-lg fa-fw"></i>
+</a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/blog/index.xml" title="rss"><i class="fas fa-rss fa-lg fa-fw"></i></a></div></div><div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0"><a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+<a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+<a class="dib pv1 ph2 link" href="/contributors/" title="Contributors">Contributors</a></div></nav><script>var i,text,code,codes=document.getElementsByTagName("code");for(let e=0;e<codes.length;){if(code=codes[e],code.parentNode.tagName!=="PRE"&&code.childElementCount===0&&(text=code.textContent,/^\$[^$]/.test(text)&&/[^$]\$$/.test(text)&&(text=text.replace(/^\$/,"\\(").replace(/\$$/,"\\)"),code.textContent=text),/^\\\((.|\s)+\\\)$/.test(text)||/^\\\[(.|\s)+\\\]$/.test(text)||/^\$(.|\s)+\$$/.test(text)||/^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text))){code.outerHTML=code.innerHTML;continue}e++}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous"/><script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script><script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body)"></script></footer></div></body></html>
