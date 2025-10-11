@@ -16,7 +16,7 @@ Previously, I was a Senior Principal Scientist at [Amazon Web Services](https://
 
 I am also a Professor Emeritus (retired 2022) in the [Computer Science Department](http://www.cs.umd.edu/) and [UMIACS](http://www.umiacs.umd.edu) at the [University of Maryland, College Park](http://www.umd.edu/). With [Jeff Foster](http://www.cs.tufts.edu/~jfoster/) I founded and directed [**PLUM**, the lab for *Programming Languages research at the University of Maryland*](https://plum-umd.github.io/). I am currently the Editor in Chief of [Proceedings of the ACM on Programming Languages (PACMPL)](https://dl.acm.org/journal/pacmpl).
 
-Here is my current [vita](cv.pdf) and a list of my [publications](papers/mwh.html), organized [by year](papers/mwh.html) and [by category](papers/mwh-cat.html).
+Here is my current [vita](cv.pdf) and a list of my [publications](/publication/), organized [by year](/papers/mwh.html) and [by category](/papers/mwh-cat.html).
 
 ## Research
 
