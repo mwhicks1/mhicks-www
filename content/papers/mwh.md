@@ -10,11 +10,11 @@ url: /papers/mwh.html
 <head>
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
  <link href="../style.css" rel="stylesheet" type="text/css">
-<title>Michael Hicks' Publications</title>
+<title>Mike Hicks' Publications, by Year</title>
 </head>
 
 <body>
-<h2>Michael Hicks' Publications</h2>
+<h2>Mike Hicks' Publications, by Year</h2>
 Also see publications <a href = "mwh-cat.html">by category</a>,
 on <a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP</a>, and <a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&hl=en&oi=ao">Google Scholar</a>.
 <h3>2025</h3>
