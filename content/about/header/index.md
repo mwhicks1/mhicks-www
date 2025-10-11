@@ -10,7 +10,7 @@ images:
 
 <img src="/img/Michael-Hicks_08.26.25.jpg" alt="Mike Hicks" style="max-width: 300px; float: right; margin-left: 20px; margin-bottom: 20px; border-radius: 8px;">
 
-I am the Cecilia Fitler Moore [Professor in the Computer and Information Science Department](https://directory.seas.upenn.edu/computer-and-information-science/) and the Director of the [Schlein Center for Cybersecurity](https://giving.upenn.edu/data-with-due-diligence/) at the [University of Pennsylvania](https://directory.seas.upenn.edu/computer-and-information-science/), and I am an [Amazon Scholar](https://www.amazon.science/scholars).
+I am the Cecilia Fitler Moore [Professor in the Computer and Information Science Department](https://directory.seas.upenn.edu/computer-and-information-science/) and the Director of the Schlein Center for Cybersecurity at the [University of Pennsylvania](https://directory.seas.upenn.edu/computer-and-information-science/), and I am an [Amazon Scholar](https://www.amazon.science/scholars).
 
 Previously, I was a Senior Principal Scientist at [Amazon Web Services](https://aws.amazon.com/) where I co-led (with [Emina Torlak](https://emina.github.io/)) development on the [**Cedar authorization policy language**](https://www.cedarpolicy.com/), which is part of [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/).
 

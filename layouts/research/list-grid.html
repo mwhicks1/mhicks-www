@@ -10,7 +10,7 @@
     {{ $pages := (where .RegularPagesRecursive "Type" "research") }}
       {{ range $pages }}
         {{ .Scratch.Set "$root" $caller }}
-        {{ partial "shared/summary-grid" . }}
+        {{ partial "research/summary-grid" . }}
       {{ end }}
   </section>
 </main>
