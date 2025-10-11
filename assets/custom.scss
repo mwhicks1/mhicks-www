@@ -1,0 +1,8 @@
+// Custom SCSS for bold and italic tags
+b, strong {
+  font-weight: 700 !important;
+}
+
+i, em {
+  font-style: italic !important;
+}
