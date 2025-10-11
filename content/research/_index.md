@@ -1,6 +1,6 @@
 ---
 title: Research
-description: "Research projects and activities."
+description: "Research publications, collaborators, and activities."
 author: "Mike Hicks"
 show_post_thumbnail: true
 show_author_byline: true
@@ -11,9 +11,9 @@ layout: list-grid # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar:
-  title: Research Projects
+  title: Research
   description: |
-    Research projects and activities.
+    Research projects, collaborators, and activities.
     Check out the _index.md file in the /research folder
     to edit this content.
   author: "Mike Hicks"
