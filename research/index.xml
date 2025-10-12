@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Hugo Apéro</title><link>https://mhicks.me/research/</link><description>Recent content in Research on Hugo Apéro</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mhicks.me/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Mike Hicks</title><link>https://mhicks.me/research/</link><description>Recent content in Research on Mike Hicks</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mhicks.me/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
 &lt;table>
  &lt;tbody>
  &lt;tr>
@@ -102,218 +102,19 @@
  &lt;td>&lt;a href="http://dblp2.uni-trier.de/db/conf/iwan/iwan2001">IWAN&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;p>View publications:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;a href="https://mhicks.me/papers/mwh.html">By year&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://mhicks.me/papers/mwh-cat.html">By category&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Also see on 
-&lt;a href="https://dblp.org/pid/h/MichaelWHicks.html" target="_blank" rel="noopener">DBLP&lt;/a> and 
-&lt;a href="https://scholar.google.com/citations?user=Gggzp7UAAAAJ&amp;amp;hl=en&amp;amp;oi=ao" target="_blank" rel="noopener">Google Scholar&lt;/a>.&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;p>&lt;b>Previous students and postdocs (PhD, unless otherwise annotated):&lt;/b>&lt;/p>
-&lt;table>
- &lt;tbody>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://quics.umd.edu/people/liyi-li">Liyi Li&lt;/a> (postdoc)&lt;/td>
- &lt;td>&lt;small>Assistant Professor, Iowa State, since July 2023&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://cecchetti.sites.cs.wisc.edu/">Ethan Cecchetti&lt;/a> (postdoc)&lt;/td>
- &lt;td>&lt;small>Assistant Professor, Wisconsin, since July 2023&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://www.cs.umd.edu/~mcoblenz/">Michael Coblenz&lt;/a> (postdoc)&lt;/td>
- &lt;td>&lt;small>Assistant Professor, UCSD, since September 2022&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://khieta.github.io/">Kesha Hietala&lt;/a>&lt;/td>
- &lt;td>&lt;small>Researcher, Sandia National Labs, since October 2024; previously Applied Scientist, Amazon Web Services, July 2022-October 2024&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/iannsweet/">Ian Sweet&lt;/a>&lt;/td>
- &lt;td>&lt;small>Research Engineer, Galois, since July 2022&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/yiyun-liu-a21a5017a/">Yiyun Liu&lt;/a> (MS, undergrad)&lt;/td>
- &lt;td>&lt;small>PhD student, University of Pennsylvania, since September 2021&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://lemonidas.github.io/">Leonidas Lampropoulos&lt;/a> (postdoc)&lt;/td>
- &lt;td>&lt;small>Assistant Professor, University of Maryland, since July 2020&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://rand.cs.uchicago.edu/">Robert Rand&lt;/a> (postdoc)&lt;/td>
- &lt;td>&lt;small>Assistant Professor, University of Chicago, since July 2020&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://jamesparker.me">James Parker&lt;/a>&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mhicks.me/papers/dissertation-jp.pdf">Advanced Language-based Techniques for Correct, Secure Networked Systems&lt;/a>&lt;/i>&lt;br>Software research engineer, &lt;a href="https://galois.com/">Galois&lt;/a>, since June 2020 (part-time 2019)&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://dblp.uni-trier.de/pers/hd/r/Ruef:Andrew">Andrew Ruef&lt;/a>&lt;/td>
- &lt;td valign="top">&lt;small>&lt;i>&lt;a href="https://mwhicks1.github.io/papers/ruef-dissertation.pdf">Tools and Experiments for Software Security&lt;/a>&lt;/i>&lt;br>Quantitative Researcher at &lt;a href="https://www.ida.org/IDAFFRDCs/CenterforCommunications/Computing">IDA/CCS&lt;/a> February 2019-2021&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/liu-chang-4682b119/">Chang Liu&lt;/a>****&lt;/td>
- &lt;td valign="top">&lt;small>&lt;i>&lt;a href="https://mwhicks1.github.io/papers/liu-thesis.pdf">Trace Oblivious Program Execution&lt;/a>&lt;/i>&lt;br>Post-doc at UC Berkeley, 2016-2018; researcher at Citadel Securities since 2019&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://personal.utdallas.edu/~swei/">Shiyi Wei&lt;/a> (postdoc)&lt;/td>
- &lt;td valign="top">&lt;small>Associate Professor, &lt;a href="http://cs.utdallas.edu/">University of Texas at Dallas&lt;/a>, since August 2017&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.microsoft.com/en-us/research/people/aseemr/">Aseem Rastogi&lt;/a>&lt;/td>
- &lt;td valign="top">&lt;small>&lt;i>&lt;a href="https://mwhicks1.github.io/papers/aseem-thesis.pdf">Language-based Techniques for Practical and Trustworthy Secure Multi-Party Computations&lt;/a>&lt;/i>&lt;br>Principal Researcher at &lt;a href="http://research.microsoft.com/en-us/labs/india/">Microsoft Research India&lt;/a> since June 2016&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://matthewhammer.org/">Matthew Hammer&lt;/a> (postdoc)&lt;/td>
- &lt;td valign="top">&lt;small>Research scientist at &lt;a href="http://dfinity.org/">DFinity&lt;/a> 2019-2023; previously Assistant Professor, &lt;a href="http://www.colorado.edu/cs/">University of Colorado, Boulder&lt;/a>, August 2015-January 2019&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://luispina.me">Luis Pina&lt;/a>***&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="http://www.luispina.me/pdfs/pina16phd.pdf">Practical Dynamic Software Updating (for Java)&lt;/a>&lt;/i>&lt;br>Assistant Professor at University of Illinois, Chicago, starting Fall'19; previously post-doc at George Mason (Aug 2017-19) and &lt;a href="https://www.imperial.ac.uk/">Imperial College, London&lt;/a> (Mar 2015-Aug 2017)&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://ksaur.github.io/">Karla Saur&lt;/a>*&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mwhicks1.github.io/papers/ksaur-thesis.pdf">Dynamic Upgrades for High Availability Systems&lt;/a>&lt;/i>&lt;br>Distributed Systems Engineer, Nvidia DGX Cloud since October 2024; previously a researcher at Microsoft (2018-2024) and &lt;a href="http://www.intel.com/content/www/us/en/research/intel-research.html">Intel Labs&lt;/a> (2015-2018)&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://piotr.mardziel.com/">Piotr Mardziel&lt;/a>&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mwhicks1.github.io/papers/mardziel15thesis.paper.pdf">Modeling, Measuring, and Limiting Adversary Knowledge&lt;/a>&lt;/i>&lt;br>Systems Scientist at CMU (previously, post-doc) since June 2016; post-doc at UMD Jan'15 - Jun'16&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/nate-space-parsons/">Nate Parsons&lt;/a> (MS)&lt;/td>
- &lt;td valign="top">&lt;small>&lt;i>Implementing and Typing a Core Calculus for Mixed-mode Secure Multi-party Computations (scholarly paper)&lt;/i>&lt;br>Missions software engineer at Planet since 2013; previously, engineer at JHUAPL&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/khooyp/">Khoo Yit Phang&lt;/a>*&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mwhicks1.github.io/papers/khooyp-dissertation.pdf">User-centered Program Analysis Tools&lt;/a>&lt;/i>&lt;br>Senior Team Lead at &lt;a href="http://www.mathworks.com/">MathWorks&lt;/a> since August 2013&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://www.ortsa.com/nataliya.guts/">Nataliya Guts&lt;/a> (postdoc)&lt;/td>
- &lt;td valign="top">&lt;small>Security Solutions Engineer, &lt;a href="https://www.futurae.com/fr/team/">Futurae&lt;/a>&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://www.chrishayden.com/">Chris Hayden&lt;/a>*&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mhicks.me/papers/hayden-dissertation-2012.pdf">Clear, Correct, and Efficient Dynamic Software Updates&lt;/a>&lt;/i>&lt;br>Senior Software Engineer at Amazon Web Services since Mar. 2020; previously at &lt;a href="http://socialcode.com/">SocialCode&lt;/a> 2015-2019; WaPo Labs/&lt;a href="http://www.trove.com/">Trove&lt;/a> 2012-2015&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/tedks/">Ted Smith&lt;/a> (undergrad)*&lt;/td>
- &lt;td valign="top">&lt;small>Senior Product Manager, Mysten Labs, since June 2023; previously at Hudson River Trading (2022-2023), Bloomberg LP (2019-2023); and Google (2016-2018); grad student at UMass Amherst 2013-2016&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/stephen-magill-2070a096/">Stephen Magill&lt;/a> (postdoc)&lt;/td>
- &lt;td valign="top">&lt;small>VP, Product Innovation at Sonatype, since 2021; formerly CEO of &lt;a href="https://muse.dev/">MuseDev&lt;/a>, Principal scientist, &lt;a href="http://www.galois.com">Galois&lt;/a>, 2014-2020; reearcher at IDA/CCS, 2012-2014&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/justin-mccann-79906a5a/">Justin McCann&lt;/a>&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mhicks.me/papers/mccann-dissertation-2012.pdf">Automating Performance Diagnosis in Networked Systems&lt;/a>&lt;/i>&lt;br>&lt;a href="http://www.averesystems.com/">Avere Systems&lt;/a> since July 2012&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/kinkeungma/">Martin Ma&lt;/a>*&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mhicks.me/papers/kkma-dissertation.pdf">Improving Program Testing and Understanding via Symbolic Execution&lt;/a>&lt;/i>&lt;br>Software Engineer at Google since 2013 (previously at Amazon)&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td width="30%" valign="top">&lt;a href="https://www.linkedin.com/in/saurabh-sriv/">Saurabh Srivastava&lt;/a>*&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="http://www.cs.umd.edu/~saurabhs/pubs/saurabh-srivastava-thesis-9pt.pdf">Satisfiability-based Program Reasoning and Program Synthesis&lt;/a>&lt;/i>&lt;br>Founder, &lt;a href="https://synthetic-minds.com/">Synthetic Minds&lt;/a>, since 2017; founder, &lt;a href="http://20n.com/">20n&lt;/a>, 2013-2017; post-doc at Berkeley 2012-2014&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://ai.google/research/people/105022">Pavlos Papageorgiou&lt;/a>&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mhicks.me/papers/papageorgiou-dissertation-2008.pdf">The Measurement Manager: Modular and Efficient End-to-end Measurement Services&lt;/a>&lt;/i>&lt;br>Software Engineer, Google (AI), since December 2008&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://web.njit.edu/~ineamtiu/">Iulian Neamtiu&lt;/a>&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mhicks.me/papers/dissertation-neamtiu.pdf">Practical Dynamic Software Updating&lt;/a>&lt;/i>&lt;br>Full Prof, &lt;a href="https://web.njit.edu/">NJIT&lt;/a>; there since Fall 2015 (at &lt;a href="http://www1.cs.ucr.edu/index.php">UC Riverside&lt;/a>, 2008-2015).&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/manuel-oriol-9a05b41/?originalSubdomain=ch">Manuel Oriol&lt;/a> (postdoc)&lt;/td>
- &lt;td valign="top">&lt;small>President of Constructor Institute and Professor of Software Engineering, since 2021; Principal Scientist, R&amp;D manager at ABB Switzerland Ltd. 2011-2021; Senior Lecturer, &lt;a href="http://www.cs.york.ac.uk/">University of York (UK)&lt;/a>, 2008-2014&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="http://users.ics.forth.gr/~polyvios/">Polyvios Pratikakis&lt;/a>*&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="http://www.ics.forth.gr/~polyvios/polyvios-thesis.pdf">Sound, precise, and efficient static race detection for multithreaded programs&lt;/a>&lt;/i>&lt;br>Associate professor in &lt;a href="https://www.csd.uoc.gr/">CS, University of Crete&lt;/a>, since 2014; researcher, &lt;a href="http://www.ics.forth.gr/">Institute of Computer Science, FORTH&lt;/a>, 2010-2014; post-doc at CNRS/VERIMAG 2008-2009&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.microsoft.com/en-us/research/people/nswamy/">Nikhil Swamy&lt;/a>&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="http://research.microsoft.com/~nswamy/papers/dissertation.pdf">Language-based Enforcement of User-defined Security Policies as Applied to Multi-tier Web Applications&lt;/a>&lt;/i>&lt;br>Senior Principal Researcher, &lt;a href="http://research.microsoft.com/redmond/">Microsoft Research, Redmond&lt;/a>, since Fall 2008&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top">&lt;a href="https://www.linkedin.com/in/nick-petroni-b913066/">Nick L. Petroni&lt;/a>**&lt;/td>
- &lt;td>&lt;small>&lt;i>&lt;a href="https://mwhicks1.github.io/papers/petroni-dissertation.pdf">Property-based Integrity Monitoring of Operating System Kernels&lt;/a>&lt;/i>&lt;br>Chief scientist, &lt;a href="https://www.volexity.com/">Volexity&lt;/a>, since 2015; research scientist, &lt;a href="https://www.ida.org/IDAFFRDCs/CenterforCommunications/Computing">IDA/CCS&lt;/a> 2008-2015&lt;/small>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;table width="697" height="55">
- &lt;tbody>
- &lt;tr>
- &lt;td width="25%">* co-advised with &lt;a href="http://www.cs.umd.edu/~jfoster/">Jeff Foster&lt;/a>&lt;/td>
- &lt;td width="25%">** co-advised with &lt;a href="http://www.cs.umd.edu/~waa">Bill Arbaugh&lt;/a>&lt;/td>
- &lt;td valign="middle">*** co-advised with &lt;a href="http://www.gsd.inesc-id.pt/~lveiga/">Luís Veiga&lt;/a>&lt;/td>
- &lt;td width="25%" valign="top">**** co-advised with &lt;a href="http://elaineshi.com/">Elaine Shi&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>I have also worked closely with &lt;a href="http://www.cs.umd.edu/~kfulton/">Kelsey Fulton&lt;/a> and &lt;a href="https://www.eecs.tufts.edu/~dvotipka/">Dan Votipka&lt;/a> (advised by Michelle Mazurek), &lt;a href="https://machiry.github.io/">Aravind Machiry&lt;/a> (PhD student interned at UMD, advised by Giovanni Vigna and Chris Kruegel at UCSB), &lt;a href="https://nikivazou.github.io/">Niki Vazou&lt;/a> (postdoc supervised by David Van Horn), &lt;a href="http://david.darais.com/">David Darais&lt;/a> (advised by &lt;a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn&lt;/a>), &lt;a href="http://www.cs.umd.edu/~amiller/">Andrew Miller&lt;/a> (co-advised with Jon Katz and Elaine Shi), &lt;a href="http://www.cs.umd.edu/~avik/">Avik Chaudhuri&lt;/a>, &lt;a href="http://www.cs.umd.edu/~furr/">Mike Furr&lt;/a>, &lt;a href="http://www.cs.umd.edu/~davidan/">David An&lt;/a>, and Elnatan Reisner (advised by &lt;a href="http://www.cs.umd.edu/~jfoster/">Jeff Foster&lt;/a>), &lt;a href="http://www.cs.umd.edu/~bender/">Adam Bender&lt;/a> (advised by Bobby Bhattacharjee), &lt;a href="http://www.cs.umd.edu/~jspacco">Jaime Spacco&lt;/a> (advised by Bill Pugh), and &lt;a href="http://www.cs.utexas.edu/~suriya/">Suriya Subramanian&lt;/a> (advised by &lt;a href="http://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley&lt;/a> while at UT Austin). I have previously advised Willem Wyndham, Jonathan Turpie (now at Amazon), &lt;a href="http://www.cs.umd.edu/~bjc/">Brian Corcoran&lt;/a> (now at Palantir), &lt;a href="http://www.cs.umd.edu/~hardisty/">Eric Hardisty&lt;/a>, and James Rose (now at Google). I&amp;rsquo;ve also worked with post-grad Patrick Jenkins, undergrad &lt;a href="https://www.linkedin.com/in/jmeistr">Jeff Meister&lt;/a>, and high school students, Ted Smith (from Walt Whitman High), and Yael Pinsky, George Klees, &lt;a href="http://mattmccutchen.net/">Matt McCutchen&lt;/a>, and &lt;a href="https://scholar.google.com/citations?user=wr4M_-EAAAAJ&amp;hl=en">Cody Burton&lt;/a> (from Montgomery Blair). Both Ted and Matt later became undergraduate students at UMD and Ted, Matt, and Cody all went to graduate school (at UMass, MIT CSAIL, and MIT Physics, respectively). I ended up working with Matt at Correct Computation.&lt;/p></description></item><item><title>Tachyons for Style</title><link>https://mhicks.me/research/giraffes/</link><pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/giraffes/</guid><description>&lt;p>&lt;img src="tachyons-logo-script.png" alt="Tachyons Logo Script">&lt;/p>
-
-
-
-
-&lt;h2 id="tachyons-is-a-design-system-that-allows-you-to-design-gorgeous-interfaces-in-the-browser-with-little-effort">
-&lt;a href="http://tachyons.io" target="_blank" rel="noopener">Tachyons&lt;/a> is a design system that allows you to design gorgeous interfaces in the browser with little effort.
- &lt;a href="#tachyons-is-a-design-system-that-allows-you-to-design-gorgeous-interfaces-in-the-browser-with-little-effort">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+&lt;/table></description></item><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://mhicks.me/papers/mwh.html">
+&lt;p>Redirecting to 
+&lt;a href="https://mhicks.me/papers/mwh.html">publications page&lt;/a>&amp;hellip;&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="current">Current
+ &lt;a href="#current">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h2>
-&lt;hr>
-
-
-
-
-&lt;h3 id="because-speed">Because Speed
- &lt;a href="#because-speed">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
- &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
- &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
- &lt;/svg>&lt;/a>
-&lt;/h3>
-&lt;p>Building this static site generator theme was the first time I used an Atomic
-(or Functional) CSS system like Tachyons. It&amp;rsquo;s a design system that provides
-very small (which means fast) CSS modules that you can use in your HTML. So,
-rather than writing every line of CSS, you apply the style you need as you write
-your HTML with easy to understand shorthand class names. This makes for a very
-powerful way to style, in the browser, or while building a static site like this
-one – since you can see every change with every save. &lt;strong>It&amp;rsquo;s a joy to use.&lt;/strong>&lt;/p></description></item><item><title>Palmer Penguins</title><link>https://mhicks.me/research/penguins/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/penguins/</guid><description>&lt;h3 id="grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”
- &lt;a href="#grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
- &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
- &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
- &lt;/svg>&lt;/a>
-&lt;/h3>
-&lt;p>&lt;em>— 
-&lt;a href="http://chris.house/blog/a-complete-guide-css-grid-layout/" target="_blank" rel="noopener">Chris House, A Complete Guide to CSS Grid Layout&lt;/a>&lt;/em> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
-&lt;hr>
-&lt;p>Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid &lt;code>TABLE&lt;/code>.&lt;/p></description></item><item><title>Bakeoff</title><link>https://mhicks.me/research/bakeoff/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/bakeoff/</guid><description>&lt;p>&lt;img src="formspree-logo.png" alt="Formspree Logo">&lt;/p>
-
-
-
-
-&lt;h2 id="formspree-makes-it-easy-to-receive-submissions-from-html-forms-on-your-static-website">
-&lt;a href="https://formspree.io" target="_blank" rel="noopener">Formspree&lt;/a> makes it easy to receive submissions from HTML forms on your static website.
- &lt;a href="#formspree-makes-it-easy-to-receive-submissions-from-html-forms-on-your-static-website">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
- &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
- &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
- &lt;/svg>&lt;/a>
-&lt;/h2>
-&lt;hr>
-
-
-
-
-&lt;h3 id="functional-form">Functional Form
- &lt;a href="#functional-form">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
- &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
- &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
- &lt;/svg>&lt;/a>
-&lt;/h3>
-&lt;p>This theme has a &lt;strong>form-to-email&lt;/strong> feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
-(&lt;code>/content/forms/contact.md&lt;/code>). Of course, the example shown below (&lt;code>your@email.here&lt;/code>) must not be used. Please use your actual email address.&lt;/p></description></item></channel></rss>
+&lt;p>I am currently looking for talented PhD students to work on projects in computer security and software quality! See my 
+&lt;a href="https://mhicks.me/research/">research&lt;/a> page for things I&amp;rsquo;ve worked on previously.&lt;/p>
+&lt;p>At present I am pleased to be regularly interacting with 
+&lt;a href="https://www.linkedin.com/in/noopur-bhatt/" target="_blank" rel="noopener">Noopur Bhatt&lt;/a> (advised by 
+&lt;a href="https://www.cis.upenn.edu/~sga001/" target="_blank" rel="noopener">Sebastian Angel&lt;/a>) and 
+&lt;a href="https://thia.codes/" target="_blank" rel="noopener">Thia Richey&lt;/a> and 
+&lt;a href="https://www.cis.upenn.edu/~jwc/" target="_blank" rel="noopener">Joe Cutler&lt;/a> (both advised by 
+&lt;a href="https://www.cis.upenn.edu/~bcpierce/" target="_blank" rel="noopener">Benjamin Pierce&lt;/a>).&lt;/p></description></item></channel></rss>
