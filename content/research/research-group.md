@@ -5,7 +5,8 @@ excerpt: "Information about Mike Hicks' research group, including previous stude
 categories:
   - Research
   - Group
-date: 2025-08-01
+date: 2025-10-01
+weight: 2
 ---
 
 ## Current

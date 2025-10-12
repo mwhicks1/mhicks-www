@@ -5,7 +5,8 @@ excerpt: "View Mike Hicks' academic publications by year or category, plus links
 categories:
   - Research
   - Publications
-date: 2025-08-01
+date: 2025-10-01
+weight: 1
 ---
 
 <meta http-equiv="refresh" content="0; url=/papers/mwh.html">

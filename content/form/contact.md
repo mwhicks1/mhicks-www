@@ -1,7 +1,7 @@
 ---
 title: Contact
 description: "You can contact me via the social network links below, or send me an email."
-date: 2019-02-25T13:38:41-06:00
+date: 2025-10-01
 draft: false
 url: contact
 show_social_links: false
