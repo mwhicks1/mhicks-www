@@ -18,7 +18,7 @@ I am also a Professor Emeritus (retired 2022) in the [Computer Science Departmen
 
 Here is my current [vita](cv.pdf) and a list of my [publications](/publication/), organized [by year](/papers/mwh.html) and [by category](/papers/mwh-cat.html).
 
-## Research
+## [Research](/research/)
 
 My research focuses on improving software availability, reliability, and security through programming languages and software engineering techniques. Current areas include:
 
@@ -29,13 +29,13 @@ My research focuses on improving software availability, reliability, and securit
 
 Past projects include dynamic software updating (Kitsune, Rubah), information flow control (LWeb, Prob), incremental computation (Adapton), type systems for Ruby (Diamondback Ruby), symbolic execution (Otter), race detection (LockSmith), and the memory-safe C dialect [Cyclone](http://cyclone.thelanguage.org/).
 
-## Teaching
+## [Teaching](/course/)
 
 - **Current**: [Empirical Security & Privacy, for Humans](/course/cis-7000-fall2025/) (CIS 7000, Fall 2025)
 - **Recent**: Organization of Programming Languages (CMSC 330, multiple semesters); Program Analysis and Understanding (CMSC 631, multiple semesters); [Software Security](https://www.coursera.org/learn/software-security/) MOOC (now free, originally on Coursera)
 - **Past**: Build it, Break it, Fix it contest (CMSC 388N); Mechanized Proof and Verified Software (CMSC 838G); Cybersecurity Lab (CMSC 498L); Operating Systems (CMSC 412)
 
-## Service, professional activities
+## [Service, professional activities](/research/professional-activities/)
 
 - **Editor in Chief**: [Proceedings of the ACM on Programming Languages (PACMPL)](https://dl.acm.org/journal/pacmpl) (2023-2028); Associate Editor for TOPLAS (2012-2016)
 - **[ACM SIGPLAN](https://sigplan.org/)**: Chair (2015-2018), Past Chair (2018-2021); POPL Steering Committee Chair (2018-2021); Founder and Editor of [PL Perspectives blog](https://blog.sigplan.org/) (2019-2021)
