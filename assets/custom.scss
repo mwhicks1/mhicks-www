@@ -3,6 +3,11 @@ b, strong {
   font-weight: 700 !important;
 }
 
-i, em {
+i:not([class*="fa-"]):not([class*="ai-"]), em {
   font-style: italic !important;
+}
+
+// Ensure icons are not italic
+i[class*="fa-"], i[class*="ai-"] {
+  font-style: normal !important;
 }
