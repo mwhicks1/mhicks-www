@@ -34,7 +34,7 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "img/favicon.ico"
   logo = "img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "course", "research"]
+  mainSections = ["project", "course", "research"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -139,10 +139,6 @@ enableEmoji = true
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
       url       = "https://orcid.org/0000-0002-2759-9223"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
 
 [taxonomies]
   category = "categories"
@@ -156,11 +152,6 @@ enableEmoji = true
     title = "About Mike"
     url = "/about/"
     weight = 1
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
-    weight = 2
   [[menu.header]]
     name = "Research"
     title = "Research"
