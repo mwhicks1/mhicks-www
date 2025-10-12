@@ -1,22 +1,21 @@
 ---
 title: Contact
-name: Contact Us Form
-description: "This template has a **contact-us** form built right in. All you need to do is add a valid recipient form-id to the front matter of this form page and you're ready to receive submissions."
+description: "You can contact me via the social network links below, or send me an email."
 date: 2019-02-25T13:38:41-06:00
 draft: false
 url: contact
-type: form
-layout: split-right # split-right or split-left
-submit_button_label: Send Message
-show_social_links: true # specify social accounts in site config
-show_poweredby_formspree: true
-# From the Integration tab in Formspree where it says Your form's endpoint is:
-# https://formspree.io/f/abcdefgh The id will be "abcdefgh"" 
-formspree_form_id: "id-from-formspree"
+show_social_links: true
 ---
 
-** Contact page don't contain a body, just the front matter above.
-See form.html in the layouts folder.
+<script src="/email.js" type="text/javascript"></script>
+<script>var key = 42</script>
 
-Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.
-**
+<div style="font-size: 1.25rem; line-height: 1.6;">
+
+You can contact me via the social network links below, or send me an email at: <a id="mailto" href="#" class="email"><span id="cutme">[point here]</span></a>
+
+</div>
+
+<script type="text/javascript">
+showEmail("mailto", "cutme", "G]B", "cis.upenn.edu", key, "Michael Hicks");
+</script>
