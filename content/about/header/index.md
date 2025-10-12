@@ -29,9 +29,9 @@ My research focuses on improving software availability, reliability, and securit
 
 Past projects include dynamic software updating (Kitsune, Rubah), information flow control (LWeb, Prob), incremental computation (Adapton), type systems for Ruby (Diamondback Ruby), symbolic execution (Otter), race detection (LockSmith), and the memory-safe C dialect [Cyclone](http://cyclone.thelanguage.org/).
 
-## [Teaching](/course/)
+## [Teaching](/courses/)
 
-- **Current**: [Empirical Security & Privacy, for Humans](/course/cis-7000-fall2025/) (CIS 7000, Fall 2025)
+- **Current**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (CIS 7000, Fall 2025)
 - **Recent**: Organization of Programming Languages (CMSC 330, multiple semesters); Program Analysis and Understanding (CMSC 631, multiple semesters); [Software Security](https://www.coursera.org/learn/software-security/) MOOC (now free, originally on Coursera)
 - **Past**: Build it, Break it, Fix it contest (CMSC 388N); Mechanized Proof and Verified Software (CMSC 838G); Cybersecurity Lab (CMSC 498L); Operating Systems (CMSC 412)
 

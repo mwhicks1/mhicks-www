@@ -19,7 +19,7 @@ sidebar:
     cybersecurity, and programming languages.
   author: "Mike Hicks"
   text_link_label: Subscribe via RSS
-  text_link_url: /course/index.xml
+  text_link_url: /courses/index.xml
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all pages inside course/
@@ -32,8 +32,8 @@ cascade:
   # for single-sidebar layout
   sidebar:
     text_link_label: View recent courses
-    text_link_url: /course/
+    text_link_url: /courses/
     show_sidebar_adunit: false # show ad container
 ---
 
-** No content below YAML for the course _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside course/. You may still override any of these by changing them in a page's front matter.**
+** No content below YAML for the courses _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside courses/. You may still override any of these by changing them in a page's front matter.**

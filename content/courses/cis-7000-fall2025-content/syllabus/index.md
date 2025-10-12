@@ -46,7 +46,7 @@ Our exploration will lead us to dig into the following topics (as well as others
 
 ## Online resources
 
-**Website**: Various course materials will be made available on the class website, which can be accessed at [https://mhicks.me/course/cis-7000-fall2025](https://mhicks.me/course/cis-7000-fall2025)
+**Website**: Various course materials will be made available on the class website, which can be accessed at [https://mhicks.me/courses/CIS-7000-Fall2025](https://mhicks.me/courses/CIS-7000-Fall2025)
 
 **Canvas**: Students enrolled in the class will have access to the [course canvas site](https://canvas.upenn.edu/courses/1880676). Use this site to access the Zoom link for remote attendance, to submit course assignments, and to see the gradebook.
 
