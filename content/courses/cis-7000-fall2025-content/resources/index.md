@@ -49,4 +49,4 @@ Above all, though, seek advice in person: from your classmates, your professors,
 
 - [The Not So Short Introduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf)
 - [LaTeX math symbols](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html) (useful reference)
-- LaTeX template commonly used for ACM conferences (with slight modifications)
+- [LaTeX template](https://www.acm.org/publications/proceedings-template) commonly used for ACM conferences (with slight modifications)
