@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Forms on Mike Hicks</title><link>https://mhicks.me/form/</link><description>Recent content in Forms on Mike Hicks</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 25 Feb 2019 13:38:41 -0600</lastBuildDate><atom:link href="https://mhicks.me/form/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact</title><link>https://mhicks.me/contact/</link><pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate><guid>https://mhicks.me/contact/</guid><description>&lt;script src="https://mhicks.me/email.js" type="text/javascript">&lt;/script>
 &lt;script>var key = 42&lt;/script>
-&lt;div style="font-size: 1.25rem; line-height: 1.6;">
-&lt;p>You can contact me via the social network links below, or send me an email at: &lt;a id="mailto" href="#" class="email">&lt;span id="cutme">[point here]&lt;/span>&lt;/a>&lt;/p>
+&lt;div style="text-align: left; margin: 2rem 0;">
+ &lt;a href="https://linkedin.com/in/mike-hicks-a053311/" target="_blank" rel="noopener" style="font-size: 3rem; margin: 0 1rem 0 0; color: #0077b5;">&lt;i class="fab fa-linkedin">&lt;/i>&lt;/a>
+ &lt;a href="https://github.com/mwhicks1" target="_blank" rel="noopener" style="font-size: 3rem; margin: 0 1rem 0 0; color: #333;">&lt;i class="fab fa-github">&lt;/i>&lt;/a>
+ &lt;a href="https://scholar.google.com/citations?user=Gggzp7UAAAAJ" target="_blank" rel="noopener" style="font-size: 3rem; margin: 0 1rem 0 0; color: #4285f4;">&lt;i class="ai ai-google-scholar">&lt;/i>&lt;/a>
+ &lt;a href="https://dblp.org/pid/h/MichaelWHicks.html" target="_blank" rel="noopener" style="font-size: 3rem; margin: 0 1rem 0 0; color: #004f9f;">&lt;i class="ai ai-dblp">&lt;/i>&lt;/a>
+ &lt;a href="https://orcid.org/0000-0002-2759-9223" target="_blank" rel="noopener" style="font-size: 3rem; margin: 0 1rem 0 0; color: #a6ce39;">&lt;i class="ai ai-orcid">&lt;/i>&lt;/a>
 &lt;/div>
-&lt;script type="text/javascript">
-showEmail("mailto", "cutme", "G]B", "cis.upenn.edu", key, "Michael Hicks");
-&lt;/script></description></item></channel></rss>
+&lt;div style="font-size: 1.25rem; line-height: 1.6;">
+&lt;p>&lt;strong>Address:&lt;/strong>
+University of Pennsylvania&lt;br>
+Dept. of Computer &amp;amp; Information Science&lt;br>
+3330 Walnut Street&lt;br>
+Philadelphia, PA 19104&lt;/p></description></item></channel></rss>
