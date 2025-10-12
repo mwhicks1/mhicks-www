@@ -1,28 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Mike Hicks</title><link>https://mhicks.me/categories/research/</link><description>Recent content in Research on Mike Hicks</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mhicks.me/categories/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Empirical Security &amp; Privacy, for Humans</title><link>https://mhicks.me/courses/CIS-7000-Fall2025/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/courses/CIS-7000-Fall2025/</guid><description>&lt;h2 id="course-information">Course Information
- &lt;a href="#course-information">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Mike Hicks</title><link>https://mhicks.me/categories/research/</link><description>Recent content in Research on Mike Hicks</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mhicks.me/categories/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://mhicks.me/papers/mwh.html">
+&lt;p>Redirecting to 
+&lt;a href="https://mhicks.me/papers/mwh.html">publications page&lt;/a>&amp;hellip;&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="current">Current
+ &lt;a href="#current">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;a href="../cis-7000-fall2025-content/syllabus">Syllabus&lt;/a> - Course description, grading, policies&lt;/li>
-&lt;li>
-&lt;a href="../cis-7000-fall2025-content/schedule">Schedule&lt;/a> - Topics, readings, and assignments&lt;/li>
-&lt;li>
-&lt;a href="../cis-7000-fall2025-content/resources">Resources&lt;/a> - Additional materials and references&lt;/li>
-&lt;/ul>
-
-
-
-
-&lt;h2 id="about">About
- &lt;a href="#about">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
- &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
- &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
- &lt;/svg>&lt;/a>
-&lt;/h2>
-&lt;p>Since the development of time-sharing computer systems 50+ years ago, computer scientists have been working on how to secure them. Today, the computer security industry is massive. Participants across government, academia, and industry are making significant investments and producing impressive technology. Given all this, are computer systems actually getting more secure? How would we know? What research and other work is being done to both understand and address the situation?&lt;/p></description></item><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
+&lt;p>I am currently looking for talented PhD students to work on projects in computer security and software quality! See my 
+&lt;a href="https://mhicks.me/research/">research&lt;/a> page for things I&amp;rsquo;ve worked on previously.&lt;/p>
+&lt;p>At present I am pleased to be regularly interacting with 
+&lt;a href="https://www.linkedin.com/in/noopur-bhatt/" target="_blank" rel="noopener">Noopur Bhatt&lt;/a> (advised by 
+&lt;a href="https://www.cis.upenn.edu/~sga001/" target="_blank" rel="noopener">Sebastian Angel&lt;/a>) and 
+&lt;a href="https://thia.codes/" target="_blank" rel="noopener">Thia Richey&lt;/a> and 
+&lt;a href="https://www.cis.upenn.edu/~jwc/" target="_blank" rel="noopener">Joe Cutler&lt;/a> (both advised by 
+&lt;a href="https://www.cis.upenn.edu/~bcpierce/" target="_blank" rel="noopener">Benjamin Pierce&lt;/a>).&lt;/p></description></item><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
 &lt;table>
  &lt;tbody>
  &lt;tr>
@@ -126,19 +117,28 @@
  &lt;td>&lt;a href="http://dblp2.uni-trier.de/db/conf/iwan/iwan2001">IWAN&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://mhicks.me/papers/mwh.html">
-&lt;p>Redirecting to 
-&lt;a href="https://mhicks.me/papers/mwh.html">publications page&lt;/a>&amp;hellip;&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="current">Current
- &lt;a href="#current">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+&lt;/table></description></item><item><title>Empirical Security &amp; Privacy, for Humans</title><link>https://mhicks.me/courses/CIS-7000-Fall2025/</link><pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/courses/CIS-7000-Fall2025/</guid><description>&lt;h2 id="course-information">Course Information
+ &lt;a href="#course-information">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h2>
-&lt;p>I am currently looking for talented PhD students to work on projects in computer security and software quality! See my 
-&lt;a href="https://mhicks.me/research/">research&lt;/a> page for things I&amp;rsquo;ve worked on previously.&lt;/p>
-&lt;p>At present I am pleased to be regularly interacting with 
-&lt;a href="https://www.linkedin.com/in/noopur-bhatt/" target="_blank" rel="noopener">Noopur Bhatt&lt;/a> (advised by 
-&lt;a href="https://www.cis.upenn.edu/~sga001/" target="_blank" rel="noopener">Sebastian Angel&lt;/a>) and 
-&lt;a href="https://thia.codes/" target="_blank" rel="noopener">Thia Richey&lt;/a> and 
-&lt;a href="https://www.cis.upenn.edu/~jwc/" target="_blank" rel="noopener">Joe Cutler&lt;/a> (both advised by 
-&lt;a href="https://www.cis.upenn.edu/~bcpierce/" target="_blank" rel="noopener">Benjamin Pierce&lt;/a>).&lt;/p></description></item></channel></rss>
+&lt;ul>
+&lt;li>
+&lt;a href="../cis-7000-fall2025-content/syllabus">Syllabus&lt;/a> - Course description, grading, policies&lt;/li>
+&lt;li>
+&lt;a href="../cis-7000-fall2025-content/schedule">Schedule&lt;/a> - Topics, readings, and assignments&lt;/li>
+&lt;li>
+&lt;a href="../cis-7000-fall2025-content/resources">Resources&lt;/a> - Additional materials and references&lt;/li>
+&lt;/ul>
+
+
+
+
+&lt;h2 id="about">About
+ &lt;a href="#about">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Since the development of time-sharing computer systems 50+ years ago, computer scientists have been working on how to secure them. Today, the computer security industry is massive. Participants across government, academia, and industry are making significant investments and producing impressive technology. Given all this, are computer systems actually getting more secure? How would we know? What research and other work is being done to both understand and address the situation?&lt;/p></description></item></channel></rss>
