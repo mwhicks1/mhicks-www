@@ -12,7 +12,7 @@ show_outro: false
 
 I am the Cecilia Fitler Moore [Professor in the Computer and Information Science Department](https://directory.seas.upenn.edu/computer-and-information-science/) and the Director of the Schlein Center for Cybersecurity at the [University of Pennsylvania](https://directory.seas.upenn.edu/computer-and-information-science/), and I am an [Amazon Scholar](https://www.amazon.science/scholars).
 
-Previously, I was a Senior Principal Scientist at [Amazon Web Services](https://aws.amazon.com/) where I co-led (with [Emina Torlak](https://emina.github.io/)) development on the [**Cedar authorization policy language**](https://www.cedarpolicy.com/), which is part of [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/).
+From 2022-2025 I was a Senior Principal Scientist at [Amazon Web Services](https://aws.amazon.com/).
 
 I am also a Professor Emeritus (retired 2022) in the [Computer Science Department](http://www.cs.umd.edu/) and [UMIACS](http://www.umiacs.umd.edu) at the [University of Maryland, College Park](http://www.umd.edu/). I was the inaugural Director of the [Maryland Cybersecurity Center (MC2)](https://cyber.umd.edu/), and with [Jeff Foster](http://www.cs.tufts.edu/~jfoster/) I founded and directed [**PLUM**, the lab for *Programming Languages research at the University of Maryland*](https://plum-umd.github.io/). 
 
@@ -24,7 +24,7 @@ Here is my current [vita](cv.pdf) and a list of my [publications](/papers/mwh.ht
 
 My research focuses on improving software availability, reliability, and security through programming languages and software engineering techniques. Recent work includes
 
-- **[Cedar](https://cedarpolicy.com)**, a domain-specific language for writing authorization policies, now in use by big tech companies like MongoDB and CloudFlare, and small ones like StrongDM. You can read more about Cedar in its [scientific paper](https://dl.acm.org/doi/pdf/10.1145/3649835), and check out the [code on GitHub](https://github.com/cedar-policy).
+- **[Cedar](https://cedarpolicy.com)**, a domain-specific language for writing authorization policies. I co-led (with [Emina Torlak](https://emina.github.io/)) its development while at AWS. It is the core of [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) and is now in use by big tech companies like MongoDB and CloudFlare, and small ones like StrongDM. You can read more about Cedar in its [scientific paper](https://dl.acm.org/doi/pdf/10.1145/3649835), and check out the [code on GitHub](https://github.com/cedar-policy).
 - **Verification-guided development**, an [approach to developing secure, high-assurance software](https://www.amazon.science/publications/how-we-built-cedar-a-verification-guided-approach), combining formal proof and property-based testing. I speak about it as part of [this talk at the DARPA Resilience meeting](https://www.youtube.com/watch?v=ZuPGZ3W-ITA&list=PL6wMum5UsYvbc1h-qcpfmT6aXQsW7LItz&index=6).
 
 In the recent past, I have worked on:
