@@ -22,20 +22,24 @@ Here is my current [vita](cv.pdf) and a list of my [publications](/papers/mwh.ht
 
 ## [Research](/research/)
 
-My research focuses on improving software availability, reliability, and security through programming languages and software engineering techniques. Current areas include:
+My research focuses on improving software availability, reliability, and security through programming languages and software engineering techniques. Recent work includes
+
+- **[Cedar](https://cedarpolicy.com)**, a domain-specific language for writing authorization policies, now in use by big tech companies like MongoDB and CloudFlare, and small ones like StrongDM. You can read more about Cedar in its [scientific paper](https://dl.acm.org/doi/pdf/10.1145/3649835), and check out the [code on GitHub](https://github.com/cedar-policy).
+- **Verification-guided development**, an [approach to developing secure, high-assurance software](https://www.amazon.science/publications/how-we-built-cedar-a-verification-guided-approach), combining formal proof and property-based testing. I speak about it as part of [this talk at the DARPA Resilience meeting](https://www.youtube.com/watch?v=ZuPGZ3W-ITA&list=PL6wMum5UsYvbc1h-qcpfmT6aXQsW7LItz&index=6).
+
+In the recent past, I have worked on:
 
 - **Secure programming**: Developing [Checked C](https://www.checkedc.org/), a memory-safe extension to C for legacy code migration; conducting [Build it, Break it, Fix it](https://builditbreakit.org) contests to evaluate secure development practices; and working with safe languages like Rust
 - **Fuzz testing**: Developing methodologies for evaluating randomized testers and combining coverage-guided fuzzing with property-based testing
 - **Quantum computation**: Creating verified compiler stacks for quantum programs, including [VOQC](https://github.com/inQWIRE/pyvoqc), and developing robust quantum programs for near-term devices
-- **Privacy & cryptography**: Building languages for secure multiparty computation ([Wysteria](https://bitbucket.org/aseemr/wysteria/wiki/Home), [Symphony](https://github.com/plum-umd/symphony-lang)); developing authenticated data structures and compiler-optimized oblivious RAM
 
-Past projects include dynamic software updating (Kitsune, Rubah), information flow control (LWeb, Prob), incremental computation (Adapton), type systems for Ruby (Diamondback Ruby), symbolic execution (Otter), race detection (LockSmith), and the memory-safe C dialect [Cyclone](http://cyclone.thelanguage.org/).
+Other projects include dynamic software updating (Kitsune, Rubah), information flow control (LWeb, Prob), languages for expressing secure multiparty computations ([Wysteria](https://bitbucket.org/aseemr/wysteria/wiki/Home), [Symphony](https://github.com/plum-umd/symphony-lang)) as well as authenticated data structures and compiler-optimized oblivious RAM (Lobliv), incremental computation (Adapton), type systems for Ruby (Diamondback Ruby), symbolic execution (Otter), data race detection (LockSmith), and the memory-safe C dialect [Cyclone](http://cyclone.thelanguage.org/).
 
 ## [Teaching](/courses/)
 
-- **Current**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (CIS 7000, Fall 2025)
-- **Recent**: Organization of Programming Languages (CMSC 330, multiple semesters); Program Analysis and Understanding (CMSC 631, multiple semesters); [Software Security](https://www.coursera.org/learn/software-security/) MOOC (now free, originally on Coursera)
-- **Past**: Build it, Break it, Fix it contest (CMSC 388N); Mechanized Proof and Verified Software (CMSC 838G); Cybersecurity Lab (CMSC 498L); Operating Systems (CMSC 412)
+- **Current**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (UPenn CIS 7000, Fall 2025)
+- **Recent (UMD)**: Organization of Programming Languages (CMSC 330, multiple semesters); Program Analysis and Understanding (CMSC 631, multiple semesters); [Software Security](https://www.coursera.org/learn/software-security/) MOOC (now free, originally on Coursera)
+- **Past (UMD)**: [Build it, Break it, Fix it](https://www.cs.umd.edu/class/winter2020/cmsc388N/) contest (CMSC 388N); Mechanized Proof and Verified Software (CMSC 838G); Cybersecurity Lab (CMSC 498L); Operating Systems (CMSC 412)
 
 ## [Service, professional activities](/research/professional-activities/)
 
