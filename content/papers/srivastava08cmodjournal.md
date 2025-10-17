@@ -33,7 +33,7 @@ url: /papers/srivastava08cmodjournal.html
   with a modest effort.  We conclude that CMod can effectively support
   modular programming in C: it soundly enforces type-safe linking and
   information hiding while being largely compatible with existing practice.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/cmod-journal.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/cmod-journal.pdf">.pdf</a>&nbsp;]
 <a name="srivastava08cmodjournal"></a><pre>
 @article{srivastava08cmodjournal,
   author = {Saurabh Srivastava and Michael Hicks and Jeffrey S. Foster and Patrick Jenkins},

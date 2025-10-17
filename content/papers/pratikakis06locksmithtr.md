@@ -31,7 +31,7 @@ features of C such as type casts.  When applied to several
 benchmarks, including multi-threaded servers and Linux device
 drivers, Locksmith found several races while producing a modest
 number of false alarms.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/locksmith-tr.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/locksmith-tr.pdf">.pdf</a>&nbsp;]
 <a name="pratikakis06locksmithtr"></a><pre>
 @techreport{pratikakis06locksmithtr,
   title = {Context-sensitive Correlation Analysis for Detecting Races (Extended version)},

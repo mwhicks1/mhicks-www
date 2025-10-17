@@ -18,7 +18,7 @@ called SCVM and a corresponding type system suited for RAM-model secure computat
 Leveraging compile-time optimizations, our approach achieves
 order-of-magnitude speedups compared to both circuit-model secure
 computation and the state-of-art RAM-model secure computation.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/ram-sc.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/ram-sc.pdf">.pdf</a>&nbsp;]
 <a name="liu14scram"></a><pre>
 @inproceedings{liu14scram,
   author = {Chang Liu and Yan Huang and Elaine Shi and Jonathan Katz and Michael Hicks},

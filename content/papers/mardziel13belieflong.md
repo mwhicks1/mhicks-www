@@ -38,7 +38,7 @@ url: /papers/mardziel13belieflong.html
     or <em>intervals</em>, rather than full polyhedra, can dramatically
     improve performance while incurring little to no loss in
     precision.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/beliefpol-extended.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/beliefpol-extended.pdf">.pdf</a>&nbsp;]
 <a name="mardziel13belieflong"></a><pre>
 @article{mardziel13belieflong,
   title = {Dynamic Enforcement of Knowledge-based Security Policies using Probabilistic Abstract Interpretation},

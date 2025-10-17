@@ -33,7 +33,7 @@ url: /papers/hicks06trustedtr.html
   noninterference which we call <em>noninterference modulo trusted methods</em>.  We have implemented
   our approach as an extension to Jif and provide some of our
   experience using it to build a secure e-mail client.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/plas06-tr.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/plas06-tr.pdf">.pdf</a>&nbsp;]
 <a name="hicks06trustedtr"></a><pre>
 @techreport{hicks06trustedtr,
   title = {Trusted Declassification: high-level policy for a security-typed language (Extended version)},

@@ -29,7 +29,7 @@ Typical security contests focus on breaking or mitigating the impact
   language were 11&#215; less likely to have a security flaw than C/C++ submissions.
 	Break-it teams that were also successful build-it teams were
   significantly better at finding security bugs.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/bibifi-long.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/bibifi-long.pdf">.pdf</a>&nbsp;]
 <a name="parker20bibifi"></a><pre>
 @article{parker20bibifi,
   author = {James Parker and Michael Hicks and Andrew Ruef and Michelle L. Mazurek and Dave Levin and Daniel Votipka and Piotr Mardziel and Kelsey R. Fulton},

@@ -43,7 +43,7 @@ We have developed Rubydust, an implementation of
   Rubydust discovered 1 real type error,
   and all other inferred types were correct and
   readable.
- <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/rubydust.pdf">.pdf</a>&nbsp;]
+ <p>[&nbsp;<a href="https://mhicks.me/papers/rubydust.pdf">.pdf</a>&nbsp;]
 <a name="an11rubydust"></a><pre>
 @inproceedings{an11rubydust,
   author = {Jong-hoon (David) An and Avik Chaudhuri and Jeffrey S. Foster and Michael Hicks},

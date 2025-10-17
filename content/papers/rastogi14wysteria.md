@@ -34,7 +34,7 @@ url: /papers/rastogi14wysteria.html
   that Wysteria's performance
   is competitive with prior approaches while making
   programming far easier, and more trustworthy.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/wysteria.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/wysteria.pdf">.pdf</a>&nbsp;]
 <a name="rastogi14wysteria"></a><pre>
 @inproceedings{rastogi14wysteria,
   author = {Aseem Rastogi and Matthew A. Hammer and Michael Hicks},

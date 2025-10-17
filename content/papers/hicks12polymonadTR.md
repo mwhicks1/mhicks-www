@@ -31,7 +31,7 @@ url: /papers/hicks12polymonadTR.html
   is coherent---all sound rewritings produce programs with the same
   semantics.  The resulting programming style is powerful and
   lightweight.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/polymonadsTR.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/polymonadsTR.pdf">.pdf</a>&nbsp;]
 <a name="hicks12polymonadTR"></a><pre>
 @techreport{hicks12polymonadTR,
   title = {Polymonads},

@@ -35,7 +35,7 @@ We release all of our tools open
 </ol>
 In this research group presentation, we summarize some recent work
 and sketch future directions.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/paste41gp-foster.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/paste41gp-foster.pdf">.pdf</a>&nbsp;]
 <a name="foster07improving"></a><pre>
 @inproceedings{foster07improving,
   author = {Jeffrey S. Foster and Michael W. Hicks and William Pugh},

@@ -35,7 +35,7 @@ analysis of all sources of
 true and false alarms, due to both implicit and explicit flows, the
 paper concludes with some ideas to improve the false alarm rate,
 toward making stronger security analysis more practical.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/implicitflows.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/implicitflows.pdf">.pdf</a>&nbsp;]
 <a name="king08implicit"></a><pre>
 @inproceedings{king08implicit,
   title = {Implicit Flows: Can't live with 'em, can't live without 'em},

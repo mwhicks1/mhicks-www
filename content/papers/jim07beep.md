@@ -25,7 +25,7 @@ url: /papers/jim07beep.html
   supporting BEEP in browsers requires only small and localized
   modifications, modifying web applications requires minimal effort,
   and enforcing policies is generally lightweight.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/jssecurity.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/jssecurity.pdf">.pdf</a>&nbsp;]
 <a name="jim07beep"></a><pre>
 @inproceedings{jim07beep,
   author = {Trevor Jim and Nikhil Swamy and Michael Hicks},

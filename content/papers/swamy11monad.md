@@ -34,7 +34,7 @@ url: /papers/swamy11monad.html
   domains listed above, which are used as illustrations throughout the
   paper.
   <p>[&nbsp;<a href="http://research.microsoft.com/en-us/projects/coco/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/monadic.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/monadic.pdf">.pdf</a>&nbsp;]
 <a name="swamy11monad"></a><pre>
 @inproceedings{swamy11monad,
   title = {Lightweight Monadic Programming in {ML}},

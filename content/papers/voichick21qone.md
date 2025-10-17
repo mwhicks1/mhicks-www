@@ -11,7 +11,7 @@ url: /papers/voichick21qone.html
  In <em>Informal Proceedings of the Workshop on Programming Languages
   and Quantum Computing (PLanQC)</em>, June 2021.</font><p>
 We present QuantumOne, a quantum programming language formalized within the Coq proof assistant and designed for formal verification of quantum algorithms. This language allows for working with superpositions of tagged unions, allowing for quantum data more complicated than simple qubits. This paper outlines the formal syntax, operational semantics, and typing judgment of QuantumOne. 
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/Toward_A_Quantum_Programming_Language_for_Higher_Level_Formal_Verification.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/Toward_A_Quantum_Programming_Language_for_Higher_Level_Formal_Verification.pdf">.pdf</a>&nbsp;]
 <a name="voichick21qone"></a><pre>
 @inproceedings{voichick21qone,
   title = {Toward A Quantum Programming Language for Higher-Level Formal Verification},

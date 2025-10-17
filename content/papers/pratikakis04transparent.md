@@ -32,7 +32,7 @@ reasonably fast, overheads introduced by added dynamic checks are
 negligible, and performance improvements can be significant.  For example,
 changing two lines in a simple RMI-based peer-to-peer application and then
 using our framework resulted in a large performance gain.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/transparent-proxies.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/transparent-proxies.pdf">.pdf</a>&nbsp;]
 <a name="pratikakis04transparent"></a><pre>
 @inproceedings{pratikakis04transparent,
   author = {Polyvios Pratikakis and Jaime Spacco and Michael Hicks},

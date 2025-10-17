@@ -40,7 +40,7 @@ url: /papers/hayden12testing-journal.html
   we found that manual identification required the least developer effort.
   Overall, we conclude that manual identification is most effective.
   <p>[&nbsp;<a href="http://doi.ieeecomputersociety.org/10.1109/TSE.2011.101">DOI</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/dsutesting-journal.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/dsutesting-journal.pdf">.pdf</a>&nbsp;]
 <a name="hayden12testing-journal"></a><pre>
 @article{hayden12testing-journal,
   author = {Christopher M. Hayden and Edward K. Smith and Eric A. Hardisty and Michael Hicks and Jeffrey S. Foster},

@@ -14,7 +14,7 @@ independently, but we believe there are benefits to bringing them
 together.  This paper proposes the simple idea of a transport agent
 to encapsulate useful data within probe packets in place of
 useless padding.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/probe-transport.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/probe-transport.pdf">.pdf</a>&nbsp;]
 <a name="papageorgiou04probe"></a><pre>
 @inproceedings{papageorgiou04probe,
   title = {Merging Network Measurement with Data Transport (Extended Abstract)},

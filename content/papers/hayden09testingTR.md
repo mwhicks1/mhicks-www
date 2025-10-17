@@ -43,7 +43,7 @@ url: /papers/hayden09testingTR.html
   Our results present a challenge and important insights for future
   work: to discover 
   safe and sufficient update points fully automatically.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dsutesting-tr.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/dsutesting-tr.pdf">.pdf</a>&nbsp;]
 <a name="hayden09testingTR"></a><pre>
 @techreport{hayden09testingTR,
   title = {A Testing Based Empirical Study of Dynamic Software Update Safety Restrictions},

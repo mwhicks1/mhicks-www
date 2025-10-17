@@ -30,7 +30,7 @@ automatically prove that an update is independent of the on-line
 program state, and thus predict it will not fail dynamically.  Proteus
 admits a straightforward implementation, and we sketch how it could be
 extended to more advanced language features including threads.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/proteus-popl.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/proteus-popl.pdf">.pdf</a>&nbsp;]
 <a name="StoyleHBSN05"></a><pre>
 @inproceedings{StoyleHBSN05,
   author = {Gareth Stoyle and Michael Hicks and Gavin Bierman and Peter Sewell and Iulian Neamtiu},

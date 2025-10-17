@@ -29,7 +29,7 @@ complexity and creates issues involving validity and security. We
 discuss these issues, and describe the state-of-the-art in systems
 that support dynamic software updating, thus framing the problem
 for  researchers developing next-generation active networks.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/an_evolution.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/an_evolution.pdf">.pdf</a>&nbsp;]
 <a name="HicksN00"></a><pre>
 @inproceedings{HicksN00,
   author = {Michael Hicks and Scott Nettles},

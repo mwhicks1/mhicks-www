@@ -27,7 +27,7 @@ aim of consolidating a variety of studies that were carried out in the
 years after its introduction in 1998. These studies include the require-
 ments for PLAN, its design, programming in PLAN, the specification
 and theory of PLAN, and its use in networking applications.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/plan-extended.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/plan-extended.pdf">.pdf</a>&nbsp;]
 <a name="HicksKMGN06"></a><pre>
 @unpublished{HicksKMGN06,
   author = {Michael W. Hicks and Pankaj Kakkar and Jonathan T. Moore and Carl A. Gunter and Scott M. Nettles},

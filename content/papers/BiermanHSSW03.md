@@ -31,7 +31,7 @@ can be statically typed.  Finally, we use the destruct-time semantics
 also as a basis for a &lambda;_update calculus with simple primitives to
 provide type-safe, dynamic updating of code.  We thereby put a variety
 of real-world mechanisms on a common semantic foundation.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dynbind2-short.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/dynbind2-short.pdf">.pdf</a>&nbsp;]
 <a name="BiermanHSSW03"></a><pre>
 @inproceedings{BiermanHSSW03,
   author = {Gavin Bierman and Michael Hicks and Peter Sewell and Gareth Stoyle and Keith Wansbrough},

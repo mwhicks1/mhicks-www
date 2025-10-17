@@ -29,7 +29,7 @@ url: /papers/neamtiu09stump.html
   multi-threaded servers show that we can safely perform a dynamic
   update within milliseconds when more straightforward alternatives would
   delay some updates indefinitely.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/ginsengMT.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/ginsengMT.pdf">.pdf</a>&nbsp;]
 <a name="neamtiu09stump"></a><pre>
 @inproceedings{neamtiu09stump,
   title = {Safe and Timely Dynamic Updates for Multi-threaded Programs},

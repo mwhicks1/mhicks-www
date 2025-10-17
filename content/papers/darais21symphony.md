@@ -32,7 +32,7 @@ To demonstrate Symphony's expressiveness, we have built an interpreter
 for it (with some extensions) and used it to implement a number of
 realistic MPC applications, including sorting, statistical and numeric
 computations, and private information retrieval.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/symphony-short.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/symphony-short.pdf">.pdf</a>&nbsp;]
 <a name="darais21symphony"></a><pre>
 @inproceedings{darais21symphony,
   title = {Symphony: A Concise Language Model for {MPC}},

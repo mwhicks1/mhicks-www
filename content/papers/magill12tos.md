@@ -31,7 +31,7 @@ url: /papers/magill12tos.html
   programs for which it generates non-trivial transformation functions that use conditionals,
   operate on collections, and fix memory leaks. These transformations help programmers
   understand their changes and apply dynamic software updates.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/tos.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/tos.pdf">.pdf</a>&nbsp;]
 <a name="magill12tos"></a><pre>
 @inproceedings{magill12tos,
   title = {Automating Object Transformations for Dynamic Software Updating},

@@ -35,7 +35,7 @@ url: /papers/srivastava06cmodtr.html
   modular programming to C while still supporting
   legacy systems.
 <p>[&nbsp;<a href="http://www.cs.umd.edu/~saurabhs/CMod/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/cmod-tr.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/cmod-tr.pdf">.pdf</a>&nbsp;]
 <a name="srivastava06cmodtr"></a><pre>
 @techreport{srivastava06cmodtr,
   title = {Defining and Enforcing {C}'s Module System},

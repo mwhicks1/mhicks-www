@@ -28,7 +28,7 @@ private network is used as an application of the security architecture.
 Measurements of the system show that the addition of the firewall imposes an
 approximately 34% latency overhead and as little as a 6.7% space overhead
 to incoming packets.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/plansecurity.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/plansecurity.pdf">.pdf</a>&nbsp;]
 <a name="HicksKS03"></a><pre>
 @article{HicksKS03,
   author = {Michael Hicks and Angelos D. Keromytis and Jonathan M. Smith},

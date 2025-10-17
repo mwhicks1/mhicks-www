@@ -13,7 +13,7 @@ objectives are considered for each of three systems, Java, Erlang, and
 TIL. In particular, I examine the use of types and intermediate
 representations in the system implementation. In addition, the systems
 are compared to examine how one system's mechanisms may (or may not)
-be applied to another.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/typedIR.ps">.ps</a>&nbsp;]
+be applied to another.<p>[&nbsp;<a href="https://mhicks.me/papers/typedIR.ps">.ps</a>&nbsp;]
 <a name="Hicks98A"></a><pre>
 @techreport{Hicks98A,
   author = {Michael Hicks},

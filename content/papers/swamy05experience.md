@@ -27,7 +27,7 @@ url: /papers/swamy05experience.html
   memory footprint and sometimes to improve throughput when used
   instead of, or in combination with, conservative garbage collection.
   <p>[&nbsp;<a href="http://cyclone.thelanguage.org">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/cyc-mm-scp.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/cyc-mm-scp.pdf">.pdf</a>&nbsp;]
 <a name="swamy05experience"></a><pre>
 @article{swamy05experience,
   author = {Nikhil Swamy and Michael Hicks and Greg Morrisett and Dan Grossman and Trevor Jim},

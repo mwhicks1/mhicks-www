@@ -26,7 +26,7 @@ that capsule-based systems can achieve useful levels of
 flexibility, performance, and usability.  Many aspects of security
 can also be adequately addressed, but some important problems
 related to denial of service remain as open problems.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/planants.ps">.ps</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/planants.ps">.ps</a>&nbsp;]
 <a name="HicksMNW02"></a><pre>
 @inproceedings{HicksMNW02,
   author = {Michael Hicks and Jonathan T. Moore and David Wetherall and Scott Nettles},

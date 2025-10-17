@@ -32,7 +32,7 @@ discuss recently-developed tools for analyzing formal security
 policies; though no existing tools focus on the analysis of
 downgrading-oriented policies, existing research points the way
 to providing such support.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/xdom-tr.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/xdom-tr.pdf">.pdf</a>&nbsp;]
 <a name="hicks07xdomtr"></a><pre>
 @techreport{hicks07xdomtr,
   author = {Michael Hicks and Nikhil Swamy and Simon Tsang},

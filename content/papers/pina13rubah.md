@@ -16,7 +16,7 @@ url: /papers/pina13rubah.html
   programming idioms (e.g., reflection), and, as shown by performance
   experiments using an updatable version of the H2 database management
   system, imposes low overhead on normal execution.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/rubah.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/rubah.pdf">.pdf</a>&nbsp;]
 <a name="pina13rubah"></a><pre>
 @inproceedings{pina13rubah,
   title = {Rubah: Efficient, General-purpose Dynamic Software Updating for {Java}},

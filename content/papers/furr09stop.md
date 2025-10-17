@@ -20,7 +20,7 @@ we will present in a tool demonstration. The presentation will concentrate
 on the development of a small, statically typed Ruby program,
 illustrating how DRuby might be used in practice. The audience will
 learn about some of the practical design decisions that went into DRuby,
-and how to use it to develop a type-safe Ruby program.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/rubydemo.pdf">.pdf</a>&nbsp;]
+and how to use it to develop a type-safe Ruby program.<p>[&nbsp;<a href="https://mhicks.me/papers/rubydemo.pdf">.pdf</a>&nbsp;]
 <a name="furr09stop"></a><pre>
 @inproceedings{furr09stop,
   title = {Tests to the Left of Me, Types to the Right: How Not to Get Stuck in the Middle of a {Ruby} Execution (A Demo of Diamondback Ruby)},

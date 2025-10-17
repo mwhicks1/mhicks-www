@@ -28,7 +28,7 @@ collaborative planning application that will permit a collection
 of users, with varying security requirements and clearances, to access
 sensitive data sources and collaboratively create documents based on
 these sources.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/selinks-cpa.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/selinks-cpa.pdf">.pdf</a>&nbsp;]
 <a name="swamy07milcom"></a><pre>
 @inproceedings{swamy07milcom,
   author = {Nikhil Swamy and Michael Hicks and Simon Tsang},

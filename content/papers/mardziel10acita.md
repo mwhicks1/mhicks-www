@@ -28,7 +28,7 @@ We discuss how to incorporate these mechanisms into practical applications,
 including online social networks, a recommendation system based on users'
 qualifications rather than identities, and a <em>personal information
 broker</em> that monitors data leakage over time.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/secure-sharing.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/secure-sharing.pdf">.pdf</a>&nbsp;]
 <a name="mardziel10acita"></a><pre>
 @inproceedings{mardziel10acita,
   title = {Secure sharing in distributed information management applications: problems and directions},

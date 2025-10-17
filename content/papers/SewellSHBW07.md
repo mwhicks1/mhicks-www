@@ -39,7 +39,7 @@ this simple calculus extend to more real-world, module-level dynamic
 updating in the style of Erlang.  We thereby establish primitives and
 a common semantic foundation for a variety of real-world dynamic
 rebinding requirements.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dynbind-journal.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/dynbind-journal.pdf">.pdf</a>&nbsp;]
 <a name="SewellSHBW07"></a><pre>
 @article{SewellSHBW07,
   author = {Peter Sewell and Gareth Stoyle and Michael Hicks and Gavin Bierman and Keith Wansbrough},

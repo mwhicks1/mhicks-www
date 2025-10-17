@@ -25,7 +25,7 @@ highlighting the features that require special compilation
 techniques. We then present the details of our compiler and
 experimental results to evaluate our compiler with respect to code
 size.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/plansnap.ps">.ps</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/plansnap.ps">.ps</a>&nbsp;]
 <a name="HicksMN01b"></a><pre>
 @inproceedings{HicksMN01b,
   author = {Michael Hicks and Jonathan T. Moore and Scott Nettles},

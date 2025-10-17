@@ -16,7 +16,7 @@ Further, Qunity takes advantage of the overlooked bqp subroutine theorem, allowi
 Unlike existing languages that enable quantum aspects with a separate add-on (e.g., gates added to a classical language), we unify quantum and classical computing through novel compositional semantics based on Kraus operators.
 We present Qunity's syntax, type system, and denotational semantics, showing how it can cleanly express several quantum algorithms.
 We also outline how Qunity could be compiled to OpenQasm, demonstrating the realizability of our design.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/qunity.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/qunity.pdf">.pdf</a>&nbsp;]
 <a name="voichick23qunity"></a><pre>
 @inproceedings{voichick23qunity,
   author = {Finn Voichick and Liyi Li and Robert Rand and Michael Hicks},

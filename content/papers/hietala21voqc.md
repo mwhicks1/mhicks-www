@@ -14,7 +14,7 @@ url: /papers/hietala21voqc.html
 We present VOQC, the first fully <em>verified optimizer for quantum circuits</em>, written using the Coq proof assistant. Quantum circuits are expressed as programs in a simple, low-level language called SQIR, a <em>simple quantum intermediate representation</em>, which is deeply embedded in Coq. Optimizations and other transformations are expressed as Coq functions, which are proved correct with respect to a semantics of SQIR programs. 
 SQIR uses a semantics of matrices of complex numbers, which is the standard for quantum computation, but treats matrices symbolically in order to reason about programs that use an arbitrary number of quantum bits. 
 SQIR's careful design and our provided automation make it possible to write and verify a broad range of optimizations in VOQC,
-including full-circuit transformations from cutting-edge optimizers.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/voqc.pdf">.pdf</a>&nbsp;]
+including full-circuit transformations from cutting-edge optimizers.<p>[&nbsp;<a href="https://mhicks.me/papers/voqc.pdf">.pdf</a>&nbsp;]
 <a name="hietala21voqc"></a><pre>
 @inproceedings{hietala21voqc,
   author = {Kesha Hietala and Robert Rand and Shih-Han Hung and Xiaodi Wu and Michael Hicks},

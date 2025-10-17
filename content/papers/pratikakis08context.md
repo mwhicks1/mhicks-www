@@ -31,7 +31,7 @@ url: /papers/pratikakis08context.html
   approach could prove useful for approaching other properties of
   derivations that rely on the context in which that derivation
   appears.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/contextproof.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/contextproof.pdf">.pdf</a>&nbsp;]
 <a name="pratikakis08context"></a><pre>
 @inproceedings{pratikakis08context,
   author = {Polyvios Pratikakis and Jeffrey S. Foster and Michael Hicks and Iulian Neamtiu},

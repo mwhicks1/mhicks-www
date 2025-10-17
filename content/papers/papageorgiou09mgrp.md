@@ -27,7 +27,7 @@ url: /papers/papageorgiou09mgrp.html
   that adaptively schedules media streams, we show MediaNet can achieve
   significantly higher streaming rates under the same network
   conditions.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/mgrp.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/mgrp.pdf">.pdf</a>&nbsp;]
 <a name="papageorgiou09mgrp"></a><pre>
 @inproceedings{papageorgiou09mgrp,
   author = {Pavlos Papageorge and Justin McCann and Michael Hicks},

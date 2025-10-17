@@ -35,7 +35,7 @@ polynomial invariants that capture precise complexity bounds of
 programs used to benchmark existing static complexity analysis
 techniques. Finally, we show that NumInv performs competitively
 comparing to state of the art numerical invariant analysis tools
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dig2.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/dig2.pdf">.pdf</a>&nbsp;]
 <a name="ngyuen17numinv"></a><pre>
 @inproceedings{ngyuen17numinv,
   author = {ThanhVu Nguyen and Timos Antopoulos and Andrew Ruef and Michael Hicks},

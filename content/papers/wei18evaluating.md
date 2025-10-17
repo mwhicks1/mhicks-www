@@ -31,7 +31,7 @@ url: /papers/wei18evaluating.html
   significant, while choices about the numeric domain, representation
   of abstract objects, and context-sensitivity make much less
   difference to the precision/performance tradeoff.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/jana-analysis.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/jana-analysis.pdf">.pdf</a>&nbsp;]
 <a name="wei18evaluating"></a><pre>
 @inproceedings{wei18evaluating,
   author = {Shiyi Wei and Piotr Mardziel and Andrew Ruef and Jeffrey S. Foster and Michael Hicks},

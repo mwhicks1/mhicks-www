@@ -28,7 +28,7 @@ url: /papers/hayden09testing.html
   widely used server applications.  We found that minimization is
   highly effective, reducing the number of update tests required
   for full coverage by 93%.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dsutesting.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/dsutesting.pdf">.pdf</a>&nbsp;]
 <a name="hayden09testing"></a><pre>
 @inproceedings{hayden09testing,
   author = {Christopher M. Hayden and Eric A. Hardisty and Michael Hicks and Jeffrey S. Foster},

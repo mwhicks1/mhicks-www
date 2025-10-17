@@ -32,7 +32,7 @@ url: /papers/hammer14nominal.html
   that Nominal Adapton can provide large speedups over both
   from-scratch computation and Adapton, a previous state-of-the-art
   incremental system.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/adapton-names-tr.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/adapton-names-tr.pdf">.pdf</a>&nbsp;]
 <a name="hammer14nominal"></a><pre>
 @inproceedings{hammer14nominal,
   author = {Matthew Hammer and Kyle Headley and Nicholas Labich and Jeffrey S. Foster and Michael Hicks and David Van Horn and Jana Dunfield},

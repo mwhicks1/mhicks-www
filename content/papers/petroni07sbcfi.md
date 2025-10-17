@@ -21,7 +21,7 @@ machine monitors.  Our implementation detected all the control-flow
 modifying rootkits we could install, while imposing unnoticeable
 overhead for both a typical web server workload and CPU-intensive
 workloads when operating at 10 second intervals.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/sbcfi.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/sbcfi.pdf">.pdf</a>&nbsp;]
 <a name="petroni07sbcfi"></a><pre>
 @inproceedings{petroni07sbcfi,
   author = {Petroni, Jr., Nick L. and Michael Hicks},

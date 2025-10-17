@@ -31,7 +31,7 @@ first MPC DSL to provide a verified implementation.
 With Wys<sup>*</sup> we have implemented several MPC protocols, including
 private set intersection, joint median, and an MPC-based card dealing
 application, and have verified their security and correctness.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/wysstar.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/wysstar.pdf">.pdf</a>&nbsp;]
 <a name="wysstar18wysstar"></a><pre>
 @inproceedings{wysstar18wysstar,
   author = {Aseem Rastogi and Nikhil Swamy and Michael Hicks},

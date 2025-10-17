@@ -36,7 +36,7 @@ url: /papers/corcoran09selinks.html
   is flexible, relatively easy to use, and, when compared to a
   single-tier approach, improves throughput by nearly an order of
   magnitude. SELinks is freely available.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/selinks.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/selinks.pdf">.pdf</a>&nbsp;]
 <a name="corcoran09selinks"></a><pre>
 @inproceedings{corcoran09selinks,
   author = {Brian J. Corcoran and Nikhil Swamy and Michael Hicks},

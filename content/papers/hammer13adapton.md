@@ -30,7 +30,7 @@ url: /papers/hammer13adapton.html
   λ<sup>CDD</sup><sub>IC</sub>. We evaluated Adapton on a range of benchmarks, and found
   that it provides reliable speedups, and in many cases dramatically
   outperforms state-of-the-art IC approaches.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/adapton-submit.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/adapton-submit.pdf">.pdf</a>&nbsp;]
 <a name="hammer13adapton"></a><pre>
 @inproceedings{hammer13adapton,
   author = {Matthew Hammer and Yit Phang Khoo and Michael Hicks and Jeffrey S. Foster},

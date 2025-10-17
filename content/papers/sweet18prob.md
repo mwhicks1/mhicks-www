@@ -24,7 +24,7 @@ url: /papers/sweet18prob.html
   sound), and detailed experimental results show that we can
   match the precision of the baseline technique but with orders of
   magnitude better performance.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/prob-post.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/prob-post.pdf">.pdf</a>&nbsp;]
 <a name="sweet18prob"></a><pre>
 @inproceedings{sweet18prob,
   title = {What's the Over/Under? Probabilistic Bounds on Information Leakage},

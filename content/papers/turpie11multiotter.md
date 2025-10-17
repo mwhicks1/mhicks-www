@@ -31,7 +31,7 @@ url: /papers/turpie11multiotter.html
   and wget as a client for vsftpd. We report the coverage provided by symbolic
   execution with various forms of symbolic input, showing that different testing
   goals require different degrees of symbolic inputs.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/multiotter.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/multiotter.pdf">.pdf</a>&nbsp;]
 <a name="turpie11multiotter"></a><pre>
 @techreport{turpie11multiotter,
   title = {MultiOtter: Multiprocess Symbolic Execution},

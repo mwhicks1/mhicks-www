@@ -30,7 +30,7 @@ quantum Bernoulli factory (QBF) and quantum walk (QW); (2) demonstrating
 the (in)effectiveness of different error correction schemes on
 single-qubit errors; and (3) analyzing the robustness of a
 fault-tolerant version of QBF.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/qcerrs-full.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/qcerrs-full.pdf">.pdf</a>&nbsp;]
 <a name="hung19qrobust"></a><pre>
 @inproceedings{hung19qrobust,
   author = {Shih-Han Hung and Kesha Hietala and Shaopeng Zhu and Mingsheng Ying and Michael Hicks and Xiaodi Wu},

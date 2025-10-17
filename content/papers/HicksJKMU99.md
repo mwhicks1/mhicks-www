@@ -21,7 +21,7 @@ scheme.  Experiments show that application performance is a function of data
 layout, access algorithm, and local workload. For distributed applications,
 such as distributed databases, these factors may not be known statically,
 suggesting the importance of runtime support.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/java99.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/java99.pdf">.pdf</a>&nbsp;]
 <a name="HicksJKMU99"></a><pre>
 @inproceedings{HicksJKMU99,
   author = {Michael Hicks and Suresh Jagannathan and Richard

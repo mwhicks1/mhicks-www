@@ -24,7 +24,7 @@ adapts without requiring underlying support for
 resource reservations.  Performance experiments show that our scheduling
 algorithm is reasonably fast, and that user performance and network
 utilization are both significantly improved.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/medianet.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/medianet.pdf">.pdf</a>&nbsp;]
 <a name="HicksNvR03"></a><pre>
 @inproceedings{HicksNvR03,
   author = {Michael Hicks and Adithya Nagarajan and Robbert van Renesse},

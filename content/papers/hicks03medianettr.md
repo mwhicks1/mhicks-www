@@ -17,7 +17,7 @@ fidelity they require. This paper describes MediaNet, a distributed multi-media 
 approaches, MediaNet's users can intuitively specify how the system should adapt based on their individual needs. MediaNet uses both local and on-line global resource scheduling to improve user performance and network utilization, and adapts without requiring underlying support for resource reservations. Performance experiments show that our 
 scheduling algorithm is reasonably fast, and that user 
 performance and network utilization are both significantly improved.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/medianet-extended.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/medianet-extended.pdf">.pdf</a>&nbsp;]
 <a name="hicks03medianettr"></a><pre>
 @techreport{hicks03medianettr,
   author = {Michael Hicks and Adithya Nagarajan and Robbert van Renesse},

@@ -20,7 +20,7 @@ if a warning is caused by imprecision in the algorithm. In our current work, we 
 taking into account specific sources of imprecision in the particular tool. Additionally, we plan to
 provide <em>checklist assistants</em>, which is a library of simple analyses designed to aid users in
 answering checklist questions.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/ppchecklists.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/ppchecklists.pdf">.pdf</a>&nbsp;]
 <a name="khoo09checklist"></a><pre>
 @inproceedings{khoo09checklist,
   author = {Yit Phang Khoo and Jeffrey S. Foster and Michael Hicks and Vibha Sazawal},

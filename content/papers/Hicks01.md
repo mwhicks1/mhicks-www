@@ -9,7 +9,7 @@ url: /papers/Hicks01.html
  Michael Hicks.
  PhD thesis, Department of Computer and Information Science,
   University of Pennsylvania, August 2001.
- Winner of the 2002 ACM SIGPLAN Doctoral Dissertation award.</font><p><p>[&nbsp;<a href="https://mwhicks1.github.io/papers/thesis.pdf">.pdf</a>&nbsp;]
+ Winner of the 2002 ACM SIGPLAN Doctoral Dissertation award.</font><p><p>[&nbsp;<a href="https://mhicks.me/papers/thesis.pdf">.pdf</a>&nbsp;]
 <a name="Hicks01"></a><pre>
 @phdthesis{Hicks01,
   author = {Michael Hicks},

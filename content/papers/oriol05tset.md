@@ -39,7 +39,7 @@ VSMs:
 </ol>
 This paper motivates our approach, sketches its basic theory, and
 places it in the context of other data management strategies.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/tsets.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/tsets.pdf">.pdf</a>&nbsp;]
 <a name="oriol05tset"></a><pre>
 @inproceedings{oriol05tset,
   title = {Tagged Sets: a Secure and Transparent Coordination Medium},

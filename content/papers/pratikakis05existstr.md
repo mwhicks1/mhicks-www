@@ -29,7 +29,7 @@ url: /papers/pratikakis05existstr.html
   a type are existentially quantified, and the algorithm infers the
   constraints bound in the type, or rejects a program if the
   annotations are inconsistent.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/existsflow-tr.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/existsflow-tr.pdf">.pdf</a>&nbsp;]
 <a name="pratikakis05existstr"></a><pre>
 @techreport{pratikakis05existstr,
   author = {Polyvios Pratikakis and Michael Hicks and Jeffrey S. Foster},

@@ -17,7 +17,7 @@ Metrics for quantifying information leakage assume
   with goals distinct from adversary failure.
   We implement the extension and experimentally explore the impact on
   the measured information leakage of the motivating scenario.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/qifgl.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/qifgl.pdf">.pdf</a>&nbsp;]
 <a name="mardziel14qifgl"></a><pre>
 @inproceedings{mardziel14qifgl,
   author = {Piotr Mardziel and M\'ario S. Alvim and Michael Hicks},

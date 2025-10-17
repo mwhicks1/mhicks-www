@@ -26,7 +26,7 @@ gain in knowledge.  We develop two techniques---the <em>belief set</em>
 method and the <em>SMC belief tracking</em> method---prove them sound,
 and discuss their precision/performance tradeoffs using a series of
 experiments.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/belief-smc.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/belief-smc.pdf">.pdf</a>&nbsp;]
 <a name="mardziel12smc"></a><pre>
 @inproceedings{mardziel12smc,
   title = {Knowledge-Oriented Secure Multiparty Computation},

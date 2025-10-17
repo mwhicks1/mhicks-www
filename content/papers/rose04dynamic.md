@@ -23,7 +23,7 @@ approach, and our experience applying the tool to a variety of Java
 programs.  In general, we have found the approach works well, but has
 trouble scaling to large programs, which require extensive testing for
 full coverage.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dynamic-locktypes.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/dynamic-locktypes.pdf">.pdf</a>&nbsp;]
 <a name="rose04dynamic"></a><pre>
 @inproceedings{rose04dynamic,
   author = {James Rose and Nikhil Swamy and Michael Hicks},

@@ -25,7 +25,7 @@ represents the most large-scale demonstration of AN evolution to date. These
 demonstrations show what previous AN research has not: that AN technology
 can, in fact, support very significant changes to the network, even while
 the network is operational.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/evolution-action.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/evolution-action.pdf">.pdf</a>&nbsp;]
 <a name="SongSHN02"></a><pre>
 @inproceedings{SongSHN02,
   author = {Seo-Kyu Song and Stephen Shannon and Michael Hicks and Scott Nettles},

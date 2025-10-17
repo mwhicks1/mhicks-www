@@ -29,7 +29,7 @@ url: /papers/pratikakis06exists.html
   polymorphically-constrained types, in the style of Mossin.  We have
   implemented a variant of our analysis as part of a data race detection
   tool for C programs.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/existsflow.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/existsflow.pdf">.pdf</a>&nbsp;]
 <a name="pratikakis06exists"></a><pre>
 @inproceedings{pratikakis06exists,
   author = {Polyvios Pratikakis and Jeffrey S. Foster and Michael Hicks},

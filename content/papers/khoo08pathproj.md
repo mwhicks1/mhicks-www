@@ -24,7 +24,7 @@ url: /papers/khoo08pathproj.html
   participants' time to complete this task without affecting
   accuracy, while participants felt Path Projection was useful and
   strongly preferred it to a more standard viewer.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/pathproj-short.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/pathproj-short.pdf">.pdf</a>&nbsp;]
 <a name="khoo08pathproj"></a><pre>
 @inproceedings{khoo08pathproj,
   author = {Yit Phang Khoo and Jeffrey S. Foster and Michael Hicks and Vibha Sazawal},

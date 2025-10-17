@@ -20,7 +20,7 @@ url: /papers/smith12benchmark.html
   propose key improvements. We believe that using better evaluation
   criteria can guide DSU research to produce systems that will
   be more practical, flexible, and usable.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dsubench.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/dsubench.pdf">.pdf</a>&nbsp;]
 <a name="smith12benchmark"></a><pre>
 @inproceedings{smith12benchmark,
   title = {Towards Standardized Benchmarks for Dynamic Software Updating Systems},

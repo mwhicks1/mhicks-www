@@ -25,7 +25,7 @@ url: /papers/khoo13expositor.html
   data race in Firefox. We believe that
   Expositor represents an important step forward in improving the
   technology for diagnosing complex, hard-to-understand bugs.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/icse13main-p326-p-15890-preprint.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/icse13main-p326-p-15890-preprint.pdf">.pdf</a>&nbsp;]
 <a name="khoo13expositor"></a><pre>
 @inproceedings{khoo13expositor,
   author = {Yit Phang Khoo and Jeffrey S. Foster and Michael Hicks},

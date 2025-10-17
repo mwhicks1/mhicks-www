@@ -28,7 +28,7 @@ execute entirely at the same code version, even if a dynamic update occurs
 in the middle of the block.  Second, we show how future effects can be used
 in the analysis of multi-threaded programs to find thread-shared locations.
 This is an essential step in applications such as data race detection.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/contexteffs.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/contexteffs.pdf">.pdf</a>&nbsp;]
 <a name="neamtiu08context"></a><pre>
 @inproceedings{neamtiu08context,
   author = {Iulian Neamtiu and Michael Hicks and Jeffrey S. Foster and Polyvios Pratikakis},

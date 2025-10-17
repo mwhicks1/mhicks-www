@@ -26,7 +26,7 @@ url: /papers/swamy09coercion.html
   those mentioned above), and identify the inherent ambiguity problems
   of each setting, along with various techniques to tame the
   ambiguities.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/coercions.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/coercions.pdf">.pdf</a>&nbsp;]
 <a name="swamy09coercion"></a><pre>
 @inproceedings{swamy09coercion,
   author = {Nikhil Swamy and Michael Hicks and Gavin S. Bierman},

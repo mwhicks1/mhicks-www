@@ -29,7 +29,7 @@ url: /papers/saur15morpheus.html
   designed to be easy to use. Morpheus also offers a distributed protocol
   for safely deploying updates across multiple nodes. Experiments
   confirm that Morpheus provides correct behavior and good performance.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/sdnupdate.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/sdnupdate.pdf">.pdf</a>&nbsp;]
 <a name="saur15morpheus"></a><pre>
 @inproceedings{saur15morpheus,
   author = {Karla Saur and Joseph Collard and Nate Foster and Arjun Guha and Laurent Vanbever and Michael Hicks},

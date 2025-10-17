@@ -29,7 +29,7 @@ also allocate to multiple ORAM banks, which sometimes significantly
 reduces access times. We have formalized our approach and proved it
 enjoys MTO . Our FPGA-based hardware prototype and simulation results
 show that GhostRider significantly outperforms the baseline strategy.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/ghostrider15.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/ghostrider15.pdf">.pdf</a>&nbsp;]
 <a name="liu15ghostrider"></a><pre>
 @inproceedings{liu15ghostrider,
   author = {Chang Liu and Austin Harris and Martin Maas and Michael Hicks and Mohit Tiwari and Elaine Shi},

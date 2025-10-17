@@ -33,7 +33,7 @@ existing, standard technology such as SMT solvers.
 We show that our approach is sound, and further, we
 characterize the completeness properties enjoyed by our approach.
 We have implemented our approach, and present a preliminary experimental evaluation.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/smc-knowledge.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/smc-knowledge.pdf">.pdf</a>&nbsp;]
 <a name="rastogi13knowledge"></a><pre>
 @inproceedings{rastogi13knowledge,
   author = {Aseem Rastogi and Piotr Mardziel and Matthew Hammer and Michael Hicks},

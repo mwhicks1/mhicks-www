@@ -11,7 +11,7 @@ url: /papers/coblenz23rust.html
  In <em>Proceedings of the Workshop on the Evaluation and Usability
   of Programming Languages and Tools (PLATEAU)</em>, February 2023.</font><p>
 Rust is a programming language that provides strong safety properties, but does so at a usability cost. We conducted an observational study of Rust learners and a thematic analysis of StackOverflow posts about Rust to identify opportunities for improvement in Rust’s usability. Key challenges that we observed included syntactic challenges posed by the <tt>?</tt> operator, block-terminal statements, and automatic dereferencing; late delivery of error messages; and the opacity of Rust errors resulting in programmers being unable to identify whether their partial fixes represented progress. We describe a collection of opportunities for improvement that leverage the compiler and the IDE.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/rust-challenges.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/rust-challenges.pdf">.pdf</a>&nbsp;]
 <a name="coblenz23rust"></a><pre>
 @inproceedings{coblenz23rust,
   title = {A Multimodal Study of Challenges Using {Rust}},

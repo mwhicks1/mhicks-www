@@ -11,7 +11,7 @@ url: /papers/hietala21expvoqc.html
  In <em>Informal Proceedings of the Workshop on Programming Languages
   and Quantum Computing (PLanQC)</em>, June 2021.</font><p>
     This abstract presents recent extensions to VOQC, a verified optimizer for quantum circuits. All code described in this abstract is freely available online at <a href="https://github.com/inQWIRE/SQIR/">https://github.com/inQWIRE/SQIR/</a>.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/VOQC_PLanQC_2021.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/VOQC_PLanQC_2021.pdf">.pdf</a>&nbsp;]
 <a name="hietala21expvoqc"></a><pre>
 @inproceedings{hietala21expvoqc,
   title = {Applying and Expanding the {VOQC} Toolkit},

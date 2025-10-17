@@ -29,7 +29,7 @@ url: /papers/mardziel11beliefTR.html
   several useful queries can be handled efficiently, and performance
   scales far better than would more standard implementations of
   probabilistic computation based on sampling.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/beliefpolTR.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/beliefpolTR.pdf">.pdf</a>&nbsp;]
 <a name="mardziel11beliefTR"></a><pre>
 @techreport{mardziel11beliefTR,
   title = {Dynamic Enforcement of Knowledge-based Security Policies},

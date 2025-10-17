@@ -29,7 +29,7 @@ papers).  As such, I exercised a more tractable alternative: I polled
 the authors and reviewers to report on their experience, and to see
 whether that experience convinces them that the process has merit.  In
 most cases, the answer was &ldquo;yes.&rdquo;
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/popl12recap.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/popl12recap.pdf">.pdf</a>&nbsp;]
 <a name="hicks12popl"></a><pre>
 @article{hicks12popl,
   title = {{POPL}'12 Program Chair's Report (or, how to run a medium-sized conference)},

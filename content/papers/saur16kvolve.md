@@ -29,7 +29,7 @@ We present KVolve, an extension to the popular Redis NoSQL database, as a
   including format changes to RedisFS, a Redis-backed file system,
   while imposing essentially no overhead in general use and minimal
   pause times during updates.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/kvolve.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/kvolve.pdf">.pdf</a>&nbsp;]
 <a name="saur16kvolve"></a><pre>
 @inproceedings{saur16kvolve,
   title = {Evolving {NoSQL} Databases Without Downtime},

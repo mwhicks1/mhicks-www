@@ -25,7 +25,7 @@ url: /papers/pratikakis11locksmith.html
   together, our results illuminate some of the key engineering
   challenges in building Locksmith and data race detection analyses
   in particular, and constraint-based program analyses in general.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/locksmith-journal.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/locksmith-journal.pdf">.pdf</a>&nbsp;]
 <a name="pratikakis11locksmith"></a><pre>
 @article{pratikakis11locksmith,
   title = {Locksmith: Practical Static Race Detection for {C}},

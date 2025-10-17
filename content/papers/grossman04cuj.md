@@ -11,7 +11,7 @@ url: /papers/grossman04cuj.html
 Cyclone is an effort to bring safety to C.  This article briefly
 introduces Cyclone.
   <p>[&nbsp;<a href="http://cyclone.thelanguage.org">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/cyclone-cuj.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/cyclone-cuj.pdf">.pdf</a>&nbsp;]
 <a name="grossman04cuj"></a><pre>
 @article{grossman04cuj,
   author = {Dan Grossman and Michael Hicks and Trevor Jim and Greg Morrisett},

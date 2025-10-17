@@ -30,7 +30,7 @@ To concretely illustrate our system, we have implemented a
 dynamically-updateable web server, FlashEd.  We discuss our experience
 building and maintaining FlashEd.  Performance experiments show that for
 FlashEd, the overhead due to updating is typically less than 1 percent.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dyn_update.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/dyn_update.pdf">.pdf</a>&nbsp;]
 <a name="HicksMN01a"></a><pre>
 @inproceedings{HicksMN01a,
   author = {Michael Hicks and Jonathan T. Moore and Scott Nettles},

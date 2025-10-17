@@ -22,7 +22,7 @@ url: /papers/CraryHW00.html
   C, closely modeled after the standard linking facility for Unix C
   programs.  Aside from the unavoidable cost of verification, our
   implementation performs comparably with the standard, untyped approach.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/taldynlink.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/taldynlink.pdf">.pdf</a>&nbsp;]
 <a name="CraryHW00"></a><pre>
 @inproceedings{CraryHW00,
   author = {Michael Hicks and Stephanie Weirich and Karl Crary},

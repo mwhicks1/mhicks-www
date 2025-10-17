@@ -17,7 +17,7 @@ url: /papers/mardziel14time.html
   language and used to analyze several examples. 
   The analysis demonstrates that adaptivity increases the amount of
   information that adversaries learn.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/qif-dynamic-secrets.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/qif-dynamic-secrets.pdf">.pdf</a>&nbsp;]
 <a name="mardziel14time"></a><pre>
 @inproceedings{mardziel14time,
   author = {Piotr Mardziel and Mario Alvim and Michael Hicks and Michael Clarkson},

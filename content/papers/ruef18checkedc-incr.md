@@ -29,7 +29,7 @@ url: /papers/ruef18checkedc-incr.html
   <em>blame</em> property that renders so-called <em>checked regions</em>
   blameless of any run-time failure. We formalize this property for a
   core calculus and mechanize the proof in Coq. 
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/checkedc-incr.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/checkedc-incr.pdf">.pdf</a>&nbsp;]
 <a name="ruef18checkedc-incr"></a><pre>
 @inproceedings{ruef18checkedc-incr,
   author = {Andrew Ruef and Leonidas Lampropoulos and Ian Sweet and David Tarditi and Michael Hicks},

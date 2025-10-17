@@ -50,7 +50,7 @@ Moreover, FuzzChick is almost fully automatic; although highly
 tuned, hand-written generators can find the bugs faster than
 FuzzChick, they require substantial amounts of insight and manual
 effort. 
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/fuzzchick.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/fuzzchick.pdf">.pdf</a>&nbsp;]
 <a name="lampropoulos19fuzzchick"></a><pre>
 @inproceedings{lampropoulos19fuzzchick,
   author = {Leonidas Lampropoulos and Michael Hicks and Benjamin C. Pierce},

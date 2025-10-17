@@ -36,7 +36,7 @@ We have proved timing-channel freedom of (or synthesized an attack
 specification for) 24 programs
 written in Java bytecode, including 6 classic examples from the literature and 6
 examples extracted from the DARPA STAC challenge problems.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/blazer.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/blazer.pdf">.pdf</a>&nbsp;]
 <a name="antopoulous17blazer"></a><pre>
 @inproceedings{antopoulous17blazer,
   author = {Timos Antonopoulos and Paul Gazzillo and Michael Hicks and Eric Koskinen and Tachio Terauchi and Shiyi Wei},

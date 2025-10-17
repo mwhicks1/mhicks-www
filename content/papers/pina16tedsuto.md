@@ -30,7 +30,7 @@ url: /papers/pina16tedsuto.html
   real-world, multithreaded systems.  We used three large test suites, totalling
   446 tests, and we found a variety of
   update-related bugs in short order, and at low cost.  
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/tedsuto.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/tedsuto.pdf">.pdf</a>&nbsp;]
 <a name="pina16tedsuto"></a><pre>
 @inproceedings{pina16tedsuto,
   author = {Luis Pina and Michael Hicks},

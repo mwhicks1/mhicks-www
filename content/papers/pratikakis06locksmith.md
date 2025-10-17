@@ -30,7 +30,7 @@ benchmarks, including multi-threaded servers and Linux device
 drivers, Locksmith found several races while producing a modest
 number of false alarms.
 <p>[&nbsp;<a href="http://www.cs.umd.edu/~polyvios/locksmith/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/locksmith.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/locksmith.pdf">.pdf</a>&nbsp;]
 <a name="pratikakis06locksmith"></a><pre>
 @inproceedings{pratikakis06locksmith,
   title = {Context-sensitive Correlation Analysis for Detecting Races},

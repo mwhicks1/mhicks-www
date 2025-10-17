@@ -32,7 +32,7 @@ url: /papers/furr09ril.html
   that RIL's features will enable others to more easily build analysis
   tools for Ruby, and that our design will inspire the creation of
   similar frameworks for other dynamic languages.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/ril.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/ril.pdf">.pdf</a>&nbsp;]
 <a name="furr09ril"></a><pre>
 @inproceedings{furr09ril,
   title = {The {Ruby} Intermediate Language},

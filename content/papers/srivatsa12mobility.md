@@ -28,7 +28,7 @@ url: /papers/srivatsa12mobility.html
   experiments show that 80% of users are identified
   precisely, while only 8% are identified incorrectly, with the
   remainder mapped to a small set of users.    
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/GraphInfoFlow.CCS2012.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/GraphInfoFlow.CCS2012.pdf">.pdf</a>&nbsp;]
 <a name="srivatsa12mobility"></a><pre>
 @inproceedings{srivatsa12mobility,
   author = {Mudhakar Srivatsa and Michael Hicks},

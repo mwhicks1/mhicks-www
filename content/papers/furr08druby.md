@@ -32,7 +32,7 @@ url: /papers/furr08druby.html
   takes a major step toward bringing the benefits
   of combined static and dynamic typing to Ruby and other
   object-oriented languages.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/druby.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/druby.pdf">.pdf</a>&nbsp;]
 <a name="furr08druby"></a><pre>
 @inproceedings{furr08druby,
   author = {Michael Furr and Jong-hoon (David) An and Jeffrey S. Foster and Michael Hicks},

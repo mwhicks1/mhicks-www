@@ -27,7 +27,7 @@ url: /papers/hayden12kitsune.html
   to update five popular, open-source, single- and multi-threaded
   programs, and find that few program changes are required to use
   Kitsune, and that it incurs essentially no performance overhead.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/kitsune.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/kitsune.pdf">.pdf</a>&nbsp;]
 <a name="hayden12kitsune"></a><pre>
 @inproceedings{hayden12kitsune,
   title = {Kitsune: Efficient, General-purpose Dynamic Software Updating for {C}},

@@ -28,7 +28,7 @@ resource management marketplace have a policy-driven &ldquo;rule of law&rdquo;
 in which marketplace decisions can be made and relied upon. We have used
 lottery scheduling and the Keynote trust-management system for our
 implementation, for which we provide some initial performance indications.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/keynote-market.ps">.ps</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/keynote-market.ps">.ps</a>&nbsp;]
 <a name="AnagnostakisHIKS00"></a><pre>
 @inproceedings{AnagnostakisHIKS00,
   author = {Kostas G. Anagnostakis and Michael W. Hicks and Sotiris Ioannidis and Angelos D. Keromytis and Jonathan M. Smith},

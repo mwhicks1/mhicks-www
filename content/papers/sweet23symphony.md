@@ -59,7 +59,7 @@ details. The &lambda;-symphony formalization of Symphony, and the proofs about
 it, are also surprisingly simple, and can be a basis for follow-on
 formalization work in MPC and distributed programming. All code and
 artifacts are available, open-source.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/symphony.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/symphony.pdf">.pdf</a>&nbsp;]
 <a name="sweet23symphony"></a><pre>
 @article{sweet23symphony,
   title = {Symphony: Expressive Secure Multiparty Computation with Coordination},

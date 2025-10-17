@@ -13,7 +13,7 @@ url: /papers/mardziel13belief.html
  This short paper consists of coherent excerpts from several prior
   papers.</font><p>
 We present several techniques that aim to compute
-the belief or knowledge a party might have about the values of hidden variables involved in the computation. These techniques can be used for enforcing knowledge-based security policies and for optimizing secure multiparty computations.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/knowledge-overview.pdf">.pdf</a>&nbsp;]
+the belief or knowledge a party might have about the values of hidden variables involved in the computation. These techniques can be used for enforcing knowledge-based security policies and for optimizing secure multiparty computations.<p>[&nbsp;<a href="https://mhicks.me/papers/knowledge-overview.pdf">.pdf</a>&nbsp;]
 <a name="mardziel13belief"></a><pre>
 @inproceedings{mardziel13belief,
   author = {Piotr Mardziel and Michael Hicks and Jonathan Katz and Matthew Hammer and Aseem Rastogi and Mudhakar Srivatsa},

@@ -22,7 +22,7 @@ We report results based on measurements of various versions of
 popular open source
 programs, including BIND, OpenSSH, Apache, Vsftpd and the Linux kernel.
   <p>[&nbsp;<a href="http://www.cs.umd.edu/projects/dsu/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/evolution.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/evolution.pdf">.pdf</a>&nbsp;]
 <a name="neamtiu05evolution"></a><pre>
 @inproceedings{neamtiu05evolution,
   author = {Iulian Neamtiu and Jeffrey S. Foster and Michael Hicks},

@@ -30,7 +30,7 @@ url: /papers/meister10cir.html
   our software freely available for download at 
   <a href="http://www.cs.umd.edu/projects/PL/scil/">http://www.cs.umd.edu/projects/PL/scil/</a>.
   <p>[&nbsp;<a href="http://www.cs.umd.edu/projects/PL/scil">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/scil.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/scil.pdf">.pdf</a>&nbsp;]
 <a name="meister10cir"></a><pre>
 @article{meister10cir,
   author = {Jeffrey A. Meister and Jeffrey S. Foster and Michael Hicks},

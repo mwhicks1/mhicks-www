@@ -23,7 +23,7 @@ implications of a program's structure on future updates, to make
 update success more predictable.  We have implemented Proteus for C,
 and briefly discuss our implementation, which we have tested on
 several well-known programs.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/mutatis-journal.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/mutatis-journal.pdf">.pdf</a>&nbsp;]
 <a name="StoyleHBSN06"></a><pre>
 @article{StoyleHBSN06,
   author = {Gareth Stoyle and Michael Hicks and Gavin Bierman and Peter Sewell and Iulian Neamtiu},

@@ -28,7 +28,7 @@ url: /papers/hayden12quiescence.html
   threads in six real-world, event-driven programs to reach
   their update points ranged from 0.155 to 107.558 ms,
   and most were below 1 ms.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/quiescence.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/quiescence.pdf">.pdf</a>&nbsp;]
 <a name="hayden12quiescence"></a><pre>
 @inproceedings{hayden12quiescence,
   title = {A Study of Dynamic Software Update Quiescence for Multithreaded Programs},

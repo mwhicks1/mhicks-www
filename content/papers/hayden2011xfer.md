@@ -32,7 +32,7 @@ on our experience updating vsftpd using Ekiden.  This initial
 experience suggests that state transfer provides the availability
 benefits of in-place DSU approaches while addressing many of their
 shortcomings.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dsuxfer.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/dsuxfer.pdf">.pdf</a>&nbsp;]
 <a name="hayden2011xfer"></a><pre>
 @inproceedings{hayden2011xfer,
   title = {State Transfer for Clear and Efficient Runtime Upgrades},

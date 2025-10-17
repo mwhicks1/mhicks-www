@@ -13,7 +13,7 @@ url: /papers/srivastava07cmodjournaltr.html
 This brief note is an appendix to <em>CMod: Modular
   Information Hiding and Type-Safe Linking for C</em> (Srivastava et al., June 2007).
 It consists of the proof of soundness for the formal language presented in that paper.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/appendix-proof.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/appendix-proof.pdf">.pdf</a>&nbsp;]
 <a name="srivastava07cmodjournaltr"></a><pre>
 @techreport{srivastava07cmodjournaltr,
   author = {Saurabh Srivastava and Michael Hicks and Jeffrey S. Foster},

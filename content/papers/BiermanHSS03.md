@@ -23,7 +23,7 @@ is to provide a simple yet expressive foundation for reasoning about
 dynamically updateable software.  In this paper, we present the details of
 the calculus, give some examples of its expressive power, and discuss how
 it might be used or extended to guarantee safety properties.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/formalUpdate.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/formalUpdate.pdf">.pdf</a>&nbsp;]
 <a name="BiermanHSS03"></a><pre>
 @inproceedings{BiermanHSS03,
   author = {Gavin Bierman and Michael Hicks and Peter Sewell and Gareth Stoyle},

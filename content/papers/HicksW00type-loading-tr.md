@@ -8,7 +8,7 @@ url: /papers/HicksW00type-loading-tr.html
 <font size="+1"><b>A Calculus for Dynamic Loading</b>.
  Michael Hicks and Stephanie Weirich.
  Technical Report MS-CIS-00-07, University of Pennsylvania, April
-  2000.</font><p><p>[&nbsp;<a href="https://mwhicks1.github.io/papers/loadcalc.pdf">.pdf</a>&nbsp;]
+  2000.</font><p><p>[&nbsp;<a href="https://mhicks.me/papers/loadcalc.pdf">.pdf</a>&nbsp;]
 <a name="HicksW00type-loading-tr"></a><pre>
 @techreport{HicksW00type-loading-tr,
   author = {Michael Hicks and Stephanie Weirich},

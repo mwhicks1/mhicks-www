@@ -11,7 +11,7 @@ url: /papers/elliott18checkedc.html
  In <em>Proceedings of the IEEE Conference on Secure Development
   (SecDev)</em>, September 2018.</font><p>
 This paper presents Checked C, an extension to C designed to support spatial safety, implemented in Clang and LLVM. Checked C's design is distinguished by its focus on backward-compatibility, incremental conversion, developer control, and enabling highly performant code. Like past approaches to a safer C, Checked C employs a form of checked pointer whose accesses can be statically or dynamically verified. Performance evaluation on a set of standard benchmark programs shows overheads to be relatively low. More interestingly, Checked C introduces the notions of a checked region and bounds-safe interfaces. 
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/checked-c.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/checked-c.pdf">.pdf</a>&nbsp;]
 <a name="elliott18checkedc"></a><pre>
 @inproceedings{elliott18checkedc,
   title = {Checked C: Making C Safe by Extension},

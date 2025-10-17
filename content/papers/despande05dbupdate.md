@@ -10,7 +10,7 @@ url: /papers/despande05dbupdate.html
  Presented at the 11th High Performance Transaction Systems Workshop,
   September 2005.</font><p>
     Considers how to perform handle database schema evolution for on-line systems that are actively using the database whose schema is to be changed.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/db-dsu.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/db-dsu.pdf">.pdf</a>&nbsp;]
 <a name="despande05dbupdate"></a><pre>
 @misc{despande05dbupdate,
   author = {Amol Deshpande and Michael Hicks},

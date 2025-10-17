@@ -10,7 +10,7 @@ url: /papers/rose05scp.html
  <em>Science of Computer Programming (SCP)</em>, 58(3):366--383, December
   2005.
  Special Issue on Concurrency and Synchronization in Java programs.
-  Supercedes 2004 CSJP paper of the same name.</font><p><p>[&nbsp;<a href="https://mwhicks1.github.io/papers/dynamic-locktypes-scp.pdf">.pdf</a>&nbsp;]
+  Supercedes 2004 CSJP paper of the same name.</font><p><p>[&nbsp;<a href="https://mhicks.me/papers/dynamic-locktypes-scp.pdf">.pdf</a>&nbsp;]
 <a name="rose05scp"></a><pre>
 @article{rose05scp,
   author = {James Rose and Nikhil Swamy and Michael Hicks},

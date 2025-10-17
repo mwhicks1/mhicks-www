@@ -24,7 +24,7 @@ url: /papers/khoo09arrowlets.html
   branch and loop.  We also demonstrate how Arrowlets separate
   computation from composition with examples such as a drag-and-drop
   handler and a bubblesort animation.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/jsarrows.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/jsarrows.pdf">.pdf</a>&nbsp;]
 <a name="khoo09arrowlets"></a><pre>
 @inproceedings{khoo09arrowlets,
   author = {Yit Phang Khoo and Michael Hicks and Jeffrey S. Foster and Vibha Sazawal},

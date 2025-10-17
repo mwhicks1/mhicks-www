@@ -36,7 +36,7 @@ url: /papers/saur15strider.html
   year = 2015,
   issn = {1097-024X},
   doi = {10.1002/spe.2332},
-  opturl = {https://mwhicks1.github.io/papers/cstrider.pdf}
+  opturl = {https://mhicks.me/papers/cstrider.pdf}
 }
 </pre>
 

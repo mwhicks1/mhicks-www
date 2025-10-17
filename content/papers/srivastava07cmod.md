@@ -24,7 +24,7 @@ url: /papers/srivastava07cmod.html
   minimal effort, while rule violations reveal brittle coding practices
   including numerous information hiding violations and occasional type errors.
 <p>[&nbsp;<a href="http://www.cs.umd.edu/~saurabhs/CMod/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/cmod.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/cmod.pdf">.pdf</a>&nbsp;]
 <a name="srivastava07cmod"></a><pre>
 @inproceedings{srivastava07cmod,
   title = {Modular Information Hiding and Type Safety for {C}},

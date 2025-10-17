@@ -25,7 +25,7 @@ sensitive information.  As such, RX considers policy statements
 themselves to be potentially confidential information and subject to
 information-flow <em>metapolicies</em>.
 <p>[&nbsp;<a href="http://www.cs.umd.edu/projects/PL/rx/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/rx.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/rx.pdf">.pdf</a>&nbsp;]
 <a name="swamy06rx"></a><pre>
 @inproceedings{swamy06rx,
   title = {Managing Policy Updates in Security-Typed Languages},

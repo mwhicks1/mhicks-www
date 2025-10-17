@@ -27,7 +27,7 @@ on actual releases occurring over 1 to 2 years.  Jvolve is efficient:
 performance experiments show that incurs no overhead during steady-state
 execution.  These results demonstrate that this work is a significant step
 towards practical support for dynamic updates in virtual machines for
-managed languages.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/jvolve.pdf">.pdf</a>&nbsp;]
+managed languages.<p>[&nbsp;<a href="https://mhicks.me/papers/jvolve.pdf">.pdf</a>&nbsp;]
 <a name="subramanian09jvolve"></a><pre>
 @inproceedings{subramanian09jvolve,
   author = {Suriya Subramanian and Michael Hicks and Kathryn S. McKinley},

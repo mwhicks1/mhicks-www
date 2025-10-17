@@ -8,7 +8,7 @@ url: /papers/hicks10score.html
 <font size="+1"><b>Adapting Scrum to Managing a Research Group</b>.
  Michael Hicks and Jeffrey&nbsp;S. Foster.
  Technical Report CS-TR-4966, University of Maryland, Department of
-  Computer Science, September 2010.</font><p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group.    This paper describes Score, conceived in October 2006, and our experience using it.  We have found that Score enables us---faculty and students---to be more efficient and thereby more productive, and enhances the cohesion of our research group.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/score.pdf">.pdf</a>&nbsp;]
+  Computer Science, September 2010.</font><p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group.    This paper describes Score, conceived in October 2006, and our experience using it.  We have found that Score enables us---faculty and students---to be more efficient and thereby more productive, and enhances the cohesion of our research group.<p>[&nbsp;<a href="https://mhicks.me/papers/score.pdf">.pdf</a>&nbsp;]
 <a name="hicks10score"></a><pre>
 @techreport{hicks10score,
   title = {Adapting {Scrum} to Managing a Research Group},

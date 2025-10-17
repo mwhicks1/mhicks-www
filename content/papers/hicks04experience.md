@@ -27,7 +27,7 @@ url: /papers/hicks04experience.html
   throughput when used instead of, or in combination with, a conservative 
   garbage collector.  
 <p>[&nbsp;<a href="http://cyclone.thelanguage.org">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/ismm.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/ismm.pdf">.pdf</a>&nbsp;]
 <a name="hicks04experience"></a><pre>
 @inproceedings{hicks04experience,
   author = {Michael Hicks and Greg Morrisett and Dan Grossman and Trevor Jim},

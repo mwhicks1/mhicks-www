@@ -22,7 +22,7 @@ url: /papers/swamy08air.html
   ensure that the API is used correctly. As a consequence we can
   certify that programs written in Lair meet the requirements of
   the original AIR policy specification.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/air.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/air.pdf">.pdf</a>&nbsp;]
 <a name="swamy08air"></a><pre>
 @inproceedings{swamy08air,
   author = {Nikhil Swamy and Michael Hicks},

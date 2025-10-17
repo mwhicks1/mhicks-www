@@ -13,7 +13,7 @@ url: /papers/guts11coco.html
  This tool demonstration will show how to take advantage of Coco to facilitate using monadic libraries in practice, 
   and will discuss possible future development of Coco to fit the actual needs of programmers.
   <p>[&nbsp;<a href="http://research.microsoft.com/en-us/projects/coco/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/coco-demo.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/coco-demo.pdf">.pdf</a>&nbsp;]
 <a name="guts11coco"></a><pre>
 @inproceedings{guts11coco,
   title = {A demo of {Coco}: a compiler for monadic coercions in {ML}},

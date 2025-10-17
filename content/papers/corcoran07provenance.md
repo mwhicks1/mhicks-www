@@ -40,7 +40,7 @@ this paper, we describe the architecture of the CPA and its approach to
 label-based provenance and security policies
 and we sketch directions for further exploration on the interaction between
 the two.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/prov.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/prov.pdf">.pdf</a>&nbsp;]
 <a name="corcoran07provenance"></a><pre>
 @inproceedings{corcoran07provenance,
   author = {Brian Corcoran and Nikhil Swamy and Michael Hicks},

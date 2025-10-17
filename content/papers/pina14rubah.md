@@ -22,7 +22,7 @@ url: /papers/pina14rubah.html
   long-running applications: the H2 database, the
   Voldemort key-value store, the Jake2 implementation of the Quake
   2 shooter game, the CrossFTP server, and the JavaEmailServer.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/rubah-oopsla14.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/rubah-oopsla14.pdf">.pdf</a>&nbsp;]
 <a name="pina14rubah"></a><pre>
 @inproceedings{pina14rubah,
   title = {Rubah: {DSU} for Java on a stock {JVM}},

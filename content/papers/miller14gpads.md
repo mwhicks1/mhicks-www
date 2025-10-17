@@ -35,7 +35,7 @@ This paper presents a generic method, using a simple
   more. Performance experiments show that our approach is efficient,
   giving up little compared to the hand-optimized data structures
   developed previously.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/gpads.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/gpads.pdf">.pdf</a>&nbsp;]
 <a name="miller14gpads"></a><pre>
 @inproceedings{miller14gpads,
   author = {Andrew Miller and Michael Hicks and Jonathan Katz and Elaine Shi},

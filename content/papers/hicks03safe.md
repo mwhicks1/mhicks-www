@@ -27,7 +27,7 @@ us treat objects as if they were allocated in a lexical region.  In
 our experience, our new constructs can significantly improve
 application performance, while adding a modest programming overhead.
   <p>[&nbsp;<a href="http://cyclone.thelanguage.org">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/CS-TR-4514.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/CS-TR-4514.pdf">.pdf</a>&nbsp;]
 <a name="hicks03safe"></a><pre>
 @techreport{hicks03safe,
   author = {Michael Hicks and Greg Morrisett and Dan Grossman and Trevor Jim},

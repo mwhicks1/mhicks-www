@@ -33,7 +33,7 @@ Performance experiments show that all patches could be applied in less
 than 5 <em>ms</em>, and that the overhead on application throughput due to
 updating support ranged from 0 to at most 32%.
 <p>[&nbsp;<a href="http://www.cs.umd.edu/projects/dsu/">http</a>&nbsp;| 
-<a href="https://mwhicks1.github.io/papers/ginseng.pdf">.pdf</a>&nbsp;]
+<a href="https://mhicks.me/papers/ginseng.pdf">.pdf</a>&nbsp;]
 <a name="neamtiu06dsu"></a><pre>
 @inproceedings{neamtiu06dsu,
   author = {Iulian Neamtiu and Michael Hicks and Gareth Stoyle and Manuel Oriol},

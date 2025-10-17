@@ -38,7 +38,7 @@ url: /papers/liu13oblivious.html
   programs to demonstrate the efficiency gains our compiler achieves
   in comparison with the naive method of placing all variables in the
   same ORAM.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/csf2013oram.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/csf2013oram.pdf">.pdf</a>&nbsp;]
 <a name="liu13oblivious"></a><pre>
 @inproceedings{liu13oblivious,
   title = {Memory Trace Oblivious Program Execution},

@@ -33,7 +33,7 @@ high-performance servers: redis, memcached, and vsftpd. Our
 results show that MVEDSUa significantly reduces the update-time delay, imposes
 little overhead in steady state, and easily recovers from a variety of
 update-related errors.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/mvedsua.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/mvedsua.pdf">.pdf</a>&nbsp;]
 <a name="pina19mvedsua"></a><pre>
 @inproceedings{pina19mvedsua,
   author = {Luis Pina and Anastasios Andronidis and Michael Hicks and Cristian Cadar},

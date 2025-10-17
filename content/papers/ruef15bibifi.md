@@ -20,7 +20,7 @@ demonstrate the contest works as designed, and provides the data desired.
 We are in the process of scaling the contest to collect larger data sets 
 with the goal of making statistically significant correlations between 
 various factors of development and software security.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/bibifi-cset15.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/bibifi-cset15.pdf">.pdf</a>&nbsp;]
 <a name="ruef15bibifi"></a><pre>
 @inproceedings{ruef15bibifi,
   title = {Build It Break It: Measuring and Comparing Development Security},

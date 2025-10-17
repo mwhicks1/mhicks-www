@@ -8,7 +8,7 @@ url: /papers/GrossmanMJHWC02tr.html
 <font size="+1"><b>Formal Type Soundness for Cyclone's Region System</b>.
  Dan Grossman, Greg Morrisett, Trevor Jim, Michael Hicks, Yanling
   Wang, and James Cheney.
- Technical Report CS 2001-1856, Cornell University, November 2001.</font><p><p>[&nbsp;<a href="https://mwhicks1.github.io/papers/cyclone_regions_tr.pdf">.pdf</a>&nbsp;]
+ Technical Report CS 2001-1856, Cornell University, November 2001.</font><p><p>[&nbsp;<a href="https://mhicks.me/papers/cyclone_regions_tr.pdf">.pdf</a>&nbsp;]
 <a name="GrossmanMJHWC02tr"></a><pre>
 @techreport{GrossmanMJHWC02tr,
   author = {Dan Grossman and Greg Morrisett and Trevor Jim and Michael Hicks and Yanling Wang and James Cheney},

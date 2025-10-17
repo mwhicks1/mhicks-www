@@ -27,7 +27,7 @@ form of noninterference we term
 <em>noninterference between updates</em>.  We see this work as an
 important step toward using language-based techniques to ensure
 end-to-end security for realistic applications.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/secupdate.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/secupdate.pdf">.pdf</a>&nbsp;]
 <a name="hicks05secupdate"></a><pre>
 @inproceedings{hicks05secupdate,
   author = {Michael Hicks and Stephen Tse and Boniface Hicks and Steve Zdancewic},

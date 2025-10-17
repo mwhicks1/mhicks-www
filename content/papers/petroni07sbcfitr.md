@@ -22,7 +22,7 @@ machine monitors.  Our implementation detected all the control-flow
 modifying rootkits we could install, while imposing negligible
 overhead for both a typical web server workload and CPU-intensive
 workloads when operating at 1 second intervals on a multi-core machine.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/CS-TR-4880.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/CS-TR-4880.pdf">.pdf</a>&nbsp;]
 <a name="petroni07sbcfitr"></a><pre>
 @techreport{petroni07sbcfitr,
   author = {Petroni, Jr., Nick L. and Michael Hicks},

@@ -33,7 +33,7 @@ but may fail badly. CCBSE also performs quite well, but imposes
 additional overhead that sometimes makes it slower than SDSE.  Considering
 all our benchmarks together, Mix-CCBSE performed best on average,
 combining to good effect the features of its constituent components.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/directedSE-TR.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/directedSE-TR.pdf">.pdf</a>&nbsp;]
 <a name="ma11directedTR"></a><pre>
 @techreport{ma11directedTR,
   title = {Directed Symbolic Execution},

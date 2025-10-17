@@ -31,7 +31,7 @@ url: /papers/hicks06atomic.html
   releases to the beginning and end of atomic sections.  Our algorithm
   is efficient, and provides parallelism according to precision of the
   alias analysis while minimizing the number of required locks.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/infatomic.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/infatomic.pdf">.pdf</a>&nbsp;]
 <a name="hicks06atomic"></a><pre>
 @inproceedings{hicks06atomic,
   title = {Inferring Locking for Atomic Sections},

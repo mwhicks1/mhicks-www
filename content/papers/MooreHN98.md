@@ -17,7 +17,7 @@ difficult to support update-in-place semantics. In addition, Flash
 chips are only guaranteed to survive a limited number of erase
 cycles. Gordon has been designed to overcome these difficulties, and
 our performance analysis demonstrates good performance and reasonable
-lifetimes for appropriate application domains.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/flash.ps">.ps</a>&nbsp;]
+lifetimes for appropriate application domains.<p>[&nbsp;<a href="https://mhicks.me/papers/flash.ps">.ps</a>&nbsp;]
 <a name="MooreHN98"></a><pre>
 @unpublished{MooreHN98,
   author = {Jonathan T. Moore and Michael Hicks and Scott Nettles},

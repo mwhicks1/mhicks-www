@@ -7,7 +7,7 @@ url: /papers/hicks10scoreshort.html
 
 <font size="+1"><b>Score: Agile Research Group Management</b>.
  Michael Hicks and Jeffrey&nbsp;S. Foster.
- <em>Communications of the ACM</em>, 53(10):30--31, October 2010.</font><p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group.    This paper describes Score, conceived in October 2006, and our experience using it.  We have found that Score enables us---faculty and students---to be more efficient and thereby more productive, and enhances the cohesion of our research group.<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/score-short.pdf">.pdf</a>&nbsp;]
+ <em>Communications of the ACM</em>, 53(10):30--31, October 2010.</font><p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group.    This paper describes Score, conceived in October 2006, and our experience using it.  We have found that Score enables us---faculty and students---to be more efficient and thereby more productive, and enhances the cohesion of our research group.<p>[&nbsp;<a href="https://mhicks.me/papers/score-short.pdf">.pdf</a>&nbsp;]
 <a name="hicks10scoreshort"></a><pre>
 @article{hicks10scoreshort,
   title = {Score: Agile Research Group Management},

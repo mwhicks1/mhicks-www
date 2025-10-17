@@ -39,7 +39,7 @@ pleasing modular soundness property: if a thread executes a sequence
 of statements on variables it owns, the statements are serializable
 within a valid execution, and thus their effects can be reasoned about
 in isolation from other threads in the program.
-<p>[&nbsp;<a href="https://mwhicks1.github.io/papers/conccheck-full.pdf">.pdf</a>&nbsp;]
+<p>[&nbsp;<a href="https://mhicks.me/papers/conccheck-full.pdf">.pdf</a>&nbsp;]
 <a name="martin10ownership"></a><pre>
 @inproceedings{martin10ownership,
   author = {Jean-Philippe Martin and Michael Hicks and Manuel Costa and Periklis Akritidis and Miguel Castro},

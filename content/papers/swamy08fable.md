@@ -31,7 +31,7 @@ access control and provenance policies.
  To our knowledge, no existing framework enables
 the enforcement of such a wide variety of security policies with an
 equally high level of assurance.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/fable.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/fable.pdf">.pdf</a>&nbsp;]
 <a name="swamy08fable"></a><pre>
 @inproceedings{swamy08fable,
   author = {Nikhil Swamy and Brian Corcoran and Michael Hicks},

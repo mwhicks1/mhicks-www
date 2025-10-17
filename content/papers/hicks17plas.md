@@ -14,7 +14,7 @@ url: /papers/hicks17plas.html
     Symposium on Computer and Communications Security. It discusses
     the role of programming languages in ensuring oblivious (side
     channel-free) computation.
-  <p>[&nbsp;<a href="https://mwhicks1.github.io/papers/mto-plas-keynote.pdf">.pdf</a>&nbsp;]
+  <p>[&nbsp;<a href="https://mhicks.me/papers/mto-plas-keynote.pdf">.pdf</a>&nbsp;]
 <a name="hicks17plas"></a><pre>
 @inproceedings{hicks17plas,
   author = {Michael Hicks},
