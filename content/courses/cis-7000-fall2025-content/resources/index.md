@@ -25,6 +25,16 @@ build:
 
 ## On doing research
 
+### Talking and writing about research
+
+Research aims to create new knowledge, by discovery, experimentation, and analysis. Knowledge is only created if it is communicated and disseminated. Thus to be a successful researcher you need to write and talk about your research successfully so that your audience understands it.
+
+- [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw22icfp.pdf), Derek Dreyer, 2022
+- [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html), Mike Ernst, 2022
+    - See also [How to write a technical paper or research paper](https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html), 2024
+- [How to give a great research talk](https://simon.peytonjones.org/great-research-talk/), by Simon Peyton-Jones, 2016
+- [How to write a conference talk](http://www.pl-enthusiast.net/2019/01/02/how-to-write-a-conference-talk/), by Mike Hicks, 2019
+
 ### Finding and reading papers
 
 Understanding what others have done is critical to being able to identify problems, improve how you solve problems, and communicate how your solutions relate to what has been done before. Here are a few sites that facilitate finding both published and not (yet) published academic papers. Additionally, many researchers link to their published papers off of their website.
