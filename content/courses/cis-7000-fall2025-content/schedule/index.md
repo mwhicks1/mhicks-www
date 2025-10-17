@@ -35,7 +35,7 @@ Jump to [**next class**](#next_class).
 | Oct 30 | Student: Noopur Bhatt | |
 | Nov 4 | Student: Jiayi Xin | |
 | Nov 6 | Student: Bharath Namboothiry | |
-| Nov 11 | Student: Davis Brown | |
+| Nov 11 | Students: Davis Brown and Thia Richey | |
 | Nov 13 | Student: Lucia Kulzer | |
 | Nov 18 | Student: Ali Shirzad | |
 | Nov 20 | Student: Zhiyao Tang | |
