@@ -448,7 +448,7 @@ Amol Deshpande and Michael Hicks.
 Presented at the 11th High Performance Transaction Systems Workshop,
 September 2005.&lt;/font>&lt;p>
 Considers how to perform handle database schema evolution for on-line systems that are actively using the database whose schema is to be changed.&lt;/p>
- &lt;p>[&amp;nbsp;&lt;a href="https://mwhicks1.github.io/papers/db-dsu.pdf">.pdf&lt;/a>&amp;nbsp;]
+ &lt;p>[&amp;nbsp;&lt;a href="https://mhicks.me/papers/db-dsu.pdf">.pdf&lt;/a>&amp;nbsp;]
 &lt;a name="despande05dbupdate">&lt;/a>&lt;pre>
 @misc{despande05dbupdate,
  author = {Amol Deshpande and Michael Hicks},
@@ -570,7 +570,7 @@ we will present in a tool demonstration. The presentation will concentrate
 on the development of a small, statically typed Ruby program,
 illustrating how DRuby might be used in practice. The audience will
 learn about some of the practical design decisions that went into DRuby,
-and how to use it to develop a type-safe Ruby program.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/rubydemo.pdf">.pdf&lt;/a> ]
+and how to use it to develop a type-safe Ruby program.&lt;p>[ &lt;a href="https://mhicks.me/papers/rubydemo.pdf">.pdf&lt;/a> ]
 &lt;a name="furr09stop">&lt;/a>&lt;pre>
 @inproceedings{furr09stop,
 title = {Tests to the Left of Me, Types to the Right: How Not to Get Stuck in the Middle of a {Ruby} Execution (A Demo of Diamondback Ruby)},
@@ -585,7 +585,7 @@ Dan Grossman, Michael Hicks, Trevor Jim, and Greg Morrisett.
 Cyclone is an effort to bring safety to C. This article briefly
 introduces Cyclone.&lt;/p>
  &lt;p>[&amp;nbsp;&lt;a href="http://cyclone.thelanguage.org">http&lt;/a>&amp;nbsp;| 
-&lt;a href="https://mwhicks1.github.io/papers/cyclone-cuj.pdf">.pdf&lt;/a>&amp;nbsp;]
+&lt;a href="https://mhicks.me/papers/cyclone-cuj.pdf">.pdf&lt;/a>&amp;nbsp;]
 &lt;a name="grossman04cuj">&lt;/a>&lt;pre>
 @article{grossman04cuj,
  author = {Dan Grossman and Michael Hicks and Trevor Jim and Greg Morrisett},
@@ -621,7 +621,7 @@ Cyclone has required altering about 8% of the code; of the
 changes, only 6% (of the 8%) were region annotations.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/GrossmanMJHWC02tr.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mhicks.me/papers/GrossmanMJHWC02tr.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Formal Type Soundness for Cyclone&amp;rsquo;s Region System&lt;/b>.
 Dan Grossman, Greg Morrisett, Trevor Jim, Michael Hicks, Yanling
 Wang, and James Cheney.
-Technical Report CS 2001-1856, Cornell University, November 2001.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/cyclone_regions_tr.pdf">.pdf&lt;/a> ]
+Technical Report CS 2001-1856, Cornell University, November 2001.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mhicks.me/papers/cyclone_regions_tr.pdf">.pdf&lt;/a> ]
 &lt;a name="GrossmanMJHWC02tr">&lt;/a>&lt;pre>
 @techreport{GrossmanMJHWC02tr,
 author = {Dan Grossman and Greg Morrisett and Trevor Jim and Michael Hicks and Yanling Wang and James Cheney},
@@ -778,7 +778,7 @@ Technical Report CS-TR-4997, University of Maryland Department of
 Computer Science, November 2011.
 Extended version of VSTTE'12 paper with proofs of theorems and
 additional discussion.&lt;/font>&lt;p>
-Dynamic software updating (DSU) systems allow running programs to be patched on-the-fly to add features or fix bugs. While dynamic updates can be tricky to write, techniques for establishing their correctness have received little attention. In this paper, we present the first methodology for automatically verifying the correctness of dynamic updates. Programmers express the desired properties of an updated execution using client-oriented specifications (CO-specs), which can describe a wide range of client-visible behaviors. We verify CO-specs automatically by using off-the-shelf tools to analyze a merged program, which is a combination of the old and new versions of a program. We formalize the merging transformation and prove it correct. We have implemented a program merger for C, and applied it to updates for the Redis key-value store and several synthetic programs. Using Thor, a verification tool, we could verify many of the synthetic programs; using Otter, a symbolic executor, we could analyze every program, often in less than a minute. Both tools were able to detect faulty patches and incurred only a factor-of-four slowdown, on average, compared to single version programs.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/dsucorrectnessTR.pdf">.pdf&lt;/a> ]
+Dynamic software updating (DSU) systems allow running programs to be patched on-the-fly to add features or fix bugs. While dynamic updates can be tricky to write, techniques for establishing their correctness have received little attention. In this paper, we present the first methodology for automatically verifying the correctness of dynamic updates. Programmers express the desired properties of an updated execution using client-oriented specifications (CO-specs), which can describe a wide range of client-visible behaviors. We verify CO-specs automatically by using off-the-shelf tools to analyze a merged program, which is a combination of the old and new versions of a program. We formalize the merging transformation and prove it correct. We have implemented a program merger for C, and applied it to updates for the Redis key-value store and several synthetic programs. Using Thor, a verification tool, we could verify many of the synthetic programs; using Otter, a symbolic executor, we could analyze every program, often in less than a minute. Both tools were able to detect faulty patches and incurred only a factor-of-four slowdown, on average, compared to single version programs.&lt;p>[ &lt;a href="https://mhicks.me/papers/dsucorrectnessTR.pdf">.pdf&lt;/a> ]
 &lt;a name="hayden11dsucorrectTR">&lt;/a>&lt;pre>
 @techreport{hayden11dsucorrectTR,
 title = {Specifying and Verifying the Correctness of Dynamic Software Updates},
@@ -922,7 +922,7 @@ difficult in prior DSU systems. We have used Kitsune
 to update six popular, open-source, single- and multi-threaded
 programs, and find that few program changes are required to use
 Kitsune, that it incurs essentially no performance overhead,
-and that update times are fast.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/kitsune-journal.pdf">.pdf&lt;/a> ]
+and that update times are fast.&lt;p>[ &lt;a href="https://mhicks.me/papers/kitsune-journal.pdf">.pdf&lt;/a> ]
 &lt;a name="hayden14kitsune-journal">&lt;/a>&lt;pre>
 @article{hayden14kitsune-journal,
 title = {Efficient, General-purpose Dynamic Software Updating for C},
@@ -963,7 +963,7 @@ shortcomings.&lt;/p></description></item><item><title>Publication</title><link>h
 Michael Hicks.
 PhD thesis, Department of Computer and Information Science,
 University of Pennsylvania, August 2001.
-Winner of the 2002 ACM SIGPLAN Doctoral Dissertation award.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/thesis.pdf">.pdf&lt;/a> ]
+Winner of the 2002 ACM SIGPLAN Doctoral Dissertation award.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mhicks.me/papers/thesis.pdf">.pdf&lt;/a> ]
 &lt;a name="Hicks01">&lt;/a>&lt;pre>
 @phdthesis{Hicks01,
 author = {Michael Hicks},
@@ -1155,7 +1155,7 @@ downgrading-oriented policies, existing research points the way
 to providing such support.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/hicks10score.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mhicks.me/papers/hicks10score.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Adapting Scrum to Managing a Research Group&lt;/b>.
 Michael Hicks and Jeffrey S. Foster.
 Technical Report CS-TR-4966, University of Maryland, Department of
-Computer Science, September 2010.&lt;/font>&lt;p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group. This paper describes Score, conceived in October 2006, and our experience using it. We have found that Score enables us&amp;mdash;faculty and students&amp;mdash;to be more efficient and thereby more productive, and enhances the cohesion of our research group.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/score.pdf">.pdf&lt;/a> ]
+Computer Science, September 2010.&lt;/font>&lt;p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group. This paper describes Score, conceived in October 2006, and our experience using it. We have found that Score enables us&amp;mdash;faculty and students&amp;mdash;to be more efficient and thereby more productive, and enhances the cohesion of our research group.&lt;p>[ &lt;a href="https://mhicks.me/papers/score.pdf">.pdf&lt;/a> ]
 &lt;a name="hicks10score">&lt;/a>&lt;pre>
 @techreport{hicks10score,
 title = {Adapting {Scrum} to Managing a Research Group},
@@ -1167,7 +1167,7 @@ year = 2010
 }
 &lt;/pre>&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/hicks10scoreshort.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mhicks.me/papers/hicks10scoreshort.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Score: Agile Research Group Management&lt;/b>.
 Michael Hicks and Jeffrey S. Foster.
-&lt;em>Communications of the ACM&lt;/em>, 53(10):30&amp;ndash;31, October 2010.&lt;/font>&lt;p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group. This paper describes Score, conceived in October 2006, and our experience using it. We have found that Score enables us&amp;mdash;faculty and students&amp;mdash;to be more efficient and thereby more productive, and enhances the cohesion of our research group.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/score-short.pdf">.pdf&lt;/a> ]
+&lt;em>Communications of the ACM&lt;/em>, 53(10):30&amp;ndash;31, October 2010.&lt;/font>&lt;p>Score is an adaptation of the Scrum agile software development methodology to the task of managing Ph.D. students in an academic research group. This paper describes Score, conceived in October 2006, and our experience using it. We have found that Score enables us&amp;mdash;faculty and students&amp;mdash;to be more efficient and thereby more productive, and enhances the cohesion of our research group.&lt;p>[ &lt;a href="https://mhicks.me/papers/score-short.pdf">.pdf&lt;/a> ]
 &lt;a name="hicks10scoreshort">&lt;/a>&lt;pre>
 @article{hicks10scoreshort,
 title = {Score: Agile Research Group Management},
@@ -1262,7 +1262,7 @@ Programming Languages and Security, colocated with the ACM
 Symposium on Computer and Communications Security. It discusses
 the role of programming languages in ensuring oblivious (side
 channel-free) computation.&lt;/p>
- &lt;p>[&amp;nbsp;&lt;a href="https://mwhicks1.github.io/papers/mto-plas-keynote.pdf">.pdf&lt;/a>&amp;nbsp;]
+ &lt;p>[&amp;nbsp;&lt;a href="https://mhicks.me/papers/mto-plas-keynote.pdf">.pdf&lt;/a>&amp;nbsp;]
 &lt;a name="hicks17plas">&lt;/a>&lt;pre>
 @inproceedings{hicks17plas,
  author = {Michael Hicks},
@@ -1297,7 +1297,7 @@ objectives are considered for each of three systems, Java, Erlang, and
 TIL. In particular, I examine the use of types and intermediate
 representations in the system implementation. In addition, the systems
 are compared to examine how one system&amp;rsquo;s mechanisms may (or may not)
-be applied to another.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/typedIR.ps">.ps&lt;/a> ]
+be applied to another.&lt;p>[ &lt;a href="https://mhicks.me/papers/typedIR.ps">.ps&lt;/a> ]
 &lt;a name="Hicks98A">&lt;/a>&lt;pre>
 @techreport{Hicks98A,
 author = {Michael Hicks},
@@ -1679,7 +1679,7 @@ algorithm is reasonably fast, and that user performance and network
 utilization are both significantly improved.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/HicksW00type-loading-tr.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mhicks.me/papers/HicksW00type-loading-tr.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>A Calculus for Dynamic Loading&lt;/b>.
 Michael Hicks and Stephanie Weirich.
 Technical Report MS-CIS-00-07, University of Pennsylvania, April
-2000.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/loadcalc.pdf">.pdf&lt;/a> ]
+2000.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mhicks.me/papers/loadcalc.pdf">.pdf&lt;/a> ]
 &lt;a name="HicksW00type-loading-tr">&lt;/a>&lt;pre>
 @techreport{HicksW00type-loading-tr,
 author = {Michael Hicks and Stephanie Weirich},
@@ -1698,7 +1698,7 @@ In &lt;em>Informal Proceedings of the Workshop on Programming Languages
 and Quantum Computing (PLanQC)&lt;/em>, June 2021.&lt;/font>&lt;p>
 This abstract presents recent extensions to VOQC, a verified optimizer for quantum circuits. All code described in this abstract is freely available online at &lt;a href="https://github.com/inQWIRE/SQIR/">
 &lt;a href="https://github.com/inQWIRE/SQIR/" target="_blank" rel="noopener">https://github.com/inQWIRE/SQIR/&lt;/a>&lt;/a>.&lt;/p>
- &lt;p>[&amp;nbsp;&lt;a href="https://mwhicks1.github.io/papers/VOQC_PLanQC_2021.pdf">.pdf&lt;/a>&amp;nbsp;]
+ &lt;p>[&amp;nbsp;&lt;a href="https://mhicks.me/papers/VOQC_PLanQC_2021.pdf">.pdf&lt;/a>&amp;nbsp;]
 &lt;a name="hietala21expvoqc">&lt;/a>&lt;pre>
 @inproceedings{hietala21expvoqc,
  title = {Applying and Expanding the {VOQC} Toolkit},
@@ -1723,7 +1723,7 @@ Programming Languages (POPL)&lt;/em>, January 2021.
 We present VOQC, the first fully &lt;em>verified optimizer for quantum circuits&lt;/em>, written using the Coq proof assistant. Quantum circuits are expressed as programs in a simple, low-level language called SQIR, a &lt;em>simple quantum intermediate representation&lt;/em>, which is deeply embedded in Coq. Optimizations and other transformations are expressed as Coq functions, which are proved correct with respect to a semantics of SQIR programs.
 SQIR uses a semantics of matrices of complex numbers, which is the standard for quantum computation, but treats matrices symbolically in order to reason about programs that use an arbitrary number of quantum bits.
 SQIR&amp;rsquo;s careful design and our provided automation make it possible to write and verify a broad range of optimizations in VOQC,
-including full-circuit transformations from cutting-edge optimizers.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/voqc.pdf">.pdf&lt;/a> ]
+including full-circuit transformations from cutting-edge optimizers.&lt;p>[ &lt;a href="https://mhicks.me/papers/voqc.pdf">.pdf&lt;/a> ]
 &lt;a name="hietala21voqc">&lt;/a>&lt;pre>
 @inproceedings{hietala21voqc,
 author = {Kesha Hietala and Robert Rand and Shih-Han Hung and Xiaodi Wu and Michael Hicks},
@@ -1742,7 +1742,7 @@ Extends POPL'21 paper.&lt;/font>&lt;p>
 We present VOQC, the first fully &lt;em>verified optimizer for quantum circuits&lt;/em>, written using the Coq proof assistant. Quantum circuits are expressed as programs in a simple, low-level language called SQIR, a &lt;em>small quantum intermediate representation&lt;/em>, which is deeply embedded in Coq. Optimizations and other transformations are expressed as Coq functions, which are proved correct with respect to a semantics of SQIR programs.
 SQIR programs denote complex-valued matrices, as is standard in quantum computation, but we treat matrices symbolically in order to reason about programs that use an arbitrary number of quantum bits.
 SQIR&amp;rsquo;s careful design and our provided automation make it possible to write and verify a broad range of optimizations in VOQC,
-including full-circuit transformations from cutting-edge optimizers.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/voqc-journal.pdf">.pdf&lt;/a> ]
+including full-circuit transformations from cutting-edge optimizers.&lt;p>[ &lt;a href="https://mhicks.me/papers/voqc-journal.pdf">.pdf&lt;/a> ]
 &lt;a name="hietala22voqc-journal">&lt;/a>&lt;pre>
 @article{hietala22voqc-journal,
 author = {Kesha Hietala and Robert Rand and Liyi Li and Shih-Han Hung and Xiaodi Wu and Michael Hicks},
@@ -2383,7 +2383,7 @@ Technology Alliance&lt;/em>, September 2013.
 This short paper consists of coherent excerpts from several prior
 papers.&lt;/font>&lt;p>
 We present several techniques that aim to compute
-the belief or knowledge a party might have about the values of hidden variables involved in the computation. These techniques can be used for enforcing knowledge-based security policies and for optimizing secure multiparty computations.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/knowledge-overview.pdf">.pdf&lt;/a> ]
+the belief or knowledge a party might have about the values of hidden variables involved in the computation. These techniques can be used for enforcing knowledge-based security policies and for optimizing secure multiparty computations.&lt;p>[ &lt;a href="https://mhicks.me/papers/knowledge-overview.pdf">.pdf&lt;/a> ]
 &lt;a name="mardziel13belief">&lt;/a>&lt;pre>
 @inproceedings{mardziel13belief,
 author = {Piotr Mardziel and Michael Hicks and Jonathan Katz and Matthew Hammer and Aseem Rastogi and Mudhakar Srivatsa},
@@ -2569,7 +2569,7 @@ difficult to support update-in-place semantics. In addition, Flash
 chips are only guaranteed to survive a limited number of erase
 cycles. Gordon has been designed to overcome these difficulties, and
 our performance analysis demonstrates good performance and reasonable
-lifetimes for appropriate application domains.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/flash.ps">.ps&lt;/a> ]
+lifetimes for appropriate application domains.&lt;p>[ &lt;a href="https://mhicks.me/papers/flash.ps">.ps&lt;/a> ]
 &lt;a name="MooreHN98">&lt;/a>&lt;pre>
 @unpublished{MooreHN98,
 author = {Jonathan T. Moore and Michael Hicks and Scott Nettles},
@@ -5232,7 +5232,7 @@ James Rose, Nikhil Swamy, and Michael Hicks.
 &lt;em>Science of Computer Programming (SCP)&lt;/em>, 58(3):366&amp;ndash;383, December
 2005.
 Special Issue on Concurrency and Synchronization in Java programs.
-Supercedes 2004 CSJP paper of the same name.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/dynamic-locktypes-scp.pdf">.pdf&lt;/a> ]
+Supercedes 2004 CSJP paper of the same name.&lt;/font>&lt;p>&lt;p>[ &lt;a href="https://mhicks.me/papers/dynamic-locktypes-scp.pdf">.pdf&lt;/a> ]
 &lt;a name="rose05scp">&lt;/a>&lt;pre>
 @article{rose05scp,
 author = {James Rose and Nikhil Swamy and Michael Hicks},
@@ -5509,7 +5509,7 @@ University of Maryland, June 2007.&lt;/font>&lt;p>
 This brief note is an appendix to &lt;em>CMod: Modular
 Information Hiding and Type-Safe Linking for C&lt;/em> (Srivastava et al., June 2007).
 It consists of the proof of soundness for the formal language presented in that paper.&lt;/p>
-&lt;p>[&amp;nbsp;&lt;a href="https://mwhicks1.github.io/papers/appendix-proof.pdf">.pdf&lt;/a>&amp;nbsp;]
+&lt;p>[&amp;nbsp;&lt;a href="https://mhicks.me/papers/appendix-proof.pdf">.pdf&lt;/a>&amp;nbsp;]
 &lt;a name="srivastava07cmodjournaltr">&lt;/a>&lt;pre>
 @techreport{srivastava07cmodjournaltr,
  author = {Saurabh Srivastava and Michael Hicks and Jeffrey S. Foster},
@@ -5633,7 +5633,7 @@ on actual releases occurring over 1 to 2 years. Jvolve is efficient:
 performance experiments show that incurs no overhead during steady-state
 execution. These results demonstrate that this work is a significant step
 towards practical support for dynamic updates in virtual machines for
-managed languages.&lt;p>[ &lt;a href="https://mwhicks1.github.io/papers/jvolve.pdf">.pdf&lt;/a> ]
+managed languages.&lt;p>[ &lt;a href="https://mhicks.me/papers/jvolve.pdf">.pdf&lt;/a> ]
 &lt;a name="subramanian09jvolve">&lt;/a>&lt;pre>
 @inproceedings{subramanian09jvolve,
 author = {Suriya Subramanian and Michael Hicks and Kathryn S. McKinley},
