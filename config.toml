@@ -194,7 +194,12 @@ enableEmoji = true
     url = "/courses/"
     parent = "Teaching"
     weight = 2
-    
+  [[menu.header]]
+    name = "Talks"
+    title = "Talks"
+    url = "/talks/"
+    weight = 5
+
   # Configure footer
   [[menu.footer]]
     name = "Contact"
