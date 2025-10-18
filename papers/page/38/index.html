@@ -1,83 +1,136 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Mike Hicks</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Mike Hicks"/><meta property="og:title" content="Publications | Mike Hicks"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Mike Hicks"/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
-<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
-<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/disselkoen24vgd.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>How We Built Cedar: A Verification-Guided Approach</b>.
-Craig Disselkoen, Aaron Eline, Shaobo He, Kyle Headley, Michael
-Hicks, Kesha Hietala, John Kastner, Anwar Mamat, Matt McCutchen, Neha Rungta,
-Bhakti Shah, Emina Torlak, and Andrew Wells.
-In <em>Proceedings of the European Software Engineering Conference
-and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
-(ESEC/FSE)</em>, July 2024.
-Industry papers track.</font></p><p>This paper presents <em>verification-guided development</em> (VGD), a software development process that we used to develop Cedar, a new policy language for expressive, fast, safe, and analyzable authorization. Developing a system with VGD involves two activities: (1) writing a readable, executable model of the system and proving mechanically-verified properties about it; and (2) writing production code for the system, using extensive <em>differential random testing</em> (DRT) to check that the production code’s behavior matches that of the model, and <em>property-based testing</em> (PBT) to check properties of unmodeled components of the production code. Using VGD for Cedar has been beneficial: we are able to build fast, idiomatic production code and find and fix bugs during the development phase: when carrying out proofs we found and fixed four soundness bugs in Cedar’s policy validator, and when carrying out DRT and PBT we found and fixed 21 bugs in the Cedar parser, evaluator, authorizer, and validator.</p><p>[ <a href="https://www.amazon.science/publications/how-we-built-cedar-a-verification-guided-approach">http</a> ]
-<a name="disselkoen24vgd"></a></p><pre>@inproceedings{disselkoen24vgd,
-title = {How We Built Cedar: A Verification-Guided Approach},
-author = {Craig Disselkoen and Aaron Eline and Shaobo He and Kyle Headley and Michael Hicks and Kesha Hietala and John Kastner and Anwar Mamat and Matt McCutchen and Neha Rungta and Bhakti Shah and Emina Torlak and Andrew Wells},
-booktitle = {Proceedings of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)},
-note = {Industry papers track},
-year = 2024,
-month = jul
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications |</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content=""/><meta property="og:title" content="Publications | "/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta itemprop="datePublished" content="2025-10-11T16:07:06-04:00"/><meta itemprop="dateModified" content="2025-10-11T16:07:06-04:00"/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title=""/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/papers/mwh.html" title="Publications">Publications</a>
+<a class="dropdown-item db link pv2 ph3" href="/research/" title="Other Research">Other</a></div></div><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
+<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksNettles03.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Dynamic Software Updating</b>.
+Michael Hicks and Scott M. Nettles.
+<em>ACM Transactions on Programming Languages and Systems
+(TOPLAS)</em>, 27(6):1049–1096, November 2005.</font></p><p>Many important applications must run continuously and without interruption,
+yet must be changed to fix bugs or upgrade functionality. No
+prior general-purpose methodology for dynamic updating achieves a practical
+balance between flexibility, robustness, low overhead, and ease of use.</p><p>We present an approach for C-like languages that provides type-safe dynamic
+updating of native code in an extremely flexible manner (code, data, and
+types may be updated, at programmer-determined times) and permits the use of
+automated tools to aid the programmer in the updating process. Our system
+is based on dynamic patches that contain both the updated code and the code
+needed to transition from the old version to the new. A novel aspect of our
+patches is that they consist of verifiable native code (e.g. Proof-Carrying
+Code or Typed Assembly Language), which is native code accompanied by
+annotations that allow on-line verification of the code’s safety. We
+discuss how patches are generated mostly automatically, how they are applied
+using dynamic-linking technology, and how code is compiled to make it
+updateable.</p><p>To concretely illustrate our system, we have implemented a
+dynamically-updateable web server, FlashEd. We discuss our experience
+building and maintaining FlashEd, and generalize to present observations
+about updateable software development. Performance experiments show that
+for FlashEd, the overhead due to updating is low: typically less than 1
+percent.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksMN97.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>The Measured Cost of Copying Garbage Collection Mechanisms</b>.
+Michael W. Hicks, Jonathan T. Moore, and Scott M. Nettles.
+In <em>Proceedings of the ACM SIGPLAN Conference on Functional
+Programming (ICFP)</em>, pages 292–305. ACM, June 1997.</font></p><p>We examine the costs and benefits of a variety of copying garbage
+collection (GC) mechanisms across multiple architectures and
+programming languages. Our study covers both low-level object
+representation and copying issues as well as the mechanisms needed to
+support more advanced techniques such as generational collection,
+large object spaces, and type-segregated areas.</p><p>Our experiments are made possible by a novel performance analysis
+tool, <em>Oscar.</em> Oscar allows us to capture snapshots of programming
+language heaps that may then be used to replay garbage
+collections. The replay program is self-contained and written in C,
+which makes it easy to port to other architectures and to analyze with
+standard performance analysis tools. Furthermore, it is possible to
+study additional programming languages simply by instrumenting
+existing implementations to capture heap snapshots.</p><p>In general, we found that careful implementation of GC mechanisms can
+have a significant benefit. For a simple collector, we measured
+improvements of as much as 95 percent. We then found that while the addition
+of advanced features can have a sizeable overhead (up to 15 percent), the
+net benefit is quite positive, resulting in additional gains of up to
+42 percent. We also found that results varied depending upon the platform
+and language. Machine characteristics such as cache arrangements,
+instruction set (RISC/CISC), and register pool were important. For
+different languages, average object size seemed to be most important.</p><p>The results of our experiments demonstrate the usefulness of a tool
+like Oscar for studying GC performance. Without much overhead, we can
+easily identify areas where programming language implementors could
+collaborate with GC implementors to improve GC performance.</p><p>[ <a href="http://www.cis.upenn.edu/~oscar/icfp97.ps">.ps</a> ]
+<a name="HicksMN97"></a></p><pre>@inproceedings{HicksMN97,
+author = {Michael W. Hicks and Jonathan T. Moore and Scott M. Nettles},
+title = {The Measured Cost of Copying Garbage Collection Mechanisms},
+booktitle = {Proceedings of the {ACM} {SIGPLAN} Conference on
+Functional Programming (ICFP)},
+year = 1997,
+publisher = {{ACM}},
+pages = {292–305},
+month = {June}
 }
-</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/despande05dbupdate.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Toward On-line Schema Evolution for Non-stop Systems</b>.
-Amol Deshpande and Michael Hicks.
-Presented at the 11th High Performance Transaction Systems Workshop,
-September 2005.</font></p><p>Considers how to perform handle database schema evolution for on-line systems that are actively using the database whose schema is to be changed.</p><p>[ <a href="https://mhicks.me/papers/db-dsu.pdf">.pdf</a> ]
-<a name="despande05dbupdate"></a></p><pre>@misc{despande05dbupdate,
-  author = {Amol Deshpande and Michael Hicks},
-  title = {Toward On-line Schema Evolution for Non-stop Systems},
-  howpublished = {Presented at the 11th High Performance Transaction Systems Workshop},
-  month = {September},
-  location = {Pacific Grove, CA},
-  year = 2005
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksMAGN99.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>PLANet: An Active Internetwork</b>.
+Michael Hicks, Jonathan T. Moore, D. Scott Alexander, Carl A. Gunter,
+and Scott Nettles.
+In <em>Proceedings of the Eighteenth IEEE Computer and
+Communication Society INFOCOM Conference</em>, pages 1124–1133. IEEE, March
+1999.</font></p><p>We present <em>PLANet</em>: an active network architecture and
+implementation. In addition to a standard suite of Internet-like
+services, PLANet has two key programmability features:</p><p></p><ol>all packets contain programs
+router functionality may be extended dynamically</ol>Packet programs are written in our special purpose programming
+language PLAN, the Packet Language for Active Networks, while dynamic
+router extensions are written in OCaml, a dialect of ML.<p>Currently, PLANet routers run as byte-code-interpreted Linux
+user-space applications, and support Ethernet and IP as link layers.
+PLANet achieves respectable performance on standard networking
+operations: on 300 MHz Pentium-II&#39;s attached to 100 Mbps Ethernet,
+PLANet can route 48 Mbps and switch over 5000 packets per second. We
+demonstrate the utility of PLANet&#39;s activeness by showing
+experimentally how it can non-trivially improve application and
+aggregate network performance in congested conditions.</p><p>[ <a href="http://www.cis.upenn.edu/~switchware/papers/planet.ps">.ps</a> ]
+<a name="HicksMAGN99"></a></p><pre>@inproceedings{HicksMAGN99,
+  author = {Michael Hicks and Jonathan T. Moore and D. Scott Alexander and Carl A. Gunter and Scott Nettles},
+  title = {{PLANet}: An Active Internetwork},
+  booktitle = {Proceedings of the Eighteenth {IEEE} Computer and
+		  Communication Society {INFOCOM} Conference},
+  month = {March},
+  year = 1999,
+  publisher = {{IEEE}},
+  pages = {1124--1133}
 }
 </pre><hr/><p><em>This file was generated by
-<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/deng23mqcc.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Automating NISQ Application Design with Meta Quantum Circuits with
-Constraints (MQCC)</b>.
-Haowei Deng, Yuxiang Peng, Michael Hicks, and Xiaodi Wu.
-<em>ACM Transactions on Quantum Computing (TQC)</em>, 4(3), April
-2023.</font></p><p>Near-term intermediate scale quantum (NISQ) computers are likely to have very restricted hardware resources, where precisely controllable qubits are expensive, error-prone, and scarce. Programmers of such computers must therefore balance trade-offs among a large number of (potentially heterogeneous) factors specific to the targeted application and quantum hardware. To assist them, we propose Meta Quantum Circuits with Constraints (MQCC), a meta-programming framework for quantum programs. Programmers express their application as a succinct collection of normal quantum circuits stitched together by a set of (manually or automatically) added meta-level choice variables, whose values are constrained according to a programmable set of quantitative optimization criteria. MQCC’s compiler generates the appropriate constraints and solves them via an SMT solver, producing an optimized, runnable program.
-We showcase a few MQCC’s applications for its generality including an automatic generation of efficient error syndrome extraction schemes for fault-tolerant quantum error correction with heterogeneous qubits and an approach to writing approximate quantum Fourier transformation and quantum phase estimation that smoothly trades off accuracy and resource use.
-We also illustrate that MQCC can easily encode prior one-off NISQ application designs —multi-programming (MP), crosstalk mitigation (CM)— as well as a combination of their optimization goals (i.e., a combined MP-CM).</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/darais21symphony.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Symphony: A Concise Language Model for MPC</b>.
-Ian Sweet, David Darais, David Heath, Ryan Estes, William Harris, and
-Michael Hicks.
-In <em>Informal Proceedings of the Workshop on Foundations on
-Computer Secuirty (FCS)</em>, June 2021.</font></p><p>Secure multi-party computation (MPC) allows mutually distrusting
-parties to cooperatively compute, using a cryptographic protocol, a
-function over their private data.
-This short paper presents Symphony, an expressive yet concise domain-specific
-language for expressing MPCs. Symphony starts with the standard,
-simply-typed λ calculus extended with integers, sums,
-products, recursive types, and references. It layers on two additional
-elements: (1) A datatype representing <em>secret shares</em>, which are
-the basis of multiparty computation, and (2) a simple mechanism called
-<em>par blocks</em> to express which scopes are to be executed by which
-parties, and which determine to whom various data values are visible
-at any given time. The meaning of a Symphony program can be expressed
-using a <em>single-threaded semantics</em> even though in actuality the
-program will be run by multiple communicating parties in parallel. Our
-<em>distributed semantics</em> is expressed naturally as piecewise,
-single-threaded steps of <em>slices</em> of the program among its
-parties. We prove that these two semantic interpretations of a program
-coincide, and we prove a standard type soundness result.
-To demonstrate Symphony’s expressiveness, we have built an interpreter
-for it (with some extensions) and used it to implement a number of
-realistic MPC applications, including sorting, statistical and numeric
-computations, and private information retrieval.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/darais20obliv.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>A Language for Probabilistically Oblivious Computation</b>.
-David Darais, Ian Sweet, Chang Liu, and Michael Hicks.
-In <em>Proceedings of the ACM Conference on Principles of
-Programming Languages (POPL)</em>, January 2020.</font></p><p>An oblivious computation is one that is free of direct and indirect
-information leaks, e.g., due to observable differences in timing and
-memory access patterns. This paper presents
-λ<sub>obliv</sub>, a core language whose type system enforces obliviousness.
-Prior work on type-enforced oblivious computation has focused on
-deterministic programs. λ<sub>obliv</sub> is new in its consideration of
-programs that implement <em>probabilistic</em> algorithms, such as
-those involved in cryptography. λ<sub>obliv</sub> employs a substructural type
-system and a novel notion of <em>probability region</em> to ensure that
-information is not leaked via the distribution of visible
-events. The use of regions was motivated by a source of unsoundness
-that we discovered in the type system of ObliVM, a language for implementing
-state of the art oblivious algorithms and data structures. We prove
-that λ<sub>obliv</sub>’s type system enforces obliviousness and show that it is
-expressive enough to typecheck advanced tree-based oblivious RAMs.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/37/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">38 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/39/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksKMGN98ipl.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Network Programming Using PLAN</b>.
+Michael Hicks, Pankaj Kakkar, Jonathan T. Moore, Carl A. Gunter, and
+Scott Nettles.
+In Luca Cardelli, editor, <em>Proceedings of the IEEE Workshop on
+Internet Programming Languages</em>, volume 1686 of <em>Lecture Notes in
+Computer Science</em>, pages 127–143. Springer-Verlag, May 1998.</font></p><p>We present here a methodology for programming active networks in the
+environment defined by our new language PLAN (Packet Language for
+Active Networks). This environment presumes a two-level architecture
+consisting of:</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksKMGN98.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>PLAN: A Packet Language for Active Networks</b>.
+Michael Hicks, Pankaj Kakkar, Jonathan T. Moore, Carl A. Gunter, and
+Scott Nettles.
+In <em>Proceedings of the Third ACM SIGPLAN International
+Conference on Functional Programming Languages (ICFP)</em>, pages 86–93. ACM,
+September 1998.</font></p><p>PLAN (Packet Language for Active Networks) is a new language for
+programs that form the packets of a programmable network. These
+programs replace the packet headers (which can be viewed as very
+rudimentary programs) used in current networks. As such, PLAN
+programs are lightweight and of restricted functionality. These
+limitations are mitigated by allowing PLAN code to call node-resident
+<em>service routines</em> written in other, more powerful languages.
+This two-level architecture, in which PLAN serves as a scripting or
+`glue’ language for more general services, is the primary contribution
+of this paper. We have successfully applied the PLAN programming
+environment to implement an IP-free internetwork.</p><p>PLAN is based on the simply typed lambda calculus and provides a
+restricted set of primitives and datatypes. PLAN defines a special
+construct called a <em>chunk</em> used to describe the remote execution
+of PLAN programs on other nodes. Primitive operations on chunks are
+used to provide basic data transport in the network and to support
+layering of protocols. Remote execution can make debugging difficult,
+so PLAN provides strong static guarantees to the programmer, such as
+type safety. A more novel property aimed at protecting network
+availability is a guarantee that PLAN programs use a bounded amount of
+network resources.</p><p>[ <a href="http://www.cis.upenn.edu/~switchware/papers/plan.ps">.ps</a> ]
+<a name="HicksKMGN98"></a></p><pre>@inproceedings{HicksKMGN98,
+author = {Michael Hicks and Pankaj Kakkar and Jonathan T. Moore and Carl A. Gunter and Scott Nettles},
+title = {{PLAN}: A Packet Language for Active Networks},
+booktitle = {Proceedings of the Third {ACM} {SIGPLAN} International Conference on Functional Programming Languages (ICFP)},
+month = {September},
+year = 1998,
+pages = {86–93},
+publisher = {ACM}
+}
+</pre><p></p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/37/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">38 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/39/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
 <span class="middot-divider"></span>
 Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
 </a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>

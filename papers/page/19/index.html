@@ -1,103 +1,96 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Mike Hicks</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Mike Hicks"/><meta property="og:title" content="Publications | Mike Hicks"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Mike Hicks"/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
-<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
-<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/mardziel14qifgl.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Adversary Gain vs. Defender Loss in Quantified Information Flow</b>.
-Piotr Mardziel, Mário S. Alvim, and Michael Hicks.
-In <em>(Unofficial) Proceedings of the International Workshop on
-Foundations of Computer Security (FCS)</em>, July 2014.</font></p><p>Metrics for quantifying information leakage assume
-that an adversary’s gain is the defender’s loss.
-We demonstrate that this assumption does not always hold via a class
-of scenarios.
-We describe how to extend quantification to account for a defender
-with goals distinct from adversary failure.
-We implement the extension and experimentally explore the impact on
-the measured information leakage of the motivating scenario.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/mardziel13belieflong.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Dynamic Enforcement of Knowledge-based Security Policies using
-Probabilistic Abstract Interpretation</b>.
-Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
-<em>Journal of Computer Security</em>, 21:463–532, October 2013.</font></p><p>This paper explores the idea of <em>knowledge-based security
-policies</em>, which are used to decide whether to answer queries over
-secret data based on an estimation of the querier’s (possibly
-increased) knowledge given the results. Limiting knowledge is the
-goal of existing information release policies that employ
-mechanisms such as noising, anonymization, and redaction.
-Knowledge-based policies are more general: they increase
-flexibility by not fixing the means to restrict information flow.
-We enforce a knowledge-based policy by explicitly tracking a model
-of a querier’s belief about secret data, represented as a
-probability distribution, and denying any query that could
-increase knowledge above a given threshold. We implement query
-analysis and belief tracking via abstract interpretation, which allows us to
-trade off precision and performance through the use of
-abstraction. We have developed an approach to augment standard
-abstract domains to include probabilities, and thus define
-distributions. We focus on developing <em>probabilistic
-polyhedra</em> in particular, to support numeric programs. While
-probabilistic abstract interpretation has been
-considered before, our domain is the first whose design supports
-sound conditioning, which is required to ensure that estimates of
-a querier’s knowledge are accurate. Experiments with our
-implementation show that several useful queries can be handled
-efficiently, particularly compared to exact (i.e., sound)
-inference involving sampling. We also show that, for our
-benchmarks, restricting constraints to <em>octagons</em>
-or <em>intervals</em>, rather than full polyhedra, can dramatically
-improve performance while incurring little to no loss in
-precision.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/mardziel13belief.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Knowledge inference for optimizing and enforcing secure computations</b>.
-Piotr Mardziel, Michael Hicks, Jonathan Katz, Matthew Hammer, Aseem
-Rastogi, and Mudhakar Srivatsa.
-In <em>Proceedings of the Annual Meeting of the US/UK International
-Technology Alliance</em>, September 2013.
-This short paper consists of coherent excerpts from several prior
-papers.</font></p><p>We present several techniques that aim to compute
-the belief or knowledge a party might have about the values of hidden variables involved in the computation. These techniques can be used for enforcing knowledge-based security policies and for optimizing secure multiparty computations.</p><p>[ <a href="https://mhicks.me/papers/knowledge-overview.pdf">.pdf</a> ]
-<a name="mardziel13belief"></a></p><pre>@inproceedings{mardziel13belief,
-author = {Piotr Mardziel and Michael Hicks and Jonathan Katz and Matthew Hammer and Aseem Rastogi and Mudhakar Srivatsa},
-title = {Knowledge inference for optimizing and enforcing secure computations},
-booktitle = {Proceedings of the Annual Meeting of the US/UK International Technology Alliance},
-note = {This short paper consists of coherent excerpts from several prior papers},
-year = 2013,
-month = sep
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications |</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content=""/><meta property="og:title" content="Publications | "/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta itemprop="datePublished" content="2025-10-11T16:07:06-04:00"/><meta itemprop="dateModified" content="2025-10-11T16:07:06-04:00"/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title=""/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/papers/mwh.html" title="Publications">Publications</a>
+<a class="dropdown-item db link pv2 ph3" href="/research/" title="Other Research">Other</a></div></div><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
+<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/jim07beep.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Defeating Scripting Attacks with Browser-Enforced Embedded Policies</b>.
+Trevor Jim, Nikhil Swamy, and Michael Hicks.
+In <em>Proceedings of the International World Wide Web Conference
+(WWW)</em>, pages 601–610, May 2007.</font></p><p>Web sites that accept and display content such as wiki articles or
+comments typically filter the content to prevent injected script
+code from running in browsers that view the site. The diversity of
+browser rendering algorithms and the desire to allow rich content
+make filtering quite difficult, however, and attacks such as the
+Samy and Yamanner worms have exploited filtering weaknesses. This
+paper proposes a simple alternative mechanism for preventing script
+injection called Browser-Enforced Embedded Policies (BEEP). The idea is that a
+web site can embed a policy in its pages that specifies which
+scripts are allowed to run. The browser, which knows exactly when
+it will run a script, can enforce this policy perfectly. We have
+added BEEP support to several browsers, and built tools to
+simplify adding policies to web applications. We found that
+supporting BEEP in browsers requires only small and localized
+modifications, modifying web applications requires minimal effort,
+and enforcing policies is generally lightweight.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/hung19qrobust.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Quantitative Robustness Analysis of Quantum Programs</b>.
+Shih-Han Hung, Kesha Hietala, Shaopeng Zhu, Mingsheng Ying, Michael
+Hicks, and Xiaodi Wu.
+In <em>Proceedings of the ACM Conference on Principles of
+Programming Languages (POPL)</em>, January 2019.</font></p><p>Quantum computation is a topic of significant recent interest, with
+practical advances coming from both research and
+industry. A major challenge in
+quantum programming is dealing with errors (quantum noise) during
+execution. Because quantum resources (e.g., qubits) are scarce,
+classical error correction techniques applied at the level of the
+architecture are currently cost-prohibitive. But while this reality means
+that quantum programs are almost certain to have errors, there as yet
+exists no principled means to reason about erroneous behavior.
+This paper attempts to fill this gap by developing a semantics for
+erroneous quantum while-programs, as well as a logic for reasoning
+about them. This logic permits proving a property we have
+identified, called ε-robustness, which characterizes
+possible “distance” between an ideal program and an erroneous one. We
+have proved the logic sound, and showed its utility on several case
+studies, notably: (1) analyzing the robustness of noisy versions of the
+quantum Bernoulli factory (QBF) and quantum walk (QW); (2) demonstrating
+the (in)effectiveness of different error correction schemes on
+single-qubit errors; and (3) analyzing the robustness of a
+fault-tolerant version of QBF.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/hietala22voqc-journal.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>A Verified Optimizer for Quantum Circuits</b>.
+Kesha Hietala, Robert Rand, Liyi Li, Shih-Han Hung, Xiaodi Wu, and
+Michael Hicks.
+<em>ACM Transactions on Programming Languages and Systems
+(TOPLAS)</em>, 45(3), September 2023.
+Extends POPL&#39;21 paper.</font></p><p>We present VOQC, the first fully <em>verified optimizer for quantum circuits</em>, written using the Coq proof assistant. Quantum circuits are expressed as programs in a simple, low-level language called SQIR, a <em>small quantum intermediate representation</em>, which is deeply embedded in Coq. Optimizations and other transformations are expressed as Coq functions, which are proved correct with respect to a semantics of SQIR programs.
+SQIR programs denote complex-valued matrices, as is standard in quantum computation, but we treat matrices symbolically in order to reason about programs that use an arbitrary number of quantum bits.
+SQIR’s careful design and our provided automation make it possible to write and verify a broad range of optimizations in VOQC,
+including full-circuit transformations from cutting-edge optimizers.</p><p>[ <a href="https://mhicks.me/papers/voqc-journal.pdf">.pdf</a> ]
+<a name="hietala22voqc-journal"></a></p><pre>@article{hietala22voqc-journal,
+author = {Kesha Hietala and Robert Rand and Liyi Li and Shih-Han Hung and Xiaodi Wu and Michael Hicks},
+title = {A Verified Optimizer for Quantum Circuits},
+journal = {{ACM} Transactions on Programming Languages and Systems (TOPLAS)},
+month = sep,
+volume = 45,
+number = 3,
+note = {Extends POPL&#39;21 paper},
+year = {2023}
 }
-</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/mardziel12smc.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Knowledge-Oriented Secure Multiparty Computation</b>.
-Piotr Mardziel, Michael Hicks, Jonathan Katz, and Mudhakar Srivatsa.
-In <em>Proceedings of the ACM SIGPLAN Workshop on Programming
-Languages and Analysis for Security (PLAS)</em>, June 2012.</font></p><p>Protocols for <em>secure multiparty computation</em> (SMC) allow a set
-of mutually distrusting parties to compute a function <em>f</em> of their
-private inputs while revealing nothing about their inputs beyond what
-is implied by the result. Depending on <em>f</em>, however, the result
-itself may reveal more information than parties are comfortable with.
-Almost all previous work on SMC treats <em>f</em> as given. Left unanswered
-is the question of how parties should decide whether it is “safe”
-for them to compute <em>f</em> in the first place.</p><p>We propose here a way to apply <em>belief tracking</em> to SMC in order
-to address exactly this question. In our approach, each participating
-party is able to reason about the increase in knowledge that other
-parties could gain as a result of computing <em>f</em>, and may choose not to
-participate (or participate only partially) so as to restrict that
-gain in knowledge. We develop two techniques—the <em>belief set</em>
-method and the <em>SMC belief tracking</em> method—prove them sound,
-and discuss their precision/performance tradeoffs using a series of
-experiments.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/mardziel11beliefTR.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Dynamic Enforcement of Knowledge-based Security Policies</b>.
-Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
-Technical Report CS-TR-4978, University of Maryland Department of
-Computer Science, July 2011.
-Extended version with proofs and additional benchmarks.</font></p><p>This paper explores the idea of <em>knowledge-based security
-policies</em>, which are used to decide whether to answer queries over
-secret data based on an estimation of the querier’s (possibly
-increased) knowledge given the results. Limiting knowledge is the
-goal of existing information release policies that employ mechanisms
-such as noising, anonymization, and redaction. Knowledge-based
-policies are more general: they increase flexibility by not fixing
-the means to restrict information flow. We enforce a
-knowledge-based policy by explicitly tracking a model of a querier’s
-belief about secret data, represented as a probability distribution,
-and denying any query that could increase knowledge above a given
-threshold. We implement query analysis and belief tracking via
-abstract interpretation using a novel
-<em>probabilistic polyhedral</em> domain, whose design permits trading off
-precision with performance while ensuring estimates of a querier’s
-knowledge are sound. Experiments with our implementation show that
-several useful queries can be handled efficiently, and performance
-scales far better than would more standard implementations of
-probabilistic computation based on sampling.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/18/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">19 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/20/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/hietala21voqc.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>A Verified Optimizer for Quantum Circuits</b>.
+Kesha Hietala, Robert Rand, Shih-Han Hung, Xiaodi Wu, and Michael
+Hicks.
+In <em>Proceedings of the ACM Conference on Principles of
+Programming Languages (POPL)</em>, January 2021.
+<b>Distinguished Paper</b>.</font></p><p>We present VOQC, the first fully <em>verified optimizer for quantum circuits</em>, written using the Coq proof assistant. Quantum circuits are expressed as programs in a simple, low-level language called SQIR, a <em>simple quantum intermediate representation</em>, which is deeply embedded in Coq. Optimizations and other transformations are expressed as Coq functions, which are proved correct with respect to a semantics of SQIR programs.
+SQIR uses a semantics of matrices of complex numbers, which is the standard for quantum computation, but treats matrices symbolically in order to reason about programs that use an arbitrary number of quantum bits.
+SQIR’s careful design and our provided automation make it possible to write and verify a broad range of optimizations in VOQC,
+including full-circuit transformations from cutting-edge optimizers.</p><p>[ <a href="https://mhicks.me/papers/voqc.pdf">.pdf</a> ]
+<a name="hietala21voqc"></a></p><pre>@inproceedings{hietala21voqc,
+author = {Kesha Hietala and Robert Rand and Shih-Han Hung and Xiaodi Wu and Michael Hicks},
+title = {A Verified Optimizer for Quantum Circuits},
+booktitle = {Proceedings of the {ACM} Conference on Principles of Programming Languages (POPL)},
+month = jan,
+note = {\textbf{Distinguished Paper}},
+year = {2021}
+}
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/hietala21expvoqc.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Applying and Expanding the VOQC Toolkit</b>.
+Kesha Hietala, Liyi Li, Akshaj Gaur, Aaron Green, Robert Rand, Xiaodi
+Wu, and Michael Hicks.
+In <em>Informal Proceedings of the Workshop on Programming Languages
+and Quantum Computing (PLanQC)</em>, June 2021.</font></p><p>This abstract presents recent extensions to VOQC, a verified optimizer for quantum circuits. All code described in this abstract is freely available online at <a href="https://github.com/inQWIRE/SQIR/"></a><a href="https://github.com/inQWIRE/SQIR/" target="_blank" rel="noopener">https://github.com/inQWIRE/SQIR/</a>.</p><p>[ <a href="https://mhicks.me/papers/VOQC_PLanQC_2021.pdf">.pdf</a> ]
+<a name="hietala21expvoqc"></a></p><pre>@inproceedings{hietala21expvoqc,
+  title = {Applying and Expanding the {VOQC} Toolkit},
+  booktitle = {Informal Proceedings of the Workshop on Programming Languages and Quantum Computing (PLanQC)},
+  author = {Kesha Hietala and Liyi Li and Akshaj Gaur and Aaron Green and Robert Rand and Xiaodi Wu and Michael Hicks},
+  year = 2021,
+  month = jun
+}
+</pre><hr/><p><em>This file was generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/18/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">19 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/20/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
 <span class="middot-divider"></span>
 Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
 </a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>

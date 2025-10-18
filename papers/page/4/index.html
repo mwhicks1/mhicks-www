@@ -1,113 +1,107 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Mike Hicks</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Mike Hicks"/><meta property="og:title" content="Publications | Mike Hicks"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Mike Hicks"/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
-<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
-<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy11monadTR.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Lightweight Monadic Programming in ML</b>.
-Nikhil Swamy, Nataliya Guts, Daan Leijen, and Michael Hicks.
-Technical Report MSR-TR-2011-039, Microsoft Research, May 2011.</font></p><p>Many useful programming constructions can be expressed as monads.
-Examples include probabilistic computations,
-time-varying expressions, parsers, and information flow tracking,
-not to mention effectful features like state and I/O. In this
-paper, we present a type-based rewriting algorithm to make
-programming with arbitrary monads as easy as using ML’s built-in
-support for state and I/O. Developers write programs using monadic
-values of type <em>M</em> <em>t</em> as if they were of type <em>t</em>, and our algorithm
-inserts the necessary binds, units, and monad-to-monad morphisms so
-that the program typechecks. Our algorithm is based on Jones&#39;
-qualified types and enjoys three useful properties: (1) principal
-types, i.e., the rewriting we perform is the most general; (2)
-coherence, i.e., thanks to the monad and morphism laws, all
-instances of the principal rewriting have the same semantics; (3)
-decidability; i.e., the solver for generated constraints will always
-terminate. Throughout the paper we present simple examples from the
-domains listed above. Our most complete example, which illustrates
-the expressive power of our system, proves that ML programs
-rewritten by our algorithm to use the information flow monad are
-equivalent to programs in FlowCaml, a domain-specific information
-flow tracking language.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy11monad.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Lightweight Monadic Programming in ML</b>.
-Nikhil Swamy, Nataliya Guts, Daan Leijen, and Michael Hicks.
-In <em>Proceedings of the ACM International Conference on
-Functional Programming (ICFP)</em>, pages 15–27, September 2011.</font></p><p>Many useful programming constructions can be expressed as monads.
-Examples include probabilistic modeling,
-functional reactive programming, parsing, and information flow tracking,
-not to mention effectful functionality like state and I/O. In this
-paper, we present a type-based rewriting algorithm to make
-programming with arbitrary monads as easy as using ML’s built-in
-support for state and I/O. Developers write programs using monadic
-values of type <em>M</em> <em>t</em> as if they were of type <em>t</em>, and our algorithm
-inserts the necessary binds, units, and monad-to-monad morphisms so
-that the program type checks. Our algorithm, based on Jones&#39;
-qualified types, produces principal types. But principal
-types are sometimes
-problematic: the program’s semantics could depend on the choice of
-instantiation when more than one instantiation is valid. In such
-situations we are able to simplify the types to remove
-any ambiguity but without adversely affecting typability; thus we can
-accept strictly more programs. Moreover, we have proved that this
-simplification is <em>efficient</em> (linear in the number of constraints)
-and <em>coherent</em>: while our algorithm induces a particular rewriting,
-all related rewritings will have the same semantics.
-We have implemented our approach for a core functional
-language and applied it successfully to simple examples from the
-domains listed above, which are used as illustrations throughout the
-paper.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy09coercion.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>A Theory of Typed Coercions and its Applications</b>.
-Nikhil Swamy, Michael Hicks, and Gavin S. Bierman.
-In <em>Proceedings of the ACM International Conference on
-Functional Programming (ICFP)</em>, pages 329–340, August 2009.</font></p><p>A number of important program rewriting scenarios can be recast as
-type-directed coercion insertion. These range from more theoretical
-applications such as coercive subtyping and supporting overloading
-in type theories, to more practical applications such as integrating
-static and dynamically typed code using gradual typing, and inlining
-code to enforce security policies such as access control and
-provenance tracking. In this paper we give a general theory of
-type-directed coercion insertion.
-We specifically explore the inherent tradeoff between
-expressiveness and ambiguity—the more powerful the strategy for
-generating coercions, the greater the possibility of several,
-semantically distinct rewritings for a given program. We consider
-increasingly powerful coercion generation strategies, work out
-example applications supported by the increased power (including
-those mentioned above), and identify the inherent ambiguity problems
-of each setting, along with various techniques to tame the
-ambiguities.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy08fable.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Fable: A Language for Enforcing User-defined Security Policies</b>.
-Nikhil Swamy, Brian Corcoran, and Michael Hicks.
-In <em>Proceedings of the IEEE Symposium on Security and Privacy
-(Oakland)</em>, pages 369–383, May 2008.</font></p><p>This paper presents Fable, a core formalism for a programming language
-in which programmers may specify security policies and reason that
-these policies are properly enforced. In Fable,
-security policies can be expressed by associating <em>security
-labels</em> with the data or actions they protect. Programmers define the
-semantics of labels in a separate part of the program called the
-<em>enforcement policy</em>. Fable prevents a policy from being circumvented
-by allowing labeled terms to be manipulated only within the enforcement
-policy; application code must treat labeled values abstractly.
-Together, these features
-facilitate straightforward proofs that programs implementing a
-particular policy achieve their high-level security goals. Fable is
-flexible enough to implement a wide variety of security policies,
-including access control, information flow, provenance, and security
-automata. We have implemented Fable as part of the Links web
-programming language; we call the resulting language SELinks. We
-report on our experience using SElinks to build two substantial
-applications, a wiki and an on-line store, equipped with a combination of
-access control and provenance policies.
-To our knowledge, no existing framework enables
-the enforcement of such a wide variety of security policies with an
-equally high level of assurance.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy08airTR.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Verified Enforcement of Automaton-based Information Release Policies</b>.
-Nikhil Swamy and Michael Hicks.
-Technical Report CS-TR-4906, University of Maryland, Department of
-Computer Science, 2008.
-Full version of PLAS 08 paper.</font></p><p>Many organizations specify <em>information release</em> policies to
-describe the terms under which sensitive information may be released
-to other organizations. This paper presents a new approach for
-ensuring that security-critical software correctly enforces its
-information release policy. Our approach has two parts. First, an
-information release policy is specified as a security automaton
-written in a new language called AIR. Second, we enforce an AIR
-policy by translating it into an API for programs written in Lair,
-a core formalism for a functional programming language. Lair uses
-a novel combination of dependent, affine, and singleton types to
-ensure that the API is used correctly. As a consequence we can
-certify that programs written in Lair meet the requirements of
-the original AIR policy specification.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/3/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">4 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/5/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications |</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content=""/><meta property="og:title" content="Publications | "/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta itemprop="datePublished" content="2025-10-11T16:07:06-04:00"/><meta itemprop="dateModified" content="2025-10-11T16:07:06-04:00"/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title=""/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/papers/mwh.html" title="Publications">Publications</a>
+<a class="dropdown-item db link pv2 ph3" href="/research/" title="Other Research">Other</a></div></div><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
+<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy06rxtr.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Managing Policy Updates in Security-Typed Languages (Extended version)</b>.
+Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
+Technical Report CS-TR-4793, Department of Computer Science,
+University of Maryland, August 2006.
+Extends CSFW version to include full proofs and additional discussion
+about metapolicies.</font></p><p>This paper presents RX, a new security-typed
+programming language with features intended to make the management of
+information-flow policies more practical. Security labels in RX,
+in contrast to prior approaches, are defined in terms of <em>owned
+roles</em>, as found in the RT role-based trust-management framework.
+Role-based security policies allows flexible delegation, and our
+language RX provides constructs through which programs can robustly
+update policies and react to policy updates dynamically. Our dynamic
+semantics use statically verified <em>transactions</em> to eliminate
+illegal information flows across updates, which we call
+<em>transitive flow</em>. Because policy updates can be observed
+through dynamic queries, policy updates can potentially reveal
+sensitive information. As such, RX considers policy statements
+themselves to be potentially confidential information and subject to
+information-flow <em>metapolicies</em>.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy06rx.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Managing Policy Updates in Security-Typed Languages</b>.
+Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
+In <em>Proceedings of the Computer Security Foundations Workshop
+(CSFW)</em>, pages 202–216, July 2006.</font></p><p>This paper presents RX, a new security-typed
+programming language with features intended to make the management of
+information-flow policies more practical. Security labels in RX,
+in contrast to prior approaches, are defined in terms of <em>owned
+roles</em>, as found in the RT role-based trust-management framework.
+Role-based security policies allows flexible delegation, and our
+language RX provides constructs through which programs can robustly
+update policies and react to policy updates dynamically. Our dynamic
+semantics use statically verified <em>transactions</em> to eliminate
+illegal information flows across updates, which we call
+<em>transitive flow</em>. Because policy updates can be observed
+through dynamic queries, policy updates can potentially reveal
+sensitive information. As such, RX considers policy statements
+themselves to be potentially confidential information and subject to
+information-flow <em>metapolicies</em>.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy05experience.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Safe Manual Memory Management in Cyclone</b>.
+Nikhil Swamy, Michael Hicks, Greg Morrisett, Dan Grossman, and Trevor
+Jim.
+<em>Science of Computer Programming (SCP)</em>, 62(2):122–144, October
+2006.
+Special issue on memory management. Expands ISMM conference paper of
+the same name.</font></p><p>The goal of the Cyclone project is to investigate how to make a
+low-level C-like language safe. Our most difficult challenge has
+been providing programmers control over memory management while
+retaining safety. This paper describes our experience trying
+to integrate and use effectively two previously-proposed, safe
+memory-management mechanisms: statically-scoped regions and tracked
+pointers. We found that these typing mechanisms can be combined to
+build alternative memory-management abstractions, such as reference
+counted objects and arenas with dynamic lifetimes, and thus provide
+a flexible basis. Our experience—porting C programs and device
+drivers, and building new applications for resource-constrained
+systems—confirms that experts can use these features to improve
+memory footprint and sometimes to improve throughput when used
+instead of, or in combination with, conservative garbage collection.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/subramanian09jvolve.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Dynamic Software Updates: A VM-Centric Approach</b>.
+Suriya Subramanian, Michael Hicks, and Kathryn S. McKinley.
+In <em>Proceedings of the ACM Conference on Programming Language
+Design and Implementation (PLDI)</em>, pages 1–12, June 2009.</font></p><p>Software evolves to fix bugs and add features. Stopping and restarting
+programs to apply changes is inconvenient and often costly. Dynamic
+software updating (DSU) addresses this problem by updating programs while
+they execute, but existing DSU systems for managed languages do not support
+many updates that occur in practice and are inefficient. This paper
+presents the design and implementation of Jvolve, a DSU-enhanced Java VM.
+Updated programs may add, delete, and replace fields and methods anywhere
+within the class hierarchy. Jvolve implements these updates by adding to
+and coordinating VM classloading, just-in-time compilation, scheduling,
+return barriers, on-stack replacement, and garbage collection. Jvolve is
+safe: its use of bytecode verification and VM thread synchronization
+ensures that an update will always produce type-correct executions. Jvolve
+is flexible: it can support 20 of 22 updates to three open-source
+programs—Jetty web server, JavaEmailServer, and CrossFTP server—based
+on actual releases occurring over 1 to 2 years. Jvolve is efficient:
+performance experiments show that incurs no overhead during steady-state
+execution. These results demonstrate that this work is a significant step
+towards practical support for dynamic updates in virtual machines for
+managed languages.</p><p>[ <a href="https://mhicks.me/papers/jvolve.pdf">.pdf</a> ]
+<a name="subramanian09jvolve"></a></p><pre>@inproceedings{subramanian09jvolve,
+author = {Suriya Subramanian and Michael Hicks and Kathryn S. McKinley},
+title = {Dynamic Software Updates: A {VM}-Centric Approach},
+booktitle = {Proceedings of the {ACM} Conference on Programming Language Design and Implementation (PLDI)},
+month = jun,
+year = 2009,
+pages = {1–12}
+}
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/StoyleHBSN06.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b><em>Mutatis Mutandis</em>: Safe and Flexible Dynamic Software Updating (full
+version)</b>.
+Gareth Stoyle, Michael Hicks, Gavin Bierman, Peter Sewell, and Iulian
+Neamtiu.
+<em>ACM Transactions on Programming Languages and Systems
+(TOPLAS)</em>, 29(4), August 2007.
+Full version of POPL 05 paper.</font></p><p>This paper presents Proteus, a core calculus that models dynamic
+software updating, a service for fixing bugs and adding features to a
+running program. Proteus permits a program’s type structure to change
+dynamically but guarantees the updated program remains type-correct by
+ensuring a property we call “con-freeness.” We show how con-freeness
+can be enforced dynamically, and how it can be approximated via a
+novel static analysis. This analysis can be used to assess the
+implications of a program’s structure on future updates, to make
+update success more predictable. We have implemented Proteus for C,
+and briefly discuss our implementation, which we have tested on
+several well-known programs.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/3/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">4 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/5/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
 <span class="middot-divider"></span>
 Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
 </a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>

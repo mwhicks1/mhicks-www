@@ -1,121 +1,105 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Mike Hicks</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Mike Hicks"/><meta property="og:title" content="Publications | Mike Hicks"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Mike Hicks"/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
-<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
-<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksNettles03.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Dynamic Software Updating</b>.
-Michael Hicks and Scott M. Nettles.
-<em>ACM Transactions on Programming Languages and Systems
-(TOPLAS)</em>, 27(6):1049–1096, November 2005.</font></p><p>Many important applications must run continuously and without interruption,
-yet must be changed to fix bugs or upgrade functionality. No
-prior general-purpose methodology for dynamic updating achieves a practical
-balance between flexibility, robustness, low overhead, and ease of use.</p><p>We present an approach for C-like languages that provides type-safe dynamic
-updating of native code in an extremely flexible manner (code, data, and
-types may be updated, at programmer-determined times) and permits the use of
-automated tools to aid the programmer in the updating process. Our system
-is based on dynamic patches that contain both the updated code and the code
-needed to transition from the old version to the new. A novel aspect of our
-patches is that they consist of verifiable native code (e.g. Proof-Carrying
-Code or Typed Assembly Language), which is native code accompanied by
-annotations that allow on-line verification of the code’s safety. We
-discuss how patches are generated mostly automatically, how they are applied
-using dynamic-linking technology, and how code is compiled to make it
-updateable.</p><p>To concretely illustrate our system, we have implemented a
-dynamically-updateable web server, FlashEd. We discuss our experience
-building and maintaining FlashEd, and generalize to present observations
-about updateable software development. Performance experiments show that
-for FlashEd, the overhead due to updating is low: typically less than 1
-percent.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksN00.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Active Networking means Evolution (or Enhanced Extensibility Required)</b>.
-Michael Hicks and Scott Nettles.
-In Hiroshi Yashuda, editor, <em>Proceedings of the Second
-International Working Conference on Active Networks (IWAN)</em>, volume 1942 of
-<em>Lecture Notes in Computer Science</em>, pages 16–32. Springer-Verlag,
-October 2000.</font></p><p>The primary goal of active networking is to increase the pace of
-network evolution. The approach to achieving this goal, as well
-as the goal of enhancing customizability, is to allow network
-nodes to be extended by dynamically loaded code. Most active
-network implementations employ <em>plug-in extensibility</em>, a
-technique for loading code characterized by a concrete,
-pre-defined abstraction of future change. After giving examples
-of plug-in extensibility, we argue that while it is flexible and
-convenient, it is not sufficient to facilitate true evolution of
-the network. To remedy this problem, we propose the use of <em>dynamic software updating</em>. Dynamic software updating reduces the
-<em>a priori</em> assumptions of plug-in extensibility, improving
-flexibility and eliminating the need to pre-plan extensions.
-However, this additional flexibility results in additional
-complexity and creates issues involving validity and security. We
-discuss these issues, and describe the state-of-the-art in systems
-that support dynamic software updating, thus framing the problem
-for researchers developing next-generation active networks.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksMNW02.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Experiences with Capsule-based Active Networking</b>.
-Michael Hicks, Jonathan T. Moore, David Wetherall, and Scott Nettles.
-In <em>Proceedings of the DARPA Active Networks Conference and
-Exposition (DANCE)</em>, pages 16–24. IEEE, May 2002.</font></p><p>Active Networking adds programmability to the elements
-of the network, most aggressively by using programmable packets,
-or <em>capsules</em>. ANTS and
-PLANet are the most mature examples of
-capsule-based systems, both having been publicly available for
-several years. This paper presents our experience with these
-systems and the lessons they hold for the future of capsule-based
-Active Networking.</p><p>The paper focuses on four key issues: flexibility, performance,
-security, and usability. We consider how ANTS and PLANet address
-these issues, noting that despite substantial surface differences,
-both systems identify similar key problems and use closely related
-solutions. Based on our experience with these systems we conclude
-that capsule-based systems can achieve useful levels of
-flexibility, performance, and usability. Many aspects of security
-can also be adequately addressed, but some important problems
-related to denial of service remain as open problems.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksMN97.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>The Measured Cost of Copying Garbage Collection Mechanisms</b>.
-Michael W. Hicks, Jonathan T. Moore, and Scott M. Nettles.
-In <em>Proceedings of the ACM SIGPLAN Conference on Functional
-Programming (ICFP)</em>, pages 292–305. ACM, June 1997.</font></p><p>We examine the costs and benefits of a variety of copying garbage
-collection (GC) mechanisms across multiple architectures and
-programming languages. Our study covers both low-level object
-representation and copying issues as well as the mechanisms needed to
-support more advanced techniques such as generational collection,
-large object spaces, and type-segregated areas.</p><p>Our experiments are made possible by a novel performance analysis
-tool, <em>Oscar.</em> Oscar allows us to capture snapshots of programming
-language heaps that may then be used to replay garbage
-collections. The replay program is self-contained and written in C,
-which makes it easy to port to other architectures and to analyze with
-standard performance analysis tools. Furthermore, it is possible to
-study additional programming languages simply by instrumenting
-existing implementations to capture heap snapshots.</p><p>In general, we found that careful implementation of GC mechanisms can
-have a significant benefit. For a simple collector, we measured
-improvements of as much as 95 percent. We then found that while the addition
-of advanced features can have a sizeable overhead (up to 15 percent), the
-net benefit is quite positive, resulting in additional gains of up to
-42 percent. We also found that results varied depending upon the platform
-and language. Machine characteristics such as cache arrangements,
-instruction set (RISC/CISC), and register pool were important. For
-different languages, average object size seemed to be most important.</p><p>The results of our experiments demonstrate the usefulness of a tool
-like Oscar for studying GC performance. Without much overhead, we can
-easily identify areas where programming language implementors could
-collaborate with GC implementors to improve GC performance.</p><p>[ <a href="http://www.cis.upenn.edu/~oscar/icfp97.ps">.ps</a> ]
-<a name="HicksMN97"></a></p><pre>@inproceedings{HicksMN97,
-author = {Michael W. Hicks and Jonathan T. Moore and Scott M. Nettles},
-title = {The Measured Cost of Copying Garbage Collection Mechanisms},
-booktitle = {Proceedings of the {ACM} {SIGPLAN} Conference on
-Functional Programming (ICFP)},
-year = 1997,
-publisher = {{ACM}},
-pages = {292–305},
-month = {June}
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications |</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content=""/><meta property="og:title" content="Publications | "/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta itemprop="datePublished" content="2025-10-11T16:07:06-04:00"/><meta itemprop="dateModified" content="2025-10-11T16:07:06-04:00"/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title=""/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/papers/mwh.html" title="Publications">Publications</a>
+<a class="dropdown-item db link pv2 ph3" href="/research/" title="Other Research">Other</a></div></div><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
+<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/GrossmanMJHWC02tr.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Formal Type Soundness for Cyclone’s Region System</b>.
+Dan Grossman, Greg Morrisett, Trevor Jim, Michael Hicks, Yanling
+Wang, and James Cheney.
+Technical Report CS 2001-1856, Cornell University, November 2001.</font></p><p></p><p>[ <a href="https://mhicks.me/papers/cyclone_regions_tr.pdf">.pdf</a> ]
+<a name="GrossmanMJHWC02tr"></a></p><pre>@techreport{GrossmanMJHWC02tr,
+author = {Dan Grossman and Greg Morrisett and Trevor Jim and Michael Hicks and Yanling Wang and James Cheney},
+title = {Formal Type Soundness for {Cyclone}’s Region System},
+number = {CS 2001-1856},
+month = nov,
+year = 2001,
+institution = {Cornell University}
 }
-</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksMN01b.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Compiling PLAN to SNAP</b>.
-Michael Hicks, Jonathan T. Moore, and Scott Nettles.
-In Ian W. Marshall, Scott Nettles, and Naoki Wakamiya, editors, <em>Proceedings of the Third International Working Conference on Active Networks
-(IWAN)</em>, volume 2207 of <em>Lecture Notes in Computer Science</em>, pages
-134–151. Springer-Verlag, October 2001.</font></p><p>PLAN (Packet Language for Active Networks) is a highly flexible
-and usable active packet language, whereas SNAP (Safe and Nimble
-Active Packets) offers significant resource usage safety and
-achieves much higher performance compared to PLAN, but at the cost
-of flexibility and usability. Ideally, we would like to combine
-the good properties of PLAN with those of SNAP. We have achieved
-this end by developing a compiler that translates PLAN
-into SNAP. The compiler allows us to achieve the
-flexibility and usability of PLAN, but with the safety and
-efficiency of SNAP. In this paper, we describe both languages,
-highlighting the features that require special compilation
-techniques. We then present the details of our compiler and
-experimental results to evaluate our compiler with respect to code
-size.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/26/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">27 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/28/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/grossman04cuj.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Cyclone: a Type-safe Dialect of C</b>.
+Dan Grossman, Michael Hicks, Trevor Jim, and Greg Morrisett.
+<em>C/C++ Users Journal</em>, 23(1), January 2005.</font></p><p>Cyclone is an effort to bring safety to C. This article briefly
+introduces Cyclone.</p><p>[ <a href="http://cyclone.thelanguage.org">http</a> |
+<a href="https://mhicks.me/papers/cyclone-cuj.pdf">.pdf</a> ]
+<a name="grossman04cuj"></a></p><pre>@article{grossman04cuj,
+  author = {Dan Grossman and Michael Hicks and Trevor Jim and Greg Morrisett},
+  title = {Cyclone: a Type-safe Dialect of {C}},
+  journal = {{C/C++} Users Journal},
+  volume = 23,
+  number = 1,
+  month = {January},
+  year = 2005,
+  http = {<a href="http://cyclone.thelanguage.org">http://cyclone.thelanguage.org</a>}
+}
+</pre><hr/><p><em>This file was generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/furr09stop.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Tests to the Left of Me, Types to the Right: How Not to Get Stuck in the
+Middle of a Ruby Execution (A Demo of Diamondback Ruby)</b>.
+Michael Furr, Jong hoon (David) An, Jeffrey S. Foster, and Michael
+Hicks.
+In <em>Proceedings of the Workshop on Scripts to Programs (STOP)</em>,
+July 2009.</font></p><p>Ruby is a popular dynamic scripting language that permits
+terse, expressive code, but provides no static checks to detect errors
+before running the program. To address this, we have developed Diamondback
+Ruby (DRuby), a tool that blends the beneﬁts of static and dynamic
+typing. This paper brieﬂy describes the main features of DRuby, which
+we will present in a tool demonstration. The presentation will concentrate
+on the development of a small, statically typed Ruby program,
+illustrating how DRuby might be used in practice. The audience will
+learn about some of the practical design decisions that went into DRuby,
+and how to use it to develop a type-safe Ruby program.</p><p>[ <a href="https://mhicks.me/papers/rubydemo.pdf">.pdf</a> ]
+<a name="furr09stop"></a></p><pre>@inproceedings{furr09stop,
+title = {Tests to the Left of Me, Types to the Right: How Not to Get Stuck in the Middle of a {Ruby} Execution (A Demo of Diamondback Ruby)},
+author = {Michael Furr and Jong-hoon (David) An and Jeffrey S. Foster and Michael Hicks},
+booktitle = {Proceedings of the Workshop on Scripts to Programs (STOP)},
+year = 2009,
+month = jul
+}
+</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/furr09ril.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>The Ruby Intermediate Language</b>.
+Michael Furr, Jong hoon (David) An, Jeffrey S. Foster, and Michael
+Hicks.
+In <em>Proceedings of the ACM SIGPLAN Dynamic Languages
+Symposium (DLS)</em>, pages 89–98, October 2009.</font></p><p>Ruby is a popular, dynamic scripting language that aims to “feel
+natural to programmers” and give users the “freedom to choose”
+among many different ways of doing the same thing. While this
+arguably makes programming in Ruby easier, it makes it hard to build
+analysis and transformation tools that operate on Ruby source code.
+In this paper, we present the Ruby Intermediate Language (RIL), a
+Ruby front-end and intermediate representation that addresses these
+challenges. Our system includes an extensible GLR parser for Ruby,
+and an automatic translation into RIL, an easy-to-analyze
+intermediate form. This translation eliminates redundant language
+constructs, unravels the often subtle ordering among side effecting
+operations, and makes implicit interpreter operations explicit in
+its representation.</p><p>We demonstrate the usefulness of RIL by presenting a simple static
+analysis and source code transformation to eliminate null pointer
+errors in Ruby programs. We also describe several additional useful
+features of RIL, including a pretty printer that outputs RIL as
+syntactically valid Ruby code, a dataflow analysis engine, and a
+dynamic instrumentation library for profiling source code. We hope
+that RIL’s features will enable others to more easily build analysis
+tools for Ruby, and that our design will inspire the creation of
+similar frameworks for other dynamic languages.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/furr08druby.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Static Type Inference for Ruby</b>.
+Michael Furr, Jong hoon (David) An, Jeffrey S. Foster, and Michael
+Hicks.
+In <em>Proceedings of the ACM Symposium on Applied Computing,
+Object-oriented Programming Languages and Systems Track (OOPS)</em>, pages
+1859–1866, March 2009.</font></p><p>Many general-purpose, object-oriented scripting languages are
+dynamically typed, which provides flexibility but leaves the
+programmer without the benefits of static typing, including early
+error detection and the documentation provided by type
+annotations. This paper describes Diamondback Ruby
+(DRuby), a tool that blends Ruby’s dynamic type system with a
+static typing discipline. DRuby provides a type
+language that is rich enough to precisely type Ruby code we have
+encountered, without unneeded complexity.
+When possible, DRuby infers static types to discover
+type errors in Ruby programs. When necessary, the programmer can
+provide DRuby with
+annotations that assign static types to dynamic code. These
+annotations are checked at run time, isolating type errors to
+unverified code. We applied DRuby to a suite of benchmarks and
+found several bugs that would cause run-time type
+errors. DRuby also reported a number of warnings that reveal questionable
+programming practices in the benchmarks. We believe that DRuby
+takes a major step toward bringing the benefits
+of combined static and dynamic typing to Ruby and other
+object-oriented languages.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/26/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">27 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/28/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
 <span class="middot-divider"></span>
 Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
 </a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>

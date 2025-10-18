@@ -1,113 +1,105 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Mike Hicks</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Mike Hicks"/><meta property="og:title" content="Publications | Mike Hicks"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Mike Hicks"/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
-<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
-<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy08air.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Verified Enforcement of Stateful Information Release Policies</b>.
-Nikhil Swamy and Michael Hicks.
-In <em>Proceedings of the ACM SIGPLAN Workshop on Programming
-Languages and Analysis for Security (PLAS)</em>, pages 21–32, June 2008.</font></p><p>Many organizations specify <em>information release</em> policies to
-describe the terms under which sensitive information may be released
-to other organizations. This paper presents a new approach for
-ensuring that security-critical software correctly enforces its
-information release policy. Our approach has two parts. First, an
-information release policy is specified as a security automaton
-written in a new language called AIR. Second, we enforce an AIR
-policy by translating it into an API for programs written in Lair,
-a core formalism for a functional programming language. Lair uses
-a novel combination of dependent, affine, and singleton types to
-ensure that the API is used correctly. As a consequence we can
-certify that programs written in Lair meet the requirements of
-the original AIR policy specification.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy07milcom.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Verified Enforcement of Security Policies for Cross-Domain Information
-Flows</b>.
-Nikhil Swamy, Michael Hicks, and Simon Tsang.
-In <em>Proceedings of the 2007 Military Communications Conference
-(MILCOM)</em>, October 2007.</font></p><p>We describe work in progress that uses program analysis to show that
-security-critical programs, such as cross-domain guards, correctly
-enforce cross-domain security policies.
-We are enhancing existing techniques from the field of
-security-oriented programming languages to construct a new language
-for the construction of secure networked applications, <em>SELinks</em>.
-In order to specify and enforce expressive and fine-grained policies,
-we advocate dynamically associating security labels with sensitive
-entities.
-Programs written in <em>SELinks</em> are statically guaranteed to
-correctly manipulate an entity’s security labels and to ensure that
-the appropriate policy checks mediate all operations that are
-performed on the entity.
-We discuss the design of our main case study: a web-based
-collaborative planning application that will permit a collection
-of users, with varying security requirements and clearances, to access
-sensitive data sources and collaboratively create documents based on
-these sources.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy07fableTR.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Fable: A Language for Enforcing User-defined Security Policies</b>.
-Nikhil Swamy, Brian J. Corcoran, and Michael Hicks.
-Technical Report CS-TR-4895, University of Maryland, Department of
-Computer Science, November 2007.
-Full version of Oakland 08 paper.</font></p><p>This paper presents Fable, a core formalism for a programming language
-in which programmers may specify security policies and reason that
-these policies are properly enforced. In Fable,
-security policies can be expressed by associating <em>security
-labels</em> with the data or actions they protect. Programmers define the
-semantics of labels in a separate part of the program called the
-<em>enforcement policy</em>. Fable prevents a policy from being circumvented
-by allowing labeled terms to be manipulated only within the enforcement
-policy; application code must treat labeled values abstractly.
-Together, these features
-facilitate straightforward proofs that programs implementing a
-particular policy achieve their high-level security goals. Fable is
-flexible enough to implement a wide variety of security policies,
-including access control, information flow, provenance, and security
-automata. We have implemented Fable as part of the Links web
-programming language; we call the resulting language SELinks. We
-report on our experience using SElinks to build two substantial
-applications, a wiki and an on-line store, equipped with a combination of
-access control and provenance policies.
-To our knowledge, no existing framework enables
-the enforcement of such a wide variety of security policies with an
-equally high level of assurance.</p><p>[ <a href="http://www.cs.umd.edu/~nswamy/papers/fable-tr.pdf">.pdf</a> ]
-<a name="swamy07fableTR"></a></p><pre>@techreport{swamy07fableTR,
-author = {Nikhil Swamy and Brian J. Corcoran and Michael Hicks},
-institution = {University of Maryland, Department of Computer Science},
-number = {CS-TR-4895},
-title = {Fable: A Language for Enforcing User-defined Security Policies},
-year = 2007,
-month = nov,
-note = {Full version of Oakland 08 paper}
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications |</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content=""/><meta property="og:title" content="Publications | "/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta itemprop="datePublished" content="2025-10-11T16:07:06-04:00"/><meta itemprop="dateModified" content="2025-10-11T16:07:06-04:00"/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title=""/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/papers/mwh.html" title="Publications">Publications</a>
+<a class="dropdown-item db link pv2 ph3" href="/research/" title="Other Research">Other</a></div></div><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
+<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/StoyleHBSN05.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b><em>Mutatis Mutandis</em>: Safe and Flexible Dynamic Software Updating</b>.
+Gareth Stoyle, Michael Hicks, Gavin Bierman, Peter Sewell, and Iulian
+Neamtiu.
+In <em>Proceedings of the ACM Conference on Principles of
+Programming Languages (POPL)</em>, pages 183–194, January 2005.</font></p><p>Dynamic software updates can be used to fix bugs or add features to a
+running program without downtime. Essential for some applications and
+convenient for others, low-level dynamic updating support has been
+used for many years. However, there is little high-level
+understanding that would support programmers in writing dynamic
+updates effectively.</p><p>In an effort to bridge this gap, we present a formal calculus called
+Proteus for modeling dynamic software updating in C-like languages
+that is flexible, safe, and predictable. Proteus supports dynamic
+updates to functions (even those that are active) and types, allowing
+on-line evolution to match source-code evolution as we have observed
+it in practice. All updates are provably type-safe and
+<em>representation-consistent</em>, meaning that only one version of a given
+type may exist in the program at any time, simplifying reasoning and
+avoiding unintuitive copy-based semantics. Finally, Proteus’s novel
+and efficient static <em>updateability analysis</em> allows a programmer to
+automatically prove that an update is independent of the on-line
+program state, and thus predict it will not fail dynamically. Proteus
+admits a straightforward implementation, and we sketch how it could be
+extended to more advanced language features including threads.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/srivatsa12mobility.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Deanonymizing Mobility Traces: Using a Social Network as a Side-Channel</b>.
+Mudhakar Srivatsa and Michael Hicks.
+In <em>Proceedings of the ACM Conference on Computer and
+Communications Security (CCS)</em>, October 2012.</font></p><p>Location-based services, which employ data from
+smartphones, vehicles, etc., are growing in popularity.<br/>To reduce the threat that shared location data poses to a user’s
+privacy, some services anonymize or obfuscate this data.
+In this paper, we show these methods can be effectively defeated: a
+set of location traces can be deanonymized given an easily
+obtained social network graph.
+The key idea of our approach is that a user may be identified by those she
+meets: a <em>contact graph</em> identifying meetings between
+anonymized users in a set of traces can be structurally correlated
+with a social network graph, thereby identifying anonymized
+users. We demonstrate the effectiveness of our approach using three
+real world datasets: University of St Andrews mobility trace and
+social network (27 nodes each), SmallBlue contact trace and Facebook
+social network (125 nodes), and Infocom 2006 bluetooth contact
+traces and conference attendees’ DBLP social network (78 nodes). Our
+experiments show that 80% of users are identified
+precisely, while only 8% are identified incorrectly, with the
+remainder mapped to a small set of users.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/srivastava08cmodjournal.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Modular Information Hiding and Type Safe Linking for C</b>.
+Saurabh Srivastava, Michael Hicks, Jeffrey S. Foster, and Patrick
+Jenkins.
+<em>IEEE Transactions on Software Engineering</em>, 34(3):1–20, May
+2008.
+Full version of TLDI 07 paper.</font></p><p>This paper presents CMod, a novel tool that provides a sound
+module system for C . CMod works by enforcing a set of four
+rules that are based on principles of modular reasoning and on
+current programming practice. CMod’s rules flesh out the
+convention that <tt>.h</tt> header files are module interfaces and
+<tt>.c</tt> source files are module implementations. Although this
+convention is well-known, existing explanations of it are
+incomplete, omitting important subtleties needed for soundness. In
+contrast, we have proven formally that CMod’s rules enforce both
+information hiding and type-safe linking.</p><p>To use CMod, the programmer develops and builds their software as
+usual, redirecting the compiler and linker to CMod’s wrappers. We
+evaluated CMod by applying it to 30 open source
+programs, totaling more than one million lines of code. Violations to
+CMod’s rules revealed more than a thousand information hiding errors,
+dozens of typing errors, and hundreds of cases that, although not
+currently bugs, make programming mistakes more likely as the code
+evolves. At the same time, programs generally adhere
+to the assumptions underlying CMod’s rules, and so we could fix rule violations
+with a modest effort. We conclude that CMod can effectively support
+modular programming in C: it soundly enforces type-safe linking and
+information hiding while being largely compatible with existing practice.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/srivastava07cmodjournaltr.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Appendix to CMod: Modular Information Hiding and Type-Safe Linking for
+C</b>.
+Saurabh Srivastava, Michael Hicks, and Jeffrey S. Foster.
+Technical Report CS-TR-4874, Department of Computer Science,
+University of Maryland, June 2007.</font></p><p>This brief note is an appendix to <em>CMod: Modular
+Information Hiding and Type-Safe Linking for C</em> (Srivastava et al., June 2007).
+It consists of the proof of soundness for the formal language presented in that paper.</p><p>[ <a href="https://mhicks.me/papers/appendix-proof.pdf">.pdf</a> ]
+<a name="srivastava07cmodjournaltr"></a></p><pre>@techreport{srivastava07cmodjournaltr,
+  author = {Saurabh Srivastava and Michael Hicks and Jeffrey S. Foster},
+  title = {Appendix to {CMod}: Modular Information Hiding and Type-Safe Linking for {C}},
+  institution = {Department of Computer Science, University of Maryland},
+  month = jun,
+  year = 2007,
+  number = {CS-TR-4874}
 }
-</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy06rxtr.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Managing Policy Updates in Security-Typed Languages (Extended version)</b>.
-Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
-Technical Report CS-TR-4793, Department of Computer Science,
-University of Maryland, August 2006.
-Extends CSFW version to include full proofs and additional discussion
-about metapolicies.</font></p><p>This paper presents RX, a new security-typed
-programming language with features intended to make the management of
-information-flow policies more practical. Security labels in RX,
-in contrast to prior approaches, are defined in terms of <em>owned
-roles</em>, as found in the RT role-based trust-management framework.
-Role-based security policies allows flexible delegation, and our
-language RX provides constructs through which programs can robustly
-update policies and react to policy updates dynamically. Our dynamic
-semantics use statically verified <em>transactions</em> to eliminate
-illegal information flows across updates, which we call
-<em>transitive flow</em>. Because policy updates can be observed
-through dynamic queries, policy updates can potentially reveal
-sensitive information. As such, RX considers policy statements
-themselves to be potentially confidential information and subject to
-information-flow <em>metapolicies</em>.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/swamy06rx.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Managing Policy Updates in Security-Typed Languages</b>.
-Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
-In <em>Proceedings of the Computer Security Foundations Workshop
-(CSFW)</em>, pages 202–216, July 2006.</font></p><p>This paper presents RX, a new security-typed
-programming language with features intended to make the management of
-information-flow policies more practical. Security labels in RX,
-in contrast to prior approaches, are defined in terms of <em>owned
-roles</em>, as found in the RT role-based trust-management framework.
-Role-based security policies allows flexible delegation, and our
-language RX provides constructs through which programs can robustly
-update policies and react to policy updates dynamically. Our dynamic
-semantics use statically verified <em>transactions</em> to eliminate
-illegal information flows across updates, which we call
-<em>transitive flow</em>. Because policy updates can be observed
-through dynamic queries, policy updates can potentially reveal
-sensitive information. As such, RX considers policy statements
-themselves to be potentially confidential information and subject to
-information-flow <em>metapolicies</em>.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/4/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">5 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/6/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
+</pre><hr/><p><em>This file was generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/srivastava07cmod.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Modular Information Hiding and Type Safety for C</b>.
+Saurabh Srivastava, Michael Hicks, and Jeffrey S. Foster.
+In <em>Proceedings of the ACM Workshop on Types in Language Design
+and Implementation (TLDI)</em>, pages 3–14, January 2007.</font></p><p>This paper presents CMod, a novel tool that provides a sound
+module system for C . CMod works by enforcing a set of four rules
+that are based on principles of modular reasoning and on current
+programming practice. CMod’s rules flesh out the convention that
+<tt>.h</tt> header files are module interfaces and <tt>.c</tt>
+source files are module implementations. Although this convention
+is well-known, developing CMod’s rules revealed there are many
+subtleties in applying the basic pattern correctly. We have proven
+formally that CMod’s rules enforce both information hiding and
+type-safe linking.
+We evaluated CMod on a number of benchmarks, and found
+that most programs obey CMod’s rules, or can be made to with
+minimal effort, while rule violations reveal brittle coding practices
+including numerous information hiding violations and occasional type errors.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/4/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">5 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/6/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
 <span class="middot-divider"></span>
 Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
 </a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>

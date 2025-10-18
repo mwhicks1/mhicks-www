@@ -1,99 +1,100 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications | Mike Hicks</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content="Mike Hicks"/><meta property="og:title" content="Publications | Mike Hicks"/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title="Mike Hicks"/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a>
-<a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
-<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/ma11directed.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Directed Symbolic Execution</b>.
-Kin-Keung Ma, Yit Phang Khoo, Jeffrey S. Foster, and Michael Hicks.
-In Eran Yahav, editor, <em>Proceedings of the Static Analysis
-Symposium (SAS)</em>, volume 6887 of <em>Lecture Notes in Computer Science</em>,
-pages 95–111. Springer, September 2011.</font></p><p>In this paper, we study the problem of automatically finding program
-executions that reach a particular target line. This problem arises
-in many debugging scenarios; for example, a developer may want to confirm
-that a bug reported by a static analysis tool on a particular line is
-a true positive.
-We propose two new <em>directed</em>
-symbolic execution strategies that aim to solve this problem:
-<em>shortest-distance symbolic execution (SDSE)</em> uses a distance metric in
-an interprocedural control flow graph to guide symbolic execution toward a
-particular target; and <em>call-chain-backward symbolic execution (CCBSE)</em>
-iteratively runs forward symbolic execution, starting in the function
-containing the target line, and then jumping backward up the call chain
-until it finds a feasible path from the start of the program.
-We also propose a hybrid strategy, Mix-CCBSE, which alternates CCBSE with
-another (forward) search strategy. We compare these three with several
-existing strategies from the literature on a suite of six GNU
-coreutils programs.
-We find that SDSE performs extremely well in many cases
-but may fail badly. CCBSE also performs quite well, but imposes
-additional overhead that sometimes makes it slower than SDSE. Considering
-all our benchmarks together, Mix-CCBSE performed best on average,
-combining to good effect the features of its constituent components.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/liu20typeclasses.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Verifying Replicated Data Types with Typeclass Refinements in Liquid
-Haskell</b>.
-Yiyun Liu, James Parker, Patrick Redmond, Lindsey Kuper, Michael
-Hicks, and Niki Vazou.
-In <em>Proceedings of the ACM Conference on Object-Oriented
-Programming Languages, Systems, and Applications (OOPSLA)</em>, October 2020.</font></p><p>This paper presents an extension to Liquid Haskell that facilitates stating and semi-automatically proving properties of typeclasses. Liquid Haskell augments Haskell with <em>refinement types</em>—our work allows such types to be attached to typeclass method declarations, and ensures that instance implementations respect these types. The engineering of this extension is a modular interaction between GHC, the Glasgow Haskell Compiler, and Liquid Haskell’s core proof infrastructure. The design sheds light on the interplay between modular proofs and typeclass resolution, which in Haskell is coherent by default, but in other dependently typed languages is not.</p><p>We demonstrate the utility of our extension by using Liquid Haskell to modularly verify that 34 instances satisfy the laws of five standard typeclasses. More substantially, we implement a framework for programming distributed applications based on <em>conflict-free replicated data types</em> (CRDTs). We define a typeclass whose Liquid Haskell type captures the mathematical properties CRDTs should satisfy; prove in Liquid Haskell that these properties are sufficient to ensure that replicas’ states converge despite out-of-order update delivery; implement (and prove correct) several instances of our CRDT typeclass; and use them to build two realistic applications, a multi-user calendar event planner and a collaborative text editor.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/liu15ghostrider.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>GhostRider: A Hardware-Software System for Memory Trace Oblivious
-Computation</b>.
-Chang Liu, Austin Harris, Martin Maas, Michael Hicks, Mohit Tiwari,
-and Elaine Shi.
-In <em>Proceedings of the International Conference on Architectural
-Support for Programming Languages and Operating Systems (ASPLOS)</em>, March
-2015.
-<b>Winner of Best Paper Award</b>.</font></p><p>This paper presents a new, co-designed compiler and architecture
-called GhostRider for supporting privacy preserving computation in the
-cloud. GhostRider ensures all programs satisfy a property called
-memory-trace obliviousness (MTO): Even an adversary that observes
-memory, bus traffic, and access times while the program executes can
-learn nothing about the program’s sensitive inputs and outputs. One
-way to achieve MTO is employ Oblivious RAM (ORAM), allocating all code
-and data in a single ORAM bank, and to also disable caches or fix the
-rate of memory traffic. This baseline approach can be inefficient, and
-so GhostRider’s compiler uses a program analysis to do better,
-allocating data to non-oblivious, encrypted RAM (ERAM) and employing a
-scratchpad when doing so will not compromise MTO . The compiler can
-also allocate to multiple ORAM banks, which sometimes significantly
-reduces access times. We have formalized our approach and proved it
-enjoys MTO . Our FPGA-based hardware prototype and simulation results
-show that GhostRider significantly outperforms the baseline strategy.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/liu14scram.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Automating Efficient RAM-Model Secure Computation</b>.
-Chang Liu, Yan Huang, Elaine Shi, Jonathan Katz, and Michael Hicks.
-In <em>Proceedings of the IEEE Symposium on Security and Privacy
-(Oakland)</em>, May 2014.</font></p><p>RAM-model secure computation addresses the inherent limitations
-of circuit-model secure computation considered in almost all previous work.
-Here, we describe the first <em>automated</em> approach for
-RAM-model secure computation in the semi-honest model.
-We define an intermediate representation
-called SCVM and a corresponding type system suited for RAM-model secure computation.
-Leveraging compile-time optimizations, our approach achieves
-order-of-magnitude speedups compared to both circuit-model secure
-computation and the state-of-art RAM-model secure computation.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/liu13oblivious.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Memory Trace Oblivious Program Execution</b>.
-Chang Liu, Michael Hicks, and Elaine Shi.
-In <em>Proceedings of the Computer Security Foundations Symposium
-(CSF)</em>, June 2013.
-Winner of the 2nd NSA <b>Best Scientific Cybersecurity Paper</b>
-competition.</font></p><p>Cloud computing allows users to delegate data and computation to
-cloud service providers, at the cost of giving up physical control
-of their computing infrastructure. An attacker (e.g., insider) with
-physical access to the computing platform can perform various
-physical attacks, including probing memory buses and cold-boot style
-attacks. Previous work on secure (co-)processors provides hardware
-support for memory encryption and prevents direct leakage of
-sensitive data over the memory bus. However, an adversary snooping
-on the bus can still infer sensitive information from the memory
-access traces. Existing work on Oblivious RAM (ORAM) provides a
-solution for users to put all data in an ORAM; and accesses to an
-ORAM are obfuscated such that no information leaks through memory
-access traces. This method, however, incurs significant memory
-access overhead.</p><p>In this work, we are among the first to leverage programming
-language techniques to offer efficient memory-trace oblivious
-program execution, while providing formal security guarantees. We
-formally define the notion of memory-trace obliviousness, and
-provide a type system for verifying that a program satisfies this
-property. We also describe a compiler that transforms a program
-into a structurally similar one that satisfies memory trace
-obliviousness. To achieve optimal efficiency, our compiler
-partitions variables into several small ORAM banks rather than one
-large one, without risking security. We use several example
-programs to demonstrate the efficiency gains our compiler achieves
-in comparison with the naive method of placing all variables in the
-same ORAM.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/20/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">21 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/22/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications |</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content=""/><meta property="og:title" content="Publications | "/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta itemprop="datePublished" content="2025-10-11T16:07:06-04:00"/><meta itemprop="dateModified" content="2025-10-11T16:07:06-04:00"/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title=""/><link rel="stylesheet" href="/style.main.min.023987a12cc9b48f8c32bb0a91f3333375ad1335af9010278512bb3add76c3a3.css" integrity="sha256-AjmHoSzJtI+MMrsKkfMzM3WtEzWvkBAnhRK7Ot12w6M=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/papers/mwh.html" title="Publications">Publications</a>
+<a class="dropdown-item db link pv2 ph3" href="/research/" title="Other Research">Other</a></div></div><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/CIS-7000-Fall2025/" title="Empirical Security &amp; Privacy, for Humans">Current Course</a>
+<a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksMN01a.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Dynamic Software Updating</b>.
+Michael Hicks, Jonathan T. Moore, and Scott Nettles.
+In <em>Proceedings of the ACM Conference on Programming Language
+Design and Implementation (PLDI)</em>, pages 13–23. ACM, June 2001.</font></p><p>Many important applications must run continuously and without interruption,
+yet must be changed to fix bugs or upgrade functionality. No
+prior general-purpose methodology for dynamic updating achieves a practical
+balance between flexibility, robustness, low overhead, and ease of use.</p><p>We present a new approach for C-like languages that provides type-safe
+dynamic updating of native code in an extremely flexible manner (code, data,
+and types may be updated, at programmer-determined times) and permits the
+use of automated tools to aid the programmer in the updating process. Our
+system is based on <em>dynamic patches</em> that both contain the updated code
+and the code needed to transition from the old version to the new. A novel
+aspect of our patches is that they consist of <em>verifiable native code</em>
+(<em>e.g.</em> Proof-Carrying Code or Typed Assembly
+Language, which is native code accompanied by
+annotations that allow on-line verification of the code’s safety. We
+discuss how patches are generated mostly automatically, how they are applied
+using dynamic-linking technology, and how code is compiled to make it
+updateable.</p><p>To concretely illustrate our system, we have implemented a
+dynamically-updateable web server, FlashEd. We discuss our experience
+building and maintaining FlashEd. Performance experiments show that for
+FlashEd, the overhead due to updating is typically less than 1 percent.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksKS03.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>A Secure PLAN</b>.
+Michael Hicks, Angelos D. Keromytis, and Jonathan M. Smith.
+<em>IEEE Transactions on Systems, Man, and Cybernetics, Part C</em>,
+33(3):413–426, August 2003.
+Special Issue on Technologies Promoting Computational Intelligence,
+Openness and Programmability in Networks and Internet Services, Part I.</font></p><p>Active Networks, being programmable,
+promise greater flexibility than current networks.
+Programmability, however, may
+introduce safety and security risks.
+This paper describes the design and implementation of a security
+architecture for the active network PLANet.
+Security is obtained with a two-level architecture that combines a
+functionally restricted packet language, PLAN, with
+an environment of general-purpose service routines governed by trust
+management. In particular, a technique is used
+which expands or contracts a packet’s service environment based on its
+level of privilege, termed <em>namespace-based security</em>.
+The design and implementation of an active-network firewall and virtual
+private network is used as an application of the security architecture.
+Measurements of the system show that the addition of the firewall imposes an
+approximately 34% latency overhead and as little as a 6.7% space overhead
+to incoming packets.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksKMGN06.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>PLAN: A Packet Language for Active Networks (Extended version)</b>.
+Michael W. Hicks, Pankaj Kakkar, Jonathan T. Moore, Carl A. Gunter,
+and Scott M. Nettles.
+Unpublished manuscript. Consolidates ICFP 98, IPL 98, Allterton 99
+papers, May 2006.</font></p><p>The Internet protocols were designed to emphasize simple rout-
+ing elements and intelligent hosts. However, there are applications
+that benefit from allowing hosts to customize or program routers, a
+concept known as active networking. Since routers are shared, this
+raises challenges with delivering sufficient flexibility while preserving
+or improving performance, security, and safety. PLAN (Packet Lan-
+guage for Active Networks) is a language designed for the SwitchWare
+active network architecture. This architecture comprises active pack-
+ets containing PLAN programs that invoke service routines over an
+active OS. PLAN is based on the polymorphic lambda calculus and
+provides a restricted set of primitives and datatypes that enables rea-
+soning about its impact on network resources based on features of the
+language design. This paper focuses on the PLAN language with the
+aim of consolidating a variety of studies that were carried out in the
+years after its introduction in 1998. These studies include the require-
+ments for PLAN, its design, programming in PLAN, the specification
+and theory of PLAN, and its use in networking applications.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/HicksJKMU99.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Transparent Communication for Distributed Objects in Java</b>.
+Michael Hicks, Suresh Jagannathan, Richard Kelsey, Jonathan T. Moore,
+and Cristian Ungureanu.
+In <em>Proceedings of the ACM SIGPLAN Java Grande Conference</em>,
+pages 160–170. ACM, June 1999.</font></p><p>We describe a native-code implementation of Java that supports distributed
+objects. In order to foster the correctness of distributed programs, remote
+access is syntactically and semantically indistinguishable from local
+access. This transparency is provided by the runtime system through the
+implicit generation of remote references to an object when it is passed as
+an argument or returned from a remote method call. Consistency is achieved
+through the use of a distributed (and thus scalable) global addressing
+scheme. Experiments show that application performance is a function of data
+layout, access algorithm, and local workload. For distributed applications,
+such as distributed databases, these factors may not be known statically,
+suggesting the importance of runtime support.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/Hicks98A.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Types and Intermediate Representations</b>.
+Michael Hicks.
+Technical Report MS-CIS-98-05, Department of Computer and Information
+Science, University of Pennsylvania, April 1998.</font></p><p>The design objectives and the mechanisms for achieving those
+objectives are considered for each of three systems, Java, Erlang, and
+TIL. In particular, I examine the use of types and intermediate
+representations in the system implementation. In addition, the systems
+are compared to examine how one system’s mechanisms may (or may not)
+be applied to another.</p><p>[ <a href="https://mhicks.me/papers/typedIR.ps">.ps</a> ]
+<a name="Hicks98A"></a></p><pre>@techreport{Hicks98A,
+author = {Michael Hicks},
+title = {{Types and Intermediate Representations}},
+institution = {Department of Computer and Information Science, University of Pennsylvania},
+type = {Technical Report},
+number = {MS-CIS-98-05},
+month = {April},
+year = {1998}
+}
+</pre><p></p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/20/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">21 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/22/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2025 Mike Hicks
 <span class="middot-divider"></span>
 Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
 </a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>
