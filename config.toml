@@ -2,6 +2,12 @@ baseURL = "https://mhicks.me/"
 theme = "hugo-apero"
 languageCode = "en"
 disablePathToLower = true
+enableGitInfo = true
+
+[frontmatter]
+  date = ["date", ":git", "publishDate"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+
 #title = "Hugo Apéro"
 title = "Mike Hicks"
 author = "Alison Hill"
@@ -210,7 +216,7 @@ enableEmoji = true
 [security]
   enableInlineShortcodes = false
   [security.exec]
-    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^git$']
     osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM)$']
   [security.funcs]
     getenv = ['^HUGO_', 'HUGO_BLOGDOWN_POST_RELREF']

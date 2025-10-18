@@ -5,7 +5,7 @@ excerpt: "Mike Hicks' professional service activities, including conference comm
 categories:
   - Research
   - Service
-date: 2025-10-01
+#date: 2025-10-01
 weight: 3
 ---
 

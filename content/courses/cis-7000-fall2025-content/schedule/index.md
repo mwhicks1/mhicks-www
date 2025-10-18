@@ -1,7 +1,6 @@
 ---
 title: "Schedule"
 subtitle: "Empirical Security & Privacy, for Humans"
-date: 2025-08-01
 author: "Mike Hicks"
 draft: false
 weight: 2
