@@ -11,3 +11,54 @@ i:not([class*="fa-"]):not([class*="ai-"]), em {
 i[class*="fa-"], i[class*="ai-"] {
   font-style: normal !important;
 }
+
+// Dropdown menu styles
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  &:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background);
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 8px 0;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+
+  // Add a pseudo-element to bridge the gap between parent and dropdown
+  &::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    right: 0;
+    height: 8px;
+  }
+}
+
+.dropdown-item {
+  color: var(--text-color);
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: var(--link-color);
+    color: var(--background);
+  }
+}

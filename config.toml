@@ -163,6 +163,18 @@ enableEmoji = true
     title = "Teaching"
     url = "/courses/"
     weight = 4
+  [[menu.header]]
+    name = "Current Course"
+    title = "Empirical Security & Privacy, for Humans"
+    url = "/courses/CIS-7000-Fall2025/"
+    parent = "Teaching"
+    weight = 1
+  [[menu.header]]
+    name = "All Courses"
+    title = "All Courses"
+    url = "/courses/"
+    parent = "Teaching"
+    weight = 2
     
   # Configure footer
   [[menu.footer]]
