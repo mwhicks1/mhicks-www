@@ -166,6 +166,18 @@ enableEmoji = true
     url = "/research/"
     weight = 3
   [[menu.header]]
+    name = "Publications"
+    title = "Publications"
+    url = "/papers/mwh.html"
+    parent = "Research"
+    weight = 1
+  [[menu.header]]
+    name = "Other"
+    title = "Other Research"
+    url = "/research/"
+    parent = "Research"
+    weight = 2
+  [[menu.header]]
     name = "Teaching"
     title = "Teaching"
     url = "/courses/"
