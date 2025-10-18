@@ -1,6 +1,7 @@
 baseURL = "https://mhicks.me/"
 theme = "hugo-apero"
 languageCode = "en"
+disablePathToLower = true
 #title = "Hugo Apéro"
 title = "Mike Hicks"
 author = "Alison Hill"
