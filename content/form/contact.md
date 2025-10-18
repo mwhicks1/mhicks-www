@@ -30,7 +30,7 @@ Philadelphia, PA 19104
 321 Amy Guttman Hall (3317 Chestnut St)
 
 **Email:**
-<a id="mailto-sidebar" href="#" class="email"><span id="cutme">[point here]</span></a>
+<a id="mailto" href="#" class="email"><span id="cutme">[point here]</span></a>
 
 </div>
 
