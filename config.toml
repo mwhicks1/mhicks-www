@@ -185,7 +185,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Current Course"
     title = "Empirical Security & Privacy, for Humans"
-    url = "/courses/CIS-7000-Fall2025/"
+    url = "/courses/cis-7000-fall2025/"
     parent = "Teaching"
     weight = 1
   [[menu.header]]
