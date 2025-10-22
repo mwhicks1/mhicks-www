@@ -8,6 +8,7 @@
       <td valign="top">
         <a href="{{ .url }}">{{ .name }}</a>{{ if .annotation }}{{ .annotation }}{{ end }}
       </td>
+      <td valign="top">{{ if .year }}<small>{{ .year }}</small>{{ end }}</td>
       <td><small>{{- if .dissertation -}}{{- if .dissertation.url -}}<i><a href="{{ .dissertation.url }}">{{ .dissertation.title }}</a></i>{{- else -}}<i>{{ .dissertation.title }}</i>{{- end -}}<br>{{- end -}}{{ .description | safeHTML }}</small></td>
     </tr>
     {{- end -}}

@@ -1,9 +1,11 @@
 - name: Yiyun Liu
   url: https://www.linkedin.com/in/yiyun-liu-a21a5017a/
+  year: 2021
   description: PhD student, University of Pennsylvania, since September 2021
 
 - name: Nate Parsons
   url: https://www.linkedin.com/in/nate-space-parsons/
+  year: 2012
   dissertation:
     title: Implementing and Typing a Core Calculus for Mixed-mode Secure Multi-party Computations (scholarly paper)
   description: Missions software engineer at Planet since 2013; previously, engineer at JHUAPL

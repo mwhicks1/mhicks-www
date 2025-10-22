@@ -1,39 +1,49 @@
 - name: Liyi Li
   url: https://quics.umd.edu/people/liyi-li
-  description: Assistant Professor, Iowa State, since July 2023
+  year: 2023
+  description: Assistant Professor, Iowa State
 
 - name: Ethan Cecchetti
   url: https://cecchetti.sites.cs.wisc.edu/
-  description: Assistant Professor, Wisconsin, since July 2023
+  year: 2023
+  description: Assistant Professor, Wisconsin
 
 - name: Michael Coblenz
   url: http://www.cs.umd.edu/~mcoblenz/
-  description: Assistant Professor, UCSD, since September 2022
+  year: 2022
+  description: Assistant Professor, UCSD
 
 - name: Leonidas Lampropoulos
   url: https://lemonidas.github.io/
-  description: Assistant Professor, University of Maryland, since July 2020
+  year: 2020
+  description: Assistant Professor, University of Maryland
 
 - name: Robert Rand
   url: http://rand.cs.uchicago.edu/
-  description: Assistant Professor, University of Chicago, since July 2020
+  year: 2020
+  description: Assistant Professor, University of Chicago
 
 - name: Shiyi Wei
   url: https://personal.utdallas.edu/~swei/
-  description: Associate Professor, <a href="http://cs.utdallas.edu/">University of Texas at Dallas</a>, since August 2017
+  year: 2017
+  description: Associate Professor, University of Texas at Dallas
 
 - name: Matthew Hammer
   url: http://matthewhammer.org/
-  description: Research scientist at <a href="http://dfinity.org/">DFinity</a> 2019-2023; previously Assistant Professor, <a href="http://www.colorado.edu/cs/">University of Colorado, Boulder</a>, August 2015-January 2019
+  year: 2015
+  description: Research scientist at <a href="http://dfinity.org/">DFinity</a> 2019-2023; previously Assistant Professor, <a href="http://www.colorado.edu/cs/">University of Colorado, Boulder</a>
 
 - name: Nataliya Guts
   url: http://www.ortsa.com/nataliya.guts/
+  year: 2012
   description: Security Solutions Engineer, <a href="https://www.futurae.com/fr/team/">Futurae</a>
 
 - name: Stephen Magill
   url: https://www.linkedin.com/in/stephen-magill-2070a096/
-  description: Principal Scientist, Amazon Web Services; formerly VP, Product Innovation at Sonatype, 2021-2025; CEO of <a href="https://muse.dev/">MuseDev</a>; Principal scientist, <a href="http://www.galois.com">Galois</a>, 2014-2020; researcher at IDA/CCS, 2012-2014
+  year: 2012
+  description: Principal Scientist, Amazon Web Services, since 2025; formerly VP, Product Innovation at Sonatype, 2021-2025; CEO of <a href="https://muse.dev/">MuseDev</a>; Principal scientist, <a href="http://www.galois.com">Galois</a>, 2014-2020; researcher at IDA/CCS, 2012-2014
 
 - name: Manuel Oriol
   url: https://www.linkedin.com/in/manuel-oriol-9a05b41/?originalSubdomain=ch
+  year: 2008
   description: President of Constructor Institute and Professor of Software Engineering, since 2021; Principal Scientist, R&D manager at ABB Switzerland Ltd. 2011-2021; Senior Lecturer, <a href="http://www.cs.york.ac.uk/">University of York (UK)</a>, 2008-2014
