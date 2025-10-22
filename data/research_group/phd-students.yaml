@@ -1,0 +1,84 @@
+- name: Kesha Hietala
+  url: https://khieta.github.io/
+  description: Researcher, Sandia National Labs, since October 2024; previously Applied Scientist, Amazon Web Services, July 2022-October 2024
+
+- name: Ian Sweet
+  url: https://www.linkedin.com/in/iannsweet/
+  description: Researcher, IDA/CCS; previously Research Engineer, Galois, July 2022-April 2025
+
+- name: James Parker
+  url: http://jamesparker.me
+  description: '<i><a href="/papers/dissertation-jp.pdf">Advanced Language-based Techniques for Correct, Secure Networked Systems</a></i><br>Software research engineer, <a href="https://galois.com/">Galois</a>, since June 2020 (part-time 2019)'
+
+- name: Andrew Ruef
+  url: https://dblp.uni-trier.de/pers/hd/r/Ruef:Andrew
+  description: '<i><a href="https://mwhicks1.github.io/papers/ruef-dissertation.pdf">Tools and Experiments for Software Security</a></i><br>Quantitative Researcher at <a href="https://www.ida.org/IDAFFRDCs/CenterforCommunications/Computing">IDA/CCS</a> February 2019-2021'
+
+- name: Chang Liu
+  url: https://www.linkedin.com/in/liu-chang-4682b119/
+  annotation: "****"
+  description: '<i><a href="https://mwhicks1.github.io/papers/liu-thesis.pdf">Trace Oblivious Program Execution</a></i><br>Post-doc at UC Berkeley, 2016-2018; researcher at Citadel Securities since 2019'
+
+- name: Aseem Rastogi
+  url: https://www.microsoft.com/en-us/research/people/aseemr/
+  description: '<i><a href="https://mwhicks1.github.io/papers/aseem-thesis.pdf">Language-based Techniques for Practical and Trustworthy Secure Multi-Party Computations</a></i><br>Principal Researcher at <a href="http://research.microsoft.com/en-us/labs/india/">Microsoft Research India</a> since June 2016'
+
+- name: Luis Pina
+  url: http://luispina.me
+  annotation: "***"
+  description: '<i><a href="http://www.luispina.me/pdfs/pina16phd.pdf">Practical Dynamic Software Updating (for Java)</a></i><br>Assistant Professor at University of Illinois, Chicago, starting Fall''19; previously post-doc at George Mason (Aug 2017-19) and <a href="https://www.imperial.ac.uk/">Imperial College, London</a> (Mar 2015-Aug 2017)'
+
+- name: Karla Saur
+  url: https://ksaur.github.io/
+  annotation: "*"
+  description: '<i><a href="https://mwhicks1.github.io/papers/ksaur-thesis.pdf">Dynamic Upgrades for High Availability Systems</a></i><br>Distributed Systems Engineer, Nvidia DGX Cloud since October 2024; previously a researcher at Microsoft (2018-2024) and <a href="http://www.intel.com/content/www/us/en/research/intel-research.html">Intel Labs</a> (2015-2018)'
+
+- name: Piotr Mardziel
+  url: https://piotr.mardziel.com/
+  description: '<i><a href="https://mwhicks1.github.io/papers/mardziel15thesis.paper.pdf">Modeling, Measuring, and Limiting Adversary Knowledge</a></i><br>Head of AI, RealmLabs; previously, Systems Scientist at CMU (previously, post-doc) June 2016-2020; post-doc at UMD Jan''15 - Jun''16'
+
+- name: Khoo Yit Phang
+  url: https://www.linkedin.com/in/khooyp/
+  annotation: "*"
+  description: '<i><a href="https://mwhicks1.github.io/papers/khooyp-dissertation.pdf">User-centered Program Analysis Tools</a></i><br>Senior Team Lead at <a href="http://www.mathworks.com/">MathWorks</a> since August 2013'
+
+- name: Chris Hayden
+  url: http://www.chrishayden.com/
+  annotation: "*"
+  description: '<i><a href="/papers/hayden-dissertation-2012.pdf">Clear, Correct, and Efficient Dynamic Software Updates</a></i><br>Senior Software Engineer at Amazon Web Services since Mar. 2020; previously at <a href="http://socialcode.com/">SocialCode</a> 2015-2019; WaPo Labs/<a href="http://www.trove.com/">Trove</a> 2012-2015'
+
+- name: Justin McCann
+  url: https://www.linkedin.com/in/justin-mccann-79906a5a/
+  description: '<i><a href="/papers/mccann-dissertation-2012.pdf">Automating Performance Diagnosis in Networked Systems</a></i><br><a href="http://www.averesystems.com/">Avere Systems</a> since July 2012'
+
+- name: Martin Ma
+  url: https://www.linkedin.com/in/kinkeungma/
+  annotation: "*"
+  description: '<i><a href="/papers/kkma-dissertation.pdf">Improving Program Testing and Understanding via Symbolic Execution</a></i><br>Software Engineer at Google since 2013 (previously at Amazon)'
+
+- name: Saurabh Srivastava
+  url: https://www.linkedin.com/in/saurabh-sriv/
+  annotation: "*"
+  description: '<i><a href="http://www.cs.umd.edu/~saurabhs/pubs/saurabh-srivastava-thesis-9pt.pdf">Satisfiability-based Program Reasoning and Program Synthesis</a></i><br>Founder, <a href="https://synthetic-minds.com/">Synthetic Minds</a>, since 2017; founder, <a href="http://20n.com/">20n</a>, 2013-2017; post-doc at Berkeley 2012-2014'
+
+- name: Pavlos Papageorgiou
+  url: https://ai.google/research/people/105022
+  description: '<i><a href="/papers/papageorgiou-dissertation-2008.pdf">The Measurement Manager: Modular and Efficient End-to-end Measurement Services</a></i><br>Software Engineer, Google (AI), since December 2008'
+
+- name: Iulian Neamtiu
+  url: https://web.njit.edu/~ineamtiu/
+  description: '<i><a href="/papers/dissertation-neamtiu.pdf">Practical Dynamic Software Updating</a></i><br>Full Prof, <a href="https://web.njit.edu/">NJIT</a>; there since Fall 2015 (at <a href="http://www1.cs.ucr.edu/index.php">UC Riverside</a>, 2008-2015).'
+
+- name: Polyvios Pratikakis
+  url: http://users.ics.forth.gr/~polyvios/
+  annotation: "*"
+  description: '<i><a href="http://www.ics.forth.gr/~polyvios/polyvios-thesis.pdf">Sound, precise, and efficient static race detection for multithreaded programs</a></i><br>Associate professor in <a href="https://www.csd.uoc.gr/">CS, University of Crete</a>, since 2014; researcher, <a href="http://www.ics.forth.gr/">Institute of Computer Science, FORTH</a>, 2010-2014; post-doc at CNRS/VERIMAG 2008-2009'
+
+- name: Nikhil Swamy
+  url: https://www.microsoft.com/en-us/research/people/nswamy/
+  description: '<i><a href="http://research.microsoft.com/~nswamy/papers/dissertation.pdf">Language-based Enforcement of User-defined Security Policies as Applied to Multi-tier Web Applications</a></i><br>Senior Principal Researcher, <a href="http://research.microsoft.com/redmond/">Microsoft Research, Redmond</a>, since Fall 2008'
+
+- name: Nick L. Petroni
+  url: https://www.linkedin.com/in/nick-petroni-b913066/
+  annotation: "**"
+  description: '<i><a href="https://mwhicks1.github.io/papers/petroni-dissertation.pdf">Property-based Integrity Monitoring of Operating System Kernels</a></i><br>Chief scientist, <a href="https://www.volexity.com/">Volexity</a>, since 2015; research scientist, <a href="https://www.ida.org/IDAFFRDCs/CenterforCommunications/Computing">IDA/CCS</a> 2008-2015'

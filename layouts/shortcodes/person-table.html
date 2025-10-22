@@ -1,0 +1,15 @@
+{{- $dataKey := .Get 0 -}}
+{{- $people := index .Site.Data.research_group $dataKey -}}
+
+<table>
+  <tbody>
+    {{- range $people -}}
+    <tr>
+      <td valign="top">
+        <a href="{{ .url }}">{{ .name }}</a>{{ if .annotation }}{{ .annotation }}{{ end }}
+      </td>
+      <td><small>{{ .description | safeHTML }}</small></td>
+    </tr>
+    {{- end -}}
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+- symbol: "*"
+  text: 'co-advised with <a href="http://www.cs.umd.edu/~jfoster/">Jeff Foster</a>'
+
+- symbol: "**"
+  text: 'co-advised with <a href="http://www.cs.umd.edu/~waa">Bill Arbaugh</a>'
+
+- symbol: "***"
+  text: 'co-advised with <a href="http://www.gsd.inesc-id.pt/~lveiga/">Luís Veiga</a>'
+
+- symbol: "****"
+  text: 'co-advised with <a href="http://elaineshi.com/">Elaine Shi</a>'

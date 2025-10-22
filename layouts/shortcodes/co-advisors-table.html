@@ -1,0 +1,11 @@
+{{- $advisors := index .Site.Data.research_group "co-advisors" -}}
+
+<table>
+  <tbody>
+    <tr>
+      {{- range $advisors -}}
+      <td valign="middle">{{ .symbol }} {{ .text | safeHTML }}</td>
+      {{- end -}}
+    </tr>
+  </tbody>
+</table>
