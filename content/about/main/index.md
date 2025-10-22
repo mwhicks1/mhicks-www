@@ -30,10 +30,10 @@ My research focuses on improving software availability, reliability, and securit
 In the recent past, I have worked on:
 
 - **Secure programming**: Developing [Checked C](https://www.checkedc.org/), a memory-safe extension to C for legacy code migration; conducting [Build it, Break it, Fix it](https://builditbreakit.org) contests to evaluate secure development practices; and working with safe languages like Rust
-- **Fuzz testing**: Developing methodologies for evaluating randomized testers and combining coverage-guided fuzzing with property-based testing
+- **Fuzz testing**: Developing methodologies for [evaluating fuzz testers](http://www.pl-enthusiast.net/2018/08/23/evaluating-empirical-evaluations-for-fuzz-testing/) and combining coverage-guided fuzzing with property-based testing
 - **Quantum computation**: Creating verified compiler stacks for quantum programs, including [VOQC](https://github.com/inQWIRE/pyvoqc), and developing robust quantum programs for near-term devices
 
-Other projects include dynamic software updating (Kitsune, Rubah), information flow control (LWeb, Prob), languages for expressing secure multiparty computations ([Wysteria](https://bitbucket.org/aseemr/wysteria/wiki/Home), [Symphony](https://github.com/plum-umd/symphony-lang)) as well as authenticated data structures and compiler-optimized oblivious RAM (Lobliv), incremental computation (Adapton), type systems for Ruby (Diamondback Ruby), symbolic execution (Otter), data race detection (LockSmith), and the memory-safe C dialect [Cyclone](http://cyclone.thelanguage.org/).
+Other projects include dynamic software updating ([Kitsune](https://github.com/kitsune-dsu), [Rubah](https://www.luispina.me/projects/rubah.html)), information flow control (LWeb, Prob), languages for expressing secure multiparty computations ([Wysteria](https://bitbucket.org/aseemr/wysteria/wiki/Home), [Symphony](https://github.com/plum-umd/symphony-lang)) as well as authenticated data structures and compiler-optimized oblivious RAM (Lobliv), incremental computation (Adapton), type systems for Ruby (Diamondback Ruby), symbolic execution (Otter), data race detection ([LockSmith](https://www.cs.umd.edu/projects/PL/locksmith/)), and the memory-safe C dialect [Cyclone](http://cyclone.thelanguage.org/).
 
 ## [Teaching](/courses/)
 
