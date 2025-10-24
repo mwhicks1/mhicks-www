@@ -63,3 +63,15 @@ i[class*="fa-"], i[class*="ai-"] {
     color: var(--background);
   }
 }
+
+// About page font size adjustment
+// Slightly smaller than default, but not as small as course pages
+.about-main-column {
+  .f4 {
+    font-size: 1.15rem !important;
+  }
+
+  .f2 {
+    font-size: 2rem !important;
+  }
+}

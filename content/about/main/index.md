@@ -12,13 +12,7 @@ show_outro: false
 
 I am the Cecilia Fitler Moore [Professor in the Computer and Information Science Department](https://directory.seas.upenn.edu/computer-and-information-science/) and the Director of the Schlein Center for Cybersecurity at the [University of Pennsylvania](https://directory.seas.upenn.edu/computer-and-information-science/), and I am an [Amazon Scholar](https://www.amazon.science/scholars) and an [ACM Fellow](https://awards.acm.org/fellows/award-recipients).
 
-From 2022-2025 I was a Senior Principal Scientist at [Amazon Web Services](https://aws.amazon.com/).
-
-I am also a Professor Emeritus (retired 2022) in the [Computer Science Department](http://www.cs.umd.edu/) and [UMIACS](http://www.umiacs.umd.edu) at the [University of Maryland, College Park](http://www.umd.edu/). I was the inaugural Director of the [Maryland Cybersecurity Center (MC2)](https://cyber.umd.edu/), and with [Jeff Foster](http://www.cs.tufts.edu/~jfoster/) I founded and directed [**PLUM**, the lab for *Programming Languages research at the University of Maryland*](https://plum-umd.github.io/). 
-
-I was Chair (2015-2018) and Past Chair (2018-2021) of [ACM SIGPLAN](https://www.sigplan.org), the Founder (2019) and Editor (until mid-2021) of [PL Perspectives](https://blog.sigplan.org), the SIGPLAN blog, and was the CTO of Correct Computation, Inc (2018-2021). I am currently the Editor in Chief of [Proceedings of the ACM on Programming Languages (PACMPL)](https://dl.acm.org/journal/pacmpl).
-
-Here is my current [vita](cv.pdf) and a list of my [publications](/papers/mwh.html), organized [by year](/papers/mwh.html) and [by category](/papers/mwh-cat.html).
+From 2022-2025 I was a Senior Principal Scientist at [Amazon Web Services](https://aws.amazon.com/). I am also a Professor Emeritus (active 2002-2022) of the [Computer Science Department](http://www.cs.umd.edu/) and [UMIACS](http://www.umiacs.umd.edu) at the [University of Maryland, College Park](http://www.umd.edu/). 
 
 ## [Research](/research/)
 
@@ -35,6 +29,8 @@ In the recent past, I have worked on:
 
 Other projects include dynamic software updating ([Kitsune](https://github.com/kitsune-dsu), [Rubah](https://www.luispina.me/projects/rubah.html)), information flow control (LWeb, Prob), languages for expressing secure multiparty computations ([Wysteria](https://bitbucket.org/aseemr/wysteria/wiki/Home), [Symphony](https://github.com/plum-umd/symphony-lang)) as well as authenticated data structures and compiler-optimized oblivious RAM (Lobliv), incremental computation (Adapton), type systems for Ruby (Diamondback Ruby), symbolic execution (Otter), data race detection ([LockSmith](https://www.cs.umd.edu/projects/PL/locksmith/)), and the memory-safe C dialect [Cyclone](http://cyclone.thelanguage.org/).
 
+Here is my current [vita](cv.pdf). My [research](/research/) page lists publications, my resource group, and activities.
+
 ## [Teaching](/courses/)
 
 - **Current**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (UPenn CIS 7000, Fall 2025)
@@ -46,4 +42,4 @@ Other projects include dynamic software updating ([Kitsune](https://github.com/k
 - **Editor in Chief**: [Proceedings of the ACM on Programming Languages (PACMPL)](https://dl.acm.org/journal/pacmpl) (2023-2028); Associate Editor for TOPLAS (2012-2016)
 - **[ACM SIGPLAN](https://sigplan.org/)**: Chair (2015-2018), Past Chair (2018-2021); POPL Steering Committee Chair (2018-2021); Founder and Editor of [PL Perspectives blog](https://blog.sigplan.org/) (2019-2021)
 - **Recent program committees**: CSF, OOPSLA, S&P, POPL, PLDI (Area Chair), CCS (Area Chair), ASPLOS, SecDev, and many others
-- **Past roles**: Co-PC Chair for CSF 2015-2016, SecDev 2016; inaugural Director of [Maryland Cybersecurity Center](https://cyber.umd.edu/) (2011-2013); CTO of startup Correct Computation, Inc (2018-2021)
+- **Past roles**: Co-PC Chair for CSF 2015-2016, SecDev 2016; inaugural Director of [Maryland Cybersecurity Center](https://cyber.umd.edu/) (2011-2013); CTO of startup Correct Computation, Inc (2018-2021); founder and director of [**PLUM**, the lab for *Programming Languages research at the University of Maryland*](https://plum-umd.github.io/).
