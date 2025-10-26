@@ -12,10 +12,34 @@ categories:
   - Security
   - Software Engineering
 links:
-- icon: youtube
-  icon_pack: fab
-  name: YouTube Channel
-  url: https://www.youtube.com/channel/UCLnvPv3HJdKJ8CYnNcFLUgw
+- icon: shield-alt
+  icon_pack: fas
+  name: 1 - Memory-based Attacks
+  url: /courses/software-security-content/week1
+- icon: shield-alt
+  icon_pack: fas
+  name: 2 - Defenses
+  url: /courses/software-security-content/week2
+- icon: shield-alt
+  icon_pack: fas
+  name: 3 - Web Security
+  url: /courses/software-security-content/week3
+- icon: shield-alt
+  icon_pack: fas
+  name: 4 - Secure Design
+  url: /courses/software-security-content/week4
+- icon: shield-alt
+  icon_pack: fas
+  name: 5 - Automated Reasoning
+  url: /courses/software-security-content/week5
+- icon: shield-alt
+  icon_pack: fas
+  name: 6 - Penetration Testing
+  url: /courses/software-security-content/week6
+- icon: book-open
+  icon_pack: fas
+  name: Glossary
+  url: /courses/software-security-content/glossary/
 ---
 
 ## Overview
