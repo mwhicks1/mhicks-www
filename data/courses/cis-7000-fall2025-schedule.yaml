@@ -205,9 +205,9 @@ schedule:
 
   - date: "Nov 6"
     topic: "Cyber Public Health, and the quantum crypto transition"
-    anchor: "next_class"
     readings:
-      - 'Bellovin and Shostack, [Input to the Commission on Enhancing National Cybersecurity](https://www.nist.gov/system/files/documents/2016/09/16/s.bellovin-a.shostack_rfi_response.pdf), 2016, and Shostack, Adam, et al. [Lessons for Cybersecurity from the American Public Health System](https://arxiv.org/abs/2506.12257). arXiv preprint arXiv:2506.12257 (2025).'
+      - 'Bellovin and Shostack, [Input to the Commission on Enhancing National Cybersecurity](https://www.nist.gov/system/files/documents/2016/09/16/s.bellovin-a.shostack_rfi_response.pdf), 2016'
+      - 'Shostack, Adam, et al. [Lessons for Cybersecurity from the American Public Health System](https://arxiv.org/abs/2506.12257). arXiv preprint arXiv:2506.12257 (2025).'
       - text: 'Ini Kong, Marijn Janssen, Nitesh Bharosa. [Realizing quantum-safe information sharing: Implementation and adoption challenges and policy recommendations for quantum-safe transitions](https://www.sciencedirect.com/science/article/pii/S0740624X23000849), Government Information Quarterly 41 (2024).'
         optional: true
         presenter: 'Bharath Namboothiry'
@@ -217,21 +217,22 @@ schedule:
 
   - date: "Nov 11"
     topic: "Finding bugs, and exploiting them"
+    anchor: "next_class"
     readings:
       - text: 'Winnona DeSombre Bernsen. [Crash (exploit) and burn: Securing the offensive cyber supply chain to counter China in cyberspace](https://www.atlanticcouncil.org/in-depth-research-reports/report/crash-exploit-and-burn/), 2025.'
         optional: true
         presenter: 'Davis Brown'
       - text: 'Winnona DeSombre Bernsen, Sergey Bratus. [From Chaos to Capability: Building the U.S. Market for Offensive Cyber](https://sergeybratus.gitlab.io/papers/DartmouthCyberRoundtable2025.pdf), 2025.'
-        note: 'Supplemental reading'
+        note: 'Optional supplemental reading'
       - text: 'Savitha Ravi and Michael Coblenz. [An Empirical Evaluation of Property-Based Testing](https://dl.acm.org/doi/10.1145/3764068). In OOPSLA 2025.'
         optional: true
         presenter: 'Thia Richey'
 
   - date: "Nov 13"
-    topic: "Heartbleed: Studying the effects"
+    topic: "Heartbleed's effects, and gamified security training"
     readings:
       - 'Zakir Durumeric, Frank Li, James Kasten, Nicholas Weaver, Johanna Amann, Jethro Beekman, Mathias Payer, David Adrian, Vern Paxson, Michael Bailey, J. Alex Halderman. [The Matter of Heartbleed](https://faculty.cc.gatech.edu/~frankli/papers/li-imc2014.pdf), In ACM Internet Measurement Conference 2014.'
-      - text: 'TBD'
+      - text: 'Silic, M., & Lowry, P. B. [Using Design-Science Based Gamification to Improve Organizational Security Training and Compliance](https://doi-org.proxy.library.upenn.edu/10.1080/07421222.2019.1705512). Journal of Management Information Systems, 37(1), 129-161, 2020.'
         optional: true
         presenter: 'Lucia Kulzer'
 
