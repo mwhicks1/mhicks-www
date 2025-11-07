@@ -42,7 +42,8 @@ schedule:
     topic: "Passwords"
     readings:
       - 'Blase Ur, Jonathan Bees, Sean M. Segreti, Lujo Bauer, Nicolas Christin, Lorrie Faith Cranor. Do Users'' [Perceptions of Password Security Match Reality?](http://www.blaseur.com/papers/chi16-pwperceptions.pdf) In Proceedings of CHI 2016.'
-      - '**Optional**: Nisenoff, Alexandra, Maximilian Golla, Miranda Wei, Juliette Hainline, Hayley Szymanek, Annika Braun, Annika Hildebrandt, Blair Christensen, David Langenberg, and Blase Ur. [A Two-Decade Retrospective Analysis of a University''s Vulnerability to Attacks Exploiting Reused Passwords](https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective). In USENIX Security 2023.'
+      - text: 'Nisenoff, Alexandra, Maximilian Golla, Miranda Wei, Juliette Hainline, Hayley Szymanek, Annika Braun, Annika Hildebrandt, Blair Christensen, David Langenberg, and Blase Ur. [A Two-Decade Retrospective Analysis of a University''s Vulnerability to Attacks Exploiting Reused Passwords](https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective). In USENIX Security 2023.'
+        optional: true
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-passwords.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-passwords.pdf))**'
 
   - date: "Sep 16"
@@ -50,7 +51,8 @@ schedule:
     readings:
       - 'Huang, Keman, Michael Siegel, and Stuart Madnick. [Systematically understanding the cyber attack business: A survey](https://dl.acm.org/doi/pdf/10.1145/3199674). ACM Computing Surveys (CSUR) 51.4 (2018): 1-36.'
       - 'Dirk Goehmann. [Vulnerability Reward Program: 2024 in Review](https://security.googleblog.com/2025/03/vulnerability-reward-program-2024-in.html), Google Security Blog, March 2025.'
-      - '*See also*: Matthew Finifter, Devdatta Akhawe, and David Wagner. [An Empirical Study of Vulnerability Rewards Programs](https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/finifter). USENIX Security 2013.'
+      - text: 'Matthew Finifter, Devdatta Akhawe, and David Wagner. [An Empirical Study of Vulnerability Rewards Programs](https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/finifter). USENIX Security 2013.'
+        note: 'See also'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-cyberattack.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-cyberattack.pdf))**'
 
   - date: "Sep 18"
@@ -63,7 +65,9 @@ schedule:
   - date: "Sep 23"
     topic: "Measuring secure software development practices"
     readings:
-      - 'Ruef, Andrew, Michael Hicks, James Parker, Dave Levin, Michelle L. Mazurek, and Piotr Mardziel. [Build it, break it, fix it: Contesting secure development](https://dl.acm.org/doi/pdf/10.1145/2976749.2978382). CCS 2016. ***See also***: [Long version](https://dl.acm.org/doi/pdf/10.1145/3383773) (with an additional contest, fuller descriptions) in ACM TOPS 2020.'
+      - 'Ruef, Andrew, Michael Hicks, James Parker, Dave Levin, Michelle L. Mazurek, and Piotr Mardziel. [Build it, break it, fix it: Contesting secure development](https://dl.acm.org/doi/pdf/10.1145/2976749.2978382). CCS 2016.'
+      - text: '[Long version](https://dl.acm.org/doi/pdf/10.1145/3383773) (with an additional contest, fuller descriptions) in ACM TOPS 2020.'
+        note: 'See also'
       - 'Votipka, Daniel, Kelsey R. Fulton, James Parker, Matthew Hou, Michelle L. Mazurek, and Michael Hicks. [Understanding security mistakes developers make: Qualitative analysis from build it, break it, fix it](https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding). USENIX Security 2020.'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-BIBIFI.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-BIBIFI.pdf))**'
 
@@ -76,7 +80,8 @@ schedule:
     readings:
       - 'Klees, G., Ruef, A., Cooper, B., Wei, S. and Hicks, M., 2018, October. [Evaluating fuzz testing](https://dl.acm.org/doi/10.1145/3243734.3243804). In CCS 2018.'
       - 'Schloegel, Moritz, et al. [Sok: Prudent evaluation practices for fuzzing](https://oaklandsok.github.io/papers/schloegel2024.pdf). In S&P 2024.'
-      - '**Optional**: Blackburn, Steve, et al. [SIGPLAN Empirical Evaluation guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/). 2018.'
+      - text: 'Blackburn, Steve, et al. [SIGPLAN Empirical Evaluation guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/). 2018.'
+        optional: true
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-fuzzing.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-fuzzing.pdf))**'
 
   - date: "Oct 2"
@@ -84,7 +89,8 @@ schedule:
     readings:
       - 'Jenny Tang, Lujo Bauer, and Nicolas Christin. [Misuse, Misreporting, Misinterpretation of Statistical Methods in Usable Privacy and Security Papers.](https://www.usenix.org/conference/soups2025/presentation/tang) In SOUPS 25.'
       - 'Jim Frost, [What is P hacking: Methods & Best Practices](https://statisticsbyjim.com/hypothesis-testing/p-hacking/), 2024.'
-      - '**Optional**: Stephanie M. Lee. [Here''s How Cornell Scientist Brian Wansink Turned Shoddy Data Into Viral Studies About How We Eat.](https://www.buzzfeednews.com/article/stephaniemlee/brian-wansink-cornell-p-hacking) BuzzFeed News, Feb 2018.'
+      - text: 'Stephanie M. Lee. [Here''s How Cornell Scientist Brian Wansink Turned Shoddy Data Into Viral Studies About How We Eat.](https://www.buzzfeednews.com/article/stephaniemlee/brian-wansink-cornell-p-hacking) BuzzFeed News, Feb 2018.'
+        optional: true
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-stats-misuse.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-stats-misuse.pdf))**'
 
   - date: "Oct 7"
@@ -96,7 +102,8 @@ schedule:
     readings:
       - 'Adam Shostack. [Experiences Threat Modeling at Microsoft](https://shostack.org/files/papers/modsec08/Shostack-ModSec08-Experiences-Threat-Modeling-At-Microsoft.pdf). MODSEC@ MoDELS 2008 (2008): 35.'
       - 'Adam Shostack. [Nothing Is Good Enough: Fast and Cheap Are Undervalued as Influencers of Security Tool Adoption](https://ieeexplore.ieee.org/document/10035553). IEEE S&P magazine, Jan-Feb 2023.'
-      - '**Optional**: Kaur, Harjot, et al. ["Threat modeling is very formal, it''s very technical, and also very hard to do correctly": Investigating Threat Modeling Practices in Open-Source Software Projects](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-294-kaur.pdf). USENIX Security 2025.'
+      - text: 'Kaur, Harjot, et al. ["Threat modeling is very formal, it''s very technical, and also very hard to do correctly": Investigating Threat Modeling Practices in Open-Source Software Projects](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-294-kaur.pdf). USENIX Security 2025.'
+        optional: true
 
   - date: "Oct 9"
     topic: "**Fall break, no class**"
@@ -117,12 +124,15 @@ schedule:
       title: "Prof of CIS @ UPenn"
     description: "Guest lecture about static analysis technology (including for finding security bugs), the influence of LLMs on it, and how we measure progress."
     readings:
-      - '**Optional**: Ziyang Li, Saikat Dutta, Mayur Naik. [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238). In ICLR 2025.'
+      - text: 'Ziyang Li, Saikat Dutta, Mayur Naik. [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238). In ICLR 2025.'
+        optional: true
 
   - date: "Oct 21"
     topic: "Building Security in Maturity Model (BSIMM)"
     readings:
-      - 'Gary McGraw, Brian Chess, and Sammy Migues. [Building Security In Maturity Model](https://apothecaryshed.com/wp-content/uploads/2025/09/bsimm.pdf), 2009. *Recommendation*: Watch this [talk by Gary McGraw](https://www.youtube.com/watch?v=SLMJRyp9-mQ&authuser=0), and refer to the report to check the details.'
+      - 'Gary McGraw, Brian Chess, and Sammy Migues. [Building Security In Maturity Model](https://apothecaryshed.com/wp-content/uploads/2025/09/bsimm.pdf), 2009.'
+      - text: 'Watch this [talk by Gary McGraw](https://www.youtube.com/watch?v=SLMJRyp9-mQ&authuser=0), and refer to the report to check the details.'
+        note: 'Recommendation'
       - 'Laurie Williams, Gary McGraw, and Sammy Migues. [Engineering Security Vulnerability Prevention, Detection, and Response](https://ieeexplore.ieee.org/abstract/document/8409917). IEEE Software, 2018.'
       - 'Alex Gantman. [Retrospective on the BSIMM](https://canvas.upenn.edu/courses/1880676/files?preview=152563328), personal correspondence, 2025.'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-BSIMM.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-BSIMM.pdf))**'
@@ -131,28 +141,36 @@ schedule:
     topic: "Economic investment in cybersecurity"
     readings:
       - 'Gordon, Lawrence A., and Martin P. Loeb. [The economics of information security investment](https://dl.acm.org/doi/pdf/10.1145/581271.581274). ACM Transactions on Information and System Security (TISSEC) 5.4 (2002): 438-457.'
-      - '**Optional** (presented by Arya Sanjary): Adam Hastings and Simha Sethumadhavan. [Voluntary Investment, Mandatory Minimums, or Cyber Insurance: What Minimizes Losses?](https://www.usenix.org/conference/usenixsecurity25/presentation/hastings) USENIX Security 2025.'
+      - text: 'Adam Hastings and Simha Sethumadhavan. [Voluntary Investment, Mandatory Minimums, or Cyber Insurance: What Minimizes Losses?](https://www.usenix.org/conference/usenixsecurity25/presentation/hastings) USENIX Security 2025.'
+        optional: true
+        presenter: 'Arya Sanjary'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-GordonLoeb.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-GordonLoeb.pdf))**'
 
   - date: "Oct 28"
     topic: "Usability: Privacy & Passwords"
     readings:
       - 'Alessandro Acquisti, Laura Brandimarte, and George Loewenstein. [Privacy and human behavior in the age of information](https://www.science.org/doi/full/10.1126/science.aaa1465). Science, Vol. 347, No. 6221, Jan 2015.'
-      - '**Optional** (presented by Sydnie-Shea Cohen): Adryana Hutchinson, Jinwei Tang, Adam Aviv, and Peter Story. [Measuring the Prevalence of Password Manager Issues Using In-Situ Experiments](https://www.ndss-symposium.org/wp-content/uploads/usec2024-94-paper.pdf). In Symposium on Usable Security and Privacy (USEC) 2024.'
+      - text: 'Adryana Hutchinson, Jinwei Tang, Adam Aviv, and Peter Story. [Measuring the Prevalence of Password Manager Issues Using In-Situ Experiments](https://www.ndss-symposium.org/wp-content/uploads/usec2024-94-paper.pdf). In Symposium on Usable Security and Privacy (USEC) 2024.'
+        optional: true
+        presenter: 'Sydnie-Shea Cohen'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-privacy.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-privacy.pdf))**'
 
   - date: "Oct 30"
     topic: "Measuring security trends; deployment challenges"
     readings:
       - 'Jason Healy. [Are Cyber Defenders Winning?](https://www.lawfaremedia.org/article/are-cyber-defenders-winning) Lawfare blog, July 2025.'
-      - '**Optional** (presented by Noopur Bhatt): Leona Lassak, Elleen Pan, Blase Ur, and Maximilian Golla. [Why Aren''t We Using Passkeys? Obstacles Companies Face Deploying FIDO2 Passwordless Authentication](https://www.usenix.org/conference/usenixsecurity24/presentation/lassak), USENIX Security 2024.'
+      - text: 'Leona Lassak, Elleen Pan, Blase Ur, and Maximilian Golla. [Why Aren''t We Using Passkeys? Obstacles Companies Face Deploying FIDO2 Passwordless Authentication](https://www.usenix.org/conference/usenixsecurity24/presentation/lassak), USENIX Security 2024.'
+        optional: true
+        presenter: 'Noopur Bhatt'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-shifting-advantages.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-shifting-advantages.pdf))**'
 
   - date: "Nov 4"
     topic: "Understanding and Simulating Users (considering Privacy)"
     readings:
       - 'Priyanka Nanayakkara, Mary Anne Smart, Rachel Cummings, Gabriel Kaptchuk, Elissa M. Redmiles. [What Are the Chances? Explaining the Epsilon Parameter in Differential Privacy](https://www.usenix.org/system/files/usenixsecurity23-nanayakkara.pdf), USENIX Security 2023.'
-      - '**Optional** (presented by Jiayi Xin): Boyu Qiao, Kun Li, Wei Zhou, Shilong Li, Qianqian Lu, Songlin Hu. [BotSim: LLM-Powered Malicious Social Botnet Simulation](https://arxiv.org/pdf/2412.13420), AAAI 2025.'
+      - text: 'Boyu Qiao, Kun Li, Wei Zhou, Shilong Li, Qianqian Lu, Songlin Hu. [BotSim: LLM-Powered Malicious Social Botnet Simulation](https://arxiv.org/pdf/2412.13420), AAAI 2025.'
+        optional: true
+        presenter: 'Jiayi Xin'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-explain-dp.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-explain-dp.pdf))**'
 
   - date: "Nov 6"
@@ -160,20 +178,30 @@ schedule:
     anchor: "next_class"
     readings:
       - 'Bellovin and Shostack, [Input to the Commission on Enhancing National Cybersecurity](https://www.nist.gov/system/files/documents/2016/09/16/s.bellovin-a.shostack_rfi_response.pdf), 2016, and Shostack, Adam, et al. [Lessons for Cybersecurity from the American Public Health System](https://arxiv.org/abs/2506.12257). arXiv preprint arXiv:2506.12257 (2025).'
-      - '**Optional** (presented by Bharath Namboothiry): Ini Kong, Marijn Janssen, Nitesh Bharosa. [Realizing quantum-safe information sharing: Implementation and adoption challenges and policy recommendations for quantum-safe transitions](https://www.sciencedirect.com/science/article/pii/S0740624X23000849), Government Information Quarterly 41 (2024).'
+      - text: 'Ini Kong, Marijn Janssen, Nitesh Bharosa. [Realizing quantum-safe information sharing: Implementation and adoption challenges and policy recommendations for quantum-safe transitions](https://www.sciencedirect.com/science/article/pii/S0740624X23000849), Government Information Quarterly 41 (2024).'
+        optional: true
+        presenter: 'Bharath Namboothiry'
       - '**[Lecture slides](/courses/cis-7000-fall2025/downloads/ESPH-cph.pptx) ([PDF](/courses/cis-7000-fall2025/downloads/ESPH-cph.pdf))**'
 
   - date: "Nov 11"
     topic: "Finding bugs, and exploiting them"
     readings:
-      - '**Optional** (presented by Davis Brown): Winnona DeSombre Bernsen. [Crash (exploit) and burn: Securing the offensive cyber supply chain to counter China in cyberspace](https://www.atlanticcouncil.org/in-depth-research-reports/report/crash-exploit-and-burn/), 2025. *Supplemental reading*: Winnona DeSombre Bernsen, Sergey Bratus. [From Chaos to Capability: Building the U.S. Market for Offensive Cyber](https://sergeybratus.gitlab.io/papers/DartmouthCyberRoundtable2025.pdf), 2025.'
-      - '**Optional** (presented by Thia Richey): Savitha Ravi and Michael Coblenz. [An Empirical Evaluation of Property-Based Testing](https://dl.acm.org/doi/10.1145/3764068). In OOPSLA 2025.'
+      - text: 'Winnona DeSombre Bernsen. [Crash (exploit) and burn: Securing the offensive cyber supply chain to counter China in cyberspace](https://www.atlanticcouncil.org/in-depth-research-reports/report/crash-exploit-and-burn/), 2025.'
+        optional: true
+        presenter: 'Davis Brown'
+      - text: 'Winnona DeSombre Bernsen, Sergey Bratus. [From Chaos to Capability: Building the U.S. Market for Offensive Cyber](https://sergeybratus.gitlab.io/papers/DartmouthCyberRoundtable2025.pdf), 2025.'
+        note: 'Supplemental reading'
+      - text: 'Savitha Ravi and Michael Coblenz. [An Empirical Evaluation of Property-Based Testing](https://dl.acm.org/doi/10.1145/3764068). In OOPSLA 2025.'
+        optional: true
+        presenter: 'Thia Richey'
 
   - date: "Nov 13"
     topic: "Heartbleed: Studying the effects"
     readings:
       - 'Zakir Durumeric, Frank Li, James Kasten, Nicholas Weaver, Johanna Amann, Jethro Beekman, Mathias Payer, David Adrian, Vern Paxson, Michael Bailey, J. Alex Halderman. [The Matter of Heartbleed](https://faculty.cc.gatech.edu/~frankli/papers/li-imc2014.pdf), In ACM Internet Measurement Conference 2014.'
-      - '**Optional** (presented by Lucia Kulzer): TBD'
+      - text: 'TBD'
+        optional: true
+        presenter: 'Lucia Kulzer'
 
   - date: "Nov 18"
     topic: "Student: Ali Shirzad"
