@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{ $page := . }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw9 center">
+    <div class="flex-l items-center" style="{{ if .Params.image_left }}flex-direction: row-reverse;{{ end }}">
+      <div class="mh4 w-50-l {{ if not .Params.text_align_left }}tr{{ end }}">
+        {{ with .Params.title }}<h1 class="f2 f1-m f-subheadline-l fw5-ns mv4 lh-solid">{{ . }}</h1>{{ end }}
+        {{ with .Params.subtitle }}<h2 class="f5 fw7 mt0 mb4 ttu tracked">{{ . }}</h2>{{ end }}
+        {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
+        {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
+        {{ if .Params.show_action_link }}<a class="mt4 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
+        {{ with .Site.Data.news }}
+        {{ if gt (len .) 0 }}
+        <div class="news-section mt4 pt3 bt b--light-gray">
+          <h3 class="f5 fw7 mt0 mb3 ttu tracked">News</h3>
+          {{ $pinnedNews := slice }}
+          {{ $unpinnedNews := slice }}
+          {{ range . }}
+            {{ if .pinned }}
+              {{ $pinnedNews = $pinnedNews | append . }}
+            {{ else }}
+              {{ $unpinnedNews = $unpinnedNews | append . }}
+            {{ end }}
+          {{ end }}
+          {{ $allNews := $pinnedNews | append $unpinnedNews }}
+          {{ range first 2 $allNews }}
+          <div class="news-item mb2">
+            <span class="f6 gray mr3">{{ .date }}</span>
+            <span class="f5 lh-copy">
+              {{ .text | markdownify }}
+            </span>
+          </div>
+          {{ end }}
+          <p class="f6 mt3 mb0">
+            <a href="{{ "/news/" | relURL }}" class="link gray hover-blue">...more</a>
+          </p>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
+      {{ with .Params.images }}
+        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}
+      {{ end }}
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}

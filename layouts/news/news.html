@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="page-main pa4">
+  <div class="mw8 center">
+    <h1 class="f2 fw5 mb4">{{ .Title }}</h1>
+
+    {{ with .Site.Data.news }}
+    <div class="news-list">
+      {{ $pinnedNews := slice }}
+      {{ $unpinnedNews := slice }}
+      {{ range . }}
+        {{ if .pinned }}
+          {{ $pinnedNews = $pinnedNews | append . }}
+        {{ else }}
+          {{ $unpinnedNews = $unpinnedNews | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $allNews := $pinnedNews | append $unpinnedNews }}
+      {{ range $allNews }}
+      <article class="news-item bb b--light-gray pb3 mb3">
+        <time class="f6 gray db mb2">{{ .date }}</time>
+        <p class="f4 lh-copy mv0">
+          {{ .text | markdownify }}
+        </p>
+      </article>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="f5 gray">No news items yet.</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
