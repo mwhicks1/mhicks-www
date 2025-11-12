@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on</title><link>https://mhicks.me/research/</link><description>Recent content in Research on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 22 Oct 2025 10:18:32 -0400</lastBuildDate><atom:link href="https://mhicks.me/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://mhicks.me/papers/mwh.html">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on</title><link>https://mhicks.me/research/</link><description>Recent content in Research on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 12 Nov 2025 14:39:58 -0500</lastBuildDate><atom:link href="https://mhicks.me/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://mhicks.me/papers/mwh.html">
 &lt;p>Redirecting to 
-&lt;a href="https://mhicks.me/papers/mwh.html">publications page&lt;/a>&amp;hellip;&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Wed, 22 Oct 2025 10:18:32 -0400</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="current">Current
- &lt;a href="#current">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+&lt;a href="https://mhicks.me/papers/mwh.html">publications page&lt;/a>&amp;hellip;&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Wed, 12 Nov 2025 14:39:58 -0500</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="hiring">Hiring
+ &lt;a href="#hiring">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>I am currently looking for talented PhD students to work on projects in computer security and software quality! See my 
-&lt;a href="https://mhicks.me/research/">research&lt;/a> page for things I&amp;rsquo;ve worked on previously.&lt;/p>
-&lt;p>At present I am pleased to be regularly interacting with 
+&lt;a href="https://mhicks.me/about/#research">research summary&lt;/a> for an overview, including in-flight projects, and my 
+&lt;a href="https://mhicks.me/research/publications/">publications&lt;/a> for specific past work.&lt;/p>
+
+
+
+
+&lt;h2 id="current-and-former-group">Current and former group
+ &lt;a href="#current-and-former-group">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Since I&amp;rsquo;ve been at Penn, I am pleased to be working with 
 &lt;a href="https://www.linkedin.com/in/noopur-bhatt/" target="_blank" rel="noopener">Noopur Bhatt&lt;/a> (advised by 
 &lt;a href="https://www.cis.upenn.edu/~sga001/" target="_blank" rel="noopener">Sebastian Angel&lt;/a>) and 
 &lt;a href="https://thia.codes/" target="_blank" rel="noopener">Thia Richey&lt;/a> and 
