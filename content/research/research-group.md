@@ -9,15 +9,15 @@ categories:
 weight: 2
 ---
 
-## Current
+## Hiring
 
-I am currently looking for talented PhD students to work on projects in computer security and software quality! See my [research](/research/) page for things I've worked on previously.
+I am currently looking for talented PhD students to work on projects in computer security and software quality! See my [research summary](/about/#research) for an overview, including in-flight projects, and my [publications](/research/publications/) for specific past work.
 
-At present I am pleased to be regularly interacting with [Noopur Bhatt](https://www.linkedin.com/in/noopur-bhatt/) (advised by [Sebastian Angel](https://www.cis.upenn.edu/~sga001/)) and [Thia Richey](https://thia.codes/) and [Joe Cutler](https://www.cis.upenn.edu/~jwc/) (both advised by [Benjamin Pierce](https://www.cis.upenn.edu/~bcpierce/)).
+## Current and former group
 
-## Past
+Since I've been at Penn, I am pleased to be working with [Noopur Bhatt](https://www.linkedin.com/in/noopur-bhatt/) (advised by [Sebastian Angel](https://www.cis.upenn.edu/~sga001/)) and [Thia Richey](https://thia.codes/) and [Joe Cutler](https://www.cis.upenn.edu/~jwc/) (both advised by [Benjamin Pierce](https://www.cis.upenn.edu/~bcpierce/)).
 
-I worked with many talented post-docs and students while at UMD. They are now off doing amazing things!
+While I was at UMD, I worked with many talented post-docs and students. They are now off doing amazing things!
 
 ### Post-doctoral Researchers
 
