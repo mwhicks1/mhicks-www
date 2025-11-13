@@ -137,7 +137,7 @@ schedule:
       pdf: '/courses/cis-7000-fall2025/downloads/ESPH-pm-ethics.pdf'
 
   - date: "Oct 16"
-    topic: "What's Still Missing in Static Analysis? A Decade-Long Journey"
+    topic: "What's still missing in static analysis?"
     speaker:
       name: "Mayur Naik"
       url: "https://www.cis.upenn.edu/~mhnaik/"
@@ -171,7 +171,7 @@ schedule:
       pdf: '/courses/cis-7000-fall2025/downloads/ESPH-GordonLoeb.pdf'
 
   - date: "Oct 28"
-    topic: "Usability: Privacy & Passwords"
+    topic: "Usability: Privacy & passwords"
     readings:
       - 'Alessandro Acquisti, Laura Brandimarte, and George Loewenstein. [Privacy and human behavior in the age of information](https://www.science.org/doi/full/10.1126/science.aaa1465). Science, Vol. 347, No. 6221, Jan 2015.'
       - text: 'Adryana Hutchinson, Jinwei Tang, Adam Aviv, and Peter Story. [Measuring the Prevalence of Password Manager Issues Using In-Situ Experiments](https://www.ndss-symposium.org/wp-content/uploads/usec2024-94-paper.pdf). In Symposium on Usable Security and Privacy (USEC) 2024.'
@@ -193,7 +193,7 @@ schedule:
       pdf: '/courses/cis-7000-fall2025/downloads/ESPH-shifting-advantages.pdf'
 
   - date: "Nov 4"
-    topic: "Understanding and Simulating Users (considering Privacy)"
+    topic: "Understanding and simulating users (considering privacy)"
     readings:
       - 'Priyanka Nanayakkara, Mary Anne Smart, Rachel Cummings, Gabriel Kaptchuk, Elissa M. Redmiles. [What Are the Chances? Explaining the Epsilon Parameter in Differential Privacy](https://www.usenix.org/system/files/usenixsecurity23-nanayakkara.pdf), USENIX Security 2023.'
       - text: 'Boyu Qiao, Kun Li, Wei Zhou, Shilong Li, Qianqian Lu, Songlin Hu. [BotSim: LLM-Powered Malicious Social Botnet Simulation](https://arxiv.org/pdf/2412.13420), AAAI 2025.'
@@ -204,7 +204,7 @@ schedule:
       pdf: '/courses/cis-7000-fall2025/downloads/ESPH-explain-dp.pdf'
 
   - date: "Nov 6"
-    topic: "Cyber Public Health, and the quantum crypto transition"
+    topic: "Cyber Public Health (CPH), and the quantum crypto transition"
     readings:
       - 'Bellovin and Shostack, [Input to the Commission on Enhancing National Cybersecurity](https://www.nist.gov/system/files/documents/2016/09/16/s.bellovin-a.shostack_rfi_response.pdf), 2016'
       - 'Shostack, Adam, et al. [Lessons for Cybersecurity from the American Public Health System](https://arxiv.org/abs/2506.12257). arXiv preprint arXiv:2506.12257 (2025).'
@@ -229,7 +229,6 @@ schedule:
 
   - date: "Nov 13"
     topic: "Heartbleed's effects, and gamified security training"
-    anchor: "next_class"
     readings:
       - 'Zakir Durumeric, Frank Li, James Kasten, Nicholas Weaver, Johanna Amann, Jethro Beekman, Mathias Payer, David Adrian, Vern Paxson, Michael Bailey, J. Alex Halderman. [The Matter of Heartbleed](https://faculty.cc.gatech.edu/~frankli/papers/li-imc2014.pdf), In ACM Internet Measurement Conference 2014.'
       - text: 'Silic, M., & Lowry, P. B. [Using Design-Science Based Gamification to Improve Organizational Security Training and Compliance](https://doi-org.proxy.library.upenn.edu/10.1080/07421222.2019.1705512). Journal of Management Information Systems, 37(1), 129-161, 2020.'
@@ -240,10 +239,21 @@ schedule:
       pdf: '/courses/cis-7000-fall2025/downloads/ESPH-heartbleed.pdf'
 
   - date: "Nov 18"
-    topic: "Student: Ali Shirzad"
+    topic: "Modeling security risk"
+    anchor: "next_class"
+    readings: 
+      - 'Daniel W. Woods and Rainer Bohme. [SoK: Quantifying Cyber Risk](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519490). IEEE S&P 2019.'
+      - text: 'TBD'
+        optional: true
+        presenter: Ali Shirzad
 
   - date: "Nov 20"
-    topic: "Student: Zhiyao Tang"
+    topic: "Hardware and wetware"
+    readings: 
+      - 'Rick Wash. [Folk Models of Home Computer Security](https://cups.cs.cmu.edu/soups/2010/proceedings/a11_Walsh.pdf). SOUPS 2010'
+      - text: 'TBD'
+        optional: true
+        presenter: 'Zhiyao Tang'
 
   - date: "Nov 25"
     topic: "**TG week: No class**"
