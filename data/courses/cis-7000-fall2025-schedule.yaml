@@ -248,9 +248,9 @@ schedule:
         presenter: Ali Shirzad
 
   - date: "Nov 20"
-    topic: "Hardware and wetware"
+    topic: "Hardware and bugs"
     readings: 
-      - 'Rick Wash. [Folk Models of Home Computer Security](https://cups.cs.cmu.edu/soups/2010/proceedings/a11_Walsh.pdf). SOUPS 2010'
+      - 'Nikolaos Alexopoulos, Manuel Brack, Jan Philipp Wagner, Tim Grube, and Max Mühlhäuser. [How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes](https://www.usenix.org/system/files/sec22-alexopoulos.pdf). USENIX Security 2022'
       - text: 'TBD'
         optional: true
         presenter: 'Zhiyao Tang'
