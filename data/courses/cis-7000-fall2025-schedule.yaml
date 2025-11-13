@@ -217,7 +217,6 @@ schedule:
 
   - date: "Nov 11"
     topic: "Finding bugs, and exploiting them"
-    anchor: "next_class"
     readings:
       - text: 'Winnona DeSombre Bernsen. [Crash (exploit) and burn: Securing the offensive cyber supply chain to counter China in cyberspace](https://www.atlanticcouncil.org/in-depth-research-reports/report/crash-exploit-and-burn/), 2025.'
         optional: true
@@ -230,11 +229,15 @@ schedule:
 
   - date: "Nov 13"
     topic: "Heartbleed's effects, and gamified security training"
+    anchor: "next_class"
     readings:
       - 'Zakir Durumeric, Frank Li, James Kasten, Nicholas Weaver, Johanna Amann, Jethro Beekman, Mathias Payer, David Adrian, Vern Paxson, Michael Bailey, J. Alex Halderman. [The Matter of Heartbleed](https://faculty.cc.gatech.edu/~frankli/papers/li-imc2014.pdf), In ACM Internet Measurement Conference 2014.'
       - text: 'Silic, M., & Lowry, P. B. [Using Design-Science Based Gamification to Improve Organizational Security Training and Compliance](https://doi-org.proxy.library.upenn.edu/10.1080/07421222.2019.1705512). Journal of Management Information Systems, 37(1), 129-161, 2020.'
         optional: true
         presenter: 'Lucia Kulzer'
+    slides:
+      pptx: '/courses/cis-7000-fall2025/downloads/ESPH-heartbleed.pptx'
+      pdf: '/courses/cis-7000-fall2025/downloads/ESPH-heartbleed.pdf'
 
   - date: "Nov 18"
     topic: "Student: Ali Shirzad"
