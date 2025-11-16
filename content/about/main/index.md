@@ -16,15 +16,15 @@ From 2022-2025 I was a Senior Principal Scientist at [Amazon Web Services](https
 
 ## [Research](/research/)
 
-My research focuses on improving software availability, reliability, and security through programming languages and software engineering techniques. 
+**I'm looking for new PhD students to join my lab in 2026!**
 
-And: I'm looking to hire new PhD students in 2026!
+My research focuses on improving software availability, reliability, and security through programming languages and software engineering techniques. 
 
 ### Ongoing projects
 
-I am currently exploring two main directions. First, I am working on ways to efficiently build high-quality and secure software, with a particular focus on **fuzz testing and property-based testing**. These techniques are effective at spotting bugs, improving software quality, while also being usable and scalable. I am currently exploring how GenAI-driven coding can improve, and be improved by, these techniques. In my first couple of years at Amazon, I worked on property-based testing for the [Cedar](https://cedarpolicy.com) authorization language (more below), and when I was at UMD, I developed methodologies for [evaluating fuzz testers](http://www.pl-enthusiast.net/2018/08/23/evaluating-empirical-evaluations-for-fuzz-testing/), [benchmarking them](http://mhicks.me/papers/zhang22fixreverter.html), and [combining them with property-based testing](/papers/lampropoulos19fuzzchick.html).
+I am currently exploring two main directions. First, I am working on ways to efficiently build high-quality and secure software, with a particular focus on **fuzz testing and property-based testing**. These techniques are effective at spotting bugs, improving software quality, while also being usable and scalable. I am currently exploring how **GenAI-driven coding** can improve, and be improved by, these techniques. In my first couple of years at Amazon, I worked on property-based testing for the [Cedar](https://cedarpolicy.com) authorization language (more below), and when I was at UMD, I developed methodologies for [evaluating fuzz testers](http://www.pl-enthusiast.net/2018/08/23/evaluating-empirical-evaluations-for-fuzz-testing/), [benchmarking them](http://mhicks.me/papers/zhang22fixreverter.html), and [combining them with property-based testing](/papers/lampropoulos19fuzzchick.html).
 
-The second broad area I am exploring is [**Cyber Public Health**](https://cybergreen.net/cyber-public-health/), which is an effort to take lessons from public health practices and institutions and apply them to improving the practice of cybersecurity. As we have been reading about in my [class](/courses/CIS-7000-Fall2025/), it can be difficult to connect cybersecurity innovations to their impact because we lack good data about relevant outcomes. I am starting to talk with Penn colleagues in business, law, policy, and health about how we can change this state of affairs. A key concern in all this is the human user, so I am also engaging with experts in the [Usable Security and Privacy](https://www.usenix.org/conferences/byname/884) community.
+The second broad area I am exploring is [**Cyber Public Health**](https://cybergreen.net/cyber-public-health/), which is an effort to take lessons from public health practices and institutions and apply them to improving the practice of cybersecurity. As we have been reading about in my [class](/courses/CIS-7000-Fall2025/), it can be difficult to connect cybersecurity innovations to their impact because we lack good data about relevant outcomes. I am starting to talk with Penn colleagues in business, law, policy, and health about how we can change this state of affairs. A key concern in all this is the human user, so I am also engaging with experts in the [**Usable Security and Privacy**](https://www.usenix.org/conferences/byname/884) community.
 
 ### Other recent work
 
@@ -41,7 +41,7 @@ Here is my current [vita](cv.pdf). My [research](/research/) page lists publicat
 
 ## [Teaching](/courses/)
 
-- **Current**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (UPenn CIS 7000, Fall 2025)
+- **Current**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (UPenn CIS 7000-010, Fall 2025)
 - **Recent (UMD)**: Organization of Programming Languages (CMSC 330, multiple semesters); Program Analysis and Understanding (CMSC 631, multiple semesters); [Software Security](https://www.coursera.org/learn/software-security/) MOOC (now free, originally on Coursera)
 - **Past (UMD)**: [Build it, Break it, Fix it](https://www.cs.umd.edu/class/winter2020/cmsc388N/) contest (CMSC 388N); Mechanized Proof and Verified Software (CMSC 838G); Cybersecurity Lab (CMSC 498L); Operating Systems (CMSC 412)
 
