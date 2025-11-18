@@ -248,6 +248,9 @@ schedule:
         presenter: Ali Shirzad
       - text: 'Dimitri Mankowski, Thom Wiggers, and Veelasha Moonsamy. [TLS → Post-Quantum TLS: Inspecting the TLS landscape for PQC adoption on Android](https://ieeexplore-ieee-org.proxy.library.upenn.edu/document/10190646). European IEEE S&P Symposium 2023.'
         note: 'Optional supplemental reading'
+    slides:
+      pptx: '/courses/cis-7000-fall2025/downloads/ESPH-quantifying-risk.pptx'
+      pdf: '/courses/cis-7000-fall2025/downloads/ESPH-quantifying-risk.pdf'
 
   - date: "Nov 20"
     topic: "Vulnerability lifetimes; on-line scams"
