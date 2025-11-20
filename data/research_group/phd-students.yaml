@@ -20,7 +20,7 @@
   dissertation:
     url: https://doi.org/10.13016/fsym-xzir
     title: Advanced Language-based Techniques for Correct, Secure Networked Systems
-  description: Software research engineer, <a href="https://galois.com/">Galois</a>, since June 2020 (part-time 2019)
+  description: Software research engineer, <a href="https://galois.com/">Galois</a>, since June 2020 
 
 - name: Andrew Ruef
   url: https://www.linkedin.com/in/andrew-ruef-502945360/
@@ -54,7 +54,7 @@
   dissertation:
     url: http://www.luispina.me/pdfs/pina16phd.pdf
     title: Practical Dynamic Software Updating (for Java)
-  description: Assistant Professor at University of Illinois, Chicago, starting Fall'19; previously post-doc at George Mason (Aug 2017-19) and <a href="https://www.imperial.ac.uk/">Imperial College, London</a> (Mar 2015-Aug 2017)
+  description: Assistant Professor at University of Illinois, Chicago, since Fall'19; previously post-doc at George Mason (Aug 2017-19) and <a href="https://www.imperial.ac.uk/">Imperial College, London</a> (Mar 2015-Aug 2017)
 
 - name: Karla Saur
   url: https://ksaur.github.io/
@@ -97,7 +97,7 @@
   dissertation:
     url: http://hdl.handle.net/1903/12996
     title: Automating Performance Diagnosis in Networked Systems
-  description: <a href="http://www.averesystems.com/">Avere Systems</a> since July 2012
+  description: Principal Software Engineer at Microsoft, since 2018; previously, technical staff, <a href="http://www.averesystems.com/">Avere Systems</a> from 2012
 
 - name: Martin Ma
   url: https://www.linkedin.com/in/kinkeungma/
@@ -131,7 +131,7 @@
   dissertation:
     url: http://hdl.handle.net/1903/8614
     title: Practical Dynamic Software Updating
-  description: Full Prof, <a href="https://web.njit.edu/">NJIT</a>; there since Fall 2015 (at <a href="http://www1.cs.ucr.edu/index.php">UC Riverside</a>, 2008-2015).
+  description: Professor, <a href="https://web.njit.edu/">NJIT</a>, since Fall 2015; at <a href="http://www1.cs.ucr.edu/index.php">UC Riverside</a>, 2008-2015.
 
 - name: Polyvios Pratikakis
   url: http://users.ics.forth.gr/~polyvios/
