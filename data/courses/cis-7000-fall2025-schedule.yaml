@@ -259,6 +259,9 @@ schedule:
       - text: "Sharad Agarwal, Emma Harvey, Enrico Mariconti, Guillermo Suarez-Tangil, Marie Vasek. ['Hey mum, I dropped my phone down the toilet': Investigating Hi Mum and Dad SMS Scams in the United Kingdom](https://www.usenix.org/conference/usenixsecurity25/presentation/agarwal-sharad). USENIX Security 2025."
         optional: true
         presenter: 'Zhiyao Tang'
+    slides:
+      pptx: '/courses/cis-7000-fall2025/downloads/ESPH-vulnerability-lifetimes.pptx'
+      pdf: '/courses/cis-7000-fall2025/downloads/ESPH-vulnerability-lifetimes.pdf'
 
   - date: "Nov 25"
     topic: "**TG week: No class**"
@@ -271,3 +274,6 @@ schedule:
 
   - date: "Dec 4"
     topic: "Final project presentations"
+
+  - date: "Dec 12"
+    topic: "**Final project report due**"
