@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on</title><link>https://mhicks.me/research/</link><description>Recent content in Research on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 12 Nov 2025 14:39:58 -0500</lastBuildDate><atom:link href="https://mhicks.me/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://mhicks.me/papers/mwh.html">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on</title><link>https://mhicks.me/research/</link><description>Recent content in Research on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 20 Nov 2025 10:06:15 -0500</lastBuildDate><atom:link href="https://mhicks.me/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Publications</title><link>https://mhicks.me/research/publications/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://mhicks.me/research/publications/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://mhicks.me/papers/mwh.html">
 &lt;p>Redirecting to 
 &lt;a href="https://mhicks.me/papers/mwh.html">publications page&lt;/a>&amp;hellip;&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Wed, 12 Nov 2025 14:39:58 -0500</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="hiring">Hiring
  &lt;a href="#hiring">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
@@ -24,12 +24,16 @@
 &lt;a href="https://www.cis.upenn.edu/~sga001/" target="_blank" rel="noopener">Sebastian Angel&lt;/a>) and 
 &lt;a href="https://thia.codes/" target="_blank" rel="noopener">Thia Richey&lt;/a> and 
 &lt;a href="https://www.cis.upenn.edu/~jwc/" target="_blank" rel="noopener">Joe Cutler&lt;/a> (both advised by 
-&lt;a href="https://www.cis.upenn.edu/~bcpierce/" target="_blank" rel="noopener">Benjamin Pierce&lt;/a>).&lt;/p></description></item><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Sat, 18 Oct 2025 07:53:36 -0400</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
+&lt;a href="https://www.cis.upenn.edu/~bcpierce/" target="_blank" rel="noopener">Benjamin Pierce&lt;/a>).&lt;/p></description></item><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Thu, 20 Nov 2025 10:06:15 -0500</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
 &lt;table>
  &lt;tbody>
  &lt;tr>
+ &lt;td valign="top" align="center">&lt;b>2026&lt;/b>&lt;/td>
+ &lt;td valign="top">&lt;a href="https://conf.researchr.org/track/splash-2026/oopsla-2026">OOPSLA&lt;/a>, &lt;a href="https://sp2026.ieee-security.org/">S&amp;P&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td valign="top" align="center">&lt;b>2025&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://csf2025.ieee-security.org/">CSF&lt;/a>, &lt;a href="https://2025.splashcon.org/track/OOPSLA">OOPSLA&lt;/a>, &lt;a href="https://sp2025.ieee-security.org/">S&amp;P&lt;/a>&lt;/td>
+ &lt;td valign="top">&lt;a href="https://csf2025.ieee-security.org/">CSF&lt;/a>&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td valign="top" align="center">&lt;b>2024&lt;/b>&lt;/td>
