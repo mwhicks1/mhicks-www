@@ -14,8 +14,12 @@ I was the Chair (2015-2018) and Past Chair (2018-2021) of <a href="http://www.si
 <table>
   <tbody>
     <tr>
+      <td valign="top" align="center"><b>2026</b></td>
+      <td valign="top"><a href="https://conf.researchr.org/track/splash-2026/oopsla-2026">OOPSLA</a>, <a href="https://sp2026.ieee-security.org/">S&P</a></td>
+    </tr>
+    <tr>
       <td valign="top" align="center"><b>2025</b></td>
-      <td valign="top"><a href="https://csf2025.ieee-security.org/">CSF</a>, <a href="https://2025.splashcon.org/track/OOPSLA">OOPSLA</a>, <a href="https://sp2025.ieee-security.org/">S&P</a></td>
+      <td valign="top"><a href="https://csf2025.ieee-security.org/">CSF</a></td>
     </tr>
     <tr>
       <td valign="top" align="center"><b>2024</b></td>
