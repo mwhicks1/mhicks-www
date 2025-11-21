@@ -1,109 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service on</title><link>https://mhicks.me/categories/Service/</link><description>Recent content in Service on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 20 Nov 2025 10:06:15 -0500</lastBuildDate><atom:link href="https://mhicks.me/categories/Service/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Thu, 20 Nov 2025 10:06:15 -0500</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service on</title><link>https://mhicks.me/categories/Service/</link><description>Recent content in Service on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 21 Nov 2025 07:58:51 -0500</lastBuildDate><atom:link href="https://mhicks.me/categories/Service/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Fri, 21 Nov 2025 07:58:51 -0500</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
 &lt;table>
- &lt;tbody>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2026&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://conf.researchr.org/track/splash-2026/oopsla-2026">OOPSLA&lt;/a>, &lt;a href="https://sp2026.ieee-security.org/">S&amp;P&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2025&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://csf2025.ieee-security.org/">CSF&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2024&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://popl24.sigplan.org/">POPL&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2023&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://pldi23.sigplan.org/">PLDI&lt;/a> (Area Chair), &lt;a href="https://dl.acm.org/journal/pacmpl">PACMPL&lt;/a> (Editor in Chief, until Nov 2028)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2022&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://www.ieee-security.org/TC/SP2022/">S&amp;P&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2021&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://conf.researchr.org/home/pldi-2021">PLDI&lt;/a>, &lt;a href="https://2021.splashcon.org/track/splash-2021-oopsla">OOPSLA&lt;/a>, &lt;a href="https://asplos-conference.org/2021">ASPLOS&lt;/a> (ERC)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2020&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://popl20.sigplan.org/home/planqc-2020">PLanQC&lt;/a> (co-organizer), &lt;a href="https://conf.researchr.org/home/pldi-2020">PLDI&lt;/a> (ERC)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2019&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="https://popl19.sigplan.org/track/POPL-2019-Student-Research-Competition">POPL SRC&lt;/a>, &lt;a href="https://asplos-conference.org/2019">ASPLOS&lt;/a> (ERC), &lt;a href="https://snapl.org/2019/">SNAPL&lt;/a>, &lt;a href="https://www.sigsac.org/ccs/CCS2019/">CCS&lt;/a> (Area Chair), &lt;a href="https://secdev.ieee.org/2019/Home/">SecDev&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2018&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="http://www.etaps.org/index.php/2018/post">POST&lt;/a>, &lt;a href="https://www.ieee-security.org/TC/SP2018/">S&amp;P&lt;/a> (Area Chair), &lt;a href="https://secdev.ieee.org/2018/home">SecDev&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td valign="top" align="center">&lt;b>2017&lt;/b>&lt;/td>
- &lt;td valign="top">&lt;a href="http://www.ieee-security.org/TC/SP2017/">S&amp;P&lt;/a>, &lt;a href="https://distrinet.cs.kuleuven.be/events/essos/2017/">ESSoS&lt;/a>, &lt;a href="https://www.sigsac.org/ccs/CCS2017/">CCS&lt;/a>, &lt;a href="https://www.usenix.org/conference/ase17">USENIX ASE&lt;/a>, &lt;a href="https://secdev.ieee.org/2017/home/">SecDev&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2016&lt;/th>
- &lt;td>&lt;a href="http://www.sigplan.org/Conferences/PLDI/">PLDI&lt;/a>, &lt;a href="http://csf2016.tecnico.ulisboa.pt/">CSF&lt;/a> (PC co-chair), &lt;a href="https://www.usenix.org/conference/ase16">USENIX ASE&lt;/a>, &lt;a href="http://secdev.ieee.org/">SecDev&lt;/a> (PC chair), &lt;a href="https://csaw.engineering.nyu.edu/research/preliminary-judges">CSAW&lt;/a> judge&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2015&lt;/th>
- &lt;td>&lt;a href="http://www.ieee-security.org/TC/SP2015/">S&amp;P&lt;/a>, &lt;a href="http://csf2015.di.univr.it/">CSF&lt;/a> (PC co-chair), &lt;a href="http://snapl.org/2015/index.html">SNAPL&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2014&lt;/th>
- &lt;td>&lt;a href="http://popl-obt-2014.cs.brown.edu/">OBT&lt;/a>, &lt;a href="http://csf2014.di.univr.it/">CSF&lt;/a>, &lt;a href="http://splashcon.org/2014/oopsla.html">OOPSLA/SPLASH&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2013&lt;/th>
- &lt;td>&lt;a href="http://popl.mpi-sws.org/2013/">POPL&lt;/a> (ERC), &lt;a href="http://pldi2013.ucombinator.org/">PLDI&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2012&lt;/th>
- &lt;td>&lt;a href="http://www.cse.psu.edu/popl/12/">POPL&lt;/a> (PC chair), &lt;a href="http://hotswup.org/2012/">HotSWUp&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2011&lt;/th>
- &lt;td>&lt;a href="http://www.mpi-sws.org/~dreyer/tldi2011/">TLDI&lt;/a>, &lt;a href="http://www.hotswup.org/2011">HotSWUp&lt;/a> (co-organizer), &lt;a href="http://splashcon.org/2011/committee/75">OOPSLA&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2010&lt;/th>
- &lt;td>&lt;a href="http://research.microsoft.com/en-us/um/people/adg/esop2010.htm">ESOP&lt;/a>, &lt;a href="http://cs.stanford.edu/pldi10/">PLDI&lt;/a> (ERC and tutorials chair), &lt;a href="http://www.icfpconference.org/">ICFP&lt;/a> (PC and local arrangements), &lt;a href="http://cseweb.ucsd.edu/paste2010/">PASTE&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2009&lt;/th>
- &lt;td>&lt;a href="http://www.cs.ucsd.edu/popl/09/">POPL&lt;/a>, &lt;a href="http://oakland09.cs.virginia.edu/">S&amp;P&lt;/a>, &lt;a href="http://www-plan.cs.colorado.edu/~pldi09/src.html">PLDI SRC&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2008&lt;/th>
- &lt;td>&lt;a href="http://www.sigsac.org/ccs/CCS2008/">CCS&lt;/a>, &lt;a href="http://www.ece.cmu.edu/~koopman/dsn08/catars08.html">CATARS&lt;/a>, &lt;a href="http://discotec08.ifi.uio.no/pmwiki.php?n=Coordination08.HomePage">COORDINATION&lt;/a>, &lt;a href="http://www.cs.kent.ac.uk/people/staff/rej/ismm2008/">ISMM&lt;/a> (ERC)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2007&lt;/th>
- &lt;td>&lt;a href="http://www.cs.umd.edu/~mwh/PLAS07/">PLAS&lt;/a> (general and PC chair), &lt;a href="http://www.oopsla.org/oopsla2007/">OOPSLA&lt;/a>, &lt;a href="http://www.discotec07.cs.ucy.ac.cy/">COORDINATION&lt;/a>, &lt;a href="http://ties.ucsd.edu/PLDI/">PLDI&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2006&lt;/th>
- &lt;td>&lt;a href="http://www.disi.unige.it/person/AnconaD/FTfJP06/">FTfJP&lt;/a>, &lt;a href="http://www.cis.upenn.edu/~stevez/plas06.html">PLAS&lt;/a>, &lt;a href="http://www.itu.dk/research/plt/space2006/">SPACE&lt;/a>, &lt;a href="http://oops.disi.unige.it/OOPS06/">OOPS&lt;/a> (part of &lt;a href="http://www.acm.org/conferences/sac/sac2006/">SAC 2006&lt;/a>)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2005&lt;/th>
- &lt;td>&lt;a href="http://research.microsoft.com/~tharris/scool05/">SCOOL&lt;/a>, &lt;a href="http://research.ihost.com/vee/vee05/index.html">VEE&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2004&lt;/th>
- &lt;td>&lt;a href="https://lists.ira.uni-karlsruhe.de/pipermail/mmb/2004/000260.html">IWAN&lt;/a>, &lt;a href="http://icpp.ecn.purdue.edu/ICPP2004/">ICPP&lt;/a>, &lt;a href="http://www.informatik.uni-bonn.de/~gk/use/fuse2004/index.html">FUSE&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2003&lt;/th>
- &lt;td>&lt;a href="http://www.informatik.uni-trier.de/~ley/db/conf/iwan/iwan2003.html">IWAN&lt;/a>, &lt;a href="http://www.informatik.uni-bonn.de/~gk/use/2003/">USE&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2002&lt;/th>
- &lt;td>&lt;a href="http://www.sigmod.org/dblp/db/conf/iwan/iwan2002.html">IWAN&lt;/a>, &lt;a href="http://www.informatik.uni-bonn.de/~gk/use/2002/">USE&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;th>2001&lt;/th>
- &lt;td>&lt;a href="http://dblp2.uni-trier.de/db/conf/iwan/iwan2001">IWAN&lt;/a>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
+ &lt;tbody>&lt;tr>&lt;td valign="top" align="center">&lt;b>2026&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="https://conf.researchr.org/track/splash-2026/oopsla-2026">OOPSLA&lt;/a>, &lt;a href="https://sp2026.ieee-security.org/">S&amp;amp;P&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2025&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="https://csf2025.ieee-security.org/">CSF&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2024&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="https://popl24.sigplan.org/">POPL&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2023&lt;/th>&lt;td valign="top">&lt;a href="https://pldi23.sigplan.org/">PLDI&lt;/a> (Area Chair), &lt;a href="https://dl.acm.org/journal/pacmpl">PACMPL&lt;/a> (Editor in Chief, until Nov 2028)&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2022&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="https://www.ieee-security.org/TC/SP2022/">S&amp;amp;P&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2021&lt;/th>&lt;td valign="top">&lt;a href="https://conf.researchr.org/home/pldi-2021">PLDI&lt;/a>, &lt;a href="https://2021.splashcon.org/track/splash-2021-oopsla">OOPSLA&lt;/a>, &lt;a href="https://asplos-conference.org/2021">ASPLOS&lt;/a> (ERC)&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2020&lt;/th>&lt;td valign="top">&lt;a href="https://popl20.sigplan.org/home/planqc-2020">PLanQC&lt;/a> (co-organizer), &lt;a href="https://conf.researchr.org/home/pldi-2020">PLDI&lt;/a> (ERC)&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2019&lt;/th>&lt;td valign="top">&lt;a href="https://popl19.sigplan.org/track/POPL-2019-Student-Research-Competition">POPL SRC&lt;/a>, &lt;a href="https://asplos-conference.org/2019">ASPLOS&lt;/a> (ERC), &lt;a href="https://snapl.org/2019/">SNAPL&lt;/a>, &lt;a href="https://www.sigsac.org/ccs/CCS2019/">CCS&lt;/a> (Area Chair), &lt;a href="https://secdev.ieee.org/2019/Home/">SecDev&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2018&lt;/th>&lt;td valign="top">&lt;a href="http://www.etaps.org/index.php/2018/post">POST&lt;/a>, &lt;a href="https://www.ieee-security.org/TC/SP2018/">S&amp;amp;P&lt;/a> (Area Chair), &lt;a href="https://secdev.ieee.org/2018/home">SecDev&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2017&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://www.ieee-security.org/TC/SP2017/">S&amp;amp;P&lt;/a>, &lt;a href="https://distrinet.cs.kuleuven.be/events/essos/2017/">ESSoS&lt;/a>, &lt;a href="https://www.sigsac.org/ccs/CCS2017/">CCS&lt;/a>, &lt;a href="https://www.usenix.org/conference/ase17">USENIX ASE&lt;/a>, &lt;a href="https://secdev.ieee.org/2017/home/">SecDev&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2016&lt;/th>&lt;td valign="top">&lt;a href="http://www.sigplan.org/Conferences/PLDI/">PLDI&lt;/a>, &lt;a href="http://csf2016.tecnico.ulisboa.pt/">CSF&lt;/a> (PC co-chair), &lt;a href="https://www.usenix.org/conference/ase16">USENIX ASE&lt;/a>, &lt;a href="http://secdev.ieee.org/">SecDev&lt;/a> (PC chair), &lt;a href="https://csaw.engineering.nyu.edu/research/preliminary-judges">CSAW&lt;/a> (judge)&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2015&lt;/th>&lt;td valign="top">&lt;a href="http://www.ieee-security.org/TC/SP2015/">S&amp;amp;P&lt;/a>, &lt;a href="http://csf2015.di.univr.it/">CSF&lt;/a> (PC co-chair), &lt;a href="http://snapl.org/2015/index.html">SNAPL&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2014&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://popl-obt-2014.cs.brown.edu/">OBT&lt;/a>, &lt;a href="http://csf2014.di.univr.it/">CSF&lt;/a>, &lt;a href="http://splashcon.org/2014/oopsla.html">OOPSLA/SPLASH&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2013&lt;/th>&lt;td valign="top">&lt;a href="http://popl.mpi-sws.org/2013/">POPL&lt;/a> (ERC), &lt;a href="http://pldi2013.ucombinator.org/">PLDI&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2012&lt;/th>&lt;td valign="top">&lt;a href="http://www.cse.psu.edu/popl/12/">POPL&lt;/a> (PC chair), &lt;a href="http://hotswup.org/2012/">HotSWUp&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2011&lt;/th>&lt;td valign="top">&lt;a href="http://www.mpi-sws.org/~dreyer/tldi2011/">TLDI&lt;/a>, &lt;a href="http://www.hotswup.org/2011">HotSWUp&lt;/a> (co-organizer), &lt;a href="http://splashcon.org/2011/committee/75">OOPSLA&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2010&lt;/th>&lt;td valign="top">&lt;a href="http://research.microsoft.com/en-us/um/people/adg/esop2010.htm">ESOP&lt;/a>, &lt;a href="http://cs.stanford.edu/pldi10/">PLDI&lt;/a> (ERC and tutorials chair), &lt;a href="http://www.icfpconference.org/">ICFP&lt;/a> (PC and local arrangements), &lt;a href="http://cseweb.ucsd.edu/paste2010/">PASTE&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2009&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://www.cs.ucsd.edu/popl/09/">POPL&lt;/a>, &lt;a href="http://oakland09.cs.virginia.edu/">S&amp;amp;P&lt;/a>, &lt;a href="http://www-plan.cs.colorado.edu/~pldi09/src.html">PLDI SRC&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2008&lt;/th>&lt;td valign="top">&lt;a href="http://www.sigsac.org/ccs/CCS2008/">CCS&lt;/a>, &lt;a href="http://www.ece.cmu.edu/~koopman/dsn08/catars08.html">CATARS&lt;/a>, &lt;a href="http://discotec08.ifi.uio.no/pmwiki.php?n=Coordination08.HomePage">COORDINATION&lt;/a>, &lt;a href="http://www.cs.kent.ac.uk/people/staff/rej/ismm2008/">ISMM&lt;/a> (ERC)&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2007&lt;/th>&lt;td valign="top">&lt;a href="http://www.cs.umd.edu/~mwh/PLAS07/">PLAS&lt;/a> (general and PC chair), &lt;a href="http://www.oopsla.org/oopsla2007/">OOPSLA&lt;/a>, &lt;a href="http://www.discotec07.cs.ucy.ac.cy/">COORDINATION&lt;/a>, &lt;a href="http://ties.ucsd.edu/PLDI/">PLDI&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;th>2006&lt;/th>&lt;td valign="top">&lt;a href="http://www.disi.unige.it/person/AnconaD/FTfJP06/">FTfJP&lt;/a>, &lt;a href="http://www.cis.upenn.edu/~stevez/plas06.html">PLAS&lt;/a>, &lt;a href="http://www.itu.dk/research/plt/space2006/">SPACE&lt;/a>, &lt;a href="http://oops.disi.unige.it/OOPS06/">OOPS&lt;/a> (part of SAC 2006) (part of &lt;a href="http://www.acm.org/conferences/sac/sac2006/">SAC 2006&lt;/a>)&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2005&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://research.microsoft.com/~tharris/scool05/">SCOOL&lt;/a>, &lt;a href="http://research.ihost.com/vee/vee05/index.html">VEE&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2004&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="https://lists.ira.uni-karlsruhe.de/pipermail/mmb/2004/000260.html">IWAN&lt;/a>, &lt;a href="http://icpp.ecn.purdue.edu/ICPP2004/">ICPP&lt;/a>, &lt;a href="http://www.informatik.uni-bonn.de/~gk/use/fuse2004/index.html">FUSE&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2003&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://www.informatik.uni-trier.de/~ley/db/conf/iwan/iwan2003.html">IWAN&lt;/a>, &lt;a href="http://www.informatik.uni-bonn.de/~gk/use/2003/">USE&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2002&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://www.sigmod.org/dblp/db/conf/iwan/iwan2002.html">IWAN&lt;/a>, &lt;a href="http://www.informatik.uni-bonn.de/~gk/use/2002/">USE&lt;/a>&lt;/td>
+ &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2001&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://dblp2.uni-trier.de/db/conf/iwan/iwan2001">IWAN&lt;/a>&lt;/td>
+ &lt;/tr>&lt;/tbody>
 &lt;/table></description></item></channel></rss>
