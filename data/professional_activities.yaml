@@ -1,0 +1,242 @@
+- year: 2026
+  activities:
+    - name: OOPSLA
+      url: https://conf.researchr.org/track/splash-2026/oopsla-2026
+    - name: S&P
+      url: https://sp2026.ieee-security.org/
+
+- year: 2025
+  activities:
+    - name: CSF
+      url: https://csf2025.ieee-security.org/
+
+- year: 2024
+  activities:
+    - name: POPL
+      url: https://popl24.sigplan.org/
+
+- year: 2023
+  activities:
+    - name: PLDI
+      url: https://pldi23.sigplan.org/
+      role: Area Chair
+    - name: PACMPL
+      url: https://dl.acm.org/journal/pacmpl
+      role: Editor in Chief, until Nov 2028
+
+- year: 2022
+  activities:
+    - name: S&P
+      url: https://www.ieee-security.org/TC/SP2022/
+
+- year: 2021
+  activities:
+    - name: PLDI
+      url: https://conf.researchr.org/home/pldi-2021
+    - name: OOPSLA
+      url: https://2021.splashcon.org/track/splash-2021-oopsla
+    - name: ASPLOS
+      url: https://asplos-conference.org/2021
+      role: ERC
+
+- year: 2020
+  activities:
+    - name: PLanQC
+      url: https://popl20.sigplan.org/home/planqc-2020
+      role: co-organizer
+    - name: PLDI
+      url: https://conf.researchr.org/home/pldi-2020
+      role: ERC
+
+- year: 2019
+  activities:
+    - name: POPL SRC
+      url: https://popl19.sigplan.org/track/POPL-2019-Student-Research-Competition
+    - name: ASPLOS
+      url: https://asplos-conference.org/2019
+      role: ERC
+    - name: SNAPL
+      url: https://snapl.org/2019/
+    - name: CCS
+      url: https://www.sigsac.org/ccs/CCS2019/
+      role: Area Chair
+    - name: SecDev
+      url: https://secdev.ieee.org/2019/Home/
+
+- year: 2018
+  activities:
+    - name: POST
+      url: http://www.etaps.org/index.php/2018/post
+    - name: S&P
+      url: https://www.ieee-security.org/TC/SP2018/
+      role: Area Chair
+    - name: SecDev
+      url: https://secdev.ieee.org/2018/home
+
+- year: 2017
+  activities:
+    - name: S&P
+      url: http://www.ieee-security.org/TC/SP2017/
+    - name: ESSoS
+      url: https://distrinet.cs.kuleuven.be/events/essos/2017/
+    - name: CCS
+      url: https://www.sigsac.org/ccs/CCS2017/
+    - name: USENIX ASE
+      url: https://www.usenix.org/conference/ase17
+    - name: SecDev
+      url: https://secdev.ieee.org/2017/home/
+
+- year: 2016
+  activities:
+    - name: PLDI
+      url: http://www.sigplan.org/Conferences/PLDI/
+    - name: CSF
+      url: http://csf2016.tecnico.ulisboa.pt/
+      role: PC co-chair
+    - name: USENIX ASE
+      url: https://www.usenix.org/conference/ase16
+    - name: SecDev
+      url: http://secdev.ieee.org/
+      role: PC chair
+    - name: CSAW
+      url: https://csaw.engineering.nyu.edu/research/preliminary-judges
+      role: judge
+
+- year: 2015
+  activities:
+    - name: S&P
+      url: http://www.ieee-security.org/TC/SP2015/
+    - name: CSF
+      url: http://csf2015.di.univr.it/
+      role: PC co-chair
+    - name: SNAPL
+      url: http://snapl.org/2015/index.html
+
+- year: 2014
+  activities:
+    - name: OBT
+      url: http://popl-obt-2014.cs.brown.edu/
+    - name: CSF
+      url: http://csf2014.di.univr.it/
+    - name: OOPSLA/SPLASH
+      url: http://splashcon.org/2014/oopsla.html
+
+- year: 2013
+  activities:
+    - name: POPL
+      url: http://popl.mpi-sws.org/2013/
+      role: ERC
+    - name: PLDI
+      url: http://pldi2013.ucombinator.org/
+
+- year: 2012
+  activities:
+    - name: POPL
+      url: http://www.cse.psu.edu/popl/12/
+      role: PC chair
+    - name: HotSWUp
+      url: http://hotswup.org/2012/
+
+- year: 2011
+  activities:
+    - name: TLDI
+      url: http://www.mpi-sws.org/~dreyer/tldi2011/
+    - name: HotSWUp
+      url: http://www.hotswup.org/2011
+      role: co-organizer
+    - name: OOPSLA
+      url: http://splashcon.org/2011/committee/75
+
+- year: 2010
+  activities:
+    - name: ESOP
+      url: http://research.microsoft.com/en-us/um/people/adg/esop2010.htm
+    - name: PLDI
+      url: http://cs.stanford.edu/pldi10/
+      role: ERC and tutorials chair
+    - name: ICFP
+      url: http://www.icfpconference.org/
+      role: PC and local arrangements
+    - name: PASTE
+      url: http://cseweb.ucsd.edu/paste2010/
+
+- year: 2009
+  activities:
+    - name: POPL
+      url: http://www.cs.ucsd.edu/popl/09/
+    - name: S&P
+      url: http://oakland09.cs.virginia.edu/
+    - name: PLDI SRC
+      url: http://www-plan.cs.colorado.edu/~pldi09/src.html
+
+- year: 2008
+  activities:
+    - name: CCS
+      url: http://www.sigsac.org/ccs/CCS2008/
+    - name: CATARS
+      url: http://www.ece.cmu.edu/~koopman/dsn08/catars08.html
+    - name: COORDINATION
+      url: http://discotec08.ifi.uio.no/pmwiki.php?n=Coordination08.HomePage
+    - name: ISMM
+      url: http://www.cs.kent.ac.uk/people/staff/rej/ismm2008/
+      role: ERC
+
+- year: 2007
+  activities:
+    - name: PLAS
+      url: http://www.cs.umd.edu/~mwh/PLAS07/
+      role: general and PC chair
+    - name: OOPSLA
+      url: http://www.oopsla.org/oopsla2007/
+    - name: COORDINATION
+      url: http://www.discotec07.cs.ucy.ac.cy/
+    - name: PLDI
+      url: http://ties.ucsd.edu/PLDI/
+
+- year: 2006
+  activities:
+    - name: FTfJP
+      url: http://www.disi.unige.it/person/AnconaD/FTfJP06/
+    - name: PLAS
+      url: http://www.cis.upenn.edu/~stevez/plas06.html
+    - name: SPACE
+      url: http://www.itu.dk/research/plt/space2006/
+    - name: OOPS
+      url: http://oops.disi.unige.it/OOPS06/
+      role: part of SAC 2006
+      note_url: http://www.acm.org/conferences/sac/sac2006/
+
+- year: 2005
+  activities:
+    - name: SCOOL
+      url: http://research.microsoft.com/~tharris/scool05/
+    - name: VEE
+      url: http://research.ihost.com/vee/vee05/index.html
+
+- year: 2004
+  activities:
+    - name: IWAN
+      url: https://lists.ira.uni-karlsruhe.de/pipermail/mmb/2004/000260.html
+    - name: ICPP
+      url: http://icpp.ecn.purdue.edu/ICPP2004/
+    - name: FUSE
+      url: http://www.informatik.uni-bonn.de/~gk/use/fuse2004/index.html
+
+- year: 2003
+  activities:
+    - name: IWAN
+      url: http://www.informatik.uni-trier.de/~ley/db/conf/iwan/iwan2003.html
+    - name: USE
+      url: http://www.informatik.uni-bonn.de/~gk/use/2003/
+
+- year: 2002
+  activities:
+    - name: IWAN
+      url: http://www.sigmod.org/dblp/db/conf/iwan/iwan2002.html
+    - name: USE
+      url: http://www.informatik.uni-bonn.de/~gk/use/2002/
+
+- year: 2001
+  activities:
+    - name: IWAN
+      url: http://dblp2.uni-trier.de/db/conf/iwan/iwan2001

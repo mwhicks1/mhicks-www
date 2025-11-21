@@ -1,0 +1,33 @@
+<table>
+  <tbody>
+    {{- range $.Site.Data.professional_activities -}}
+    <tr>
+      {{- if .activities -}}
+        {{- $hasRole := false -}}
+        {{- range .activities -}}
+          {{- if .role -}}
+            {{- $hasRole = true -}}
+          {{- end -}}
+        {{- end -}}
+
+        {{- if $hasRole -}}
+          <th>{{ .year }}</th>
+        {{- else -}}
+          <td valign="top" align="center"><b>{{ .year }}</b></td>
+        {{- end -}}
+      {{- else -}}
+        <td valign="top" align="center"><b>{{ .year }}</b></td>
+      {{- end -}}
+
+      <td valign="top">
+        {{- range $index, $activity := .activities -}}
+          {{- if gt $index 0 -}}, {{ end -}}
+          <a href="{{ $activity.url }}">{{ $activity.name }}</a>
+          {{- if $activity.role }} ({{ $activity.role }}){{ end -}}
+          {{- if $activity.note_url }} (part of <a href="{{ $activity.note_url }}">SAC 2006</a>){{ end -}}
+        {{- end -}}
+      </td>
+    </tr>
+    {{- end -}}
+  </tbody>
+</table>
