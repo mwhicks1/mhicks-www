@@ -8,6 +8,9 @@ categories:
 weight: 5
 layout: talks
 talks:
+  - title: "Measuring End-User Cyber Harm"
+    date: "2025-11-20"
+    youtube_id: "q9uG0TIwyEc"
   - title: "Amazon's Formal Methods Journey"
     date: "2025-06-25"
     youtube_id: "ZuPGZ3W-ITA"
