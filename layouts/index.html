@@ -28,7 +28,7 @@
             {{ end }}
           {{ end }}
           {{ $allNews := $pinnedNews | append $unpinnedNews }}
-          {{ range first 2 $allNews }}
+          {{ range first 4 $allNews }}
           <div class="news-item mb2">
             <span class="f6 gray mr3">{{ .date }}</span>
             <span class="f5 lh-copy">
