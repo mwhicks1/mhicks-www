@@ -57,8 +57,8 @@ The final grade will consist of two main parts:
 
 **Class participation (55%)**. This consists of
 
-1. (20%) a written 2-3 paragraph **review for each paper we read**, due prior to the discussion date;
-2. (14%) **participation** during class;
+1. ~~(20%)~~ (23%) a written 2-3 paragraph **review for each paper we read**, due prior to the discussion date;
+2. ~~(14%)~~ (11%) **participation** during class;
 3. (20%) a **presentation** the student will give about a particular topic; and
 4. (1%) a one-on-one meeting with the course instructor
 
