@@ -38,8 +38,6 @@ Cedar pioneered an approach we call **verification-guided development**, which c
 3. **Property-based testing**: Use thousands of automatically generated inputs in an attempt to falsify key implementation properties
 4. **Differential testing**: Conformance-test implementations (in Rust and Go) against the formal specification
 
-**Talk**: [Amazon's Formal Methods Journey](https://www.youtube.com/watch?v=ZuPGZ3W-ITA) (DARPA Resilience Meeting, 2025)
-
 ## Key Publications and talks
 
 - **Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization**: [PDF](https://dl.acm.org/doi/pdf/10.1145/3649835) (OOPSLA 2024) [Youtube](https://www.youtube.com/watch?v=hdc5JZZNDSs)
@@ -48,17 +46,11 @@ Cedar pioneered an approach we call **verification-guided development**, which c
 - **[How We Built Cedar: A Verification-Guided Approach](https://www.amazon.science/publications/how-we-built-cedar-a-verification-guided-approach)** (ESEC/FSE 2024, Industrial Track)
   Details on our development methodology and lessons learned building a production security system with formal methods.
 
+- **Talk**: [Amazon's Formal Methods Journey](https://www.youtube.com/watch?v=ZuPGZ3W-ITA) (DARPA Resilience Meeting, 2025)
+  Presents formal methods as used at Amazon, including Cedar's use of VGD
+
 ## Future Directions
 
 - Extending Cedar's expressiveness while maintaining analyzability
 - New analysis capabilities (policy optimization, coverage checking)
 - Integration with GenAI for Cedar policy generation and explanation, especially of natural-language policy documents
-
-## Resources
-
-- **[Official Cedar Website](https://cedarpolicy.com)**
-- **[Cedar Documentation](https://docs.cedarpolicy.com/)**
-- **[Cedar GitHub Organization](https://github.com/cedar-policy)**
-- **[AWS Verified Permissions](https://aws.amazon.com/verified-permissions/)**
-- **[Cedar Playground](https://www.cedarpolicy.com/en/playground)** - Try Cedar in your browser
-- **[Cedar Academic Paper](https://dl.acm.org/doi/pdf/10.1145/3649835)**

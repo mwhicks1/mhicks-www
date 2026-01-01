@@ -18,13 +18,12 @@ These approaches are particularly valuable because they:
 - Find bugs that traditional testing misses
 - Integrate well into development workflows
 
+While at Amazon, I worked extensively on **property-based testing for the [Cedar](https://cedarpolicy.com) authorization language**. This work demonstrates how property-based testing can provide strong assurance for security-critical systems when combined with formal verification as part of *verification-guided development* (VGD).
+
 ## Current Projects
 
 ### GenAI and Testing
 I am exploring how GenAI-driven coding can be enhanced by fuzz testing and property-based testing, and vice versa. This includes using LLMs to generate better test oracles, improve fuzzer performance, and automatically repair bugs found during testing. In my work at Amazon, I've helped [integrate property-based testing](https://kiro.dev/blog/property-based-testing/) into the [Kiro](https://kiro.dev/) specification-driven coding assistant.
-
-### Property-Based Testing for Cedar
-While at Amazon, I worked extensively on property-based testing for the [Cedar](https://cedarpolicy.com) authorization language. This work demonstrates how property-based testing can provide strong assurance for security-critical systems when combined with formal verification as part of *verification-guided development* (VGD).
 
 ### Property-based Testing for Lean
 [QuickChick](https://softwarefoundations.cis.upenn.edu/qc-current/index.html) is a library for property-based testing for the Rocq proof assistant. With QuickChick you can attempt to *falsify* a theorem first, before you attempt to prove it. I have been working with Amazon and academic colleagues to develop a property-based testing library for Lean, starting from the [Plausible](https://reservoir.lean-lang.org/@leanprover-community/plausible) library, and working toward (and surpassing) parity with QuickChick.
