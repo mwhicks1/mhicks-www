@@ -1,6 +1,6 @@
 ---
 title: Research
-description: "Research publications, collaborators, and activities."
+description: "Explore research areas in software security, programming languages, and testing. View publications, collaborators, and professional activities."
 author: "Mike Hicks"
 show_post_thumbnail: true
 show_author_byline: true
