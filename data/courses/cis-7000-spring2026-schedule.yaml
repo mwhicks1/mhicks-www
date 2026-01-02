@@ -1,0 +1,5 @@
+schedule:
+  - date: "Jan 15"
+    topic: "Introduction and syllabus"
+    readings:
+      - 'S. Keshav. [How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf). ACM SIGCOMM Computer Communication Review, Volume 37, Number 3, July 2007.'

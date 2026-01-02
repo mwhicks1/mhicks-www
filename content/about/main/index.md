@@ -41,7 +41,8 @@ Here is my current [vita](cv.pdf). My [research](/research/) page lists publicat
 
 ## [Teaching](/courses/)
 
-- **Current**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (UPenn CIS 7000-010, Fall 2025)
+- **Current**: [Secure System Engineering and Management: A Data-Driven Approach](/courses/CIS-7000-Spring2026/) (UPenn CIS 7000-003, Spring 2026)
+- **Recent**: [Empirical Security & Privacy, for Humans](/courses/CIS-7000-Fall2025/) (UPenn CIS 7000-010, Fall 2025)
 - **Recent (UMD)**: Organization of Programming Languages (CMSC 330, multiple semesters); Program Analysis and Understanding (CMSC 631, multiple semesters); [Software Security](https://www.coursera.org/learn/software-security/) MOOC (now free, originally on Coursera)
 - **Past (UMD)**: [Build it, Break it, Fix it](https://www.cs.umd.edu/class/winter2020/cmsc388N/) contest (CMSC 388N); Mechanized Proof and Verified Software (CMSC 838G); Cybersecurity Lab (CMSC 498L); Operating Systems (CMSC 412)
 
