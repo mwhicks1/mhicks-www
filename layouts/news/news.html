@@ -14,12 +14,14 @@
           {{ $unpinnedNews = $unpinnedNews | append . }}
         {{ end }}
       {{ end }}
+      {{ $pinnedNews = sort $pinnedNews "date" "desc" }}
+      {{ $unpinnedNews = sort $unpinnedNews "date" "desc" }}
       {{ $allNews := $pinnedNews | append $unpinnedNews }}
       {{ range $allNews }}
-      <article class="news-item bb b--light-gray pb3 mb3">
-        <time class="f6 gray db mb2">{{ .date }}</time>
+      <article class="news-item bb b--light-gray pb2 mb2">
         <p class="f5 lh-copy mv0">
-          {{ .text | markdownify }}
+          <time class="f6 gray mr3">{{ .date }}</time>
+          <span>{{ .text | markdownify }}</span>
         </p>
       </article>
       {{ end }}

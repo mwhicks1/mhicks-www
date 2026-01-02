@@ -27,6 +27,8 @@
               {{ $unpinnedNews = $unpinnedNews | append . }}
             {{ end }}
           {{ end }}
+          {{ $pinnedNews = sort $pinnedNews "date" "desc" }}
+          {{ $unpinnedNews = sort $unpinnedNews "date" "desc" }}
           {{ $allNews := $pinnedNews | append $unpinnedNews }}
           {{ range first 4 $allNews }}
           <div class="news-item mb2">
