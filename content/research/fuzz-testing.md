@@ -5,7 +5,7 @@ excerpt: "Research on fuzzing, property-based testing, and their combination to 
 categories:
   - Research
   - Testing
-weight: 3
+weight: 2
 ---
 
 ## Overview

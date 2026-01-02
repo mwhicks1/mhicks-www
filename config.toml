@@ -172,8 +172,8 @@ enableEmoji = true
     parent = "Research"
     weight = 1
   [[menu.header]]
-    name = "Other"
-    title = "Other Research"
+    name = "Projects, Service"
+    title = "Projects, Service"
     url = "/research/"
     parent = "Research"
     weight = 2
