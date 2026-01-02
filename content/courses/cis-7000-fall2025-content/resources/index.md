@@ -61,3 +61,4 @@ Above all, though, seek advice in person: from your classmates, your professors,
 - [The Not So Short Introduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf)
 - [LaTeX math symbols](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html) (useful reference)
 - [LaTeX template](https://www.acm.org/publications/proceedings-template) commonly used for ACM conferences (with slight modifications)
+- [The LaTeX Korrector](https://www.youtube.com/playlist?list=PL6dh-k4faL8qTs8LQOsfbY70owETfWy5L) -- common mistakes when using LaTeX, and how to correct them (fun, short videos)

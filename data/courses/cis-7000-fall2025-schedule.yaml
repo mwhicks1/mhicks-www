@@ -240,7 +240,6 @@ schedule:
 
   - date: "Nov 18"
     topic: "Modeling security risk, efforts at post-quantum mitigation"
-    anchor: "next_class"
     readings: 
       - 'Daniel W. Woods and Rainer Bohme. [SoK: Quantifying Cyber Risk](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519490). IEEE S&P 2019.'
       - text: 'Alexander Krause, Harjot Kaur, Jan H. Klemmer, Oliver Wiese, and Sascha Fahl. ["That''s my perspective from 30 years of doing this": An Interview Study on Practices, Experiences, and Challenges of Updating Cryptographic Code](https://www.usenix.org/conference/usenixsecurity25/presentation/krause). USENIX Security 2025'
@@ -273,6 +272,7 @@ schedule:
     topic: "Final project presentations"
 
   - date: "Dec 4"
+    anchor: "next_class"
     topic: "Final project presentations"
 
   - date: "Dec 12"
