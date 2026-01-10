@@ -26,6 +26,10 @@ links:
   icon_pack: fas
   name: Resources
   url: /courses/cis-7000-spring2026-content/resources/
+- icon: door-open
+  icon_pack: fas
+  name: Canvas
+  url: https://canvas.upenn.edu/courses/1911047
 ---
 
 ## About
