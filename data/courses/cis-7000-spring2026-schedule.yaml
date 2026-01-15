@@ -3,6 +3,10 @@ schedule:
     topic: "Introduction and syllabus"
     readings:
       - 'S. Keshav. [How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf). ACM SIGCOMM Computer Communication Review, Volume 37, Number 3, July 2007.'
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-intro.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-intro.pdf'
+
   - date: "Jan 20"
     topic: "Attacks: Vulnerability exploitation"
     readings:
