@@ -13,32 +13,36 @@ build:
 ## Description
 
 In this course, students learn techniques for building, deploying, and maintaining secure systems. As computer security is a constantly evolving field, the course places particular emphasis on means to empirically evaluate security technology, processes, and operational practices. As security is always in support of a primary activity and resources are limited, the course also places emphasis on strong communications, using evidence and empathy to explain and collaborate on security needs. By the end of the course, students should be able to:
-* Understand cybersecurity from a data-driven and economic perspective.
-* Think like an attacker, and thereby develop high-quality threat models for systems and deployments.
-* Account for the impact to humans interacting with a computer system, both when they are attack targets and when the play a role in ensuring the system’s security.
-* Understand key security defenses, the attacks they respond to, and how to put defenses together to build secure systems.
-* Manage security post-deployment -- preventing, detecting, mitigating, and recovering from incidents -- and gather data to improve future decisions.
-* Make risk-informed decisions: Assess design elements and technologies according to how they mitigate security risk, and prioritize them to minimize risk.
-* Communicate effectively and with empathy to key stakeholders about security risks
+* **Understand cybersecurity from a data-driven and economic perspective**, learning to make decisions based on empirical evidence, following good science
+* **Identify key vulnerabilities and threats**, especially when considering the impact of humans, both when they are attack targets and when the play a role in ensuring a system’s security
+* **Follow a well-designed process for secure systems construction**, from threat modeling to building to testing to maintenance
+* **Manage security operations** – preventing, detecting, mitigating, and recovering from incidents – and gather data to improve future posture
+* **Make risk-informed decisions**: Assess designs and technologies according to how they mitigate security risk, while leveraging insurance and responding to regulation
+* **Communicate effectively and with empathy** to key stakeholders about security options and recommendations
 
 ## Prerequisites
 
 Equivalent knowledge of CIS 2400 - Computer Systems and CIS 2610 - Discrete Probability, Stochastic Processes, and Statistical Inference. Permission to enroll is granted by the instructor (as per usual with CIS 7000-level courses).
 
-## List of topics (tentative)
+## List of topics
 
-- Economic view of cybersecurity
-- Cybersecurity as a scientific pursuit
-- Background on cyber-relevant statistical analyses
-- Overview of a variety of cyber attacks and defenses
-- Threat modeling and security design
-- The role of the human: Defender and victim
-- Authentication, phishing, social engineering
-- Cyber-incident detection and response
-- Cybersecurity management challenges
-- Cybersecurity public health
-- Cybersecurity risk assessment
-- Cyberinsurance, regulation
+- Overview of a variety of cyber attacks
+- Empirical cybersecurity
+  - Economic view of cybersecurity
+  - Cybersecurity as a scientific pursuit
+  - Measuring and analyzing security
+- Secure software development
+  - Threat modeling and security design
+  - The role of the human: Defender and victim
+  - Programming (memory safety!)
+  - Pen testing (fuzzing)
+  - Supply chain, patching, vulnerability remediation
+- Security operations
+  - Cyber-incident detection and response
+  - Cybersecurity management
+  - Cybersecurity risk assessment
+  - The role and activities of a Chief Information Security Officer (CISO)
+- Cyber regulation, insurance, and analogies to public health
 - How to talk persuasively about security and risk
 
 ## Online resources
@@ -66,7 +70,7 @@ Equivalent knowledge of CIS 2400 - Computer Systems and CIS 2610 - Discrete Prob
 
 ### Paper reviews
 
-For most papers that we read in the class, students must submit a **review of each paper**. These will be used to drive discussion of the paper during class -- we cannot discuss what we do not read! Each review should consist of two parts: (1) a paragraph with key takeaways gleaned from the paper; (2) a few questions on topics that merit deep-dive discussion, or clarification. Note that part (1) should almost certainly not be complete (i.e., not an at-a-distance summary) but rather should be used to set up sufficient context and justification for the questions in part (2). Doing so ensures the questions are not surface-level, but rather are thought-through and engaging. You are writing a review, which means I want to see your opinion and your evidence for it. **Reviews are due 3pm the day before the class**, to avoid a late penalty of 20%. Reviews are **graded on a score of 1-5**, where
+For most papers that we read in the class, students must submit a **review of each paper**. These will be used to drive discussion of the paper during class -- we cannot discuss what we do not read! Each review should consist of two parts: (1) a paragraph with key takeaways gleaned from the paper; (2) a few questions on topics that merit deep-dive discussion, or clarification. Note that part (1) should almost certainly not be complete (i.e., not an at-a-distance summary) but rather should be used to set up sufficient context and justification for the questions in part (2). Doing so ensures the questions are not surface-level, but rather are thought-through and engaging. You are writing a review, which means I want to see your opinion and your evidence for it. **Reviews are due at midnight the day before the class**, to avoid a late penalty of 20%. Reviews are **graded on a score of 0-5**, where
 
 - 0: missing or showing no evidence of having read the paper
 - 1-3: minimal effort or non-insightful summary (anybody can copy an abstract)
@@ -77,7 +81,7 @@ For most papers that we read in the class, students must submit a **review of ea
 
 There is an expectation to **attend class and participate in discussions**. The participation score will be based in large part on attendance (which we will start noting during the second week), but also on the instructor's assessment of the thoughtfulness and insight of comments made during class.
 
-One of the assignments for the course will be to **present and lead a discussion about a cybersecurity breach.** The presentation should be about 15-20 minutes, with the ensuing discussion about 10 minutes. The goal is to learn to deep-dive into a relevant topic, and develop good presentation skills. Doing well will require doing research early, to be sure you understand the details, before preparing the presentation. Consider practicing your presentation beforehand.
+One of the assignments for the course will be to **present and lead a discussion about a cybersecurity breach.** You will take the role of a cybersecurity expert trying to persuade your company's leadership to invest in technologies that aim to ensure you do not fall prey to the same breach. To be persuasive, when designing your talk you should put yourself in their position, aiming to send an authentic message in a way that they can accept. The presentation should be about 15-20 minutes, with the ensuing discussion about 10 minutes. The goal is to learn to deep-dive into a relevant topic, and develop good presentation skills. Doing well will require doing research early, to be sure you understand the details, before preparing the presentation. Consider practicing your presentation beforehand.
 
 Presentations will be judged based on the following criteria:
 
@@ -93,7 +97,9 @@ Remember that you will likely be able to explain more detail than you can hope t
 
 ## Excused absences
 
-You are not required to come to class, but not coming will affect your class participation grade. There are several justifications for **excused** absences from class: illness, religious observation, participation in required university activities, or a family or personal emergency. We will work with you to make sure that you have a fair amount of time to make up for excused absences. The best way that we can help is if we know about absences as well in advance as possible.
+You are not required to come to class, but not coming will affect your class participation grade. We will have a **Zoom option** from Canvas for remotely attending class, which **you can use up to three times.** Each time you use this option it will be counted as a "no op" against your participation grade, i.e., neither for or against.
+
+There are several justifications for **excused** absences from class: illness, religious observation, participation in required university activities, or a family or personal emergency. We will work with you to make sure that you have a fair amount of time to make up for excused absences. The best way that we can help is if we know about absences as well in advance as possible.
 
 - Provide a request for absence in writing.
 - Provide appropriate documentation that shows the absence qualifies as excused.
