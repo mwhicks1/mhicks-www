@@ -3,3 +3,15 @@ schedule:
     topic: "Introduction and syllabus"
     readings:
       - 'S. Keshav. [How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf). ACM SIGCOMM Computer Communication Review, Volume 37, Number 3, July 2007.'
+  - date: "Jan 20"
+    topic: "Attacks: Vulnerability exploitation"
+    readings:
+      - 'MITRE. [2025 CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/archive/2025/2025_cwe_top25.html). Dec 2025.'
+      - 'Marc Frederic Gomez. [Top 25 CWE 2025 - Technical Analysis](https://blog.marcfredericgomez.com/top-25-cwe-2025-technical-analysis/). Blog article, Dec 2025.'
+      - 'OWASP. [OWASP Top 10: The Ten Most Critical Web Application Security Risks](https://owasp.org/Top10/2025/0x00_2025-Introduction/). Dec 2025.'
+      - 'Christian Heilmann. [Web Security: Are You Part of the Problem?](https://www.smashingmagazine.com/2010/01/web-security-primer-are-you-part-of-the-problem/). Smashing magazine, Jan 2010.'
+  - date: "Jan 22"
+    topic: "Attacks: Exploiting the human"
+    readings: 
+      - 'Ho, Grant, et al. [Understanding the efficacy of phishing training in practice](https://www.sysnet.ucsd.edu/~voelker/pubs/phishtrain-oakland25.pdf). 2025 IEEE Symposium on Security and Privacy (SP). IEEE, 2025.'
+
