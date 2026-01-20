@@ -14,8 +14,13 @@ schedule:
       - 'Marc Frederic Gomez. [Top 25 CWE 2025 - Technical Analysis](https://blog.marcfredericgomez.com/top-25-cwe-2025-technical-analysis/). Blog article, Dec 2025.'
       - 'OWASP. [OWASP Top 10: The Ten Most Critical Web Application Security Risks](https://owasp.org/Top10/2025/0x00_2025-Introduction/). Dec 2025.'
       - 'Christian Heilmann. [Web Security: Are You Part of the Problem?](https://www.smashingmagazine.com/2010/01/web-security-primer-are-you-part-of-the-problem/). Smashing magazine, Jan 2010.'
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-CWE-top25.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-CWE-top25.pdf'
+
   - date: "Jan 22"
     topic: "Attacks: Exploiting the human"
     readings: 
       - 'Ho, Grant, et al. [Understanding the efficacy of phishing training in practice](https://www.sysnet.ucsd.edu/~voelker/pubs/phishtrain-oakland25.pdf). 2025 IEEE Symposium on Security and Privacy (SP). IEEE, 2025.'
-
+      - text: 'Lorrie Faith Cranor. [A Framework for Reasoning About the Human in the Loop](https://www.usenix.org/legacy/events/upsec08/tech/full_papers/cranor/cranor.pdf). In Proceedings of UPSEC 2008.'
+        optional: true
