@@ -13,11 +13,12 @@ build:
 
 ### Experimental design and statistics
 
+= [An introduction to data analysis](https://michael-franke.github.io/intro-data-analysis/) by Michael Franke.
 - [Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/) by Howard Seltman (2009). An accessible text about setting up experiments and carrying out statistical data analysis on their results.
-- [SIGPLAN Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) (2018).
 - [Coding Manual for Qualitative Researchers](https://us.sagepub.com/sites/default/files/upm-binaries/72575_Saldana_Coding_Manual.pdf) by Johnny Saldaña. A short book on how to "code" data for systematic qualitative assessment.
   - Related: Moira Maguire and Brid Dillahunt, [Doing a Thematic Analysis: A Practical, Step-by-Step Guide for Learning and Teaching Scholars](https://ojs.aishe.org/index.php/aishe-j/article/viewFile/335/553) (2017).
 - [A Summary of Survey Methodology Best Practices for Security and Privacy Researchers](https://api.drum.lib.umd.edu/server/api/core/bitstreams/732dc6df-c189-44ad-828d-5164ac3dfcd2/content), Redmiles et al, 2017.
+- [SIGPLAN Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) (2018).
 
 ### Other topics
 
