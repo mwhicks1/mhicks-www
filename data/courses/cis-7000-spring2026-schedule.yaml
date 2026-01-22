@@ -20,6 +20,10 @@ schedule:
 
   - date: "Jan 22"
     topic: "Attacks: Exploiting the human"
+    assignment:
+      name: "Proj 1: Security Breach Communication & Persuasion Video"
+      pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_1.pdf'
+      due: "Feb 10"
     readings: 
       - 'Ho, Grant, et al. [Understanding the efficacy of phishing training in practice](https://www.sysnet.ucsd.edu/~voelker/pubs/phishtrain-oakland25.pdf). 2025 IEEE Symposium on Security and Privacy (SP). IEEE, 2025.'
       - text: 'Lorrie Faith Cranor. [A Framework for Reasoning About the Human in the Loop](https://www.usenix.org/legacy/events/upsec08/tech/full_papers/cranor/cranor.pdf). In Proceedings of UPSEC 2008.'

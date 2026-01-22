@@ -4,9 +4,10 @@
 <table>
   <colgroup>
     <col style="width: 8%;">
-    <col style="width: 18%;">
-    <col style="width: 62%;">
-    <col style="width: 12%;">
+    <col style="width: 16%;">
+    <col style="width: 50%;">
+    <col style="width: 10%;">
+    <col style="width: 16%;">
   </colgroup>
   <thead>
     <tr>
@@ -14,6 +15,7 @@
       <th>Topic / Speaker</th>
       <th>Readings & handouts</th>
       <th>Slides</th>
+      <th>Assignment</th>
     </tr>
   </thead>
   <tbody>
@@ -49,6 +51,12 @@
           {{- if .slides.pptx -}}<a href="{{ .slides.pptx }}" title="PowerPoint"><i class="fas fa-file-powerpoint fa-lg"></i></a>{{- end -}}
           {{- if .slides.pptx -}}{{- if .slides.pdf }} {{ end -}}{{- end -}}
           {{- if .slides.pdf -}}<a href="{{ .slides.pdf }}" title="PDF"><i class="fas fa-file-pdf fa-lg"></i></a>{{- end -}}
+        {{- end -}}
+      </td>
+      <td>
+        {{- if .assignment -}}
+          <a href="{{ .assignment.pdf }}">{{ .assignment.name }}</a><br>
+          <em>Due: {{ .assignment.due }}</em>
         {{- end -}}
       </td>
     </tr>
