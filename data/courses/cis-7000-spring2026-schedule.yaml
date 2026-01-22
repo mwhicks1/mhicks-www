@@ -28,3 +28,15 @@ schedule:
       - 'Ho, Grant, et al. [Understanding the efficacy of phishing training in practice](https://www.sysnet.ucsd.edu/~voelker/pubs/phishtrain-oakland25.pdf). 2025 IEEE Symposium on Security and Privacy (SP). IEEE, 2025.'
       - text: 'Lorrie Faith Cranor. [A Framework for Reasoning About the Human in the Loop](https://www.usenix.org/legacy/events/upsec08/tech/full_papers/cranor/cranor.pdf). In Proceedings of UPSEC 2008.'
         optional: true
+
+  - date: "Jan 27"
+    topic: "Speaking and writing well (generally, and for security)"
+    readings: 
+      - 'Ernst, Michael. [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)'
+
+  - date: "Jan 29"
+    topic: "Cybersecurity economics"
+    readings:
+     - 'Ross Anderson. [Why information security is hard - an economic perspective](https://ieeexplore.ieee.org/abstract/document/991552). Seventeenth annual computer security applications conference (ACSAC). IEEE, 2001.'
+     - 'Ian Griggs, [The Market for Silver Bullets](https://iang.org/papers/market_for_silver_bullets.html), 2008.'
+      
