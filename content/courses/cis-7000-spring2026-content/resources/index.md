@@ -34,6 +34,7 @@ Research aims to create new knowledge, by discovery, experimentation, and analys
 - [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw22icfp.pdf), Derek Dreyer, 2022
 - [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html), Mike Ernst, 2022
     - See also [How to write a technical paper or research paper](https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html), 2024
+- [How to design talks](https://www.youtube.com/watch?v=QFNYdJmUH_w) (see also [slides](https://ranjitjhala.github.io/static/PLMW-talk-opinionated.pdf)) by Ranjit Jhala, 2023
 - [How to give a great research talk](https://simon.peytonjones.org/great-research-talk/), by Simon Peyton-Jones, 2016
 - [How to write a conference talk](http://www.pl-enthusiast.net/2019/01/02/how-to-write-a-conference-talk/), by Mike Hicks, 2019
 
