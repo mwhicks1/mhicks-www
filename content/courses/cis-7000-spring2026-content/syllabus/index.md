@@ -60,6 +60,7 @@ Equivalent knowledge of CIS 2400 - Computer Systems and CIS 2610 - Discrete Prob
 1. (13%) a written 2-3 paragraph **review for each paper we read**, due prior to the discussion date;
 2. (7%) **participation** during class; and
 3. (40%) five **projects** 
+4. 1% extra credit: **meet the professor**: Come meet with the professor (during office hours or by appointment) for 15 minutes. Talk about anything: Career aspirations, course topics, ways to improve the class, ...
 
 **Exams (40%)**, of which there are two:
 

@@ -9,6 +9,8 @@ build:
   list: never
 ---
 
+This schedule will flesh out as the semester progresses.
+
 Jump to [**next class**](#next_class).
 
 {{< course-schedule "cis-7000-spring2026-schedule" >}}
