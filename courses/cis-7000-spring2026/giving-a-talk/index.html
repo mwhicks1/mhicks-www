@@ -1,0 +1,2063 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>How to Give a Good Talk — CIS 7000</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reset.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reveal.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/theme/black.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/highlight/monokai.min.css"/>
+
+	<style>
+		:root {
+			--accent: #42affa;
+			--accent2: #ff6b6b;
+			--accent3: #51cf66;
+			--accent4: #fcc419;
+			--dim: #888;
+		}
+
+		.reveal h1, .reveal h2, .reveal h3 {
+			text-transform: none;
+		}
+
+		/* Section divider slides */
+		.section-divider {
+			text-align: left;
+		}
+		.section-divider h2 {
+			font-size: 1.8em;
+			color: var(--accent);
+			margin-bottom: 0.1em;
+		}
+		.section-divider .part-label {
+			font-size: 0.7em;
+			color: var(--dim);
+			text-transform: uppercase;
+			letter-spacing: 0.15em;
+			margin-bottom: 0.3em;
+		}
+
+		/* Image placeholders */
+		.placeholder-image {
+			border: 2px dashed var(--accent);
+			border-radius: 12px;
+			padding: 2em 2.5em;
+			margin: 0.8em auto;
+			max-width: 70%;
+			background: rgba(66, 175, 250, 0.05);
+			text-align: center;
+		}
+		.placeholder-image .placeholder-label {
+			font-size: 0.5em;
+			color: var(--accent);
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			margin-bottom: 0.3em;
+		}
+		.placeholder-image .placeholder-desc {
+			font-size: 0.55em;
+			color: #ccc;
+			font-style: italic;
+		}
+
+		/* Quote styling */
+		.reveal blockquote {
+			width: 85%;
+			padding: 1em 1.5em;
+			border-left: 4px solid var(--accent);
+			background: rgba(255,255,255,0.05);
+			font-style: italic;
+			text-align: left;
+		}
+		.reveal blockquote .attribution {
+			display: block;
+			margin-top: 0.6em;
+			font-style: normal;
+			font-size: 0.7em;
+			color: var(--accent);
+		}
+
+		/* Small resource links at bottom */
+		.small-ref {
+			position: absolute;
+			bottom: 1.5em;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 0.35em;
+			color: var(--dim);
+			width: 80%;
+			text-align: center;
+		}
+		.small-ref a {
+			color: var(--dim);
+			text-decoration: underline;
+		}
+
+		/* Diagram containers */
+		.diagram-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.5em;
+			margin: 1em auto;
+		}
+
+		/* CGI Model boxes */
+		.cgi-box {
+			padding: 0.6em 1em;
+			border-radius: 10px;
+			font-weight: bold;
+			font-size: 0.75em;
+			text-align: center;
+			min-width: 150px;
+		}
+		.cgi-context { background: rgba(66,175,250,0.3); border: 2px solid var(--accent); }
+		.cgi-gap { background: rgba(255,107,107,0.3); border: 2px solid var(--accent2); }
+		.cgi-innovation { background: rgba(81,207,102,0.3); border: 2px solid var(--accent3); }
+		.cgi-arrow {
+			font-size: 1.5em;
+			color: var(--dim);
+		}
+
+		/* Onion diagram */
+		.onion-layer {
+			position: absolute;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		/* Clew (linear) diagram */
+		.clew-diagram {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.3em;
+			margin: 1em auto;
+		}
+		.clew-step {
+			padding: 0.4em 0.7em;
+			background: rgba(255,255,255,0.1);
+			border-radius: 6px;
+			font-size: 0.55em;
+			border: 1px solid rgba(255,255,255,0.3);
+		}
+		.clew-arrow {
+			color: var(--dim);
+			font-size: 0.8em;
+		}
+
+		/* Inverted pyramid */
+		.pyramid-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.3em;
+			margin: 1em auto;
+		}
+		.pyramid-level {
+			padding: 0.5em;
+			text-align: center;
+			font-weight: bold;
+			font-size: 0.6em;
+			border-radius: 6px;
+		}
+
+		/* Comparison layout */
+		.compare-row {
+			display: flex;
+			justify-content: center;
+			gap: 2em;
+			margin: 1em 0;
+		}
+		.compare-col {
+			flex: 1;
+			max-width: 45%;
+			text-align: center;
+		}
+		.compare-col h3 {
+			font-size: 0.8em;
+			margin-bottom: 0.5em;
+		}
+
+		/* Bad/Good labels */
+		.label-bad {
+			color: var(--accent2);
+			font-weight: bold;
+		}
+		.label-good {
+			color: var(--accent3);
+			font-weight: bold;
+		}
+
+		/* Checklist styling */
+		.checklist {
+			text-align: left;
+			font-size: 0.65em;
+			list-style: none;
+			padding-left: 0;
+		}
+		.checklist li {
+			margin-bottom: 0.4em;
+			padding-left: 1.5em;
+			position: relative;
+		}
+		.checklist li::before {
+			content: "\2610";
+			position: absolute;
+			left: 0;
+			color: var(--accent);
+		}
+
+		/* Key takeaway boxes */
+		.takeaway-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 0.6em;
+			font-size: 0.55em;
+			text-align: left;
+			margin: 0.5em auto;
+			max-width: 90%;
+		}
+		.takeaway-item {
+			background: rgba(255,255,255,0.07);
+			padding: 0.6em 0.8em;
+			border-radius: 8px;
+			border-left: 3px solid var(--accent);
+		}
+		.takeaway-item strong {
+			color: var(--accent);
+		}
+
+		/* Signpost bar */
+		.signpost-bar {
+			display: flex;
+			justify-content: center;
+			gap: 0.5em;
+			margin: 1em auto;
+			font-size: 0.45em;
+		}
+		.signpost-item {
+			padding: 0.4em 1em;
+			border-radius: 20px;
+			background: rgba(255,255,255,0.08);
+			border: 1px solid rgba(255,255,255,0.2);
+			color: var(--dim);
+		}
+		.signpost-item.active {
+			background: rgba(66,175,250,0.25);
+			border-color: var(--accent);
+			color: white;
+		}
+
+		/* Risk equation */
+		.equation {
+			font-size: 1.1em;
+			font-family: 'Courier New', monospace;
+			background: rgba(255,255,255,0.07);
+			padding: 0.6em 1.2em;
+			border-radius: 8px;
+			display: inline-block;
+			margin: 0.5em 0;
+		}
+		.equation .eq-highlight {
+			color: var(--accent);
+			font-weight: bold;
+		}
+
+		/* Dim text */
+		.dim { color: var(--dim); }
+
+		/* Two-column layout */
+		.two-col {
+			display: flex;
+			gap: 2em;
+			align-items: flex-start;
+			justify-content: center;
+		}
+		.two-col > div {
+			flex: 1;
+			text-align: left;
+		}
+
+		/* Running example badge */
+		.example-badge {
+			display: inline-block;
+			background: rgba(252,196,25,0.2);
+			border: 1px solid var(--accent4);
+			color: var(--accent4);
+			font-size: 0.4em;
+			padding: 0.2em 0.8em;
+			border-radius: 12px;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			vertical-align: middle;
+			margin-left: 0.5em;
+		}
+
+		/* Faux slide mockup (for bad/good slide examples) */
+		.faux-slide {
+			background: #fff;
+			color: #333;
+			border-radius: 6px;
+			padding: 1em 1.2em;
+			text-align: left;
+			font-family: Arial, sans-serif;
+			box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+			max-width: 420px;
+			margin: 0 auto;
+		}
+		.faux-slide h4 {
+			color: #1a3a5c;
+			font-size: 0.6em;
+			margin: 0 0 0.5em 0;
+			text-transform: none;
+		}
+		.faux-slide p, .faux-slide li {
+			font-size: 0.4em;
+			line-height: 1.4;
+			margin: 0.2em 0;
+			color: #333;
+		}
+		.faux-slide ul {
+			padding-left: 1.2em;
+		}
+		.faux-slide.good-mock {
+			text-align: center;
+			padding: 0.8em;
+		}
+		.faux-slide.good-mock h4 {
+			text-align: center;
+			font-size: 0.55em;
+		}
+
+		/* Attack flow node */
+		.attack-node {
+			padding: 0.4em 0.6em;
+			border-radius: 8px;
+			font-size: 0.5em;
+			font-weight: bold;
+			text-align: center;
+			min-width: 90px;
+		}
+		.attack-arrow {
+			color: var(--accent2);
+			font-size: 1.2em;
+		}
+	</style>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<!-- ============================================================ -->
+			<!-- TITLE SLIDE                                                  -->
+			<!-- ============================================================ -->
+			<section>
+				<h1 style="font-size: 2.2em;">How to Give a Good Talk</h1>
+				<h3 style="color: var(--accent); font-weight: normal;">A Guide for Security Engineers</h3>
+				<p style="font-size: 0.6em; color: var(--dim); margin-top: 1.5em;">
+					Michael Hicks · Penn CIS · CIS 7000 · Spring 2026
+				</p>
+				<aside class="notes">
+					Welcome everyone. Today we&#39;re going to talk about something that doesn&#39;t get enough attention in security engineering: how to give a talk that actually changes what people do. And we&#39;re going to practice what we preach — I&#39;ll use a running example throughout to show how each principle works in practice.
+				</aside>
+			</section>
+
+			<!-- ============================================================ -->
+			<!-- OVERVIEW / ROADMAP SLIDE                                     -->
+			<!-- ============================================================ -->
+			<section>
+				<h2>Roadmap</h2>
+				<ol style="font-size: 0.7em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<li><strong style="color: var(--accent);">Foundations</strong> — Why giving a good talk matters</li>
+					<li><strong style="color: var(--accent);">Structure</strong> — Designing your talk</li>
+					<li><strong style="color: var(--accent);">Slides</strong> — Your visual aid, not your script</li>
+					<li><strong style="color: var(--accent);">Delivery</strong> — Bringing it to life</li>
+					<li><strong style="color: var(--accent);">Security-Specific</strong> — Special considerations</li>
+					<li><strong style="color: var(--accent);">Process</strong> — Putting the talk together</li>
+				</ol>
+				<p style="font-size: 0.55em; color: var(--accent4); margin-top: 1em;">
+					Running example: A security talk about the 2013 Target data breach
+				</p>
+				<aside class="notes">
+					Here&#39;s where we&#39;re going today. Six parts. And throughout, we&#39;ll use a running example: imagine you&#39;re a security engineer who needs to give a talk about the Target data breach to get your company to invest in better defenses. We&#39;ll see how each principle applies to that real scenario.
+				</aside>
+			</section>
+
+
+			<!-- ============================================================ -->
+			<!-- PART 1: FOUNDATIONS                                           -->
+			<!-- ============================================================ -->
+			<section>
+				<div class="section-divider">
+					<p class="part-label">Part 1</p>
+					<h2>Foundations: Why This Matters</h2>
+					<p style="font-size: 0.6em; color: var(--dim);">A talk is your opportunity to influence behavior</p>
+				</div>
+				<div class="signpost-bar">
+					<span class="signpost-item active">Foundations</span>
+					<span class="signpost-item">Structure</span>
+					<span class="signpost-item">Slides</span>
+					<span class="signpost-item">Delivery</span>
+					<span class="signpost-item">Security</span>
+					<span class="signpost-item">Process</span>
+				</div>
+				<aside class="notes">
+					Let&#39;s start with why this matters. Why should you, as a security engineer, care about giving good presentations?
+				</aside>
+			</section>
+
+			<!-- 1.1: The Goal of Your Talk -->
+			<section>
+				<h2>Every Talk Has a Purpose</h2>
+				<p style="font-size: 0.85em;">
+					Your purpose is not to inform — it&#39;s to <strong style="color: var(--accent2); font-size: 1.1em;">change behavior</strong>. How?
+				</p>
+				<blockquote style="margin-top: 1em; font-size: 0.75em;">
+					&#34;If it&#39;s original, you will have to ram it down their throats.&#34;
+					<span class="attribution">— Howard Aiken</span>
+				</blockquote>
+				<p style="font-size: 0.65em; color: var(--dim); margin-top: 0.8em;">
+					&#34;Original&#34; = anything that challenges the status quo.<br/>
+					A new priority. A change in practice. A different way of thinking.<br/>
+					The more it departs from what people already believe, the harder you must work.
+				</p>
+				<p style="font-size: 0.7em; margin-top: 0.6em;">
+					A great talk is <em>how you do the ramming</em>.
+				</p>
+				<aside class="notes">
+					This is the most important idea in Part 1. Your talk is not a data dump. You&#39;re not there just to inform. You&#39;re there to change what people do — how they think, what they prioritize, what actions they take. If nothing changes after your talk, it failed.
+
+					Howard Aiken, the pioneer behind the Harvard Mark I, said this — and Ranjit Jhala highlights it in his advice on giving talks. &#34;Original&#34; here doesn&#39;t mean novel or creative in the artistic sense. It means anything that asks your audience to change what they currently do or believe. A new tool they should adopt. A new process. A different set of priorities. The more your recommendation departs from the status quo, the more resistance you&#39;ll face — and the better your talk needs to be to overcome it.
+
+					Your audience grants you something priceless when they sit down: their time and their attention. You owe it to them to make it count. A great talk is how you take advantage of that gift.
+				</aside>
+			</section>
+
+			<!-- 1.1 continued: Security-specific stakes -->
+			<section>
+				<h2>The Stakes Are High</h2>
+				<div style="display: flex; align-items: center; gap: 1.5em; margin: 0.5em auto; max-width: 95%;">
+					<div style="flex: 1; text-align: left;">
+						<p style="font-size: 0.8em;">
+							Security is <strong>rarely</strong> the primary motivation of your audience.
+						</p>
+						<p style="font-size: 0.7em; color: var(--dim); margin-top: 0.5em;">
+							They&#39;re thinking about features, deadlines, revenue, headcount...
+						</p>
+						<p style="font-size: 0.75em; margin-top: 0.8em;">
+							Your talk may be your <strong style="color: var(--accent);">best chance</strong> to change that.
+						</p>
+					</div>
+					<div style="flex: 1;">
+						<img src="assets/dev-busy.jpeg" alt="Competing priorities — security buried under other work" style="width: 100%; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					When you walk into a room to give a security talk, your audience is not thinking about security. They&#39;re thinking about their sprint deadlines, their feature backlog, their next meeting. Security competes for attention with everything else — and it usually loses. Acknowledging this reality builds immediate credibility with your audience.
+
+					This is why giving a great talk matters so much for security engineers specifically. You may only get 30 minutes with the decision-makers. That&#39;s your window to shift their priorities. Don&#39;t waste it.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Introduction -->
+			<section>
+				<h2>Our Running Example <span class="example-badge">Example</span></h2>
+				<div style="display: flex; align-items: center; gap: 1.5em; margin: 0.5em auto; max-width: 95%;">
+					<div style="flex: 1; font-size: 0.65em; text-align: left;">
+						<p><strong style="color: var(--accent4);">The scenario:</strong> It&#39;s January 2014. The Target data breach just made headlines.</p>
+						<p style="margin-top: 0.5em;"><strong style="color: var(--accent4);">You are:</strong> A Security Architect at a mid-size retail company.</p>
+						<p style="margin-top: 0.5em;"><strong style="color: var(--accent4);">Your audience:</strong> CTO, VP Engineering, VP Finance, 3 Dev Team Leads.</p>
+						<p style="margin-top: 0.5em;"><strong style="color: var(--accent4);">Your task:</strong> Get budget approved for network segmentation and vendor access controls.</p>
+					</div>
+					<div style="flex: 1;">
+						<img src="assets/target-breach.png" alt="Target data breach news coverage" style="width: 100%; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					Let me introduce our running example. We&#39;ll use this throughout the talk to make every principle concrete. Imagine it&#39;s January 2014. The Target data breach has just been disclosed — 40 million credit cards stolen. You&#39;re a security architect at a mid-size retailer. You need to give a talk to your company&#39;s leadership to get budget approved for network segmentation and vendor access controls. Let&#39;s see how each principle we discuss applies to this scenario.
+				</aside>
+			</section>
+
+			<!-- 1.2: Know Your Goal -->
+			<section>
+				<h2>Know Your Goal</h2>
+				<blockquote style="margin-top: 1em; font-size: 0.75em;">
+					&#34;If the audience remembers only one thing from your talk, what should it be?&#34;
+					<span class="attribution">— Simon Peyton Jones</span>
+				</blockquote>
+				<img src="assets/simonpj-talk.png" alt="Simon Peyton Jones giving a talk" style="max-width: 40%; border-radius: 8px;"/>
+				<aside class="notes">
+					Simon Peyton Jones, one of the creators of Haskell, gives legendary talks about how to give talks. His key question: if the audience walks out remembering only ONE thing, what should it be?
+				</aside>
+			</section>
+
+			<section>
+				<h2>Common Goals for Security Talks</h2>
+				<ul style="font-size: 0.7em; text-align: left; max-width: 75%; margin: 0 auto;">
+					<li>Getting <strong>budget approved</strong> for a security initiative</li>
+					<li>Changing <strong>development practices</strong> or policies</li>
+					<li>Building <strong>awareness</strong> of a specific threat</li>
+					<li>Gaining <strong>support</strong> for risk mitigation measures</li>
+				</ul>
+				<p style="font-size: 0.7em; color: var(--accent); margin-top: 1.2em;">
+					State your goal explicitly — even to yourself — before creating a single slide.
+				</p>
+				<aside class="notes">
+					For security engineers, goals usually fall into one of these categories. Notice they&#39;re all about getting someone to DO something. They&#39;re not about conveying information for its own sake. Write your goal down before you start building slides. One sentence.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Goal -->
+			<section>
+				<h2>Our Goal <span class="example-badge">Example</span></h2>
+				<!-- &lt;p style=&#34;font-size: 0.6em; color: var(--dim); margin-bottom: 0.5em;&#34;&gt;One sentence. Specific behavior change.&lt;/p&gt; -->
+				<div style="background: rgba(252,196,25,0.15); border: 2px solid var(--accent4); border-radius: 12px; padding: 1em 1.5em; max-width: 80%; margin: 0 auto;">
+					<p style="font-size: 0.8em;">
+						&#34;Get the CTO and VP Finance to approve <strong style="color: var(--accent);">$2M for network segmentation</strong> and vendor access controls before Q2.&#34;
+					</p>
+				</div>
+				<p style="font-size: 0.6em; color: var(--dim); margin-top: 1em;">
+					Not &#34;educate leadership about the Target breach.&#34;<br/>
+					Not &#34;raise awareness about network security.&#34;<br/>
+					A specific <strong>action</strong> by specific <strong>people</strong> by a specific <strong>date</strong>.
+				</p>
+				<aside class="notes">
+					For our running example, here&#39;s the goal. Not &#34;educate leadership about the Target breach&#34; — that&#39;s informing, not behavior change. Not &#34;raise awareness&#34; — that&#39;s vague. Instead: get the CTO and VP Finance to approve $2M for network segmentation and vendor access controls before Q2. Specific action, specific people, specific timeline.
+				</aside>
+			</section>
+
+			<!-- &lt;section&gt;
+				&lt;h2&gt;Try It Yourself&lt;/h2&gt;
+				&lt;p style=&#34;font-size: 0.8em;&#34;&gt;Think of an upcoming presentation you need to give.&lt;/p&gt;
+				&lt;p style=&#34;font-size: 0.9em; color: var(--accent); margin-top: 1em;&#34;&gt;
+					Write down in &lt;strong&gt;one sentence&lt;/strong&gt;:&lt;br&gt;
+					What behavior change do you want?
+				&lt;/p&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					Here&#39;s a suggestion for you to try on your own. Think of a presentation you have coming up. Can you write down, in one sentence, the specific behavior change you want?
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+			<!-- 1.3: Know Your Audience -->
+			<section>
+				<h2>Know Your Audience</h2>
+				<p style="font-size: 0.85em;">
+					A talk aimed at <strong>everyone</strong> reaches <strong style="color: var(--accent2);">no one</strong>.
+				</p>
+				<p style="font-size: 0.65em; color: var(--dim);">
+					Customize ruthlessly.
+				</p>
+				<div class="compare-row" style="margin-top: 0.8em;">
+					<div class="compare-col" style="max-width: 45%;">
+						<img src="assets/people.png" alt="A classroom full of people — the audience you&#39;re trying to reach" style="width: 100%; border-radius: 8px;"/>
+					</div>
+					<div class="compare-col" style="max-width: 45%;">
+						<img src="assets/people-bored.png" alt="People not paying attention during a presentation" style="width: 100%; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					Next foundation: know who you&#39;re talking to. If you try to speak to everyone equally, you&#39;ll reach nobody effectively. Look at the difference: a room full of people is an opportunity, but if you haven&#39;t tailored your message, that&#39;s what you get — disengagement.
+				</aside>
+			</section>
+
+			<section>
+				<h2>What Technical Leaders Want</h2>
+				<p class="fragment" style="font-size: 0.9em; margin-top: 0.8em;"><strong style="color: var(--accent);">Specifics</strong></p>
+				<p class="fragment" style="font-size: 0.9em;"><strong style="color: var(--accent);">Evidence</strong></p>
+				<p class="fragment" style="font-size: 0.9em;"><strong style="color: var(--accent);">Feasibility</strong></p>
+				<img src="assets/sprint-planning.jpeg" alt="Development team in a sprint planning meeting" style="max-width: 50%; border-radius: 8px;"/>
+				<aside class="notes">
+					Technical leaders — dev team leads, principal engineers, architects — want three things:
+
+					Specifics: What vulnerabilities are we talking about? What code changes are needed? What tools do we need?
+
+					Evidence: Show me the data. Give me demonstrations. Give me concrete examples, not hand-waving.
+
+					Feasibility: Can we actually implement this given our current stack, timeline, and team capacity?
+				</aside>
+			</section>
+
+			<section>
+				<h2>What Management Leaders Want</h2>
+				<div style="display: flex; justify-content: center; gap: 1.5em; margin-top: 1em;">
+					<div class="fragment" style="text-align: center; flex: 1; max-width: 20%;">
+						<p style="font-size: 0.8em;"><strong style="color: var(--accent4);">Business Impact</strong></p>
+						<img src="assets/dollar-sign.png" alt="Dollar sign — business impact" style="width: 100%; border-radius: 8px;"/>
+					</div>
+					<div class="fragment" style="text-align: center; flex: 1; max-width: 20%;">
+						<p style="font-size: 0.8em;"><strong style="color: var(--accent4);">Cost-Benefit</strong></p>
+						<img src="assets/cost-benefit.jpeg" alt="Balance scale — cost-benefit analysis" style="width: 100%; border-radius: 8px;"/>
+					</div>
+					<div class="fragment" style="text-align: center; flex: 1; max-width: 20%;">
+						<p style="font-size: 0.8em;"><strong style="color: var(--accent4);">Options</strong></p>
+						<img src="assets/options.jpeg" alt="Fork in the road — options" style="width: 100%; border-radius: 8px;"/>
+					</div>
+					<div class="fragment" style="text-align: center; flex: 1; max-width: 20%;">
+						<p style="font-size: 0.8em;"><strong style="color: var(--accent4);">Confidence</strong></p>
+						<img src="assets/handshake.jpeg" alt="Handshake — confidence and trust" style="width: 100%; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					Management leaders care about four things:
+
+					Business impact: What does this mean for revenue, reputation, and compliance? They don&#39;t care about CVE numbers; they care about dollars.
+
+					Cost-benefit: What does it cost to fix vs. the cost of the risk? Give them a clear comparison.
+
+					Options: What are our choices? What do you recommend? Executives want to make decisions, not just receive information.
+
+					Confidence: Can we trust you know what you&#39;re talking about? Your credibility matters as much as your data.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Audience mapping -->
+			<section>
+				<h2>Example: Same Topic, Different Audiences <span class="example-badge">Example</span></h2>
+				<div class="compare-row">
+					<div class="compare-col fragment" data-fragment-index="0">
+						<h3 style="color: var(--accent); font-size: 0.7em;">VP Engineering wants to hear:</h3>
+						<p style="font-size: 0.55em; text-align: left;">
+							&#34;Target&#39;s network was flat — attackers pivoted from HVAC vendor to POS systems. Our network has the same architecture. Here&#39;s a segmentation plan with a 6-month rollout.&#34;
+						</p>
+					</div>
+					<div class="compare-col fragment" data-fragment-index="1">
+						<h3 style="color: var(--accent4); font-size: 0.7em;">VP Finance wants to hear:</h3>
+						<p style="font-size: 0.55em; text-align: left;">
+							&#34;Target&#39;s breach cost $300M+. We process $50M in card transactions. A $2M investment in network segmentation reduces our exposure by an estimated 80%.&#34;
+						</p>
+					</div>
+				</div>
+				<p class="fragment" data-fragment-index="2" style="font-size: 0.55em; color: var(--dim); margin-top: 0.5em;">Same breach. Same recommendation. Different framing.</p>
+				<aside class="notes">
+					Look at how the same topic plays differently for different audiences. The VP Engineering wants to know: what&#39;s technically wrong and how do we fix it? The VP Finance wants to know: what&#39;s the financial exposure and what&#39;s the ROI of fixing it? Same breach, same recommendation, completely different framing. This is what it means to know your audience.
+				</aside>
+			</section>
+
+			<section>
+				<h2>The Mixed-Audience Challenge</h2>
+				<div style="font-size: 0.65em; text-align: left; max-width: 85%; margin: 0 auto;">
+					<p style="margin-bottom: 0.4em;">
+						<strong style="color: var(--accent4);">Start with business impact</strong> (for management)
+					</p>
+					<p style="margin-bottom: 0.4em;">
+						<strong style="color: var(--accent);">Layer in technical detail</strong> (for technical leads)
+					</p>
+					<p style="margin-bottom: 0.4em;">
+						<strong style="color: var(--accent3);">Have deep-dive backup ready</strong> (for experts who ask)
+					</p>
+					<p style="margin-bottom: 0.4em;">
+						<strong>Use analogies</strong> for the non-technical:
+						<span style="color: var(--dim); font-style: italic;">&#34;Think of it like a lock on a door...&#34;</span>
+					</p>
+					<p>
+						<strong>Translate jargon in real-time:</strong>
+						<span style="color: var(--dim); font-style: italic;">&#34;The firewall — think of it as a security guard checking IDs...&#34;</span>
+					</p>
+				</div>
+				<aside class="notes">
+					For mixed audiences: start with business impact, layer in technical detail, have deep-dive backup. Use analogies and translate jargon.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Network segmentation before/after -->
+			<section>
+				<h2>Example: Before &amp; After <span class="example-badge">Example</span></h2>
+				<p style="font-size: 0.5em; color: var(--dim); margin-bottom: 0.3em;">A visual the whole room can understand</p>
+				<div class="compare-row" style="gap: 1em;">
+					<div class="compare-col fragment" style="max-width: 48%;">
+						<h3 class="label-bad" style="font-size: 0.65em;">Before: Flat network</h3>
+						<svg viewBox="0 0 260 200" style="width: 100%; background: rgba(255,107,107,0.05); border-radius: 8px; border: 1px solid rgba(255,107,107,0.3);">
+							<rect x="10" y="10" width="240" height="180" rx="8" fill="none" stroke="rgba(255,255,255,0.2)" stroke-dasharray="4"></rect>
+							<text x="130" y="30" text-anchor="middle" fill="var(--dim)" font-size="10">All on one network</text>
+							<!-- Nodes -->
+							<rect x="20" y="45" width="65" height="30" rx="5" fill="rgba(252,196,25,0.3)" stroke="var(--accent4)"></rect>
+							<text x="52" y="65" text-anchor="middle" fill="white" font-size="9">HVAC Vendor</text>
+							<rect x="100" y="45" width="65" height="30" rx="5" fill="rgba(66,175,250,0.3)" stroke="var(--accent)"></rect>
+							<text x="132" y="65" text-anchor="middle" fill="white" font-size="9">Email Server</text>
+							<rect x="180" y="45" width="65" height="30" rx="5" fill="rgba(66,175,250,0.3)" stroke="var(--accent)"></rect>
+							<text x="212" y="65" text-anchor="middle" fill="white" font-size="9">Corp Apps</text>
+							<rect x="20" y="120" width="65" height="30" rx="5" fill="rgba(255,107,107,0.4)" stroke="var(--accent2)"></rect>
+							<text x="52" y="140" text-anchor="middle" fill="white" font-size="9">POS Systems</text>
+							<rect x="100" y="120" width="65" height="30" rx="5" fill="rgba(66,175,250,0.3)" stroke="var(--accent)"></rect>
+							<text x="132" y="140" text-anchor="middle" fill="white" font-size="9">Database</text>
+							<rect x="180" y="120" width="65" height="30" rx="5" fill="rgba(255,107,107,0.4)" stroke="var(--accent2)"></rect>
+							<text x="212" y="140" text-anchor="middle" fill="white" font-size="9">Card Data</text>
+							<!-- Lines connecting everything -->
+							<line x1="52" y1="75" x2="132" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="1"></line>
+							<line x1="52" y1="75" x2="52" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="1"></line>
+							<line x1="52" y1="75" x2="212" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="1"></line>
+							<line x1="132" y1="75" x2="52" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="1"></line>
+							<line x1="132" y1="75" x2="212" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="1"></line>
+							<line x1="212" y1="75" x2="132" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="1"></line>
+							<line x1="212" y1="75" x2="52" y2="120" stroke="rgba(255,255,255,0.3)" stroke-width="1"></line>
+							<!-- Attack path -->
+							<line x1="52" y1="75" x2="52" y2="120" stroke="var(--accent2)" stroke-width="2.5"></line>
+							<line x1="52" y1="150" x2="212" y2="150" stroke="var(--accent2)" stroke-width="2.5"></line>
+							<text x="130" y="175" text-anchor="middle" fill="var(--accent2)" font-size="10" font-weight="bold">Vendor → POS → Card Data</text>
+						</svg>
+					</div>
+					<div class="compare-col fragment" style="max-width: 48%;">
+						<h3 class="label-good" style="font-size: 0.65em;">After: Segmented network</h3>
+						<svg viewBox="0 0 260 200" style="width: 100%; background: rgba(81,207,102,0.05); border-radius: 8px; border: 1px solid rgba(81,207,102,0.3);">
+							<!-- Vendor zone -->
+							<rect x="10" y="10" width="75" height="85" rx="6" fill="none" stroke="var(--accent4)" stroke-dasharray="4"></rect>
+							<text x="47" y="25" text-anchor="middle" fill="var(--accent4)" font-size="8">VENDOR ZONE</text>
+							<rect x="18" y="35" width="60" height="25" rx="4" fill="rgba(252,196,25,0.3)" stroke="var(--accent4)"></rect>
+							<text x="48" y="52" text-anchor="middle" fill="white" font-size="8">HVAC Vendor</text>
+							<text x="47" y="80" text-anchor="middle" fill="var(--accent3)" font-size="8" font-weight="bold">BLOCKED</text>
+							<!-- Corporate zone -->
+							<rect x="95" y="10" width="155" height="85" rx="6" fill="none" stroke="var(--accent)" stroke-dasharray="4"></rect>
+							<text x="172" y="25" text-anchor="middle" fill="var(--accent)" font-size="8">CORPORATE ZONE</text>
+							<rect x="103" y="35" width="60" height="25" rx="4" fill="rgba(66,175,250,0.3)" stroke="var(--accent)"></rect>
+							<text x="133" y="52" text-anchor="middle" fill="white" font-size="8">Email</text>
+							<rect x="175" y="35" width="60" height="25" rx="4" fill="rgba(66,175,250,0.3)" stroke="var(--accent)"></rect>
+							<text x="205" y="52" text-anchor="middle" fill="white" font-size="8">Corp Apps</text>
+							<!-- Payment zone -->
+							<rect x="55" y="105" width="155" height="85" rx="6" fill="none" stroke="var(--accent3)" stroke-dasharray="4"></rect>
+							<text x="132" y="120" text-anchor="middle" fill="var(--accent3)" font-size="8">PAYMENT ZONE (isolated)</text>
+							<rect x="63" y="130" width="60" height="25" rx="4" fill="rgba(81,207,102,0.3)" stroke="var(--accent3)"></rect>
+							<text x="93" y="147" text-anchor="middle" fill="white" font-size="8">POS Systems</text>
+							<rect x="138" y="130" width="60" height="25" rx="4" fill="rgba(81,207,102,0.3)" stroke="var(--accent3)"></rect>
+							<text x="168" y="147" text-anchor="middle" fill="white" font-size="8">Card Data</text>
+							<text x="132" y="175" text-anchor="middle" fill="var(--accent3)" font-size="9" font-weight="bold">No lateral movement possible</text>
+						</svg>
+					</div>
+				</div>
+				<aside class="notes">
+					Here&#39;s a before-and-after that the whole room can understand — engineers and executives alike. On the left: a flat network where the HVAC vendor can reach the POS systems and card data. Red lines show the attack path. On the right: a segmented network with isolated zones. The vendor zone can&#39;t reach the payment zone. No lateral movement possible. This single visual makes the case for network segmentation more persuasively than any amount of text.
+				</aside>
+			</section>
+
+			<!-- &lt;section&gt;
+				&lt;h2&gt;The Inverted Pyramid&lt;/h2&gt;
+				&lt;p style=&#34;font-size: 0.6em; color: var(--dim); margin-bottom: 0.5em;&#34;&gt;For mixed audiences, layer your content&lt;/p&gt;
+				&lt;div class=&#34;pyramid-container&#34;&gt;
+					&lt;div class=&#34;pyramid-level fragment&#34; style=&#34;width: 80%; background: rgba(66,175,250,0.3); border: 2px solid var(--accent);&#34;&gt;
+						High-level impact&lt;br&gt;&lt;span style=&#34;font-size: 0.8em; color: var(--dim);&#34;&gt;For executives — business context&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div class=&#34;pyramid-level fragment&#34; style=&#34;width: 60%; background: rgba(252,196,25,0.25); border: 2px solid var(--accent4);&#34;&gt;
+						Strategic detail&lt;br&gt;&lt;span style=&#34;font-size: 0.8em; color: var(--dim);&#34;&gt;For technical managers&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div class=&#34;pyramid-level fragment&#34; style=&#34;width: 40%; background: rgba(81,207,102,0.25); border: 2px solid var(--accent3);&#34;&gt;
+						Deep dive&lt;br&gt;&lt;span style=&#34;font-size: 0.8em; color: var(--dim);&#34;&gt;For specialists&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;p style=&#34;font-size: 0.6em;&#34;&gt;Time-bound each layer. Aim at the center; embrace diversity.&lt;/p&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					When you have a mixed audience, use the inverted pyramid. Start with the high-level business impact. Then add strategic detail. Then go deeper for specialists. Time-bound each layer.
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+			<!-- &lt;section&gt;
+				&lt;blockquote&gt;
+					&#34;Executives don&#39;t care about bits and bytes. They want to know why they should care.&#34;
+					&lt;span class=&#34;attribution&#34;&gt;— Alissa Knight&lt;/span&gt;
+				&lt;/blockquote&gt;
+				&lt;div class=&#34;placeholder-image&#34; style=&#34;max-width: 40%;&#34;&gt;
+					&lt;p class=&#34;placeholder-label&#34;&gt;Image Placeholder&lt;/p&gt;
+					&lt;p class=&#34;placeholder-desc&#34;&gt;Photo of Alissa Knight, or an image representing executive-level communication (e.g., boardroom setting).&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;p class=&#34;small-ref&#34;&gt;
+					&lt;a href=&#34;https://lsaglobal.com/4-proven-ways-to-present-technical-ideas-to-non-technical-audiences/&#34;&gt;LSA Global: Presenting Technical Ideas to Non-Technical Audiences&lt;/a&gt; ·
+					&lt;a href=&#34;https://blog.powerspeaking.com/deliver-more-powerful-techinical-presentations&#34;&gt;PowerSpeaking: More Powerful Technical Presentations&lt;/a&gt;
+				&lt;/p&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					Alissa Knight puts it perfectly. Walk into a boardroom talking about CVEs and you&#39;ve lost the room. Frame everything in terms of impact.
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+
+			<!-- ============================================================ -->
+			<!-- PART 2: STRUCTURE                                            -->
+			<!-- ============================================================ -->
+			<section>
+				<div class="section-divider">
+					<p class="part-label">Part 2</p>
+					<h2>Structure: Designing Your Talk</h2>
+					<p style="font-size: 0.6em; color: var(--dim);">Lead with the punchline, not the setup</p>
+				</div>
+				<div class="signpost-bar">
+					<span class="signpost-item">Foundations</span>
+					<span class="signpost-item active">Structure</span>
+					<span class="signpost-item">Slides</span>
+					<span class="signpost-item">Delivery</span>
+					<span class="signpost-item">Security</span>
+					<span class="signpost-item">Process</span>
+				</div>
+				<aside class="notes">
+					Now that we know why talks matter and who we&#39;re talking to, let&#39;s talk about how to structure the content itself.
+				</aside>
+			</section>
+
+			<!-- 2.1: Claim First, Then Evidence -->
+			<section>
+				<h2>A Talk Is Not a Mystery Story</h2>
+				<div class="compare-row">
+					<div class="compare-col fragment">
+						<h3 class="label-bad">Anti-pattern</h3>
+						<p style="font-size: 0.55em; text-align: left;">
+							&#34;First let me explain the attack...<br/>
+							then our vulnerabilities...<br/>
+							then three solutions...<br/>
+							then my recommendation.&#34;
+						</p>
+						<p style="font-size: 0.5em; color: var(--accent2);">
+							Half the audience checks out before the punchline.
+						</p>
+					</div>
+					<div class="compare-col fragment">
+						<h3 class="label-good">Better</h3>
+						<p style="font-size: 0.55em; text-align: left;">
+							&#34;We need to implement X<br/>
+							to prevent Y.<br/>
+							Here&#39;s why, and<br/>
+							here&#39;s the evidence.&#34;
+						</p>
+						<p style="font-size: 0.5em; color: var(--accent3);">
+							Lead with the claim. Then support it.
+						</p>
+					</div>
+				</div>
+				<aside class="notes">
+					Technical people instinctively want to &#34;build up&#34; to their conclusion. But this loses audiences. Lead with your claim, then back it up.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Anti-pattern vs. Better -->
+			<section>
+				<h2>Example: Don&#39;t Bury the Lede <span class="example-badge">Example</span></h2>
+				<div class="compare-row">
+					<div class="compare-col fragment">
+						<h3 class="label-bad" style="font-size: 0.7em;">Mystery story version</h3>
+						<p style="font-size: 0.48em; text-align: left;">
+							&#34;Let me walk you through how Target was breached. First, Fazio Mechanical, an HVAC vendor, received a phishing email. Then the attackers used those credentials to access Target&#39;s network. The network was flat, so they could reach the POS systems. They installed RAM-scraping malware. 40 million cards were stolen. Now, our network is also flat...&#34;
+						</p>
+						<p style="font-size: 0.45em; color: var(--accent2);">20 minutes in and the CFO still doesn&#39;t know what you&#39;re asking for.</p>
+					</div>
+					<div class="compare-col fragment">
+						<h3 class="label-good" style="font-size: 0.7em;">Claim-first version</h3>
+						<p style="font-size: 0.48em; text-align: left;">
+							&#34;We need $2M for network segmentation to prevent a Target-style breach. Target lost $300M because their network was flat — attackers moved freely from an HVAC vendor to payment systems. Our network has the same vulnerability. Here&#39;s the plan, and here&#39;s the evidence it works.&#34;
+						</p>
+						<p style="font-size: 0.45em; color: var(--accent3);">30 seconds in, everyone knows what you want and why.</p>
+					</div>
+				</div>
+				<aside class="notes">
+					Here&#39;s what the difference looks like for our Target example. In the mystery story version, you spend 20 minutes building up before the CFO even knows what you&#39;re asking for. In the claim-first version, everyone knows within 30 seconds: you want $2M, and a real-world catastrophe is the motivation. The rest of the talk is evidence.
+				</aside>
+			</section>
+
+			<!-- 2.2: Tease, Then Deliver -->
+			<section>
+				<h2>The Overall Structure</h2>
+				<p style="font-size: 0.7em; color: var(--dim); margin-bottom: 0.3em;">Give them a roadmap, then take them on the journey</p>
+				<ol style="font-size: 0.6em; text-align: left; max-width: 75%; margin: 0 auto;">
+					<li style="margin-bottom: 0.3em;"><strong style="color: var(--accent);">Opening Hook</strong> (1–2 min): Why should they care <em>right now</em>?</li>
+					<li style="margin-bottom: 0.3em;"><strong style="color: var(--accent);">Problem &amp; Solution Teaser</strong> (2–3 min): What&#39;s at stake &amp; your recommendation</li>
+					<li style="margin-bottom: 0.3em;"><strong style="color: var(--accent);">Problem in Depth</strong> (5–8 min): Evidence the problem is real &amp; urgent</li>
+					<li style="margin-bottom: 0.3em;"><strong style="color: var(--accent);">Solution in Depth</strong> (10–15 min): How it works, with examples</li>
+					<li style="margin-bottom: 0.3em;"><strong style="color: var(--accent);">Evidence / Results</strong> (3–5 min): Data, case studies, demos</li>
+					<li style="margin-bottom: 0.3em;"><strong style="color: var(--accent);">Call to Action &amp; Summary</strong> (2–3 min): What you want them to do</li>
+				</ol>
+				<aside class="notes">
+					Here&#39;s a recommended overall structure for a typical 30-40 minute security talk. Notice you tease your punchline in step 2, then spend the rest backing it up.
+				</aside>
+			</section>
+
+			<section>
+				<h2>V-Shaped Complexity</h2>
+				<p style="font-size: 0.55em; color: var(--dim);">From Ranjit Jhala</p>
+				<div style="max-width: 720px; margin: 0 auto;">
+					<svg viewBox="0 0 720 270" style="width:100%; height:auto;">
+						<!-- Stage 1: Left dot + label -->
+						<g class="fragment" data-fragment-index="0">
+							<circle cx="70" cy="55" r="12" fill="var(--accent3)"></circle>
+							<text x="70" y="30" fill="var(--accent3)" font-size="30" font-weight="bold" text-anchor="middle">High Level</text>
+							<text x="70" y="92" fill="#ccc" font-size="21" text-anchor="middle">Accessible</text>
+							<text x="70" y="116" fill="#ccc" font-size="21" text-anchor="middle">to everyone</text>
+						</g>
+						<!-- Stage 2: Descending line + bottom dot + label -->
+						<g class="fragment" data-fragment-index="1">
+							<line x1="70" y1="55" x2="360" y2="195" stroke="var(--accent)" stroke-width="3" stroke-dasharray="8,4"></line>
+							<circle cx="360" cy="195" r="12" fill="var(--accent2)"></circle>
+							<text x="360" y="237" fill="var(--accent2)" font-size="30" font-weight="bold" text-anchor="middle">Technical Depth</text>
+						</g>
+						<!-- Stage 3: Ascending line + right dot + label -->
+						<g class="fragment" data-fragment-index="2">
+							<line x1="360" y1="195" x2="650" y2="55" stroke="var(--accent)" stroke-width="3" stroke-dasharray="8,4"></line>
+							<circle cx="650" cy="55" r="12" fill="var(--accent3)"></circle>
+							<text x="650" y="30" fill="var(--accent3)" font-size="30" font-weight="bold" text-anchor="middle">High Level</text>
+							<text x="650" y="92" fill="#ccc" font-size="21" text-anchor="middle">Summary &amp;</text>
+							<text x="650" y="116" fill="#ccc" font-size="21" text-anchor="middle">implications</text>
+						</g>
+						<!-- Stage 4: &#34;Tuned out&#34; annotation -->
+						<g class="fragment" data-fragment-index="3">
+							<text x="545" y="165" fill="var(--dim)" font-size="19" text-anchor="middle" font-style="italic">People who &#34;tuned out&#34;</text>
+							<text x="545" y="188" fill="var(--dim)" font-size="19" text-anchor="middle" font-style="italic">can rejoin here</text>
+							<line x1="500" y1="155" x2="478" y2="140" stroke="var(--dim)" stroke-width="1.5" marker-end="url(#arrowhead)"></line>
+						</g>
+						<!-- Arrowhead marker definition -->
+						<defs>
+							<marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+								<polygon points="0 0, 8 3, 0 6" fill="var(--dim)"></polygon>
+							</marker>
+						</defs>
+					</svg>
+				</div>
+				<aside class="notes">
+					Ranjit Jhala describes V-shaped complexity. Start at a high level that&#39;s accessible to everyone. Gradually descend into technical detail. Then come back up to a high level for your summary and implications. This way, even people who tune out during the technical middle can rejoin at the end and still walk away with the key message.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Onion, Not Clew</h2>
+				<p style="font-size: 0.55em; color: var(--dim);">From Herman Haverkort</p>
+				<div class="compare-row">
+					<div class="compare-col fragment">
+						<h3 class="label-bad">Clew (Linear)</h3>
+						<div class="clew-diagram">
+							<span class="clew-step">A</span>
+							<span class="clew-arrow">→</span>
+							<span class="clew-step">B</span>
+							<span class="clew-arrow">→</span>
+							<span class="clew-step">C</span>
+							<span class="clew-arrow">→</span>
+							<span class="clew-step">D</span>
+							<span class="clew-arrow">→</span>
+							<span class="clew-step" style="border-color: var(--accent2);">Conclusion</span>
+						</div>
+						<p style="font-size: 0.5em; color: var(--accent2);">Miss one step → you&#39;re lost</p>
+					</div>
+					<div class="compare-col fragment">
+						<h3 class="label-good">Onion (Layered)</h3>
+						<div style="position:relative; width: 220px; height: 220px; margin: 0 auto;">
+							<div class="onion-layer" style="width:220px;height:220px;top:0;left:0;background:rgba(66,175,250,0.1);border:2px solid rgba(66,175,250,0.4);">
+								<div class="onion-layer" style="width:150px;height:150px;background:rgba(66,175,250,0.2);border:2px solid rgba(66,175,250,0.5);">
+									<div class="onion-layer" style="width:80px;height:80px;background:rgba(66,175,250,0.35);border:2px solid var(--accent);font-size:0.45em;">
+										Core<br/>Message
+									</div>
+								</div>
+							</div>
+						</div>
+						<p style="font-size: 0.5em; color: var(--accent3);">Each layer adds depth; core always visible</p>
+					</div>
+				</div>
+				<aside class="notes">
+					Haverkort distinguishes between a &#34;clew&#34; — a linear chain where missing one step loses you — and an &#34;onion&#34; — core message first, then layers of depth. With an onion, even if someone dozes off, they can rejoin and understand the core.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Common pattern: CGI</h2>
+				<p style="font-size: 0.55em; color: var(--dim); margin-bottom: 0.5em;">From Derek Dreyer</p>
+				<div class="diagram-container">
+					<div class="cgi-box cgi-context fragment">
+						<div>Context</div>
+						<div style="font-size: 0.7em; font-weight: normal; margin-top: 0.3em;">Set the stage<br/>(1–2 min)</div>
+					</div>
+					<div class="cgi-arrow fragment">→</div>
+					<div class="cgi-box cgi-gap fragment">
+						<div>Gap</div>
+						<div style="font-size: 0.7em; font-weight: normal; margin-top: 0.3em;">The problem &amp; why<br/>existing approaches fail<br/>(2–4 min)</div>
+					</div>
+					<div class="cgi-arrow fragment">→</div>
+					<div class="cgi-box cgi-innovation fragment">
+						<div>Innovation</div>
+						<div style="font-size: 0.7em; font-weight: normal; margin-top: 0.3em;">Your solution<br/>&amp; how it helps<br/>(the rest)</div>
+					</div>
+				</div>
+				<img src="assets/derek-talk.png" alt="Derek Dreyer giving a talk" style="max-width: 40%; border-radius: 8px;"/>
+				<!-- &lt;p class=&#34;small-ref&#34;&gt;
+					&lt;a href=&#34;https://people.mpi-sws.org/~dreyer/talks/talk-plmw22icfp.pdf&#34;&gt;Dreyer: How to Write Papers and Give Talks That People Can Follow (PDF)&lt;/a&gt;
+				&lt;/p&gt; -->
+				<aside class="notes">
+					Derek Dreyer describes this as the CGI model. Context, Gap, Innovation. Notice the claim — your solution — comes early.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: CGI Applied -->
+			<section>
+				<h2>CGI for Target Talk <span class="example-badge">Example</span></h2>
+				<div style="font-size: 0.65em; text-align: left; max-width: 85%; margin: 0 auto;">
+					<div class="fragment" style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 0.6em;">
+						<div class="cgi-box cgi-context" style="min-width: 100px; font-size: 0.85em; padding: 0.4em 0.6em;">Context</div>
+						<div>&#34;Target was breached in December 2013. 40 million cards stolen. $300M+ in costs. CEO and CIO resigned.&#34;</div>
+					</div>
+					<div class="fragment" style="display: flex; align-items: flex-start; gap: 1em; margin-bottom: 0.6em;">
+						<div class="cgi-box cgi-gap" style="min-width: 100px; font-size: 0.85em; padding: 0.4em 0.6em;">Gap</div>
+						<div>&#34;Our network has the same flat architecture. Vendor access is uncontrolled. We have no segmentation between corporate and payment systems.&#34;</div>
+					</div>
+					<div class="fragment" style="display: flex; align-items: flex-start; gap: 1em;">
+						<div class="cgi-box cgi-innovation" style="min-width: 100px; font-size: 0.85em; padding: 0.4em 0.6em;">Innovation</div>
+						<div>&#34;Network segmentation + vendor access controls. $2M investment. 6-month rollout. Reduces exposure by ~80%.&#34;</div>
+					</div>
+				</div>
+				<aside class="notes">
+					Here&#39;s CGI applied to our Target talk. Context: the breach happened, here are the headlines. Gap: our network has the same vulnerability — a flat architecture with no segmentation. Innovation: network segmentation and vendor access controls, for $2M, deployed in 6 months. Notice how quickly the audience understands both the problem and the solution.
+				</aside>
+			</section>
+
+			<!-- 2.3: What to Include (and Cut) -->
+			<section>
+				<h2>What to Include — and Cut</h2>
+				<p style="font-size: 0.85em;">
+					Ruthlessly prune anything that doesn&#39;t serve your goal.
+				</p>
+				<ul style="font-size: 0.65em; text-align: left; max-width: 80%; margin: 1em auto;">
+					<li>For each piece of content: <em>&#34;Does this serve my goal? Does my audience need this?&#34;</em></li>
+					<li>If tangential but important: <em>&#34;For details, see the appendix/report&#34;</em></li>
+					<li>Have <strong>backup slides</strong> for Q&amp;A — content you cut but might need</li>
+				</ul>
+				<aside class="notes">
+					For every piece of content, ask: does this serve my goal? Does my audience need this? If not, cut it. Keep backup slides for Q&amp;A.
+				</aside>
+			</section>
+
+			<!-- &lt;section&gt;
+				&lt;blockquote&gt;
+					&#34;A talk of 30 minutes or less should be an advertisement for the paper, not a replacement.&#34;
+					&lt;span class=&#34;attribution&#34;&gt;— Jonathan Shewchuk&lt;/span&gt;
+				&lt;/blockquote&gt;
+				&lt;p style=&#34;font-size: 0.7em; margin-top: 1em;&#34;&gt;
+					Your talk = &lt;strong&gt;intro + key ideas only&lt;/strong&gt;. Details belong in the report.
+				&lt;/p&gt;
+				&lt;div class=&#34;placeholder-image&#34; style=&#34;max-width: 40%;&#34;&gt;
+					&lt;p class=&#34;placeholder-label&#34;&gt;Image Placeholder&lt;/p&gt;
+					&lt;p class=&#34;placeholder-desc&#34;&gt;Photo of Jonathan Shewchuk, or the title of his &#34;Giving an Academic Talk&#34; guide.&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;p class=&#34;small-ref&#34;&gt;
+					&lt;a href=&#34;https://people.eecs.berkeley.edu/~jrs/speaking.html&#34;&gt;Shewchuk: Giving an Academic Talk&lt;/a&gt; ·
+					&lt;a href=&#34;https://homes.cs.washington.edu/~mernst/advice/giving-talk.html&#34;&gt;Ernst: How to Give a Technical Presentation&lt;/a&gt;
+				&lt;/p&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					Shewchuk says it perfectly. Your talk isn&#39;t a replacement for the report. It&#39;s an advertisement. You want them interested enough to approve the proposal or take the meeting.
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+			<!-- &lt;section&gt;
+				&lt;h2&gt;The Landmark Approach&lt;/h2&gt;
+				&lt;p style=&#34;font-size: 0.55em; color: var(--dim);&#34;&gt;From Ranjit Jhala&lt;/p&gt;
+				&lt;div style=&#34;font-size: 0.65em; text-align: left; max-width: 80%; margin: 0.8em auto;&#34;&gt;
+					&lt;p&gt;Identify your &lt;strong&gt;key landmarks&lt;/strong&gt; (ideas to &#34;ram down their throats&#34;)&lt;/p&gt;
+					&lt;p&gt;Your talk is a path from &lt;strong&gt;problem&lt;/strong&gt; to &lt;strong&gt;solution&lt;/strong&gt; through these landmarks&lt;/p&gt;
+					&lt;p style=&#34;margin-top: 0.8em;&#34;&gt;Each landmark should be:&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li class=&#34;fragment&#34;&gt;&lt;strong style=&#34;color: var(--accent);&#34;&gt;Defined before used&lt;/strong&gt;&lt;/li&gt;
+						&lt;li class=&#34;fragment&#34;&gt;&lt;strong style=&#34;color: var(--accent);&#34;&gt;Problems before solutions&lt;/strong&gt;&lt;/li&gt;
+						&lt;li class=&#34;fragment&#34;&gt;&lt;strong style=&#34;color: var(--accent);&#34;&gt;Intuition before formalism&lt;/strong&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;p class=&#34;fragment&#34; style=&#34;margin-top: 0.8em; color: var(--accent4);&#34;&gt;
+						Minimize &#34;bandwidth&#34; — don&#39;t make them hold too many concepts at once.
+					&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					Jhala&#39;s landmark approach: figure out the key ideas you want your audience to walk away with. Each should be defined before used, problems before solutions, intuition before formalism. Minimize cognitive load.
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+			<section>
+				<h2>For Security Specifically</h2>
+				<ul style="font-size: 0.65em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<li style="margin-bottom: 0.5em;">Lead with <strong>business impact</strong>, not technical details</li>
+					<li style="margin-bottom: 0.5em;">Use <strong>data</strong> when you have it; be honest about uncertainty when you don&#39;t</li>
+					<li style="margin-bottom: 0.5em;">Present <strong>stackable options</strong>: &#34;We could do A, or A+B, or A+B+C&#34;</li>
+					<li style="margin-bottom: 0.5em;">
+						Reframe: <span class="label-good">&#34;This investment protects $X million in revenue&#34;</span><br/>
+						<span style="margin-left: 4.5em;">not</span> <span class="label-bad">&#34;We might get hacked&#34;</span>
+					</li>
+				</ul>
+				<aside class="notes">
+					When structuring security content: lead with business impact, use data, present stackable options, and frame as opportunity rather than fear.
+				</aside>
+			</section>
+
+
+			<!-- ============================================================ -->
+			<!-- PART 3: SLIDES                                               -->
+			<!-- ============================================================ -->
+			<section>
+				<div class="section-divider">
+					<p class="part-label">Part 3</p>
+					<h2>Slides: Your Visual Aid, Not Your Script</h2>
+					<p style="font-size: 0.6em; color: var(--dim);">If your slides make sense without you, they have too much text</p>
+				</div>
+				<div class="signpost-bar">
+					<span class="signpost-item">Foundations</span>
+					<span class="signpost-item">Structure</span>
+					<span class="signpost-item active">Slides</span>
+					<span class="signpost-item">Delivery</span>
+					<span class="signpost-item">Security</span>
+					<span class="signpost-item">Process</span>
+				</div>
+				<aside class="notes">
+					Now let&#39;s talk about the slides themselves. This is where most talks go wrong.
+				</aside>
+			</section>
+
+			<!-- 3.1: Slides support, not replace -->
+			<section>
+				<h2>Slides Support, Not Replace</h2>
+				<!-- &lt;p style=&#34;font-size: 0.8em;&#34;&gt;The absurdity of most talks:&lt;/p&gt;
+				&lt;div class=&#34;placeholder-image&#34;&gt;
+					&lt;p class=&#34;placeholder-label&#34;&gt;Image Placeholder&lt;/p&gt;
+					&lt;p class=&#34;placeholder-desc&#34;&gt;Side-by-side: a slide packed with bullet-point text (wall of text), and a speaker at a podium reading it aloud. Caption: &#34;Which should the audience pay attention to?&#34;&lt;/p&gt;
+				&lt;/div&gt; -->
+				<p style="font-size: 0.75em;">
+					If you can read your slides verbatim,
+					<strong style="color: var(--accent2);">they have too much text</strong>.
+				</p>
+				<aside class="notes">
+					Think about the typical talk: a speaker next to a text-heavy slide, reading it aloud. The audience is trying to read AND listen simultaneously, which means they&#39;re doing neither well.
+				</aside>
+			</section>
+
+			<!-- &lt;section&gt;
+				&lt;blockquote&gt;
+					&#34;A slide with more than twelve words is usually counterproductive.&#34;
+					&lt;span class=&#34;attribution&#34;&gt;— Jonathan Shewchuk&lt;/span&gt;
+				&lt;/blockquote&gt;
+				&lt;p style=&#34;font-size: 0.7em; margin-top: 1em;&#34;&gt;
+					Your slides should make &lt;strong&gt;no sense&lt;/strong&gt; without you.
+				&lt;/p&gt;
+				&lt;p style=&#34;font-size: 0.6em; color: var(--dim);&#34;&gt;
+					(Use presenter view or index cards for your notes — not the slides.)
+				&lt;/p&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					Shewchuk&#39;s twelve-word rule is useful. Your slides should be incomprehensible without your narration. Use presenter view for your notes.
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+						<!-- 3.2: Pictures Over Text -->
+			<section>
+				<h2>Pictures Over Text</h2>
+				<p style="font-size: 0.8em;">Express ideas visually whenever possible.</p>
+				<p style="font-size: 0.7em; margin-top: 0.5em;">
+					The <strong style="color: var(--accent);">&#34;Thrice Told&#34;</strong> principle:
+				</p>
+				<div class="diagram-container" style="gap: 1.5em;">
+					<div class="fragment" style="background: rgba(66,175,250,0.2); padding: 0.8em 1.2em; border-radius: 10px; border: 2px solid var(--accent); font-size: 0.65em;">
+						<strong>Written</strong><br/>on the slide
+					</div>
+					<div class="fragment" style="font-size: 1.2em; color: var(--dim);">+</div>
+					<div class="fragment" style="background: rgba(81,207,102,0.2); padding: 0.8em 1.2em; border-radius: 10px; border: 2px solid var(--accent3); font-size: 0.65em;">
+						<strong>Uttered</strong><br/>by you
+					</div>
+					<div class="fragment" style="font-size: 1.2em; color: var(--dim);">+</div>
+					<div class="fragment" style="background: rgba(252,196,25,0.2); padding: 0.8em 1.2em; border-radius: 10px; border: 2px solid var(--accent4); font-size: 0.65em;">
+						<strong>Illustrated</strong><br/>visually
+					</div>
+				</div>
+				<p class="fragment" style="font-size: 0.65em; color: var(--dim);">
+					Key ideas should appear in all three channels.
+				</p>
+				<aside class="notes">
+					The &#34;Thrice Told&#34; principle says key points should reach the audience three ways: written briefly, spoken by you, and illustrated visually. This reinforcement is how ideas stick.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Bad vs. Good Slide -->
+			<section>
+				<h2>Bad Slide <span class="example-badge">Example</span></h2>
+				<div class="faux-slide">
+					<h4>Target Data Breach: Background and Analysis</h4>
+					<ul>
+						<li>In December 2013, Target Corporation disclosed a major security breach</li>
+						<li>Attackers gained access through Fazio Mechanical Services, a third-party HVAC vendor, using stolen credentials obtained via a phishing email</li>
+						<li>The attackers exploited Target&#39;s flat network architecture to move laterally from the vendor portal to payment card processing systems</li>
+						<li>RAM-scraping malware was installed on POS terminals across 1,797 stores</li>
+						<li>Approximately 40 million credit and debit card numbers were compromised, along with 70 million customer records containing personal information</li>
+						<li>Total estimated cost to Target: $300M+ including settlements, fines, remediation, and lost business</li>
+						<li>Target&#39;s CEO Gregg Steinhafel and CIO Beth Jacob both resigned</li>
+						<li>FireEye security tools detected the breach but alerts were ignored</li>
+					</ul>
+				</div>
+				<p style="font-size: 0.5em; color: var(--accent2); margin-top: 0.5em;">
+					Every word is accurate. Nobody will read it.
+				</p>
+				<aside class="notes">
+					Here&#39;s a bad slide about the Target breach. Every fact is correct. And nobody in the audience will read it. They can&#39;t read AND listen to you simultaneously. This slide is a document pretending to be a visual aid.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Good Slide <span class="example-badge">Example</span></h2>
+				<p style="font-size: 0.5em; color: var(--dim); margin-bottom: 0.3em;">The chain of attack</p>
+				<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.3em; margin: 0.5em auto; max-width: 90%;">
+					<div class="fragment" data-fragment-index="0">
+						<div class="attack-node" style="background: rgba(252,196,25,0.3); border: 2px solid var(--accent4);">
+							Phishing<br/>email
+						</div>
+					</div>
+					<div class="attack-arrow fragment" data-fragment-index="1">→</div>
+					<div class="fragment" data-fragment-index="1">
+						<div class="attack-node" style="background: rgba(252,196,25,0.3); border: 2px solid var(--accent4);">
+							Vendor<br/>credentials
+						</div>
+					</div>
+					<div class="attack-arrow fragment" data-fragment-index="2">→</div>
+					<div class="fragment" data-fragment-index="2">
+						<div class="attack-node" style="background: rgba(255,107,107,0.3); border: 2px solid var(--accent2);">
+							Corporate<br/>network
+						</div>
+					</div>
+					<div class="attack-arrow fragment" data-fragment-index="3">→</div>
+					<div class="fragment" data-fragment-index="3">
+						<div class="attack-node" style="background: rgba(255,107,107,0.3); border: 2px solid var(--accent2);">
+							Flat<br/>network
+						</div>
+					</div>
+					<div class="attack-arrow fragment" data-fragment-index="4">→</div>
+					<div class="fragment" data-fragment-index="4">
+						<div class="attack-node" style="background: rgba(255,107,107,0.5); border: 2px solid var(--accent2);">
+							POS<br/>malware
+						</div>
+					</div>
+					<div class="attack-arrow fragment" data-fragment-index="5">→</div>
+					<div class="fragment" data-fragment-index="5">
+						<div class="attack-node" style="background: rgba(255,107,107,0.7); border: 2px solid var(--accent2); color: white;">
+							40M cards<br/>$300M+
+						</div>
+					</div>
+				</div>
+				<p class="fragment" data-fragment-index="6" style="font-size: 0.6em; color: var(--accent3); margin-top: 0.8em;">
+					<strong>You</strong> tell the story. The <strong>diagram</strong> anchors their understanding.
+				</p>
+				<aside class="notes">
+					Here&#39;s the same information as a visual — an animated attack flow diagram. Each step appears as YOU narrate it. &#34;It started with a phishing email...&#34; click. &#34;That gave the attackers vendor credentials...&#34; click. The audience is looking at the picture while listening to you, and the two reinforce each other. This is the thrice-told principle in action. After walking through the full chain, the takeaway appears: YOU tell the story, the diagram anchors understanding. Compare this to the wall-of-text version — same facts, completely different impact.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Visual Tools for Security Talks</h2>
+				<div style="display: flex; align-items: center; gap: 1.5em; margin: 0.5em auto; max-width: 95%;">
+					<div style="flex: 1; font-size: 0.65em; text-align: left;">
+						<p><strong style="color: var(--accent);">Architecture diagrams</strong></p>
+						<p><strong style="color: var(--accent);">Attack flow visualizations</strong></p>
+						<p><strong style="color: var(--accent);">Dashboard screenshots</strong></p>
+						<p><strong style="color: var(--accent);">Before/after comparisons</strong></p>
+						<p><strong style="color: var(--accent);">Risk heat maps</strong></p>
+						<p><strong style="color: var(--accent);">Timeline diagrams</strong></p>
+					</div>
+					<div style="flex: 1;">
+						<img src="assets/architecture.jpeg" alt="Clean security architecture diagram" style="width: 100%; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					For security talks, you have great visual tools available. Architecture diagrams, attack flows, dashboards, before/after comparisons, risk heat maps, timelines. A single clear diagram beats a page of bullet points.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Sometimes Text Is Okay</h2>
+				<ul style="font-size: 0.7em; text-align: left; max-width: 75%; margin: 0 auto;">
+					<li><strong>Slide titles</strong> — always</li>
+					<li><strong>Key statistics or quotes</strong> — occasionally</li>
+					<li><strong>Brief labels</strong> on diagrams</li>
+					<li><strong>One-sentence summary</strong> of a key point</li>
+					<li>(Unfortunately:) <strong>When you don&#39;t have time to do better!</strong></li>
+				</ul>
+				<p style="font-size: 0.65em; color: var(--dim); margin-top: 1em;">
+					But <strong>never</strong> too many bullet-heavy slides in a row.
+				</p>
+				<aside class="notes">
+					Text isn&#39;t forbidden — it&#39;s a last resort. Titles, key quotes, brief labels, one-sentence summaries. But be deliberate about it.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Slide titles -->
+			<section>
+				<h2>Slide Titles <span class="example-badge">Example</span></h2>
+				<p style="font-size: 0.65em; color: var(--dim); margin-bottom: 0.8em;">The title is often the most important text on the slide.</p>
+				<div class="compare-row">
+					<div class="compare-col fragment">
+						<h3 class="label-bad">Generic label</h3>
+						<div style="background: rgba(255,107,107,0.1); border: 1px solid var(--accent2); border-radius: 8px; padding: 0.8em; font-size: 0.65em;">
+							&#34;Security Incident Review&#34;
+						</div>
+					</div>
+					<div class="compare-col fragment">
+						<h3 class="label-good">Key point as title</h3>
+						<div style="background: rgba(81,207,102,0.1); border: 1px solid var(--accent3); border-radius: 8px; padding: 0.8em; font-size: 0.6em;">
+							&#34;We&#39;re Vulnerable to the Same Attack That Cost Target $300M&#34;
+						</div>
+					</div>
+				</div>
+				<!-- &lt;p style=&#34;font-size: 0.6em; margin-top: 1em;&#34;&gt;
+					Ranjit Jhala&#39;s &lt;strong&gt;&#34;Monkey Test&#34;&lt;/strong&gt;: Can someone understand the slide sequence without audio?
+				&lt;/p&gt; -->
+				<aside class="notes">
+					Look at these two titles. &#34;Security Incident Review&#34; tells you nothing. &#34;We&#39;re Vulnerable to the Same Attack That Cost Target $300M&#34; tells you the key point before you even look at the rest of the slide. The Monkey Test: if someone flipped through your slides silently, could they follow the argument from titles and visuals alone?
+				</aside>
+			</section>
+
+			<!-- 3.3: One Point, One Slide -->
+			<section>
+				<h2>One Point, One Slide</h2>
+				<p style="font-size: 0.8em;">
+					Each slide should make <strong style="color: var(--accent);">exactly one point</strong>.
+				</p>
+				<p style="font-size: 0.7em;">
+					If it has two points, make two slides.
+				</p>
+				<aside class="notes">
+					Each slide: exactly one point. Complex slides overwhelm. Break them into pieces<br/>
+					and walk through them step by step. If you find yourself saying &#34;and also,&#34; split it.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: One Point, One Slide -->
+			<section>
+				<h2>Too Many Points <span class="example-badge">Example</span></h2>
+				<div style="display: flex; gap: 0.4em; margin: 0.3em auto; max-width: 95%; align-items: flex-start;">
+					<!-- Point 1 crammed -->
+					<div style="flex: 1; text-align: center;">
+						<img src="assets/dashboard-alerts.jpeg" alt="FireEye dashboard with alerts" style="width: 100%; border-radius: 6px;"/>
+						<p style="font-size: 0.45em; color: var(--accent3); margin-top: 0.2em;">
+							<strong>5</strong> malware variants flagged
+						</p>
+					</div>
+					<!-- Point 2 crammed -->
+					<div style="flex: 1.2; text-align: center;">
+						<div style="display: flex; align-items: center; justify-content: center; gap: 0.15em; font-size: 0.4em;">
+							<div style="padding: 0.3em; border: 1px solid var(--accent3); border-radius: 6px;">
+								<strong style="color: var(--accent3);">Bangalore</strong><br/>saw alerts
+							</div>
+							<span style="color: var(--accent3);">→</span>
+							<div style="padding: 0.3em; border: 1px solid var(--accent4); border-radius: 6px;">
+								<strong style="color: var(--accent4);">Minneapolis</strong><br/>escalated to
+							</div>
+							<span style="color: var(--accent2);">→</span>
+							<div style="padding: 0.3em; border: 1px solid var(--accent2); border-radius: 6px; background: rgba(255,107,107,0.15);">
+								<strong style="color: var(--accent2);">No action</strong>
+							</div>
+						</div>
+						<img src="assets/empty-secops.jpeg" alt="Empty security operations center" style="width: 85%; margin-top: 0.2em; border-radius: 6px;"/>
+					</div>
+					<!-- Point 3 crammed -->
+					<div style="flex: 1; text-align: center;">
+						<img src="assets/switch-off.png" alt="Switch in off position" style="width: 100%; border-radius: 6px;"/>
+						<p style="font-size: 0.45em; color: var(--accent2); margin-top: 0.2em;">
+							Auto-delete was <strong>off</strong>
+						</p>
+					</div>
+				</div>
+				<div class="fragment" data-fragment-index="1" style="font-size: 0.5em;">
+				<p style="color: var(--accent2); margin-top: 0.3em;">
+					Three points crammed into one slide. Everything is too small to read.
+				</p>
+				</div>
+				<aside class="notes">
+					Here&#39;s one slide trying to tell the whole detection failure story at once. You can see the problem immediately — everything is tiny, cramped, and competing for attention. There are actually three distinct points here: the tools worked, the people failed, and a policy choice made it worse. Crammed together, the narrative arc is lost and nothing has impact. Let&#39;s split this into three slides instead.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Point 1: The Tools Worked <span class="example-badge">Example</span></h2>
+				<img src="assets/dashboard-alerts.jpeg" alt="FireEye security dashboard with red alert banners" style="max-width: 65%; margin: 0.5em auto; border-radius: 8px;"/>
+				<p style="font-size: 0.9em; color: var(--accent3); margin-top: 0.5em;">
+					<strong>Five</strong> malware variants flagged. Server addresses identified.
+				</p>
+				<aside class="notes">
+					Target had spent $1.6 million on FireEye — the same malware detection system used by the CIA and the Pentagon. On November 30, 2013, it did exactly what it was designed to do. It detected the malware and raised alerts. Five different variants. It even identified the staging server addresses. The hackers had accidentally left their own credentials in the malware code. Detection was NOT the problem. One slide, one point: the tools worked.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Point 2: The People Didn&#39;t <span class="example-badge">Example</span></h2>
+				<div style="display: flex; align-items: center; justify-content: center; gap: 0.5em; margin: 0.8em auto; font-size: 0.75em;">
+					<div style="text-align: center; padding: 0.6em 0.8em; border: 2px solid var(--accent3); border-radius: 10px;">
+						<strong style="color: var(--accent3);">Bangalore</strong><br/>
+						<span style="font-size: 0.7em; color: var(--dim);">saw alerts</span>
+					</div>
+					<div style="font-size: 1.5em; color: var(--accent3);">→</div>
+					<div style="text-align: center; padding: 0.6em 0.8em; border: 2px solid var(--accent4); border-radius: 10px;">
+						<strong style="color: var(--accent4);">Minneapolis</strong><br/>
+						<span style="font-size: 0.7em; color: var(--dim);">escalated to</span>
+					</div>
+					<div style="font-size: 1.5em; color: var(--accent2);">→</div>
+					<div style="text-align: center; padding: 0.6em 0.8em; border: 2px solid var(--accent2); border-radius: 10px; background: rgba(255,107,107,0.15);">
+						<strong style="color: var(--accent2);">No action</strong><br/>
+						<span style="font-size: 0.7em; color: var(--dim);">&#34;not warranted&#34;</span>
+					</div>
+				</div>
+				<img src="assets/empty-secops.jpeg" alt="Empty security operations center" style="max-width: 50%; margin: 0.5em auto; border-radius: 8px;"/>
+				<aside class="notes">
+					Target had a security operations center in Bangalore monitoring 24/7. They saw the FireEye alerts and did the right thing — they escalated to headquarters in Minneapolis. Minneapolis reviewed them and decided the generic label &#34;malware.binary&#34; didn&#39;t warrant immediate follow-up. FireEye was new, the alert name was vague, and there were lots of other alerts competing for attention. The data continued flowing to Russia for two more weeks. One slide, one point: the people failed.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Point 3: Auto-Delete Was Off <span class="example-badge">Example</span></h2>
+				<img src="assets/switch-off.png" alt="Power switch in the off position" style="max-width: 55%; margin: 0.5em auto; border-radius: 8px;"/>
+				<p style="font-size: 0.85em; margin-top: 0.5em;">
+					FireEye could have <strong style="color: var(--accent3);">automatically deleted</strong> the malware.
+				</p>
+				<p style="font-size: 0.85em; color: var(--accent2);">
+					<strong>That feature was turned off.</strong>
+				</p>
+				<!-- &lt;p style=&#34;font-size: 0.6em; color: var(--accent3); margin-top: 0.8em;&#34;&gt;
+					Three slides. Three points. One story: &lt;strong&gt;Technology → People → Policy&lt;/strong&gt;
+				&lt;/p&gt; -->
+				<aside class="notes">
+					FireEye had the ability to automatically quarantine and delete detected malware without any human intervention. Target&#39;s team had turned that feature off. They didn&#39;t trust the new system enough to let it act on its own — a reasonable and common choice for newly deployed security tools. But it turned a detected intrusion into a $300 million breach. Now look at what we just did: three slides, three points, one clear narrative arc. The technology worked. The people failed. A policy decision made it all preventable. That story is completely lost when you cram nine bullets onto one slide. This IS the &#34;one point, one slide&#34; principle.
+				</aside>
+			</section>
+
+			<!-- 3.4: Flow and Coherence -->
+			<section>
+				<h2>Flow and Coherence</h2>
+				<p style="font-size: 0.75em;">Slides should flow like sentences in a paragraph. Narrative.</p>
+				<div style="font-size: 0.65em; text-align: center; max-width: 80%; margin: 1em auto;">
+					<p><strong style="color: var(--accent);">Within slides</strong></p>
+					<p><strong style="color: var(--accent);">Between slides</strong></p>
+					<p><strong style="color: var(--accent);">Transitions</strong></p>
+				</div>
+				<aside class="notes">
+					Your slides need to flow. 
+					Within each slide, go from what&#39;s known to what&#39;s new. 
+					Each slide should clearly connect to the previous and next
+					Plan your transitions. Don&#39;t just flip and say &#34;So...&#34;
+				</aside>
+			</section>
+
+			<!-- &lt;section&gt;
+				&lt;h2&gt;&#34;Talklets&#34;&lt;/h2&gt;
+				&lt;p style=&#34;font-size: 0.55em; color: var(--dim);&#34;&gt;From Derek Dreyer&lt;/p&gt;
+				&lt;p style=&#34;font-size: 0.7em;&#34;&gt;
+					Break your talk into &lt;strong style=&#34;color: var(--accent);&#34;&gt;2–4 minute chunks&lt;/strong&gt;.
+				&lt;/p&gt;
+				&lt;p style=&#34;font-size: 0.65em;&#34;&gt;
+					Between chunks, remind the audience of the big picture.
+				&lt;/p&gt;
+				&lt;div class=&#34;diagram-container&#34; style=&#34;gap: 0.6em; flex-wrap: wrap;&#34;&gt;
+					&lt;div style=&#34;background: rgba(66,175,250,0.2); padding: 0.5em 0.8em; border-radius: 8px; font-size: 0.55em; border: 1px solid var(--accent);&#34;&gt;Talklet 1&lt;/div&gt;
+					&lt;div style=&#34;font-size: 0.8em; color: var(--accent4);&#34;&gt;recap&lt;/div&gt;
+					&lt;div style=&#34;background: rgba(66,175,250,0.2); padding: 0.5em 0.8em; border-radius: 8px; font-size: 0.55em; border: 1px solid var(--accent);&#34;&gt;Talklet 2&lt;/div&gt;
+					&lt;div style=&#34;font-size: 0.8em; color: var(--accent4);&#34;&gt;recap&lt;/div&gt;
+					&lt;div style=&#34;background: rgba(66,175,250,0.2); padding: 0.5em 0.8em; border-radius: 8px; font-size: 0.55em; border: 1px solid var(--accent);&#34;&gt;Talklet 3&lt;/div&gt;
+					&lt;div style=&#34;font-size: 0.8em; color: var(--accent4);&#34;&gt;recap&lt;/div&gt;
+					&lt;div style=&#34;background: rgba(66,175,250,0.2); padding: 0.5em 0.8em; border-radius: 8px; font-size: 0.55em; border: 1px solid var(--accent);&#34;&gt;Talklet 4&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					Derek Dreyer suggests &#34;talklets&#34; — self-contained 2-4 minute chunks. Between each, briefly remind the audience of the big picture.
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+			<section>
+				<h2>Animation: Principles</h2>
+				<ul style="font-size: 0.65em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<li style="margin-bottom: 0.5em;">Use builds to <strong>reveal information incrementally</strong></li>
+					<ul><li style="margin-bottom: 0.5em;">
+						<span class="label-good">Effective:</span> revealing parts of a diagram step by step
+					</li>
+					</ul><li style="margin-bottom: 0.5em;">Animation should <strong>guide attention</strong>, not decorate</li>
+				</ul>
+				<aside class="notes">
+					Use animation to reveal information step by step — like building up a diagram. Keep elements stable between builds. Animation guides the eye, not decorates. And yes — revealing bullet points one by one is generally annoying. But revealing parts of a diagram is genuinely helpful. We&#39;re using that principle in this very presentation.
+				</aside>
+			</section>
+
+			<!-- 3.5: Formatting Essentials -->
+			<section>
+				<h2>Formatting Essentials</h2>
+				<div class="two-col" style="font-size: 0.6em;">
+					<div>
+						<p><strong style="color: var(--accent);">Font size:</strong> Min 28–30pt body.<br/>Shewchuk recommends 38pt text, 42–50pt titles</p>
+						<p><strong style="color: var(--accent);">Font type:</strong> Sans-serif only<br/>(Arial, Calibri, Helvetica)</p>
+						<p><strong style="color: var(--accent);">Colors:</strong> Dark on light OR light on dark<br/>Pick one. High contrast.</p>
+					</div>
+					<div>
+						<p><strong style="color: var(--accent);">No clutter:</strong> Remove logos, decorations, unnecessary graphics</p>
+						<p><strong style="color: var(--accent);">Match backgrounds:</strong> If including a diagram, ensure its background matches your slide</p>
+					</div>
+				</div>
+				<aside class="notes">
+					Formatting fundamentals. 28-30 point minimum. Sans-serif fonts. Choose dark-on-light or light-on-dark and stick with it. Remove all clutter. Match diagram backgrounds.
+				</aside>
+			</section>
+
+			<section>
+				<h2>The Last Slide Matters</h2>
+				<div style="font-size: 0.7em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<p style="margin-bottom: 0.5em;">
+						<span class="label-bad">Never:</span> just &#34;Thank You!&#34; or &#34;Questions?&#34;
+					</p>
+					<p style="margin-bottom: 0.5em;">
+						<span class="label-good">Instead:</span> Summary of key points + your call to action
+					</p>
+					<p>
+						This slide <strong>stays up during Q&amp;A</strong> — make it work for you.
+					</p>
+					<p style="color: var(--dim); font-size: 0.85em;">
+						Include pointers to more information if relevant.
+					</p>
+				</div>
+				<!-- &lt;p class=&#34;small-ref&#34; style=&#34;bottom: -1em;&#34;&gt;
+					&lt;a href=&#34;https://people.eecs.berkeley.edu/~jrs/speaking.html&#34;&gt;Shewchuk: Giving an Academic Talk&lt;/a&gt; ·
+					&lt;a href=&#34;https://homes.cs.washington.edu/~mernst/advice/giving-talk.html&#34;&gt;Ernst: How to Give a Technical Presentation&lt;/a&gt;
+				&lt;/p&gt; -->
+				<aside class="notes">
+					Your last slide stays on screen during Q&amp;A. Never waste it on &#34;Thank You.&#34; Reinforce your key points and call to action.
+				</aside>
+			</section>
+
+
+			<!-- ============================================================ -->
+			<!-- PART 4: DELIVERY                                             -->
+			<!-- ============================================================ -->
+			<section>
+				<div class="section-divider">
+					<p class="part-label">Part 4</p>
+					<h2>Delivery: Bringing It to Life</h2>
+					<p style="font-size: 0.6em; color: var(--dim);">No substitute for practice</p>
+				</div>
+				<div class="signpost-bar">
+					<span class="signpost-item">Foundations</span>
+					<span class="signpost-item">Structure</span>
+					<span class="signpost-item">Slides</span>
+					<span class="signpost-item active">Delivery</span>
+					<span class="signpost-item">Security</span>
+					<span class="signpost-item">Process</span>
+				</div>
+				<aside class="notes">
+					We&#39;ve covered what to say and how to design your slides. Now: how to deliver.
+				</aside>
+			</section>
+
+			<!-- 4.2: Presence and Energy -->
+			<section>
+				<blockquote>
+					&#34;Your most potent weapon is your enthusiasm.&#34;
+					<span class="attribution">— Simon Peyton Jones</span>
+				</blockquote>
+				<p style="font-size: 0.75em; margin-top: 1em;">
+					If <strong>you</strong> don&#39;t seem excited,<br/>
+					why should <strong>they</strong> be?
+				</p>
+				<aside class="notes">
+					Your enthusiasm is your most potent weapon. The room will adopt your energy level.
+				</aside>
+			</section>
+
+			<!-- 4.1: Preparation and Practice -->
+			<section>
+				<h2>Practice Is Non-Negotiable</h2>
+				<ul style="font-size: 0.65em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<li style="margin-bottom: 0.5em;"><strong>Practice out loud</strong> — not just reading in your head</li>
+					<li style="margin-bottom: 0.5em;"><strong>Memorize the first few slides</strong> — then roll into natural delivery</li>
+					<li style="margin-bottom: 0.5em;"><strong>Time yourself</strong> — and cut ruthlessly if over</li>
+				</ul>
+				<img src="assets/practice.jpeg" alt="Someone practicing a presentation" style="max-width: 50%; border-radius: 8px;"/>
+				<aside class="notes">
+					No shortcut for practice. Explain your talk to a colleague first. Practice out loud. Memorize the opening. Time yourself.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Practice Techniques</h2>
+				<ul style="font-size: 0.7em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<li style="margin-bottom: 0.5em;">Give at least <strong>one practice talk</strong> to real people</li>
+					<li style="margin-bottom: 0.5em;"><strong>Video yourself</strong> to catch tics and awkward moments</li>
+					<li style="margin-bottom: 0.5em;">For high-stakes talks: <strong>multiple practice runs</strong> to different audiences</li>
+				</ul>
+				<blockquote style="margin-top: 1em;">
+					&#34;Write your slides the night before — freshness matters.&#34;
+					<span class="attribution">— Simon Peyton Jones</span>
+				</blockquote>
+				<aside class="notes">
+					Give at least one practice talk to real people. Video yourself. For important talks, multiple practice runs. And polish your slides close to the event — freshness matters.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Delivery Do&#39;s and Don&#39;ts</h2>
+				<div style="display: flex; gap: 1em; margin: 0.3em auto; max-width: 95%; align-items: flex-start;">
+					<div style="flex: 1; text-align: center; display: flex; flex-direction: column;">
+						<div class="fragment" data-fragment-index="0" style="min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
+							<h3 class="label-bad" style="font-size: 0.65em;">Don&#39;t</h3>
+							<img src="assets/nervous.jpeg" alt="Speaker turned away or reading from slides" style="max-width: 90%; border-radius: 8px;"/>
+						</div>
+						<div class="fragment" data-fragment-index="1" style="font-size: 0.5em;">
+							<p>Read from your slides<br/>
+							   Turn your back to the audience<br/>
+							   Pace nervously<br/>
+							   Apologize for your preparation</p>
+						</div>
+					</div>
+					<div style="flex: 1; text-align: center; display: flex; flex-direction: column;">
+						<div class="fragment" data-fragment-index="2" style="min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
+							<h3 class="label-good" style="font-size: 0.65em;">Do</h3>
+							<img src="assets/speaker.jpeg" alt="Speaker facing the audience with open gestures" style="max-width: 75%; border-radius: 8px;"/>
+						</div>
+						<div class="fragment" data-fragment-index="3" style="font-size: 0.5em;">
+						    <p>Face the audience, not the screen<br/>
+							   Make eye contact<br/>
+							   Move purposefully<br/>
+							   Use hands for emphasis</p>
+						</div>
+					</div>
+				</div>
+				<aside class="notes">
+					Face the audience. Make eye contact. Stand and move purposefully. Use your hands. Never read your slides. Never apologize for your preparation.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Managing Nerves</h2>
+				<div style="font-size: 0.7em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<p style="margin-bottom: 0.5em;">
+						The <strong style="color: var(--accent);">&#34;jelly effect&#34;</strong> — weak legs, tight chest — is universal.
+						<br/><span class="dim">It doesn&#39;t mean you&#39;re not ready.</span>
+					</p>
+					<p style="margin-bottom: 0.5em;">
+						<strong>Deep breathing</strong> before you start
+					</p>
+					<p style="margin-bottom: 0.5em;">
+						<strong>Move around</strong> and use large gestures — physical activity releases tension
+					</p>
+					<!-- &lt;p&gt;
+						&lt;strong&gt;Script your first few sentences&lt;/strong&gt; precisely — no brain required at the start
+					&lt;/p&gt; -->
+				</div>
+				<aside class="notes">
+					Nerves are universal. Deep breathing helps. Moving releases tension. And script your opening word-for-word so you can start on autopilot while your brain catches up.
+				</aside>
+			</section>
+
+			<!-- 4.3: Signposts and Transitions -->
+			<section>
+				<h2>Verbal Signposts</h2>
+				<p style="font-size: 0.7em; margin-bottom: 0.5em;">Help your audience track the narrative.</p>
+				<div style="font-size: 0.65em; text-align: left; max-width: 85%; margin: 0 auto;">
+					<p style="margin-bottom: 0.5em; color: var(--accent);">
+						&#34;So we&#39;ve covered the threat landscape. Now let&#39;s talk about solutions.&#34;
+					</p>
+					<p style="margin-bottom: 0.5em; color: var(--accent);">
+						&#34;Here&#39;s the most important point...&#34;
+					</p>
+					<p style="margin-bottom: 0.5em; color: var(--accent);">
+						&#34;If you remember nothing else from today...&#34;
+					</p>
+					<p style="margin-bottom: 0.5em; color: var(--accent);">
+						&#34;So the key takeaway is X. Now let&#39;s look at Y.&#34;
+					</p>
+				</div>
+				<aside class="notes">
+					Use verbal signposts. Tell people where you are. Flag key moments explicitly.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Pause Between Ideas</h2>
+				<div class="fragment" data-fragment-index="0">
+					<p style="font-size: 0.85em; margin-top: 0.5em;">
+						<strong style="color: var(--accent);">Silence is powerful.</strong>
+					</p>
+					<img src="assets/silence.jpeg" alt="Speaker pausing deliberately" style="max-width: 50%; margin: 0.5em auto; border-radius: 8px;"/>
+				</div>
+				<p class="fragment" data-fragment-index="1" style="font-size: 0.75em; color: var(--dim); margin-top: 0.8em;">
+					<strong>Vary your pace</strong> — slow down for important points.
+				</p>
+				<aside class="notes">
+					Silence is one of the most powerful tools you have. Pause before a key point and let the audience catch up. Vary your pace — slow down for the things you want to stick. Rushing signals nervousness; pausing signals confidence.
+				</aside>
+			</section>
+
+			<!-- 4.4: Handling Questions -->
+			<section>
+				<h2>Handling Questions</h2>
+				<div style="display: flex; align-items: center; gap: 1.5em; margin: 0.5em auto; max-width: 95%;">
+					<div style="flex: 1; text-align: left;">
+						<p style="font-size: 0.8em; margin-bottom: 0.5em;">
+							Questions are <strong style="color: var(--accent3);">opportunities</strong>, not threats.
+						</p>
+						<div class="fragment">
+							<p style="font-size: 0.75em;"><strong>Repeat</strong> the question back</p>
+							<p style="font-size: 0.75em;"><strong>&#34;I don&#39;t know&#34;</strong> is always okay</p>
+							<p style="font-size: 0.75em;">Have <strong>backup slides</strong> ready</p>
+							<p style="font-size: 0.75em;">Don&#39;t get <strong>defensive</strong></p>
+						</div>
+					</div>
+					<div style="flex: 1;">
+						<img src="assets/questions.jpeg" alt="Audience asking questions" style="width: 100%; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					Questions are engagement, not attacks. Repeat every question back — it buys you time to think and ensures you understood correctly. It&#39;s always okay to say &#34;I don&#39;t know&#34; or &#34;That&#39;s outside the scope of this talk.&#34; Have backup slides ready for predictable questions — this shows preparation and depth. Don&#39;t get defensive — most challenging questions come from genuine curiosity, not hostility. For mixed audiences, bridge between technical and non-technical in your answers: give the short business answer, then the technical detail.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Encouraging Questions</h2>
+				<div class="two-col" style="font-size: 0.7em; align-items: center;">
+					<div>
+						<ul style="text-align: left;">
+							<li style="margin-bottom: 0.5em;">Pause at natural breaks and invite questions</li>
+							<li style="margin-bottom: 0.5em;">Acknowledge that &#34;basic&#34; questions are welcome</li>
+							<li style="margin-bottom: 0.5em;">
+								Create safe spaces:<br/>
+								<span style="color: var(--accent); font-style: italic;">&#34;This is complex — what questions can I clarify?&#34;</span>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<img src="assets/empathy.jpg" alt="Encouraging questions" style="max-height: 400px; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					Actively invite questions. &#34;What can I clarify?&#34; is better than &#34;Any questions?&#34;
+				</aside>
+			</section>
+
+
+			<!-- ============================================================ -->
+			<!-- PART 5: SECURITY-SPECIFIC                                    -->
+			<!-- ============================================================ -->
+			<section>
+				<div class="section-divider">
+					<p class="part-label">Part 5</p>
+					<h2>Special Considerations for Security Engineers</h2>
+					<p style="font-size: 0.6em; color: var(--dim);">Security enables the business — it doesn&#39;t block it</p>
+				</div>
+				<div class="signpost-bar">
+					<span class="signpost-item">Foundations</span>
+					<span class="signpost-item">Structure</span>
+					<span class="signpost-item">Slides</span>
+					<span class="signpost-item">Delivery</span>
+					<span class="signpost-item active">Security</span>
+					<span class="signpost-item">Process</span>
+				</div>
+				<aside class="notes">
+					Everything so far applies to any talk. Now what&#39;s specific to security engineers.
+				</aside>
+			</section>
+
+			<!-- 5.1: Security Communication Strategies -->
+			<!-- RUNNING EXAMPLE: FUD vs. Opportunity with Target numbers -->
+			<section>
+				<img src="assets/fud-def.jpg" alt="FUD definition" style="max-width: 75%; border-radius: 8px;"/>
+			</section>
+
+			<section>
+				<h2>Frame as Opportunity, Not FUD</h2>
+				<div style="display: flex; gap: 1em; margin: 0.5em auto; max-width: 95%;">
+					<div class="fragment" style="flex: 1; text-align: center;">
+						<h3 class="label-bad">Fear</h3>
+						<p style="font-size: 0.6em;">
+							&#34;We might get hacked like Target.&#34;<br/>
+							&#34;Bad things could happen.&#34;<br/>
+							&#34;We&#39;re at risk.&#34;
+						</p>
+						<img src="assets/fud.png" alt="Scary red alert conveying FUD" style="max-width: 80%; margin: 0.3em auto 0; border-radius: 8px;"/>
+					</div>
+					<div class="fragment" style="flex: 1; text-align: center;">
+						<h3 class="label-good">Opportunity</h3>
+						<p style="font-size: 0.6em;">
+							&#34;A $2M investment protects our $50M in card transactions.&#34;<br/>
+							&#34;This reduces our exposure by ~80%.&#34;<br/>
+							&#34;This puts us ahead of PCI-DSS 3.0 requirements.&#34;
+						</p>
+						<img src="assets/shield.jpeg" alt="Shield protecting revenue — opportunity" style="max-width: 80%; margin: 0.3em auto 0; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					The biggest trap in security communication: FUD — fear, uncertainty, doubt. &#34;We might get hacked like Target&#34; is vague and feels manipulative. &#34;A $2M investment protects our $50M in card transactions&#34; gives them a concrete business case. Frame security as a business opportunity, not a scare tactic.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Speak the Language of Business</h2>
+				<div class="equation fragment" data-fragment-index="0">
+					<span class="eq-highlight">Risk</span> = Likelihood × Harm
+				</div>
+				<br/>
+				<div class="equation fragment" data-fragment-index="1">
+					<span class="eq-highlight">Benefit</span> = Risk Reduced − Costs
+				</div>
+				<div class="fragment" data-fragment-index="2" style="font-size: 0.65em; margin-top: 1em;">
+					<p><strong style="color: var(--accent);">Use data when possible</strong> — but be honest about uncertainty</p>
+					<p><span class="label-good">&#34;We estimate...&#34;</span> not <span class="label-bad">&#34;This will...&#34;</span></p>
+				</div>
+				<aside class="notes">
+					Speak the language of risk and return. Risk is likelihood times harm. Benefit is risk reduced minus costs. Be honest about uncertainty.
+				</aside>
+			</section>
+
+			<!-- RUNNING EXAMPLE: Business case -->
+			<section>
+				<h2>Example: The Business Case <span class="example-badge">Example</span></h2>
+				<div style="max-width: 85%; margin: 0 auto;">
+					<!-- Simple cost/benefit visual -->
+					<div style="display: flex; justify-content: center; gap: 2em; margin: 0.5em 0;">
+						<div class="fragment" style="text-align: center;">
+							<div style="background: rgba(255,107,107,0.3); border: 2px solid var(--accent2); border-radius: 10px; padding: 0.8em 1.5em;">
+								<div style="font-size: 0.5em; color: var(--accent2); text-transform: uppercase;">Cost of a breach</div>
+								<div style="font-size: 1.5em; font-weight: bold;">$50M+</div>
+								<div style="font-size: 0.45em; color: var(--dim);">Based on Target&#39;s $300M at 6x our scale</div>
+							</div>
+						</div>
+						<div class="fragment" style="text-align: center;">
+							<div style="background: rgba(81,207,102,0.3); border: 2px solid var(--accent3); border-radius: 10px; padding: 0.8em 1.5em;">
+								<div style="font-size: 0.5em; color: var(--accent3); text-transform: uppercase;">Cost of prevention</div>
+								<div style="font-size: 1.5em; font-weight: bold;">$2M</div>
+								<div style="font-size: 0.45em; color: var(--dim);">Network segmentation + vendor controls</div>
+							</div>
+						</div>
+						<div class="fragment" style="text-align: center;">
+							<div style="background: rgba(66,175,250,0.3); border: 2px solid var(--accent); border-radius: 10px; padding: 0.8em 1.5em;">
+								<div style="font-size: 0.5em; color: var(--accent); text-transform: uppercase;">Risk reduction</div>
+								<div style="font-size: 1.5em; font-weight: bold;">~80%</div>
+								<div style="font-size: 0.45em; color: var(--dim);">Estimated exposure reduction</div>
+							</div>
+						</div>
+					</div>
+					<p class="fragment" style="font-size: 0.6em; color: var(--accent4); margin-top: 0.5em;">
+						This is a slide a CFO can act on.
+					</p>
+				</div>
+				<aside class="notes">
+					Here&#39;s what a business case slide looks like for our Target example. Three numbers, three boxes. Cost of a breach: $50M+. Cost of prevention: $2M. Risk reduction: approximately 80%. This is a slide a CFO can act on. Compare this to the wall-of-text slide we saw earlier — same underlying data, completely different impact.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Security Communication Principles</h2>
+				<ul style="font-size: 0.65em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<li style="margin-bottom: 0.5em;">
+						<strong style="color: var(--accent);">Never let a crisis go to waste:</strong> When incidents happen, use them to advocate for improvements
+					</li>
+					<li style="margin-bottom: 0.5em;">
+						<strong style="color: var(--accent);">There is no perfect security:</strong> Present risk <em>reduction</em>, not elimination. Be honest about trade-offs.
+					</li>
+					<li style="margin-bottom: 0.5em;">
+						<strong style="color: var(--accent);">Right things, easy things:</strong> Are we protecting the right assets? Are we making secure behavior easy?
+					</li>
+				</ul>
+				<aside class="notes">
+					Three principles. Use incidents as opportunities. Never promise perfect security. And always ask: are we protecting the right things, and are we making the secure path easy?
+				</aside>
+			</section>
+
+			<!-- 5.2: Building Trust -->
+			<section>
+				<h2>Building Trust</h2>
+				<p style="font-size: 0.8em; margin-bottom: 0.5em;">
+					You&#39;re building <strong style="color: var(--accent);">trust</strong>, not winning arguments.
+				</p>
+				<div class="two-col" style="font-size: 0.65em; align-items: center;">
+					<div>
+						<ul style="text-align: left;">
+							<li style="margin-bottom: 0.4em;"><strong>Present trade-offs fairly</strong>, even when you have a clear recommendation</li>
+							<li style="margin-bottom: 0.4em;">Be <strong>transparent</strong> about limitations and uncertainties</li>
+							<li style="margin-bottom: 0.4em;"><strong>Trust your audience&#39;s judgment</strong> — give options, let them choose</li>
+						</ul>
+					</div>
+					<div>
+						<img src="assets/trust.jpg" alt="Building trust" style="max-height: 400px; border-radius: 8px;"/>
+					</div>
+				</div>
+				<aside class="notes">
+					Your goal is trust, not winning. Be neutral, transparent, and fair about trade-offs.
+				</aside>
+			</section>
+
+			<!-- ============================================================ -->
+			<!-- PART 6: PROCESS                                              -->
+			<!-- ============================================================ -->
+			<section>
+				<div class="section-divider">
+					<p class="part-label">Part 6</p>
+					<h2>The Process: Putting The Talk Together</h2>
+					<p style="font-size: 0.6em; color: var(--dim);">Figure out what to say before you open your slide editor</p>
+				</div>
+				<div class="signpost-bar">
+					<span class="signpost-item">Foundations</span>
+					<span class="signpost-item">Structure</span>
+					<span class="signpost-item">Slides</span>
+					<span class="signpost-item">Delivery</span>
+					<span class="signpost-item">Security</span>
+					<span class="signpost-item active">Process</span>
+				</div>
+				<aside class="notes">
+					Home stretch. Let&#39;s put it all together into a practical process.
+				</aside>
+			</section>
+
+			<!-- 6.1: From Ideas to Slides -->
+			<section>
+				<blockquote>
+					&#34;Figure out what you are going to say first, in increasing detail, then set out to make the slides.&#34;
+					<span class="attribution">— Michael Hicks</span>
+				</blockquote>
+				<aside class="notes">
+					The most common mistake: opening PowerPoint first. Don&#39;t. Figure out what you want to say first.
+				</aside>
+			</section>
+
+			<section>
+				<h2>The Six-Step Process</h2>
+				<ol style="font-size: 0.63em; text-align: left; max-width: 85%; margin: 0 auto;">
+					<li class="fragment" style="margin-bottom: 0.4em;"><strong style="color: var(--accent);">Step 1:</strong> Write your <strong>goal</strong> in one sentence</li>
+					<li class="fragment" style="margin-bottom: 0.4em;"><strong style="color: var(--accent);">Step 2:</strong> List your <strong>key landmarks/points</strong> (outline)</li>
+					<li class="fragment" style="margin-bottom: 0.4em;"><strong style="color: var(--accent);">Step 3:</strong> For each point, decide <strong>how to support it</strong> (example, data, diagram)</li>
+					<li class="fragment" style="margin-bottom: 0.4em;"><strong style="color: var(--accent);">Step 4:</strong> Sketch <strong>placeholder slides</strong> with titles and notes</li>
+					<li class="fragment" style="margin-bottom: 0.4em;"><strong style="color: var(--accent);">Step 5:</strong> Now open your slide editor and <strong>build the real slides</strong></li>
+					<li class="fragment" style="margin-bottom: 0.4em;"><strong style="color: var(--accent);">Step 6:</strong> Review — <strong>can you cut 20%?</strong> You probably should.</li>
+				</ol>
+				<aside class="notes">
+					Six steps. Goal. Landmarks. Support for each. Placeholder sketches. Build real slides. Cut 20%.
+				</aside>
+			</section>
+
+			<section>
+				<h2>Iterative Refinement</h2>
+				<div style="font-size: 0.7em; text-align: left; max-width: 80%; margin: 0 auto;">
+					<p style="margin-bottom: 0.5em;">
+						Start with bullet lists, then ask:<br/>
+						<em style="color: var(--accent);">&#34;Can I say this with less text? Can I use an illustration?&#34;</em>
+					</p>
+					<p style="margin-bottom: 0.5em;">
+						This naturally leads to the &#34;thrice told&#34; principle<br/>
+						and reduces narrative-only text.
+					</p>
+					<p>
+						Idea: <strong>design the last slide of each section first</strong>,<br/>
+						then work backward.
+					</p>
+				</div>
+				<p class="small-ref" style="bottom: -1em;">
+					<a href="http://www.pl-enthusiast.net/2019/01/02/how-to-write-a-conference-talk/">Hicks: How to Write a Conference Talk</a> ·
+					<a href="https://ranjitjhala.github.io/static/PLMW-talk-opinionated.pdf">Jhala: An Opinionated Talk on Preparing Good Talks (PDF)</a>
+				</p>
+				<aside class="notes">
+					Iterate. Start with bullets, then challenge: can I use less text? An illustration? Design the last slide of each section first, then work backward.
+				</aside>
+			</section>
+
+			<!-- 6.2: Final Checklist -->
+			<section>
+				<h2>Before You Present: Checklist</h2>
+				<ul class="checklist">
+					<li>I can state my one key message in a single sentence</li>
+					<li>I know what behavior change I want from my audience</li>
+					<li>Each slide makes exactly one point</li>
+					<li>My slides have minimal text; ideas are illustrated visually</li>
+					<li>My slide titles emphasize key points, not generic labels</li>
+					<li>I&#39;ve practiced out loud at least twice</li>
+					<li>I&#39;ve timed myself and I&#39;m under the time limit</li>
+					<li>My final slide summarizes key points and my call to action</li>
+					<li>I have backup slides for likely questions</li>
+				</ul>
+				<aside class="notes">
+					Run through this checklist before every talk. If you can check all nine, you&#39;re ready.
+				</aside>
+			</section>
+
+
+			<!-- ============================================================ -->
+			<!-- CLOSING                                                      -->
+			<!-- ============================================================ -->
+			<section>
+				<h2>Key Takeaways</h2>
+				<div class="takeaway-grid">
+					<div class="takeaway-item">
+						<strong>1. Have a goal</strong><br/>
+						Know the behavior change you want
+					</div>
+					<div class="takeaway-item">
+						<strong>2. Know your audience</strong><br/>
+						Customize for technical vs. non-technical; lead with business impact
+					</div>
+					<div class="takeaway-item">
+						<strong>3. Structure for success</strong><br/>
+						Claim first, then evidence; CGI model; onion over clew
+					</div>
+					<div class="takeaway-item">
+						<strong>4. Slides support, not replace</strong><br/>
+						Minimal text, maximum visuals; one point per slide
+					</div>
+					<div class="takeaway-item">
+						<strong>5. Deliver with energy</strong><br/>
+						Practice, be enthusiastic, face your audience, use signposts
+					</div>
+					<div class="takeaway-item">
+						<strong>6. Build trust</strong><br/>
+						Frame security as opportunity; present options; use data honestly
+					</div>
+				</div>
+				<aside class="notes">
+					Six key takeaways. Have a goal. Know your audience. Structure for success. Let slides support you. Deliver with energy. Build trust.
+				</aside>
+			</section>
+
+			<!-- Resources slide -->
+			<section>
+				<h2>Resources</h2>
+				<div class="two-col" style="font-size: 0.45em; text-align: left;">
+					<div>
+						<p style="color: var(--accent); font-weight: bold; font-size: 1.2em;">Core References</p>
+						<p><a href="https://homes.cs.washington.edu/~mernst/advice/giving-talk.html">M. Ernst: How to Give a Technical Presentation</a></p>
+						<p><a href="https://people.mpi-sws.org/~dreyer/talks/talk-plmw22icfp.pdf">D. Dreyer: How to Write Papers and Give Talks (PDF)</a></p>
+						<p><a href="http://www.pl-enthusiast.net/2019/01/02/how-to-write-a-conference-talk/">M. Hicks: How to Write a Conference Talk</a></p>
+						<p><a href="https://ranjitjhala.github.io/static/PLMW-talk-opinionated.pdf">R. Jhala: Preparing Good Talks (PDF)</a></p>
+						<p><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/How-to-give-a-great-research-talk.pdf">S. Peyton Jones: Great Research Talk (PDF)</a></p>
+					</div>
+					<div>
+						<p style="color: var(--accent); font-weight: bold; font-size: 1.2em;">Additional</p>
+						<p><a href="https://people.eecs.berkeley.edu/~jrs/speaking.html">J. Shewchuk: Giving an Academic Talk</a></p>
+						<p><a href="https://ianparberry.com/pubs/speaker.pdf">I. Parberry: Speaker&#39;s Guide (PDF)</a></p>
+						<p><a href="https://homepages.inf.ed.ac.uk/sgwater/presentation_advice.html">S. Goldwater: Advice on Presentations</a></p>
+						<p style="margin-top: 0.8em; color: var(--accent); font-weight: bold; font-size: 1.2em;">Books</p>
+						<p>J. Williams: <em>Style: Toward Clarity and Grace</em></p>
+						<p><a href="http://www.cs.tufts.edu/~nr/pubs/two.pdf">N. Ramsey: Learn Technical Writing in Two Hours (PDF)</a></p>
+					</div>
+				</div>
+				<aside class="notes">
+					Here are the references. I especially recommend Peyton Jones and Shewchuk.
+				</aside>
+			</section>
+
+			<!-- Final call-to-action slide (stays up during Q&amp;A) -->
+			<!-- &lt;section&gt;
+				&lt;h2 style=&#34;color: var(--accent);&#34;&gt;Your Next Talk&lt;/h2&gt;
+				&lt;div style=&#34;font-size: 0.75em; margin-top: 1em;&#34;&gt;
+					&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Define your goal in one sentence&lt;/p&gt;
+					&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Know your audience and what they need&lt;/p&gt;
+					&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Claim first, then evidence&lt;/p&gt;
+					&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Less text, more visuals&lt;/p&gt;
+					&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; Practice out loud&lt;/p&gt;
+					&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Be enthusiastic — you earned this time&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;p style=&#34;font-size: 0.55em; color: var(--dim); margin-top: 1.5em;&#34;&gt;
+					Michael Hicks · CIS 7000 · Penn CIS · Spring 2026
+				&lt;/p&gt;
+				&lt;aside class=&#34;notes&#34;&gt;
+					This is your call to action. The next time you have a presentation, start with these six steps. You earned this time with your audience. Make it count.
+				&lt;/aside&gt;
+			&lt;/section&gt; -->
+
+		</div><!-- /.slides -->
+	</div><!-- /.reveal -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reveal.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/notes/notes.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/markdown/markdown.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/highlight/highlight.min.js"></script>
+	<script>
+		Reveal.initialize({
+			hash: true,
+			slideNumber: true,
+			transition: 'slide',
+			controlsTutorial: false,
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+		});
+	</script>
+
+
+</body></html>
