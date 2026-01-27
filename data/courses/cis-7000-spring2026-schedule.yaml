@@ -33,12 +33,13 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-human-vuln.pdf'
 
   - date: "Jan 27"
-    anchor: "next_class"
-    topic: "Speaking and writing well (generally, and for security)"
+    topic: '[Speaking and writing well (generally, and for security)](/courses/cis-7000-spring2026/giving-a-talk)'
     readings: 
       - 'Ernst, Michael. [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)'
+      - 'Click the title to the left to see the talk slides; a recording of this talk is on the [Canvas site](https://canvas.upenn.edu/courses/1911047)' 
 
   - date: "Jan 29"
+    anchor: "next_class"
     topic: "Cybersecurity economics"
     readings:
      - 'Ross Anderson. [Why information security is hard - an economic perspective](https://ieeexplore.ieee.org/abstract/document/991552). Seventeenth annual computer security applications conference (ACSAC). IEEE, 2001.'
