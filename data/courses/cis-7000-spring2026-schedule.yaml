@@ -43,5 +43,22 @@ schedule:
     topic: "Cybersecurity economics"
     readings:
      - 'Ross Anderson. [Why information security is hard - an economic perspective](https://ieeexplore.ieee.org/abstract/document/991552). Seventeenth annual computer security applications conference (ACSAC). IEEE, 2001.'
-     - 'Ian Griggs, [The Market for Silver Bullets](https://iang.org/papers/market_for_silver_bullets.html), 2008.'
-      
+     - 'Ian Grigg, [The Market for Silver Bullets](https://iang.org/papers/market_for_silver_bullets.html), 2008.'
+
+  - date: "Feb 3"
+    topic: "Cybersecurity as a scientific pursuit"
+    readings:
+      - 'Cormac Herley and P.C. van Oorschot. [SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit](https://cormac.herley.org//docs/scienceAndSecuritySoK.pdf), IEEE S&P 2017.'
+      - text: 'Fred B. Schneider. [A Blueprint for a Science of Cybersecurity](https://www.cs.cornell.edu/fbs/publications/SoS.blueprint.pdf). The Next Wave, Vol. 19, No. 2, 2012.'
+        optional: true
+  
+  - date: "Feb 5"
+    topic: "Data Analysis: Introduction and Review"
+    readings:
+      - 'We will cover parts of [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/) by Michael Franke (particular sections posted here shortly).'
+
+  - date: "Mar 3"
+    topic: "**Midterm** in class"
+  
+  - date: "Mar 10, 12"
+    topic: "**No class** *Spring Break*"
