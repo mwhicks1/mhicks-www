@@ -44,6 +44,9 @@ schedule:
     readings:
      - 'Ross Anderson. [Why information security is hard - an economic perspective](https://www.acsac.org/2001/papers/110.pdf). Seventeenth annual computer security applications conference (ACSAC). IEEE, 2001.'
      - 'Ian Grigg, [The Market for Silver Bullets](https://iang.org/papers/market_for_silver_bullets.html), 2008.'
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-economics.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-economics.pdf'
 
   - date: "Feb 3"
     topic: "Cybersecurity as a scientific pursuit"
