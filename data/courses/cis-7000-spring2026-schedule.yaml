@@ -54,6 +54,9 @@ schedule:
       - 'Cormac Herley and P.C. van Oorschot. [SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit](https://cormac.herley.org//docs/scienceAndSecuritySoK.pdf), IEEE S&P 2017.'
       - text: 'Fred B. Schneider. [A Blueprint for a Science of Cybersecurity](https://www.cs.cornell.edu/fbs/publications/SoS.blueprint.pdf). The Next Wave, Vol. 19, No. 2, 2012.'
         optional: true
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-SoS.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-SoS.pdf'
   
   - date: "Feb 5"
     topic: "Data Analysis: Introduction and Review"
