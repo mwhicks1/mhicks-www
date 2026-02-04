@@ -59,9 +59,18 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-SoS.pdf'
   
   - date: "Feb 5"
-    topic: "Data Analysis: Introduction and Review"
+    topic: "Data Analysis: Hypothesis Testing, Effect Sizes, and Regression #1"
     readings:
-      - 'We will cover parts of [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/) by Michael Franke (particular sections posted here shortly).'
+      - '[Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/), chaps 5 and 16.'
+      - '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf), chaps 6.2, 8.4, 16.2.' 
+      - text: 'Jenny Tang, Lujo Bauer, and Nicolas Christin. [Misuse, Misreporting, Misinterpretation of Statistical Methods in Usable Privacy and Security Papers.](https://www.usenix.org/conference/soups2025/presentation/tang) In SOUPS 25.'
+        optional: true
+
+  - date: "Feb 10"
+    topic: "Data Analysis: Hypothesis Testing, Effect Sizes, and Regression #1"
+    readings:
+      - '[Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/), chaps 12.1, 15.2.'
+      - '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf), chaps 9, 16.3.' 
 
   - date: "Mar 3"
     topic: "**Midterm** in class"
