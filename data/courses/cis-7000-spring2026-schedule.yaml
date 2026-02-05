@@ -72,6 +72,19 @@ schedule:
       - '[Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/), chaps 12.1, 15.2.'
       - '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf), chaps 9, 16.3.' 
 
+  - date: "Feb 12"
+    topic: "Measurements of security #1 (vulnerability oriented)"
+    readings: 
+      - 'Ruef, Andrew, Michael Hicks, James Parker, Dave Levin, Michelle L. Mazurek, and Piotr Mardziel. [Build it, break it, fix it: Contesting secure development](https://dl.acm.org/doi/10.1145/2976749.2978382). CCS 2016. **Optional**: [Long version of this paper](https://dl.acm.org/doi/abs/10.1145/3383773) from 2020, which has more detail and another contest problem.'
+      - text: 'Jeff Vander Stoep. [Rust in Android: move fast and fix things](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html), Nov 2025'
+        optional: true
+
+  - date: "Feb 17"
+    topic: "Measurements of security #2 (ops and end-user oriented)"
+    readings:
+      - 'Dekoven et al, [Measuring Security Practices and How They Impact Security](https://dl.acm.org/doi/pdf/10.1145/3355369.3355571), IMC 2019'
+      - 'Casey F. Breen, Cormac Herley, Elissa Redmiles. [A Large-Scale Measurement of Cybercrime Against Individuals](https://dl.acm.org/doi/10.1145/3491102.3517613), In CHI 2022. (NB: [Data analysis package](https://github.com/caseybreen/cybercrime_code_release), done in R)'
+
   - date: "Mar 3"
     topic: "**Midterm** in class"
   
