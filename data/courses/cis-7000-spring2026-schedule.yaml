@@ -71,10 +71,13 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-data-analysis-1.pdf'
 
   - date: "Feb 10"
-    topic: "Data Analysis: Hypothesis Testing, Effect Sizes, and Regression #1"
+    topic: "Data Analysis: Hypothesis Testing, Effect Sizes, and Regression #2"
     readings:
       - '[Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/), chaps 12.1, 15.2.'
       - '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf), chaps 9, 16.3.' 
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-data-analysis-2.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-data-analysis-2.pdf'
 
   - date: "Feb 12"
     topic: "Measurements of security #1 (vulnerability oriented)"
