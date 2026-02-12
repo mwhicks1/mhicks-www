@@ -39,7 +39,6 @@ schedule:
       - 'Click the title to the left to see the talk slides; a recording of this talk is on the [Canvas site](https://canvas.upenn.edu/courses/1911047)' 
 
   - date: "Jan 29"
-    anchor: "next_class"
     topic: "Cybersecurity economics"
     readings:
      - 'Ross Anderson. [Why information security is hard - an economic perspective](https://www.acsac.org/2001/papers/110.pdf). Seventeenth annual computer security applications conference (ACSAC). IEEE, 2001.'
@@ -61,8 +60,8 @@ schedule:
   - date: "Feb 5"
     topic: "Data Analysis: Hypothesis Testing, Effect Sizes, and Regression #1"
     readings:
-      - '[Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/), chaps 5 and 16.'
-      - '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf), chaps 6.2, 8.4, 16.2.' 
+      - text: '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf) and [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/)'
+        note: 'Recommended sections in these references given in lecture notes' 
       - text: 'Jenny Tang, Lujo Bauer, and Nicolas Christin. [Misuse, Misreporting, Misinterpretation of Statistical Methods in Usable Privacy and Security Papers.](https://www.usenix.org/conference/soups2025/presentation/tang) In SOUPS 25.'
         optional: true
       - text: '**Reference**: [sample vulnerability data](/courses/cis-7000-spring2026/downloads/sample_vuln_data.csv) used in lecture'
@@ -73,8 +72,8 @@ schedule:
   - date: "Feb 10"
     topic: "Data Analysis: Hypothesis Testing, Effect Sizes, and Regression #2"
     readings:
-      - '[Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/), chaps 12.1, 15.2.'
-      - '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf), chaps 9, 16.3.' 
+      - text: '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf) and [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/)'
+        note: 'Recommended sections in these references given in lecture notes' 
     slides:
       pptx: '/courses/cis-7000-spring2026/downloads/SSEM-data-analysis-2.pptx'
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-data-analysis-2.pdf'
@@ -89,12 +88,26 @@ schedule:
       pptx: '/courses/cis-7000-spring2026/downloads/SSEM-BIBIFI.pptx'
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-BIBIFI.pdf'
 
-
   - date: "Feb 17"
+    anchor: "next_class"
     topic: "Measurements of security #2 (ops and end-user oriented)"
     readings:
       - 'Dekoven et al, [Measuring Security Practices and How They Impact Security](https://dl.acm.org/doi/pdf/10.1145/3355369.3355571), IMC 2019'
       - 'Casey F. Breen, Cormac Herley, Elissa Redmiles. [A Large-Scale Measurement of Cybercrime Against Individuals](https://dl.acm.org/doi/10.1145/3491102.3517613), In CHI 2022. (NB: [Data analysis package](https://github.com/caseybreen/cybercrime_code_release), done in R)'
+
+  - date: "Feb 19"
+    topic: "Security by Design Overview, Threat Modeling #1"
+    readings:
+      - text: '[Secure by Design: A Guide for Assessing Software Security Practices](https://www.cisecurity.org/insights/white-papers/secure-by-design) (pps. 1-19)'
+        optional: true
+
+  - date: "Feb 24"
+    topic: "Threat Modeling #2"
+    readings: 
+      - "Up to this point covered on the midterm"
+
+  - date: "Feb 26"
+    topic: "Secure Design: Principles and Techniques"
 
   - date: "Mar 3"
     topic: "**Midterm** in class"
