@@ -85,8 +85,10 @@ schedule:
       - 'Ruef, Andrew, Michael Hicks, James Parker, Dave Levin, Michelle L. Mazurek, and Piotr Mardziel. [Build it, break it, fix it: Contesting secure development](https://dl.acm.org/doi/10.1145/2976749.2978382). CCS 2016. *Note*: [Long version of this paper](https://dl.acm.org/doi/abs/10.1145/3383773) from 2020, which has more detail and another contest problem.'
       - text: 'Votipka, Daniel, Kelsey R. Fulton, James Parker, Matthew Hou, Michelle L. Mazurek, and Michael Hicks. [Understanding security mistakes developers make: Qualitative analysis from build it, break it, fix it](https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding). USENIX Security 2020.'
         optional: true
-      - text: 'Jeff Vander Stoep. [Rust in Android: move fast and fix things](https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html), Nov 2025'
-        optional: true
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-BIBIFI.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-BIBIFI.pdf'
+
 
   - date: "Feb 17"
     topic: "Measurements of security #2 (ops and end-user oriented)"
