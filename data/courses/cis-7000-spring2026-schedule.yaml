@@ -94,6 +94,9 @@ schedule:
     readings:
       - 'Dekoven et al, [Measuring Security Practices and How They Impact Security](https://dl.acm.org/doi/pdf/10.1145/3355369.3355571), IMC 2019'
       - 'Casey F. Breen, Cormac Herley, Elissa Redmiles. [A Large-Scale Measurement of Cybercrime Against Individuals](https://dl.acm.org/doi/10.1145/3491102.3517613), In CHI 2022. (NB: [Data analysis package](https://github.com/caseybreen/cybercrime_code_release), done in R)'
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-measuring-harm.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-measuring-harm.pdf'
 
   - date: "Feb 19"
     topic: "Security by Design Overview, Threat Modeling #1"
@@ -114,3 +117,8 @@ schedule:
   
   - date: "Mar 5, 10, 12"
     topic: "**No class** *Spring Break*"
+
+  - date: "May 7 (Thursday)"
+    topic: "**Final exam**"
+    readings: 
+    - '12-2pm LRSM 112B'
