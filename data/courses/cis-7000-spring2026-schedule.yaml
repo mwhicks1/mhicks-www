@@ -89,7 +89,6 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-BIBIFI.pdf'
 
   - date: "Feb 17"
-    anchor: "next_class"
     topic: "Measurements of security #2 (ops and end-user oriented)"
     readings:
       - 'Dekoven et al, [Measuring Security Practices and How They Impact Security](https://dl.acm.org/doi/pdf/10.1145/3355369.3355571), IMC 2019'
@@ -99,15 +98,19 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-measuring-harm.pdf'
 
   - date: "Feb 19"
+    anchor: "next_class"
     topic: "Security by Design Overview, Threat Modeling #1"
     readings:
       - '[Secure by Design: A Guide for Assessing Software Security Practices](https://www.cisecurity.org/insights/white-papers/secure-by-design) (pps. 1-19)'
       - 'Adam Shostack, [The Ultimate Beginner Guide to Threat Modeling](https://shostack.org/resources/threat-modeling.html)'
 
   - date: "Feb 24"
-    topic: "Threat Modeling #2"
+    topic: "Threat Modeling #2 (up to this point covered on midterm)"
     readings: 
-      - "Up to this point covered on the midterm"
+      - 'SAFECode, [Tactical Threat Modeling](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf), 2017.'
+      - 'Toreon, [Threat modeling done right](https://www.toreon.com/wp-content/uploads/2016/12/TON_ThreatModeling_1612.pdf), 2016.'
+      - text: 'Loren Kohnfelder and Praerit Garg, [The Threats to Our Products](https://shostack.org/files/microsoft/The-Threats-To-Our-Products.docx), Microsoft, 1999.'
+        optional: true
 
   - date: "Feb 26"
     topic: "Secure Design: Principles and Techniques"
