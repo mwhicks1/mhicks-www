@@ -101,8 +101,8 @@ schedule:
   - date: "Feb 19"
     topic: "Security by Design Overview, Threat Modeling #1"
     readings:
-      - text: '[Secure by Design: A Guide for Assessing Software Security Practices](https://www.cisecurity.org/insights/white-papers/secure-by-design) (pps. 1-19)'
-        optional: true
+      - '[Secure by Design: A Guide for Assessing Software Security Practices](https://www.cisecurity.org/insights/white-papers/secure-by-design) (pps. 1-19)'
+      - 'Adam Shostack, [The Ultimate Beginner's Guide to Threat Modeling](https://shostack.org/resources/threat-modeling.html)'
 
   - date: "Feb 24"
     topic: "Threat Modeling #2"
