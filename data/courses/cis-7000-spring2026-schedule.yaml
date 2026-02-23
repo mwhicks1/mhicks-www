@@ -98,8 +98,7 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-measuring-harm.pdf'
 
   - date: "Feb 19"
-    anchor: "next_class"
-    topic: "Security by Design Overview, Threat Modeling #1"
+    topic: "Security by Design Overview"
     readings:
       - '[Secure by Design: A Guide for Assessing Software Security Practices](https://www.cisecurity.org/insights/white-papers/secure-by-design) (pps. 1-19)'
       - 'SAFECode, [Tactical Threat Modeling](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf), 2017.'
@@ -109,11 +108,15 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-security-by-design.pdf'
 
   - date: "Feb 24"
-    topic: "Threat Modeling #2 (up to this point covered on midterm)"
+    anchor: "next_class"
+    topic: "Threat Modeling (up to this point covered on midterm)"
     readings: 
       - 'Toreon, [Threat modeling done right](https://www.toreon.com/wp-content/uploads/2016/12/TON_ThreatModeling_1612.pdf), 2016.'
       - text: 'Loren Kohnfelder and Praerit Garg, [The Threats to Our Products](https://shostack.org/files/microsoft/The-Threats-To-Our-Products.docx), Microsoft, 1999.'
         optional: true
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-threat-modeling.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-threat-modeling.pdf'
 
   - date: "Feb 26"
     topic: "Secure Design: Principles and Techniques"
