@@ -36,7 +36,7 @@ links:
 
 In this course, students learn techniques for building, deploying, and maintaining secure systems. As computer security is a constantly evolving field, the course places particular emphasis on means to empirically evaluate security technology, processes, and operational practices. As security is always in support of a primary activity and resources are limited, the course also places emphasis on strong communications, using evidence and empathy to explain and collaborate on security needs. Course activities include reading and discussing technical papers and other communications; carrying out five homework projects, on technical and non-technical topics; and taking a midterm and final exam.
 
-See the [Syllabus](courses/cis-7000-spring2026-content/syllabus/) for details.
+See the [Syllabus](/courses/cis-7000-spring2026-content/syllabus/) for details.
 
 ## People, Places, Times
 
