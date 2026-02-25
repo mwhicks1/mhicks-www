@@ -4,7 +4,7 @@ subtitle: "Secure System Engineering and Management: A Data-Driven Approach"
 author: "Mike Hicks"
 draft: false
 weight: 2
-layout: single
+layout: single-wide
 build:
   list: never
 ---
