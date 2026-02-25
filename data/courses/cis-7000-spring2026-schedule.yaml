@@ -71,6 +71,10 @@ schedule:
 
   - date: "Feb 10"
     topic: "Data Analysis: Hypothesis Testing, Effect Sizes, and Regression #2"
+    assignment:
+      name: "Proj 2: Analyzing the Vulnerability Landscape with NVD and CISA KEV Data"
+      pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_2.pdf'
+      due: "Feb 24"
     readings:
       - text: '[Experimental Design and Analysis](https://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf) and [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/)'
         note: 'Recommended sections in these references given in lecture notes' 
@@ -110,6 +114,10 @@ schedule:
   - date: "Feb 24"
     anchor: "next_class"
     topic: "Threat Modeling (up to this point covered on midterm)"
+    assignment:
+      name: "Proj 3: Threat Modeling a Networked Insulin Pump"
+      pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_3.pdf'
+      due: "Mar 18"
     readings: 
       - 'Toreon, [Threat modeling done right](https://www.toreon.com/wp-content/uploads/2016/12/TON_ThreatModeling_1612.pdf), 2016.'
       - text: 'Loren Kohnfelder and Praerit Garg, [The Threats to Our Products](https://shostack.org/files/microsoft/The-Threats-To-Our-Products.docx), Microsoft, 1999.'
