@@ -127,7 +127,10 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-threat-modeling.pdf'
 
   - date: "Feb 26"
-    topic: "Secure Design: Principles and Techniques"
+    topic: "Secure Design: Principles and Controls #1"
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-secure-design-1.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-secure-design-1.pdf'
 
   - date: "Mar 3"
     topic: "**Midterm** in class"
