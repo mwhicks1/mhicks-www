@@ -141,7 +141,7 @@ schedule:
     anchor: "next_class"
     topic: "Secure Design: Principles and Controls #2"
     readings:
-      - 'Christoph Kern, [Developer Ecosystems for Software Safety](https://dl.acm.org/doi/epdf/10.1145/3651621), CACM, April 2024.
+      - 'Christoph Kern, [Developer Ecosystems for Software Safety](https://dl.acm.org/doi/epdf/10.1145/3651621), CACM, April 2024.'
 
   - date: "Mar 19"
     topic: "Fuzzing"
