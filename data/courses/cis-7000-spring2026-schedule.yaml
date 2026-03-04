@@ -112,7 +112,6 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-security-by-design.pdf'
 
   - date: "Feb 24"
-    anchor: "next_class"
     topic: "Threat Modeling (up to this point covered on midterm)"
     assignment:
       name: "Proj 3: Threat Modeling a Networked Insulin Pump"
@@ -137,6 +136,18 @@ schedule:
   
   - date: "Mar 5, 10, 12"
     topic: "**No class** *Spring Break*"
+
+  - date: "Mar 17"
+    anchor: "next_class"
+    topic: "Secure Design: Principles and Controls #2"
+    readings:
+      - 'Christoph Kern, [Developer Ecosystems for Software Safety](https://dl.acm.org/doi/epdf/10.1145/3651621), CACM, April 2024.
+
+  - date: "Mar 19"
+    topic: "Fuzzing"
+    readings:
+      - text: 'Klees, G., Ruef, A., Cooper, B., Wei, S. and Hicks, M., 2018, October. [Evaluating fuzz testing](https://dl.acm.org/doi/10.1145/3243734.3243804). In CCS 2018.'
+        optional: true
 
   - date: "May 7 (Thursday)"
     topic: "**Final exam**"
