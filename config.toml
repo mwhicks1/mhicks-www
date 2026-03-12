@@ -195,10 +195,15 @@ enableEmoji = true
     parent = "Teaching"
     weight = 2
   [[menu.header]]
+    name = "Blog"
+    title = "Blog"
+    url = "/blog/"
+    weight = 5
+  [[menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talks/"
-    weight = 5
+    weight = 6
 
   # Configure footer
   [[menu.footer]]
