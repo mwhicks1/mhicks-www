@@ -128,8 +128,8 @@ schedule:
   - date: "Feb 26"
     topic: "Secure Design: Principles and Controls #1"
     slides:
-      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-secure-design-1.pptx'
-      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-secure-design-1.pdf'
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-security-design-1.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-security-design-1.pdf'
 
   - date: "Mar 3"
     topic: "**Midterm** in class"
@@ -138,18 +138,18 @@ schedule:
     topic: "**No class** *Spring Break*"
 
   - date: "Mar 17"
-    anchor: "next_class"
     topic: "Secure Design: Principles and Controls #2"
     readings:
       - 'Christoph Kern, [Developer Ecosystems for Software Safety](https://dl.acm.org/doi/epdf/10.1145/3651621), CACM, April 2024.'
       - text: 'Christoph Kern, [Safe Coding](https://storage.googleapis.com/gweb-research2023-media/pubtools/1028179.pdf), Google TR, November 2025.'
         optional: true
     slides:
-      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-secure-design-2.pptx'
-      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-secure-design-2.pdf'
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-security-design-2.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-security-design-2.pdf'
 
   - date: "Mar 19"
     topic: "Fuzzing"
+    anchor: "next_class"
     readings:
       - 'Marcel Boehme, Van-Thuan Pham, and Abhik Roychoudhury, [Coverage-based Greybox Fuzzing as Markov Chain](https://dl.acm.org/doi/epdf/10.1145/2976749.2978428). In CCS 2016.'
       - text: 'Klees, G., Ruef, A., Cooper, B., Wei, S. and Hicks, M., 2018, October. [Evaluating fuzz testing](https://dl.acm.org/doi/10.1145/3243734.3243804). In CCS 2018.'
