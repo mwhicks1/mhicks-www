@@ -154,6 +154,9 @@ schedule:
       - 'Marcel Boehme, Van-Thuan Pham, and Abhik Roychoudhury, [Coverage-based Greybox Fuzzing as Markov Chain](https://dl.acm.org/doi/epdf/10.1145/2976749.2978428). In CCS 2016.'
       - text: 'Klees, G., Ruef, A., Cooper, B., Wei, S. and Hicks, M., 2018, October. [Evaluating fuzz testing](https://dl.acm.org/doi/10.1145/3243734.3243804). In CCS 2018.'
         optional: true
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-fuzzing.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-fuzzing.pdf'
 
   - date: "May 7 (Thursday)"
     topic: "**Final exam**"
