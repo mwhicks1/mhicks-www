@@ -116,7 +116,7 @@ schedule:
     assignment:
       name: "Proj 3: Threat Modeling a Networked Insulin Pump"
       pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_3.pdf'
-      due: "Mar 24"
+      due: "Mar 23"
     readings: 
       - 'Toreon, [Threat modeling done right](https://www.toreon.com/wp-content/uploads/2016/12/TON_ThreatModeling_1612.pdf), 2016.'
       - text: 'Loren Kohnfelder and Praerit Garg, [The Threats to Our Products](https://shostack.org/files/microsoft/The-Threats-To-Our-Products.docx), Microsoft, 1999.'
