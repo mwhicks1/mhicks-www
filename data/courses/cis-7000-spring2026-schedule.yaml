@@ -149,7 +149,6 @@ schedule:
 
   - date: "Mar 19"
     topic: "Fuzzing"
-    anchor: "next_class"
     readings:
       - 'Marcel Boehme, Van-Thuan Pham, and Abhik Roychoudhury, [Coverage-based Greybox Fuzzing as Markov Chain](https://dl.acm.org/doi/epdf/10.1145/2976749.2978428). In CCS 2016.'
       - text: 'Klees, G., Ruef, A., Cooper, B., Wei, S. and Hicks, M., 2018, October. [Evaluating fuzz testing](https://dl.acm.org/doi/10.1145/3243734.3243804). In CCS 2018.'
@@ -157,6 +156,18 @@ schedule:
     slides:
       pptx: '/courses/cis-7000-spring2026/downloads/SSEM-fuzzing.pptx'
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-fuzzing.pdf'
+
+  - date: "Mar 24"
+    topic: "Memory safe programming"
+    anchor: "next_class"
+    readings:
+      - 'Michael Hicks, [What is memory safety?](http://www.pl-enthusiast.net/2014/07/21/memory-safety/), 2014.'
+      - 'Michael Hicks, [What is type safety?](http://www.pl-enthusiast.net/2014/08/05/type-safety/), 2014.'
+      - 'Andrew Lilley Brinker. [Memory Safety for Skeptics](https://queue.acm.org/detail.cfm?id=3773095), ACM Queue, 2025.'
+      - 'Jeffrey Vander Stoep, Alex Rebert, and Lars Bergstrom. [A Practical Guide to Transitioning to Memory-Safe Languages](https://queue.acm.org/detail.cfm?id=3773096), ACM Queue, 2025.'
+  
+  - date: "Mar 26"
+    topic: "Code Integrity, Supply Chain Security, Vulnerability Remediation"
 
   - date: "May 7 (Thursday)"
     topic: "**Final exam**"
