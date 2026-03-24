@@ -159,6 +159,10 @@ schedule:
 
   - date: "Mar 24"
     topic: "Memory safe programming"
+    assignment:
+      name: "Proj 4: Find and Fix Bugs with Fuzzing"
+      pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_4.pdf'
+      due: "Apr 6"
     anchor: "next_class"
     readings:
       - 'Michael Hicks, [What is memory safety?](http://www.pl-enthusiast.net/2014/07/21/memory-safety/), 2014.'
