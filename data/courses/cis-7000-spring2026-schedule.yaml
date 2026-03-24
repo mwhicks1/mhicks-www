@@ -169,7 +169,10 @@ schedule:
       - 'Michael Hicks, [What is type safety?](http://www.pl-enthusiast.net/2014/08/05/type-safety/), 2014.'
       - 'Andrew Lilley Brinker. [Memory Safety for Skeptics](https://queue.acm.org/detail.cfm?id=3773095), ACM Queue, 2025.'
       - 'Jeffrey Vander Stoep, Alex Rebert, and Lars Bergstrom. [A Practical Guide to Transitioning to Memory-Safe Languages](https://queue.acm.org/detail.cfm?id=3773096), ACM Queue, 2025.'
-  
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-mem-safety.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-mem-safety.pdf'
+ 
   - date: "Mar 26"
     topic: "Code Integrity, Supply Chain Security, Vulnerability Remediation"
     readings:
