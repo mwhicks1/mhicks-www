@@ -181,6 +181,16 @@ schedule:
       pptx: '/courses/cis-7000-spring2026/downloads/SSEM-SS-management.pptx'
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-SS-management.pdf'
 
+  - date: "Mar 31"
+    topic: "Securing IT Operations"
+    readings:
+    - text: 'Robin Sommer, Vern Paxson. [Outside the Closed World: On Using Machine Learning For Network Intrusion Detection](https://ieeexplore.ieee.org/document/5504793), IEEE S&P, 2010.'
+    - text: 'Bushra A. Alahmadi, Louise Axon, and Ivan Martinovic. [99% False Positives: A Qualitative Study of SOC Analysts’ Perspectives on Security Alarms](https://www.usenix.org/system/files/sec22summer_alahmadi.pdf), USENIX Security 2022'
+      optional: true
+
+  - date: "Apr 2"
+    topic: "Securing IT at Penn (Sam Jenkins, ISC)"
+
   - date: "May 7 (Thursday)"
     topic: "**Final exam**"
     readings: 
