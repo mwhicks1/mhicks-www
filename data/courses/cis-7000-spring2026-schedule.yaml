@@ -160,8 +160,8 @@ schedule:
   - date: "Mar 24"
     topic: "Memory safe programming"
     assignment:
-      name: "Proj 4: Find and Fix Bugs with Fuzzing"
-      pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_4.pdf'
+      name: "Proj 4: Find and Fix Bugs with Fuzzing **Updated**"
+      pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_4_v2.pdf'
       due: "Apr 6"
     anchor: "next_class"
     readings:
