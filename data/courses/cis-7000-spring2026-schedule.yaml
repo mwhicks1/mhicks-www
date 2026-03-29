@@ -163,12 +163,14 @@ schedule:
       name: "Proj 4: Find and Fix Bugs with Fuzzing **Updated**"
       pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_4_v2.pdf'
       due: "Apr 6"
-    anchor: "next_class"
     readings:
       - 'Michael Hicks, [What is memory safety?](http://www.pl-enthusiast.net/2014/07/21/memory-safety/), 2014.'
       - 'Michael Hicks, [What is type safety?](http://www.pl-enthusiast.net/2014/08/05/type-safety/), 2014.'
-      - 'Andrew Lilley Brinker. [Memory Safety for Skeptics](https://queue.acm.org/detail.cfm?id=3773095), ACM Queue, 2025.'
-      - 'Jeffrey Vander Stoep, Alex Rebert, and Lars Bergstrom. [A Practical Guide to Transitioning to Memory-Safe Languages](https://queue.acm.org/detail.cfm?id=3773096), ACM Queue, 2025.'
+      - text: 'Andrew Lilley Brinker. [Memory Safety for Skeptics](https://queue.acm.org/detail.cfm?id=3773095), ACM Queue, 2025.'
+        optional: true
+      - text: 'Jeffrey Vander Stoep, Alex Rebert, and Lars Bergstrom. [A Practical Guide to Transitioning to Memory-Safe Languages](https://queue.acm.org/detail.cfm?id=3773096), ACM Queue, 2025.'
+        optional: true
+
     slides:
       pptx: '/courses/cis-7000-spring2026/downloads/SSEM-mem-safety.pptx'
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-mem-safety.pdf'
@@ -182,11 +184,12 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-SS-management.pdf'
 
   - date: "Mar 31"
+    anchor: "next_class"
     topic: "Securing IT Operations"
     readings:
-    - text: 'Robin Sommer, Vern Paxson. [Outside the Closed World: On Using Machine Learning For Network Intrusion Detection](https://ieeexplore.ieee.org/document/5504793), IEEE S&P, 2010.'
-    - text: 'Bushra A. Alahmadi, Louise Axon, and Ivan Martinovic. [99% False Positives: A Qualitative Study of SOC Analysts’ Perspectives on Security Alarms](https://www.usenix.org/system/files/sec22summer_alahmadi.pdf), USENIX Security 2022'
-      optional: true
+      - text: 'Robin Sommer, Vern Paxson. [Outside the Closed World: On Using Machine Learning For Network Intrusion Detection](https://ieeexplore.ieee.org/document/5504793), IEEE S&P, 2010.'
+      - text: 'Bushra A. Alahmadi, Louise Axon, and Ivan Martinovic. [99% False Positives: A Qualitative Study of SOC Analysts’ Perspectives on Security Alarms](https://www.usenix.org/system/files/sec22summer_alahmadi.pdf), USENIX Security 2022'
+        optional: true
 
   - date: "Apr 2"
     topic: "Securing IT at Penn (Sam Jenkins, ISC)"
