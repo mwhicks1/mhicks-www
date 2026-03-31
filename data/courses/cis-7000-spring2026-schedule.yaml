@@ -195,9 +195,27 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-IDS.pdf'
 
   - date: "Apr 2"
-    topic: "Securing IT at Penn (Sam Jenkins, ISC)"
+    topic: "Securing IT at Penn"
+    readings: 
+      - 'Guest lecture by Sam Jenkins, ISC, Penn'
 
+  - date: "Apr 7"
+    topic: "Security Operations & Incident Response"
+
+  - date: "Apr 9"
+    topic: "AI/ML and/for cybersecurity"
+
+  - date: "Apr 14"
+    topic: "What does a CISO do (at Penn)?"
+    readings:
+      - 'Guest lecture by [Nick Falcone](https://isc.upenn.edu/senior-staff/nick-falcone), Penn CISO'
+      
+  - date: "Apr 23"
+    topic: "Cyber insurance and security risk"
+    readings:
+      - 'Guest lecture by [Amanda Draeger](https://www.linkedin.com/in/adraeger/), Cyber Insurance Risk Engineer'
+    
   - date: "May 7 (Thursday)"
     topic: "**Final exam**"
     readings: 
-    - '12-2pm [LRSM](https://facilities.upenn.edu/maps/locations/laboratory-research-structure-matter) 112B'
+      - '12-2pm [LRSM](https://facilities.upenn.edu/maps/locations/laboratory-research-structure-matter) 112B'
