@@ -6,7 +6,7 @@ date: 2026-03-12
 author: "Mike Hicks"
 draft: false
 layout: single
-_build:
+build:
   list: never
 tags:
   - testing
