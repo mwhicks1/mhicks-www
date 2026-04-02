@@ -184,7 +184,6 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-SS-management.pdf'
 
   - date: "Mar 31"
-    anchor: "next_class"
     topic: "Intrusion Detection & Security Operations"
     readings:
       - text: 'Robin Sommer, Vern Paxson. [Outside the Closed World: On Using Machine Learning For Network Intrusion Detection](https://ieeexplore.ieee.org/document/5504793), IEEE S&P, 2010.'
@@ -200,6 +199,7 @@ schedule:
       - 'Guest lecture by Sam Jenkins, ISC, Penn'
 
   - date: "Apr 7"
+    anchor: "next_class"
     topic: "Security Operations & Incident Response"
 
   - date: "Apr 9"
