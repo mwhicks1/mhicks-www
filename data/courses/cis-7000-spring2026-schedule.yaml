@@ -203,7 +203,14 @@ schedule:
     topic: "Security Operations & Incident Response"
 
   - date: "Apr 9"
-    topic: "AI/ML and/for cybersecurity"
+    topic: "Cybersecurity for/by AI/ML"
+    readings:
+      - 'Zhu et al. [CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web
+Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 2025.'
+      - text: 'Chen et al. [Defending Against Prompt Injection With a Few DefensiveTokens](https://dl.acm.org/doi/10.1145/3733799.3762982), AISec 2025.'
+        extra_credit: true
+      - text: 'Nicholas Carlini, Milad Nasr, Edoardo Debenedetti, Barry Wang, Christopher A. Choquette-Choo, Daphne Ippolito, Florian Tramer, Matthew Jagielski. [LLMs unlock new paths to monetizing exploits](https://arxiv.org/pdf/2505.11449). arXiv preprint arXiv:2505.11449 (2025).'
+        optional: true
 
   - date: "Apr 14"
     topic: "What does a CISO do (at Penn)?"

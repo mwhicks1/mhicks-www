@@ -37,7 +37,7 @@
           {{- $reading := . -}}
           <li>
             {{- if reflect.IsMap $reading -}}
-              {{- if $reading.optional -}}<strong>Optional</strong>{{- if $reading.presenter }} (presented by {{ $reading.presenter }}){{- end -}}:{{- end }} {{- if $reading.note -}}<em>{{ $reading.note }}</em>:{{- end }} {{ $reading.text | markdownify }}
+              {{- if $reading.optional -}}<strong>Optional</strong>{{- if $reading.presenter }} (presented by {{ $reading.presenter }}){{- end -}}:{{- end }}{{- if $reading.extra_credit -}}<strong>Extra Credit</strong>:{{- end }} {{- if $reading.note -}}<em>{{ $reading.note }}</em>:{{- end }} {{ $reading.text | markdownify }}
             {{- else -}}
               {{ $reading | markdownify }}
             {{- end -}}
