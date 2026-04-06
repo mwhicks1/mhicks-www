@@ -154,7 +154,7 @@ schedule:
       - text: 'Watch this [talk by Gary McGraw](https://www.youtube.com/watch?v=SLMJRyp9-mQ&authuser=0), and refer to the report to check the details.'
         note: 'Recommendation'
       - 'Laurie Williams, Gary McGraw, and Sammy Migues. [Engineering Security Vulnerability Prevention, Detection, and Response](https://ieeexplore.ieee.org/abstract/document/8409917). IEEE Software, 2018.'
-      - 'Alex Gantman. [Reflecting on BSIMM](https://againsthimself.medium.com/reflecting-on-bsimm-9bc9f3302c66), April 2026 (previously, was a personal corresponce, but that's now public so I updated the link).'
+      - 'Alex Gantman. [Reflecting on BSIMM](https://againsthimself.medium.com/reflecting-on-bsimm-9bc9f3302c66), April 2026 (previously, was a personal corresponce, but that is now public so I updated the link).'
     slides:
       pptx: '/courses/cis-7000-fall2025/downloads/ESPH-BSIMM.pptx'
       pdf: '/courses/cis-7000-fall2025/downloads/ESPH-BSIMM.pdf'
