@@ -200,15 +200,17 @@ schedule:
 
   - date: "Apr 7"
     anchor: "next_class"
-    topic: "Security Operations & Incident Response"
+    topic: "Cybersecurity for LLMs"
+    readings:
+      - 'Simon Willison, [The lethal trifecta for AI agents: private data, untrusted content, and external communication](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), Jun 2025.'
+      - text: 'Chen et al. [Defending Against Prompt Injection With a Few DefensiveTokens](https://dl.acm.org/doi/10.1145/3733799.3762982), AISec 2025.'
+        extra_credit: true
 
   - date: "Apr 9"
-    topic: "Cybersecurity for/by AI/ML"
+    topic: "LLMs and attack/defense activities"
     readings:
       - 'Zhu et al. [CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web
 Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 2025.'
-      - text: 'Chen et al. [Defending Against Prompt Injection With a Few DefensiveTokens](https://dl.acm.org/doi/10.1145/3733799.3762982), AISec 2025.'
-        extra_credit: true
       - text: 'Nicholas Carlini, Milad Nasr, Edoardo Debenedetti, Barry Wang, Christopher A. Choquette-Choo, Daphne Ippolito, Florian Tramer, Matthew Jagielski. [LLMs unlock new paths to monetizing exploits](https://arxiv.org/pdf/2505.11449). arXiv preprint arXiv:2505.11449 (2025).'
         optional: true
 
