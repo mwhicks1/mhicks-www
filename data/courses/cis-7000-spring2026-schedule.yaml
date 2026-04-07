@@ -225,6 +225,7 @@ Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 202
     topic: "What does a CISO do (at Penn)?"
     readings:
       - 'Guest lecture by [Nick Falcone](https://isc.upenn.edu/senior-staff/nick-falcone), Penn CISO'
+      - 'RSAC ESAF, [What Top CISOs Include in Updates for the Board](https://www.rsaconference.com/-/media/project/rsac/rsac-website/reports/esaf-report-ciso-updates-for-the-board_final.pdf), 2022.'
       
   - date: "Apr 23"
     topic: "Cyber insurance and security risk"
