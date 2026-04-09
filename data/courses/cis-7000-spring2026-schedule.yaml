@@ -199,7 +199,6 @@ schedule:
       - 'Guest lecture by Sam Jenkins, ISC, Penn'
 
   - date: "Apr 7"
-    anchor: "next_class"
     topic: "Cybersecurity for LLMs"
     assignment:
       name: 'Proj 5: Network Intrusion Detection with Suricata and Zeek'
@@ -225,6 +224,7 @@ Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 202
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-Security-AI.pdf'
 
   - date: "Apr 14"
+    anchor: "next_class"
     topic: "What does a CISO do (at Penn)?"
     readings:
       - 'Guest lecture by [Nick Falcone](https://isc.upenn.edu/senior-staff/nick-falcone), Penn CISO'
