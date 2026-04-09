@@ -220,6 +220,9 @@ schedule:
 Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 2025.'
       - text: 'Nicholas Carlini, Milad Nasr, Edoardo Debenedetti, Barry Wang, Christopher A. Choquette-Choo, Daphne Ippolito, Florian Tramer, Matthew Jagielski. [LLMs unlock new paths to monetizing exploits](https://arxiv.org/pdf/2505.11449). arXiv preprint arXiv:2505.11449 (2025).'
         optional: true
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/SSEM-Security-AI.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/SSEM-Security-AI.pdf'
 
   - date: "Apr 14"
     topic: "What does a CISO do (at Penn)?"
