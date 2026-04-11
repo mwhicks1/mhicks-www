@@ -197,6 +197,9 @@ schedule:
     topic: "Securing IT at Penn"
     readings: 
       - 'Guest lecture by Sam Jenkins, ISC, Penn'
+    slides:
+      pptx: '/courses/cis-7000-spring2026/downloads/20260402-presentation-final.pptx'
+      pdf: '/courses/cis-7000-spring2026/downloads/20260402-presentation-final.pdf'
 
   - date: "Apr 7"
     topic: "Cybersecurity for LLMs"
