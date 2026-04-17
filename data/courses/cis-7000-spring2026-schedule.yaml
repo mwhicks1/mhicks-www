@@ -234,11 +234,14 @@ Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 202
       
   - date: "Apr 16"
     topic: "Cybersecurity Risk"
-    anchor: "next_class"
     slides:
       pptx: '/courses/cis-7000-spring2026/downloads/SSEM-Risk.pptx'
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-Risk.pdf'
 
+  - date: "Apr 21"
+    topic: "Cybersecurity regulation"
+    anchor: "next_class"
+    
   - date: "Apr 23"
     topic: "Cyber insurance and security risk"
     readings:
