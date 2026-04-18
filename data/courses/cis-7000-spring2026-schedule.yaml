@@ -207,6 +207,7 @@ schedule:
       name: 'Proj 5: Network Intrusion Detection with Suricata and Zeek'
       pdf: '/courses/cis-7000-spring2026/downloads/ssem_project_5.pdf'
       due: "Apr 20"
+      note: "Rubric update Apr 18"
     readings:
       - 'Simon Willison, [The lethal trifecta for AI agents: private data, untrusted content, and external communication](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), Jun 2025.'
       - text: 'Chen et al. [Defending Against Prompt Injection With a Few DefensiveTokens](https://dl.acm.org/doi/10.1145/3733799.3762982), AISec 2025.'

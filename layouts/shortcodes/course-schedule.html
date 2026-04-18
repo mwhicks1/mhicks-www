@@ -57,6 +57,7 @@
         {{- if .assignment -}}
           <a href="{{ .assignment.pdf }}">{{ .assignment.name }}</a><br>
           <em>Due: {{ .assignment.due }}</em>
+          {{- if .assignment.note }}<br><em>Note: {{ .assignment.note | markdownify }}</em>{{- end -}}
         {{- end -}}
       </td>
     </tr>
