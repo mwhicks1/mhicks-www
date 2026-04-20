@@ -246,7 +246,10 @@ Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 202
   - date: "Apr 23"
     topic: "Cyber insurance and security risk"
     readings:
-      - 'Guest lecture by [Amanda Draeger](https://www.linkedin.com/in/adraeger/), Cyber Insurance Risk Engineer'
+      - 'Daniel W. Woods. [A Turning Point for Cyber Insurance](https://dl.acm.org/doi/pdf/10.1145/3545795), CACM 2023.'
+      - 'Guest lecture by [Amanda Draeger](https://www.linkedin.com/in/adraeger/), Cyber Insurance Risk Engineer.'
+      - text: 'Cybersecurity awareness month 2024 posts: [1](https://www.linkedin.com/pulse/helping-companies-stay-vigilant-libertys-2024-month-thielen-cpcu-uaukc/?trackingId=Y0dpoNjbQ9iUpC5330b1wQ%3D%3D), [2](https://www.linkedin.com/pulse/cyber-resilience-begins-culture-amanda-draeger-pq9re/?trackingId=X%2Bgj4kwBQOm4OTymbldeTg%3D%3D), [3](https://www.linkedin.com/pulse/cyber-operations-resilience-gabriel-bassett-54iqe/?trackingId=wFZGfju3S2uK2Wo5vJAx8Q%3D%3D), [4](https://www.linkedin.com/pulse/planning-engineering-jon-hawes-wm0ge/?trackingId=z%2Bykw7iAQMeFxs%2BeYKgdjQ%3D%3D), [5](https://www.linkedin.com/pulse/power-partnerships-mea-clift-armxc/?trackingId=ZWJOulKSUQsNxKWbhuBEhQ%3D%3D)'
+        optional: true
     
   - date: "May 7 (Thursday)"
     topic: "**Final exam**"
