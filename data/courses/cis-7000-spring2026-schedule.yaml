@@ -242,6 +242,8 @@ Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 202
   - date: "Apr 21"
     topic: "Cybersecurity regulation"
     anchor: "next_class"
+    reading:
+      - 'Nick Kelly, [The Compliance Theatre: When Red Tape Meets Cybersecurity](https://cybersecurityadvisors.network/2025-12-02-the-compliance-theatre-when-red-tape-meets-cybersecurity-by-nick-kelly/), Cybersecurity Advisors Network, Feb 2025.'
     
   - date: "Apr 23"
     topic: "Cyber insurance and security risk"
