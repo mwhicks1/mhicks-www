@@ -194,9 +194,7 @@ schedule:
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-IDS.pdf'
 
   - date: "Apr 2"
-    topic: "Securing IT at Penn"
-    readings: 
-      - 'Guest lecture by Sam Jenkins, ISC, Penn'
+    topic: "Securing IT at Penn: Guest lecture by Sam Jenkins, ISC"
     slides:
       pptx: '/courses/cis-7000-spring2026/downloads/20260402-presentation-final.pptx'
       pdf: '/courses/cis-7000-spring2026/downloads/20260402-presentation-final.pdf'
@@ -228,9 +226,8 @@ Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 202
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-Security-AI.pdf'
 
   - date: "Apr 14"
-    topic: "What does a CISO do (at Penn)?"
+    topic: 'What does a CISO do? Guest lecture by [Nick Falcone](https://isc.upenn.edu/senior-staff/nick-falcone), Penn CISO'
     readings:
-      - 'Guest lecture by [Nick Falcone](https://isc.upenn.edu/senior-staff/nick-falcone), Penn CISO'
       - 'RSAC ESAF, [What Top CISOs Include in Updates for the Board](https://www.rsaconference.com/-/media/project/rsac/rsac-website/reports/esaf-report-ciso-updates-for-the-board_final.pdf), 2022.'
     slides:
       pptx: '/courses/cis-7000-spring2026/downloads/Falcone-Apr2026-presentation.pptx'
@@ -251,10 +248,9 @@ Application Vulnerabilities](https://openreview.net/pdf?id=3pk0p4NGmQ), ICML 202
       pdf: '/courses/cis-7000-spring2026/downloads/SSEM-Regulation.pdf'
     
   - date: "Apr 23"
-    topic: "Cyber insurance and security risk"
+    topic: 'Cyber insurance and security risk: Guest lecture by [Amanda Draeger](https://www.linkedin.com/in/adraeger/), Cyber Insurance Risk Engineer'
     readings:
       - 'Daniel W. Woods. [A Turning Point for Cyber Insurance](https://dl.acm.org/doi/pdf/10.1145/3545795), CACM 2023.'
-      - 'Guest lecture by [Amanda Draeger](https://www.linkedin.com/in/adraeger/), Cyber Insurance Risk Engineer.'
       - text: 'Warren Buffer, Ajit Jain, [Cyber Insurance Market: A Bad Bet?](https://www.youtube.com/watch?v=hjztAeCWeaM), YAPSS Youtube video, 2024.'
         optional: true
       - text: 'Cybersecurity awareness month 2024 posts: [1](https://www.linkedin.com/pulse/helping-companies-stay-vigilant-libertys-2024-month-thielen-cpcu-uaukc/?trackingId=Y0dpoNjbQ9iUpC5330b1wQ%3D%3D), [2](https://www.linkedin.com/pulse/cyber-resilience-begins-culture-amanda-draeger-pq9re/?trackingId=X%2Bgj4kwBQOm4OTymbldeTg%3D%3D), [3](https://www.linkedin.com/pulse/cyber-operations-resilience-gabriel-bassett-54iqe/?trackingId=wFZGfju3S2uK2Wo5vJAx8Q%3D%3D), [4](https://www.linkedin.com/pulse/planning-engineering-jon-hawes-wm0ge/?trackingId=z%2Bykw7iAQMeFxs%2BeYKgdjQ%3D%3D), [5](https://www.linkedin.com/pulse/power-partnerships-mea-clift-armxc/?trackingId=ZWJOulKSUQsNxKWbhuBEhQ%3D%3D)'
