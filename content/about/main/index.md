@@ -10,7 +10,7 @@ show_outro: false
 
 <img src="/img/Michael-Hicks_08.26.25.jpg" alt="Mike Hicks" style="max-width: 300px; float: right; margin-left: 20px; margin-bottom: 20px; border-radius: 8px;">
 
-I am the Cecilia Fitler Moore [Professor in the Computer and Information Science Department](https://directory.seas.upenn.edu/computer-and-information-science/) and the Director of the [Schlein Center for Cybersecurity](https://cybersecurity.seas.upenn.edu) at the [University of Pennsylvania](https://directory.seas.upenn.edu/computer-and-information-science/), and I am an [Amazon Scholar](https://www.amazon.science/scholars) and an [ACM Fellow](https://awards.acm.org/fellows/award-recipients).
+I am the Cecilia Fitler Moore Professor and Associate Chair of the [Department of Computer and Information Science](https://directory.seas.upenn.edu/computer-and-information-science/), and the Director of the [Schlein Center for Cybersecurity](https://cybersecurity.seas.upenn.edu) at the [University of Pennsylvania](https://directory.seas.upenn.edu/computer-and-information-science/), and I am an [Amazon Scholar](https://www.amazon.science/scholars) and an [ACM Fellow](https://awards.acm.org/fellows/award-recipients).
 
 From 2022-2025 I was a Senior Principal Scientist at [Amazon Web Services](https://aws.amazon.com/). I am also a Professor Emeritus (active 2002-2022) of the [Computer Science Department](http://www.cs.umd.edu/) and [UMIACS](http://www.umiacs.umd.edu) at the [University of Maryland, College Park](http://www.umd.edu/). 
 
