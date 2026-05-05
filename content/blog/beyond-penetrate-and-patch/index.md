@@ -3,7 +3,7 @@ title: "Beyond Penetrate-and-Patch"
 subtitle: "Why AI's Greatest Security Contribution Will Be Secure-by-Design"
 excerpt: "Anthropic's Claude Mythos Preview and Mozilla's record patch batch suggest AI bug-finding could finally tip software security toward defenders. But penetrate-and-patch is the wrong end state. AI's lasting contribution to security will come from making whole classes of vulnerability impossible to express in the first place."
 date: 2026-05-05
-author: "Mike Hicks"
+author: "Mike Hicks and [Steve Lipner](https://www.stevelipner.org/) (SAFECode)"
 draft: false
 layout: single
 tags:
@@ -16,8 +16,6 @@ categories:
   - software-security
   - software-engineering
 ---
-
-With [Steve Lipner](https://www.stevelipner.org/) (SAFECode)
 
 In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD.[^mythos] Days later, Mozilla announced patches for 271 vulnerabilities Mythos had surfaced in Firefox — a roughly twelve-fold leap over the 22 bugs Opus 4.6 had found only weeks earlier. Mozilla's CTO declared, in a blog post titled "The zero-days are numbered," that defenders finally had a chance to win decisively.[^zerodays] Anthropic, in its own announcement, argued that once the security landscape reaches a new equilibrium, powerful language models will benefit defenders more than attackers.
 
