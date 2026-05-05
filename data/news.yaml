@@ -1,6 +1,8 @@
 - date: 2025-11-12
   text: "I'm hiring [PhD students to start in 2026!](/research/research-group/#hiring)"
-  pinned: true
+
+- date: 2026-05-05
+  text: "New blog post (with Steve Lipner): [Beyond Penetrate-and-Patch: Why AI's Greatest Security Contribution Will Be Secure-by-Design](/blog/beyond-penetrate-and-patch/)"
 
 - date: 2026-01-01
   text: "New course: [Secure System Engineering and Management: A Data-Driven Approach](/courses/cis-7000-spring2026/)"
