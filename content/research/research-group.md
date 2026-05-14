@@ -13,6 +13,8 @@ weight: 5
 
 I am currently looking for talented PhD students to work on projects in computer security and software quality! See my [research summary](/about/#research) for an overview, including in-flight projects, and my [publications](/research/publications/) for specific past work.
 
+**Update**: I'm pleased to welcome [Cheng Zhang](https://www.linkedin.com/in/cheng-zhang-chengz3/) and [Mrigank Pawagi](https://mrigank.in/) to my group, starting in Fall 2026!
+
 ## Current and former group
 
 Since I've been at Penn, I am pleased to be working with [Noopur Bhatt](https://www.linkedin.com/in/noopur-bhatt/) (advised by [Sebastian Angel](https://www.cis.upenn.edu/~sga001/)) and [Thia Richey](https://thia.codes/) and [Joe Cutler](https://www.cis.upenn.edu/~jwc/) (both advised by [Benjamin Pierce](https://www.cis.upenn.edu/~bcpierce/)).
