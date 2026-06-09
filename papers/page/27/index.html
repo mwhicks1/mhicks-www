@@ -1,7 +1,34 @@
 <!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="generator" content="Hugo 0.148.2"/><title>Publications |</title><meta property="twitter:site" content="@michael_w_hicks"/><meta property="twitter:creator" content="@michael_w_hicks"/><meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:site_name" content=""/><meta property="og:title" content="Publications | "/><meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta property="og:type" content="website"/><meta property="og:url" content="https://mhicks.me/papers/"/><meta property="og:locale" content="en"/><meta property="og:image" content="https://mhicks.me/img/papillons.jpg"/><meta property="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://mhicks.me/img/papillons.jpg"/><meta itemprop="name" content="Publications"/><meta itemprop="description" content="A modern, beautiful, and easily configurable blog theme for Hugo."/><meta itemprop="datePublished" content="2025-10-11T16:07:06-04:00"/><meta itemprop="dateModified" content="2025-10-11T16:07:06-04:00"/><!--[if IE]&gt;&lt;script src=//html5shiv.googlecode.com/svn/trunk/html5.js&gt;&lt;/script&gt;&lt;![endif]--><link rel="shortcut icon" href="" type="image/x-icon"/><link rel="icon" href="" type="image/x-icon"/><link rel="alternate" type="application/rss+xml" href="https://mhicks.me/papers/index.xml" title=""/><link rel="stylesheet" href="/style.main.min.129935e7290b9fca1e691d1b7d25003ef8437926f81bf341d7654b4a9aa42ffb.css" integrity="sha256-Epk15ykLn8oeaR0bfSUAPvhDeSb4G/NB12VLSpqkL/s=" media="screen"/><script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script><script src="/main.min.f3557139a19a73c40c3108b6302a28f27b1c34f3306c920221b3f006123e37ce.js" type="text/javascript"></script></head><body><div class="grid-container"><header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner"><nav class="site-nav db dt-l w-100" role="navigation"><a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://mhicks.me/" title="Home"><i class="fas fa-home fa-2x"></i></a><div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked"><a class="link f6 f5-l dib pv1 ph2" href="/about/" title="About Mike">About</a><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/research/" title="Research">Research ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/papers/mwh.html" title="Publications">Publications</a>
 <a class="dropdown-item db link pv2 ph3" href="/research/" title="Projects, Service">Projects, Service</a></div></div><div class="dropdown dib"><a class="link f6 f5-l dib pv1 ph2" href="/courses/" title="Teaching">Teaching ▾</a><div class="dropdown-menu"><a class="dropdown-item db link pv2 ph3" href="/courses/cis-7000-spring2026/" title="Secure System Engineering and Management: A Data-Driven Approach">Current Course</a>
 <a class="dropdown-item db link pv2 ph3" href="/courses/" title="All Courses">All Courses</a></div></div><a class="link f6 f5-l dib pv1 ph2" href="/blog/" title="Blog">Blog</a>
-<a class="link f6 f5-l dib pv1 ph2" href="/talks/" title="Talks">Talks</a></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/GrossmanMJHWC02tr.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Formal Type Soundness for Cyclone’s Region System</b>.
+<a class="link f6 f5-l dib pv1 ph2" href="/talks/" title="Talks">Talks</a></div></nav></header><main class="page-main pa4" role="main"><section class="blog-intro mw7 center mb5"><h2 class="f2 f1-ns lh-solid tc center fw4">Publications</h2></section><section class="blog-content mw7 center"><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/hammer13adapton.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Adapton: Composable, Demand-Driven Incremental Computation</b>.
+Matthew Hammer, Yit Phang Khoo, Michael Hicks, and Jeffrey S. Foster.
+In <em>Proceedings of the ACM Conference on Programming Language
+Design and Implementation (PLDI)</em>, June 2014.</font></p><p>Many researchers have proposed programming languages that
+support <em>incremental computation</em> (IC), which allows programs
+to be efficiently re-executed after a small change to the
+input. However, existing implementations of such languages have two
+important drawbacks. First, recomputation is oblivious to
+specific demands on the program output; that is, if a program input
+changes, all dependencies will be recomputed, even if an observer no
+longer requires certain outputs. Second, programs are made
+incremental as a unit, with little or no support for reusing
+results outside of their original context, e.g., when reordered.</p><p>To address these problems, we present λ<sup>CDD</sup><sub>IC</sub>, a core calculus that
+applies a <em>demand-driven</em> semantics to incremental computation,
+tracking changes in a hierarchical fashion in a novel <em>demanded
+computation graph</em>. λ<sup>CDD</sup><sub>IC</sub> also formalizes an explicit separation
+between inner, incremental computations and outer observers. This
+combination ensures λ<sup>CDD</sup><sub>IC</sub> programs only recompute computations as
+demanded by observers, and allows inner computations to be reused
+more liberally. We present Adapton, an OCaml library implementing
+λ<sup>CDD</sup><sub>IC</sub>. We evaluated Adapton on a range of benchmarks, and found
+that it provides reliable speedups, and in many cases dramatically
+outperforms state-of-the-art IC approaches.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/guts11coco.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>A demo of Coco: a compiler for monadic coercions in ML</b>.
+Nataliya Guts, Michael Hicks, Nikhil Swamy, and Daan Leijen.
+In <em>Informal proceedings of the ML Workshop</em>, September 2011.</font></p><p>Combining monadic computations may induce a significant syntactic overhead.
+To allow monadic programming in direct style, we have developed Coco, a type-based tool that automatically rewrites ML code inserting necessary binds, unit, and morphisms between monads.
+This tool demonstration will show how to take advantage of Coco to facilitate using monadic libraries in practice,
+and will discuss possible future development of Coco to fit the actual needs of programmers.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/GrossmanMJHWC02tr.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Formal Type Soundness for Cyclone’s Region System</b>.
 Dan Grossman, Greg Morrisett, Trevor Jim, Michael Hicks, Yanling
 Wang, and James Cheney.
 Technical Report CS 2001-1856, Cornell University, November 2001.</font></p><p></p><p>[ <a href="https://mhicks.me/papers/cyclone_regions_tr.pdf">.pdf</a> ]
@@ -51,56 +78,7 @@ booktitle = {Proceedings of the Workshop on Scripts to Programs (STOP)},
 year = 2009,
 month = jul
 }
-</pre><p></p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/furr09ril.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>The Ruby Intermediate Language</b>.
-Michael Furr, Jong hoon (David) An, Jeffrey S. Foster, and Michael
-Hicks.
-In <em>Proceedings of the ACM SIGPLAN Dynamic Languages
-Symposium (DLS)</em>, pages 89–98, October 2009.</font></p><p>Ruby is a popular, dynamic scripting language that aims to “feel
-natural to programmers” and give users the “freedom to choose”
-among many different ways of doing the same thing. While this
-arguably makes programming in Ruby easier, it makes it hard to build
-analysis and transformation tools that operate on Ruby source code.
-In this paper, we present the Ruby Intermediate Language (RIL), a
-Ruby front-end and intermediate representation that addresses these
-challenges. Our system includes an extensible GLR parser for Ruby,
-and an automatic translation into RIL, an easy-to-analyze
-intermediate form. This translation eliminates redundant language
-constructs, unravels the often subtle ordering among side effecting
-operations, and makes implicit interpreter operations explicit in
-its representation.</p><p>We demonstrate the usefulness of RIL by presenting a simple static
-analysis and source code transformation to eliminate null pointer
-errors in Ruby programs. We also describe several additional useful
-features of RIL, including a pretty printer that outputs RIL as
-syntactically valid Ruby code, a dataflow analysis engine, and a
-dynamic instrumentation library for profiling source code. We hope
-that RIL’s features will enable others to more easily build analysis
-tools for Ruby, and that our design will inspire the creation of
-similar frameworks for other dynamic languages.</p><p></p><footer></footer></div></article><article class="mv4 mv5-l bb"><div class="measure-wide center mb4 mb5-l"><header><h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="/papers/furr08druby.html" class="db">Publication</a></h1></header><p class="lh-copy mb4"></p><p><font size="+1"><b>Static Type Inference for Ruby</b>.
-Michael Furr, Jong hoon (David) An, Jeffrey S. Foster, and Michael
-Hicks.
-In <em>Proceedings of the ACM Symposium on Applied Computing,
-Object-oriented Programming Languages and Systems Track (OOPS)</em>, pages
-1859–1866, March 2009.</font></p><p>Many general-purpose, object-oriented scripting languages are
-dynamically typed, which provides flexibility but leaves the
-programmer without the benefits of static typing, including early
-error detection and the documentation provided by type
-annotations. This paper describes Diamondback Ruby
-(DRuby), a tool that blends Ruby’s dynamic type system with a
-static typing discipline. DRuby provides a type
-language that is rich enough to precisely type Ruby code we have
-encountered, without unneeded complexity.
-When possible, DRuby infers static types to discover
-type errors in Ruby programs. When necessary, the programmer can
-provide DRuby with
-annotations that assign static types to dynamic code. These
-annotations are checked at run time, isolating type errors to
-unverified code. We applied DRuby to a suite of benchmarks and
-found several bugs that would cause run-time type
-errors. DRuby also reported a number of warnings that reveal questionable
-programming practices in the benchmarks. We believe that DRuby
-takes a major step toward bringing the benefits
-of combined static and dynamic typing to Ruby and other
-object-oriented languages.</p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/26/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">27 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/28/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2026 Mike Hicks
+</pre><p></p><p></p><footer></footer></div></article><div class="list-pagination w-100"><ul class="paginate list pl0 tc dt w-100 ma0"><li class="dtc w-25 tl v-mid"><a href="/papers/page/26/" class="previous pa2 db fw6" aria-label="Previous">← Newer</a></li><li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">27 of 43</span></li><li class="dtc w-25 tr v-mid"><a href="/papers/page/28/" class="next pa2 db fw6" aria-label="Next">Older →</a></li></ul></div></section></main><footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo"><nav class="db dt-l w-100"><p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">© 2026 Michael Hicks
 <span class="middot-divider"></span>
 Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.<br/>Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.</p><div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0"><div class="social-icon-links" aria-hidden="true"><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://linkedin.com/in/mike-hicks-a053311/" title="linkedin" target="_blank" rel="me noopener"><i class="fab fa-linkedin fa-lg fa-fw"></i>
 </a><a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/mwhicks1" title="github" target="_blank" rel="me noopener"><i class="fab fa-github fa-lg fa-fw"></i>

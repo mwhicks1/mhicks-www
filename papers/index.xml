@@ -1,4 +1,1967 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications on</title><link>https://mhicks.me/papers/</link><description>Recent content in Publications on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 17 Oct 2025 07:37:49 -0400</lastBuildDate><atom:link href="https://mhicks.me/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Publication</title><link>https://mhicks.me/papers/an11rubydust.html</link><pubDate>Fri, 17 Oct 2025 07:37:49 -0400</pubDate><guid>https://mhicks.me/papers/an11rubydust.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications on</title><link>https://mhicks.me/papers/</link><description>Recent content in Publications on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jun 2026 06:48:49 -0400</lastBuildDate><atom:link href="https://mhicks.me/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Publication</title><link>https://mhicks.me/papers/mwh-cat.html</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/papers/mwh-cat.html</guid><description>&lt;html>
+&lt;head>
+&lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+ &lt;link href="../style.css" rel="stylesheet" type="text/css">
+&lt;title>Michael Hicks' Publications, by Category&lt;/title>
+&lt;/head>
+&lt;body>
+&lt;h2>Michael Hicks' Publications, by Category&lt;/h2>
+Also see publications &lt;a href = "mwh.html">by year&lt;/a>,
+on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt;a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar&lt;/a>.
+&lt;h3>&lt;u>Security&lt;/u>&lt;/h3>
+&lt;span style="font-style:italic">
+&lt;p>The widespread sharing of information over the Internet has led to an
+explosive growth of useful services. The challenge is to provide
+information sharing while still ensuring integrity and confidentiality
+of data. I have looked at programming language-based techniques --
+new analyses and programming languages -- for ensuring these
+properties.
+&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh.html</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/papers/mwh.html</guid><description>&lt;html>
+&lt;head>
+&lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+ &lt;link href="../style.css" rel="stylesheet" type="text/css">
+&lt;title>Michael Hicks' Publications, by Year&lt;/title>
+&lt;/head>
+&lt;body>
+&lt;h2>Michael Hicks' Publications, by Year&lt;/h2>
+Also see publications &lt;a href = "mwh-cat.html">by category&lt;/a>,
+on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt;a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar&lt;/a>.
+&lt;h3>2025&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="chakarov25awsauth">&lt;a href="chakarov25awsauth.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Formally Verified Cloud-Scale Authorization&lt;/b>.
+ Aleks Chakarov, Jaco Geldenhuys, Matthew Heck, Michael Hicks, Sam
+ Huang, Georges-Axel Jaloyan, Anjali Joshi, K.&amp;nbsp;Rustan&amp;nbsp;M. Leino, Mikael Mayer,
+ Sean McLaughlin, Akhilesh Mritunjai, Clement Pit-Claudel, Sorawee
+ Porncharoenwase, Marianna Rapoport, Cody Roux, Neha Rungta, Robin Salkeld,
+ Matthias Schlaipfer, Daniel Schoepe, Johanna Schwartzentruber, Serdar
+ Tasiran, Aaron Tomb, Jean-Baptiste Tristan, Emina Torlak, Lucas Wagner,
+ Michael&amp;nbsp;W. Whalen, Remy Willems, Tongtong Xiang, Tae&amp;nbsp;Joon Byun, Joshua Cohen,
+ Ruijie Fang, Junyoung Jang, Jakob Rath, Hira&amp;nbsp;Taqdees Syeda, Dominik Wagner,
+ and Yongwei Yuan.
+ In &lt;em>Proceedings of the International Conference on Software
+ Engineering (ICSE)&lt;/em>, April 2025.
+ &lt;b>Distinguished Paper&lt;/b>.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2024&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="disselkoen24vgd">&lt;a href="disselkoen24vgd.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>How We Built Cedar: A Verification-Guided Approach&lt;/b>.
+ Craig Disselkoen, Aaron Eline, Shaobo He, Kyle Headley, Michael
+ Hicks, Kesha Hietala, John Kastner, Anwar Mamat, Matt McCutchen, Neha Rungta,
+ Bhakti Shah, Emina Torlak, and Andrew Wells.
+ In &lt;em>Proceedings of the European Software Engineering Conference
+ and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
+ (ESEC/FSE)&lt;/em>, July 2024.
+ Industry papers track.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="cutler24cedar">&lt;a href="cutler24cedar.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Cedar: A New Language for Expressive, Fast, Safe, and Analyzable
+ Authorization (Extended Version)&lt;/b>.
+ Joseph&amp;nbsp;W. Cutler, Craig Disselkoen, Aaron Eline, Shaobo He, Kyle
+ Headley, Michael Hicks, Kesha Hietala, Eleftherios Ioannidis, John Kastner,
+ Anwar Mamat, Darin McAdams, Matt McCutchen, Neha Rungta, Emina Torlak, and
+ Andrew Wells.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, April 2024.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="cutler24typesafety">&lt;a href="cutler24typesafety.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Improving the Stability of Type Safety Proofs in Dafny&lt;/b>.
+ Joseph&amp;nbsp;W. Cutler, Michael Hicks, and Emina Torlak, January 2024.
+ Dafny Workshop talk.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2023&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hietala22voqc-journal">&lt;a href="hietala22voqc-journal.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Verified Optimizer for Quantum Circuits&lt;/b>.
+ Kesha Hietala, Robert Rand, Liyi Li, Shih-Han Hung, Xiaodi Wu, and
+ Michael Hicks.
+ &lt;em>ACM Transactions on Programming Languages and Systems
+ (TOPLAS)&lt;/em>, 45(3), September 2023.
+ Extends POPL'21 paper.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="peng2022shors">&lt;a href="peng2022shors.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Formally Certified End-to-End Implementation of Shor's Factorization
+ Algorithm&lt;/b>.
+ Yuxiang Peng, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand,
+ Michael Hicks, and Xiaodi Wu.
+ &lt;em>Proceedings of the National Academy of Sciences&lt;/em>, 120(21), May
+ 2023.
+ Preprint at &lt;a href="https://arxiv.org/abs/2204.07112">https://arxiv.org/abs/2204.07112&lt;/a>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="zhou23fatpointers">&lt;a href="zhou23fatpointers.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Fat Pointers for Temporal Memory Safety of C&lt;/b>.
+ Jie Zhou, John Criswell, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, April 2023.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="deng23mqcc">&lt;a href="deng23mqcc.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Automating NISQ Application Design with Meta Quantum Circuits with
+ Constraints (MQCC)&lt;/b>.
+ Haowei Deng, Yuxiang Peng, Michael Hicks, and Xiaodi Wu.
+ &lt;em>ACM Transactions on Quantum Computing (TQC)&lt;/em>, 4(3), April
+ 2023.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="zhang23fuzzoptions">&lt;a href="zhang23fuzzoptions.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Fuzzing Configurations of Program Options&lt;/b>.
+ Zenong Zhang, George Klees, Eric Wang, Michael Hicks, and Shiyi Wei.
+ &lt;em>ACM Transactions on Software Engineering and Methodology
+ (TOSEM)&lt;/em>, 32(2), March 2023.
+ A shorter version appeared at the 2022 Fuzzing Workshop.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="sweet23symphony">&lt;a href="sweet23symphony.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Symphony: Expressive Secure Multiparty Computation with Coordination&lt;/b>.
+ Ian Sweet, David Darais, David Heath, Ryan Estes, Bill Harris, and
+ Michael Hicks.
+ &lt;em>&amp;lt;Programming&amp;gt;&lt;/em>, 7(14), February 2023.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="coblenz23rust">&lt;a href="coblenz23rust.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Multimodal Study of Challenges Using Rust&lt;/b>.
+ Michael Coblenz, April Porter, Varun Das, Teja Nallagorla, and
+ Michael Hicks.
+ In &lt;em>Proceedings of the Workshop on the Evaluation and Usability
+ of Programming Languages and Tools (PLATEAU)&lt;/em>, February 2023.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="voichick23qunity">&lt;a href="voichick23qunity.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Qunity: A Unified Language for Quantum and Classical Computing&lt;/b>.
+ Finn Voichick, Liyi Li, Robert Rand, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, January 2023.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2022&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="li2022verified">&lt;a href="li2022verified.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Verified Compilation of Quantum Oracles&lt;/b>.
+ Liyi Li, Finnegan Voichick, Kesha Hietala, Yuxiang Peng, Xiaodi Wu,
+ and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, December 2022.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="machiry3c2022">&lt;a href="machiry3c2022.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>C to Checked C by 3C&lt;/b>.
+ Aravind Machiry, John Kastner, Matt McCutchen, Aaron Eline, Kyle
+ Headley, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, December 2022.
+ &lt;b>Distinguished Paper&lt;/b>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="fulton22contest">&lt;a href="fulton22contest.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Understanding the how and the why: Exploring secure development practices
+ through a course competition&lt;/b>.
+ Kelsey&amp;nbsp;R. Fulton, Daniel Votipka, Desiree Abrokwa, Michelle&amp;nbsp;L.
+ Mazurek, Michael Hicks, and James Parker.
+ In &lt;em>Proceedings of the ACM Conference on Computer and
+ Communications Security (CCS)&lt;/em>, October 2022.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="li22checkedc">&lt;a href="li22checkedc.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Formal Model of Checked C&lt;/b>.
+ Liyi Li, Yiyun Liu, Deena&amp;nbsp;L. Postol, Leonidas Lampropoulos, David&amp;nbsp;Van
+ Horn, and Michael Hicks.
+ In &lt;em>Proceedings of the Computer Security Foundations Symposium
+ (CSF)&lt;/em>, August 2022.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="zhang22fixreverter">&lt;a href="zhang22fixreverter.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>FixReverter: A Realistic Bug Injection Methodology for Benchmarking Fuzz
+ Testing&lt;/b>.
+ Zenong Zhang, Zach Patterson, Michael Hicks, and Shiyi Wei.
+ In &lt;em>Proceedings of the USENIX Security Symposium (USENIX SEC)&lt;/em>,
+ August 2022.
+ &lt;b>Distinguished Paper&lt;/b>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="coblenz21bronze">&lt;a href="coblenz21bronze.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Does the Bronze Garbage Collector Make Rust Easier to Use? A Controlled
+ Experiment&lt;/b>.
+ Michael Coblenz, Michelle Mazurek, and Michael Hicks.
+ In &lt;em>Proceedings of the International Conference on Software
+ Engineering (ICSE)&lt;/em>, May 2022.
+ &lt;b>Distinguished Paper Award Nominee&lt;/b>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="zhang22configfuzz">&lt;a href="zhang22configfuzz.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Fuzzing Configurations of Program Options&lt;/b>.
+ Zenong Zhang, George Klees, Eric Wang, Michael Hicks, and Shiyi Wei.
+ In &lt;em>Proceedings of the International Fuzzing Workshop&lt;/em>, April
+ 2022.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2021&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="fulton21rust">&lt;a href="fulton21rust.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Benefits and Drawbacks of Adopting a Secure Programming Language: Rust
+ as a Case Study&lt;/b>.
+ Kelsey Fulton, Anna Chan, Dan Votipka, Michael Hicks, and Michelle
+ Mazurek.
+ In &lt;em>Proceedings of the Symposium on Usable Privacy and Security
+ (SOUPS)&lt;/em>, August 2021.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="darais21symphony">&lt;a href="darais21symphony.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Symphony: A Concise Language Model for MPC&lt;/b>.
+ Ian Sweet, David Darais, David Heath, Ryan Estes, William Harris, and
+ Michael Hicks.
+ In &lt;em>Informal Proceedings of the Workshop on Foundations on
+ Computer Secuirty (FCS)&lt;/em>, June 2021.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hietala21qproof">&lt;a href="hietala21qproof.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Proving Quantum Programs Correct&lt;/b>.
+ Kesha Hietala, Robert Rand, Shih-Han Hung, Liyi Li, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the Conference on Interative Theorem Proving
+ (ITP)&lt;/em>, June 2021.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="bhattacherjee21bullfrog">&lt;a href="bhattacherjee21bullfrog.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>BullFrog: Online Schema Evolution via Lazy Evaluation&lt;/b>.
+ Souvik Bhattacherjee, Gang Liao, Michael Hicks, and Daniel&amp;nbsp;J. Abadi.
+ In &lt;em>Proceedings of the ACM SIGMOD International Conference on
+ Management of Data (SIGMOD)&lt;/em>, June 2021.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="voichick21qone">&lt;a href="voichick21qone.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Toward A Quantum Programming Language for Higher-Level Formal
+ Verification&lt;/b>.
+ Finn Voichick and Michael Hicks.
+ In &lt;em>Informal Proceedings of the Workshop on Programming Languages
+ and Quantum Computing (PLanQC)&lt;/em>, June 2021.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hietala21expvoqc">&lt;a href="hietala21expvoqc.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Applying and Expanding the VOQC Toolkit&lt;/b>.
+ Kesha Hietala, Liyi Li, Akshaj Gaur, Aaron Green, Robert Rand, Xiaodi
+ Wu, and Michael Hicks.
+ In &lt;em>Informal Proceedings of the Workshop on Programming Languages
+ and Quantum Computing (PLanQC)&lt;/em>, June 2021.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hietala21voqc">&lt;a href="hietala21voqc.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Verified Optimizer for Quantum Circuits&lt;/b>.
+ Kesha Hietala, Robert Rand, Shih-Han Hung, Xiaodi Wu, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, January 2021.
+ &lt;b>Distinguished Paper&lt;/b>.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2020&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="trilla20probprog">&lt;a href="trilla20probprog.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Probabilistic Abstract Interpretation: Sound Inference and Application to
+ Privacy&lt;/b>.
+ Jose Manuel&amp;nbsp;Calder&amp;oacute;n Trilla, Michael Hicks, Stephen Magill, Piotr
+ Mardziel, and Ian Sweet.
+ In Gilles Barthe, Joost-Pieter Katoen, and Alexandra Silva, editors,
+ &lt;em>Foundations of Probabilistic Programming&lt;/em>, chapter&amp;nbsp;11, pages 361--389.
+ Cambridge University Press, November 2020.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="sweet20odsnotpmto">&lt;a href="sweet20odsnotpmto.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Short Paper: Probabilistically Almost-Oblivious Computation&lt;/b>.
+ Ian Sweet, David Darais, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
+ Languages and Analysis for Security (PLAS)&lt;/em>, November 2020.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="liu20typeclasses">&lt;a href="liu20typeclasses.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Verifying Replicated Data Types with Typeclass Refinements in Liquid
+ Haskell&lt;/b>.
+ Yiyun Liu, James Parker, Patrick Redmond, Lindsey Kuper, Michael
+ Hicks, and Niki Vazou.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2020.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="votipka19bibifiqual">&lt;a href="votipka19bibifiqual.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Understanding security mistakes developers make: Qualitative analysis from
+ Build It, Break It, Fix It&lt;/b>.
+ Daniel Votipka, Kelsey Fulton, James Parker, Matthew Hou, Michelle&amp;nbsp;L.
+ Mazurek, and Michael Hicks.
+ In &lt;em>Proceedings of the USENIX Security Symposium (USENIX SEC)&lt;/em>,
+ August 2020.
+ &lt;b>Distinguished Paper&lt;/b>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="parker20bibifi">&lt;a href="parker20bibifi.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Build It, Break It, Fix It: Contesting Secure Development&lt;/b>.
+ James Parker, Michael Hicks, Andrew Ruef, Michelle&amp;nbsp;L. Mazurek, Dave
+ Levin, Daniel Votipka, Piotr Mardziel, and Kelsey&amp;nbsp;R. Fulton.
+ &lt;em>ACM Transactions on Privacy and Security (TOPS)&lt;/em>, 23(2), April
+ 2020.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pierce20carbon">&lt;a href="pierce20carbon.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Conferences in an Era of Expensive Carbon&lt;/b>.
+ Benjamin Pierce, Michael Hicks, Crista Lopes, and Jens Palsberg.
+ &lt;em>Communications of the ACM&lt;/em>, March 2020.
+ Preprint at &lt;a href="https://www.cs.umd.edu/~mwh/papers/co2acm.pdf">https://www.cs.umd.edu/~mwh/papers/co2acm.pdf&lt;/a>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="darais20obliv">&lt;a href="darais20obliv.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Language for Probabilistically Oblivious Computation&lt;/b>.
+ David Darais, Ian Sweet, Chang Liu, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, January 2020.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="votipka20bibifilogin">&lt;a href="votipka20bibifilogin.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Build It, Break It, Fix It Contests: Motivated Developers Still Make
+ Security Mistakes&lt;/b>.
+ Daniel Votipka, Kelsey&amp;nbsp;R. Fulton, James Parker, Matthew Hou,
+ Michelle&amp;nbsp;L. Mazurek, and Michael Hicks.
+ &lt;em>;login;&lt;/em>, 45(4), winter 2020.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2019&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="lampropoulos19fuzzchick">&lt;a href="lampropoulos19fuzzchick.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Coverage Guided, Property Based Testing&lt;/b>.
+ Leonidas Lampropoulos, Michael Hicks, and Benjamin&amp;nbsp;C. Pierce.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2019.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ran19sqire">&lt;a href="ran19sqire.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Verified Optimization in a Quantum Intermediate Representation&lt;/b>.
+ Kesha Hietala, Robert Rand, Shih-Han Hung, Xiaodi Wu, and Michael
+ Hicks, June 2019.
+ Extended abstract appeared at QPL 2019.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="rand19qplperspective">&lt;a href="rand19qplperspective.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Formal Verification vs. Quantum Uncertainty&lt;/b>.
+ Robert Rand, Kesha Hietala, and Michael Hicks.
+ In Benjamin&amp;nbsp;S. Lerner, Rastislav Bod&amp;iacute;k, and Shriram
+ Krishnamurthi, editors, &lt;em>3rd Summit on Advances in Programming Languages
+ (SNAPL 2019)&lt;/em>, volume 136 of &lt;em>Leibniz International Proceedings in
+ Informatics (LIPIcs)&lt;/em>, pages 12:1--12:11, Dagstuhl, Germany, May 2019.
+ Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pina19mvedsua">&lt;a href="pina19mvedsua.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>MVEDSUa: Higher Availability Dynamic Software Updates via Multi-Version
+ Execution&lt;/b>.
+ Luis Pina, Anastasios Andronidis, Michael Hicks, and Cristian Cadar.
+ In &lt;em>Proceedings of the International Conference on Architectural
+ Support for Programming Languages and Operating Systems (ASPLOS)&lt;/em>, April
+ 2019.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ruef18checkedc-incr">&lt;a href="ruef18checkedc-incr.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Achieving Safety Incrementally with Checked C&lt;/b>.
+ Andrew Ruef, Leonidas Lampropoulos, Ian Sweet, David Tarditi, and
+ Michael Hicks.
+ In &lt;em>Proceedings of the Symposium on Principles of Security and
+ Trust (POST)&lt;/em>, April 2019.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="wysstar18wysstar">&lt;a href="wysstar18wysstar.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Wys&lt;sup>*&lt;/sup>: A DSL for Verified Secure Multi-party Computations&lt;/b>.
+ Aseem Rastogi, Nikhil Swamy, and Michael Hicks.
+ In &lt;em>Proceedings of the Symposium on Principles of Security and
+ Trust (POST)&lt;/em>, April 2019.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="parker19lweb">&lt;a href="parker19lweb.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>LWeb: Information Flow Security for Multi-Tier Web Applications&lt;/b>.
+ James Parker, Niki Vazou, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, January 2019.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hung19qrobust">&lt;a href="hung19qrobust.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Quantitative Robustness Analysis of Quantum Programs&lt;/b>.
+ Shih-Han Hung, Kesha Hietala, Shaopeng Zhu, Mingsheng Ying, Michael
+ Hicks, and Xiaodi Wu.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, January 2019.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="darais19obliv">&lt;a href="darais19obliv.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Language for Probabilistically Oblivious Computation&lt;/b>.
+ David Darais, Ian Sweet, Chang Liu, and Michael Hicks.
+ Technical Report abs/1711.09305, CoRR, July 2019.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2018&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="klees2018fuzzeval">&lt;a href="klees2018fuzzeval.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Evaluating Fuzz Testing&lt;/b>.
+ George&amp;nbsp;T. Klees, Andrew Ruef, Benjamin Cooper, Shiyi Wei, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Computer and
+ Communications Security (CCS)&lt;/em>, October 2018.
+ Winner of the 7th NSA &lt;b>Best Scientific Cybersecurity Paper&lt;/b>
+ competition.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="elliott18checkedc">&lt;a href="elliott18checkedc.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Checked C: Making C Safe by Extension&lt;/b>.
+ Archibald&amp;nbsp;Samuel Elliott, Andrew Ruef, Michael Hicks, and David
+ Tarditi.
+ In &lt;em>Proceedings of the IEEE Conference on Secure Development
+ (SecDev)&lt;/em>, September 2018.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="wei18evaluating">&lt;a href="wei18evaluating.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Evaluating Design Tradeoffs in Numeric Static Analysis for Java&lt;/b>.
+ Shiyi Wei, Piotr Mardziel, Andrew Ruef, Jeffrey&amp;nbsp;S. Foster, and
+ Michael Hicks.
+ In &lt;em>Proceedings of the European Symposium on Programming (ESOP)&lt;/em>,
+ April 2018.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="sweet18prob">&lt;a href="sweet18prob.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>What's the Over/Under? Probabilistic Bounds on Information Leakage&lt;/b>.
+ Ian Sweet, Jos&amp;eacute; Manuel&amp;nbsp;Calder&amp;oacute;n Trilla, Chad Scherrer, Michael
+ Hicks, and Stephen Magill.
+ In &lt;em>Proceedings of the Symposium on Principles of Security and
+ Trust (POST)&lt;/em>, April 2018.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2017&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks17plas">&lt;a href="hicks17plas.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Languages for Oblivious Computation&lt;/b>.
+ Michael Hicks.
+ In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
+ Languages and Analysis for Security (PLAS)&lt;/em>, October 2017.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ngyuen17numinv">&lt;a href="ngyuen17numinv.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Counterexample-guided Approach to Finding Numerical Invariants&lt;/b>.
+ ThanhVu Nguyen, Timos Antopoulos, Andrew Ruef, and Michael Hicks.
+ In &lt;em>Proceedings of the European Software Engineering Conference
+ and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
+ (ESEC/FSE)&lt;/em>, September 2017.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="antopoulous17blazer">&lt;a href="antopoulous17blazer.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Decomposition Instead of Self-Composition for Proving the Absence of
+ Timing Channels&lt;/b>.
+ Timos Antonopoulos, Paul Gazzillo, Michael Hicks, Eric Koskinen,
+ Tachio Terauchi, and Shiyi Wei.
+ In &lt;em>Proceedings of the ACM Conference on Programming Language
+ Design and Implementation (PLDI)&lt;/em>, June 2017.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="alvim17strat">&lt;a href="alvim17strat.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Quantifying vulnerability of secret generation using hyper-distributions&lt;/b>.
+ M&amp;aacute;rio&amp;nbsp;S. Alvim, Piotr Mardziel, and Michael Hicks.
+ In &lt;em>Proceedings of the Symposium on Principles of Security and
+ Trust (POST)&lt;/em>, April 2017.
+ Extended version of short paper that appeared at FCS 2016:
+ &lt;a href="http://www.cs.umd.edu/~mwh/papers/stratquant.pdf">http://www.cs.umd.edu/~mwh/papers/stratquant.pdf&lt;/a>.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="rastogi16wysstar">&lt;a href="rastogi16wysstar.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Wys&lt;sup>*&lt;/sup>: A Verified Language Extension for Secure Multi-Party
+ Computations&lt;/b>.
+ Aseem Rastogi, Nikhil Swamy, and Michael Hicks.
+ Technical Report abs/1711.06467, CoRR, November 2017.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2016&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="saur16kvolve">&lt;a href="saur16kvolve.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Evolving NoSQL Databases Without Downtime&lt;/b>.
+ Karla Saur, Tudor Dumitra&amp;#x015F;, and Michael Hicks.
+ In &lt;em>Proceedings of the International Conference on Software
+ Maintenance and Evolution (ICSME)&lt;/em>, October 2016.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ruef2016bibifi">&lt;a href="ruef2016bibifi.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Build It, Break It, Fix It: Contesting Secure Development&lt;/b>.
+ Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle&amp;nbsp;L.
+ Mazurek, and Piotr Mardziel.
+ In &lt;em>Proceedings of the ACM Conference on Computer and
+ Communications Security (CCS)&lt;/em>, October 2016.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pina16tedsuto">&lt;a href="pina16tedsuto.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Tedsuto: A General Framework for Testing Dynamic Software Updates&lt;/b>.
+ Luis Pina and Michael Hicks.
+ In &lt;em>Proceedings of the International Conference on Software
+ Testing (ICST)&lt;/em>, April 2016.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="saur15morpheus">&lt;a href="saur15morpheus.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Safe and Flexible Controller Upgrades for SDNs&lt;/b>.
+ Karla Saur, Joseph Collard, Nate Foster, Arjun Guha, Laurent
+ Vanbever, and Michael Hicks.
+ In &lt;em>Proceedings of the Symposium on SDN Research (SOSR)&lt;/em>, March
+ 2016.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2015&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hammer14nominal">&lt;a href="hammer14nominal.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Incremental Computation with Names&lt;/b>.
+ Matthew Hammer, Kyle Headley, Nicholas Labich, Jeffrey&amp;nbsp;S. Foster,
+ Michael Hicks, David&amp;nbsp;Van Horn, and Jana Dunfield.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2015.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ruef15bibifi">&lt;a href="ruef15bibifi.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Build It Break It: Measuring and Comparing Development Security&lt;/b>.
+ Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Atif Memon,
+ Jandelyn Plane, and Piotr Mardziel.
+ In &lt;em>Proceedings of the USENIX Workshop on Cyber Security
+ Instrumentation and Test (CSET)&lt;/em>, August 2015.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="saur15strider">&lt;a href="saur15strider.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>C-Strider: Type-Aware Heap Traversal for C&lt;/b>.
+ Karla Saur, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ &lt;em>Software, Practice, and Experience&lt;/em>, May 2015.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="liu15ghostrider">&lt;a href="liu15ghostrider.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>GhostRider: A Hardware-Software System for Memory Trace Oblivious
+ Computation&lt;/b>.
+ Chang Liu, Austin Harris, Martin Maas, Michael Hicks, Mohit Tiwari,
+ and Elaine Shi.
+ In &lt;em>Proceedings of the International Conference on Architectural
+ Support for Programming Languages and Operating Systems (ASPLOS)&lt;/em>, March
+ 2015.
+ &lt;b>Winner of Best Paper Award&lt;/b>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="barthe2015dagstuhl">&lt;a href="barthe2015dagstuhl.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>The Synergy Between Programming Languages and Cryptography (Dagstuhl
+ Seminar 14492)&lt;/b>.
+ Gilles Barthe, Michael Hicks, Florian Kerschbaum, and Dominique
+ Unruh.
+ &lt;em>Dagstuhl Reports&lt;/em>, 4(12):29--47, 2015.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ruef15bibifiNW">&lt;a href="ruef15bibifiNW.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Build it, break it, fix it: Competing to build secure systems&lt;/b>.
+ Andrew Ruef and Michael Hicks.
+ &lt;em>The Next Wave&lt;/em>, 21(1):19--23, 2015.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2014&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden14kitsune-journal">&lt;a href="hayden14kitsune-journal.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Efficient, General-purpose Dynamic Software Updating for C&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Karla Saur, Edward&amp;nbsp;K. Smith, Michael Hicks,
+ and Jeffrey&amp;nbsp;S. Foster.
+ &lt;em>ACM Transactions on Programming Languages and Systems
+ (TOPLAS)&lt;/em>, 36(4):13, October 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pina14rubah">&lt;a href="pina14rubah.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Rubah: DSU for Java on a stock JVM&lt;/b>.
+ Lu&amp;iacute;s Pina, Lu&amp;iacute;s Veiga, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel14qifgl">&lt;a href="mardziel14qifgl.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Adversary Gain vs. Defender Loss in Quantified Information Flow&lt;/b>.
+ Piotr Mardziel, M&amp;aacute;rio&amp;nbsp;S. Alvim, and Michael Hicks.
+ In &lt;em>(Unofficial) Proceedings of the International Workshop on
+ Foundations of Computer Security (FCS)&lt;/em>, July 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hammer13adapton">&lt;a href="hammer13adapton.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Adapton: Composable, Demand-Driven Incremental Computation&lt;/b>.
+ Matthew Hammer, Yit&amp;nbsp;Phang Khoo, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ In &lt;em>Proceedings of the ACM Conference on Programming Language
+ Design and Implementation (PLDI)&lt;/em>, June 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="rastogi14wysteria">&lt;a href="rastogi14wysteria.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Wysteria: A Programming Language for Generic, Mixed-Mode Multiparty
+ Computations&lt;/b>.
+ Aseem Rastogi, Matthew&amp;nbsp;A. Hammer, and Michael Hicks.
+ In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
+ (Oakland)&lt;/em>, May 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel14time">&lt;a href="mardziel14time.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Quantifying Information Flow for Dynamic Secrets&lt;/b>.
+ Piotr Mardziel, Mario Alvim, Michael Hicks, and Michael Clarkson.
+ In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
+ (Oakland)&lt;/em>, May 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="liu14scram">&lt;a href="liu14scram.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Automating Efficient RAM-Model Secure Computation&lt;/b>.
+ Chang Liu, Yan Huang, Elaine Shi, Jonathan Katz, and Michael Hicks.
+ In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
+ (Oakland)&lt;/em>, May 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks14polymonad">&lt;a href="hicks14polymonad.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Polymonadic Programming&lt;/b>.
+ Michael Hicks, Gavin Bierman, Nataliya Guts, Daan Leijen, and Nikhil
+ Swamy.
+ In &lt;em>Proceedings of the Fifth Workshop on Mathematically
+ Structured Functional Programming (MSFP)&lt;/em>, April 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="miller14gpads">&lt;a href="miller14gpads.html">9&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Authenticated Data Structures, Generically&lt;/b>.
+ Andrew Miller, Michael Hicks, Jonathan Katz, and Elaine Shi.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, January 2014.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="rastogi14wysteriaTR">&lt;a href="rastogi14wysteriaTR.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Wysteria: A Programming Language for Generic, Mixed-Mode Multiparty
+ Computations (extended version)&lt;/b>.
+ Aseem Rastogi, Matthew&amp;nbsp;A. Hammer, and Michael Hicks.
+ Technical Report CS-TR-5034, Department of Computer Science, the
+ University of Maryland, College Park, May 2014.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel14timeTR">&lt;a href="mardziel14timeTR.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Quantifying Information Flow for Dynamic Secrets (extended version)&lt;/b>.
+ Piotr Mardziel, Mario Alvim, Michael Hicks, and Michael Clarkson.
+ Technical Report CS-TR-5035, Department of Computer Science, the
+ University of Maryland, College Park, May 2014.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2013&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo13expositor-journal">&lt;a href="khoo13expositor-journal.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Expositor: Scriptable Time-Travel Debugging with First Class Traces (Full
+ version)&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks, December 2013.
+ Extended version of ICSE'13 paper.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel13belieflong">&lt;a href="mardziel13belieflong.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamic Enforcement of Knowledge-based Security Policies using
+ Probabilistic Abstract Interpretation&lt;/b>.
+ Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
+ &lt;em>Journal of Computer Security&lt;/em>, 21:463--532, October 2013.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel13belief">&lt;a href="mardziel13belief.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Knowledge inference for optimizing and enforcing secure computations&lt;/b>.
+ Piotr Mardziel, Michael Hicks, Jonathan Katz, Matthew Hammer, Aseem
+ Rastogi, and Mudhakar Srivatsa.
+ In &lt;em>Proceedings of the Annual Meeting of the US/UK International
+ Technology Alliance&lt;/em>, September 2013.
+ This short paper consists of coherent excerpts from several prior
+ papers.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="rastogi13knowledge">&lt;a href="rastogi13knowledge.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Knowledge Inference for Optimizing Secure Multi-party Computation&lt;/b>.
+ Aseem Rastogi, Piotr Mardziel, Matthew Hammer, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
+ Languages and Analysis for Security (PLAS)&lt;/em>, June 2013.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="liu13oblivious">&lt;a href="liu13oblivious.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Memory Trace Oblivious Program Execution&lt;/b>.
+ Chang Liu, Michael Hicks, and Elaine Shi.
+ In &lt;em>Proceedings of the Computer Security Foundations Symposium
+ (CSF)&lt;/em>, June 2013.
+ Winner of the 2nd NSA &lt;b>Best Scientific Cybersecurity Paper&lt;/b>
+ competition.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pina13rubah">&lt;a href="pina13rubah.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Rubah: Efficient, General-purpose Dynamic Software Updating for Java&lt;/b>.
+ Luis Pina and Michael Hicks.
+ In &lt;em>Proceedings of the Workshop on Hot Topics in Software
+ Upgrades (HotSWUp)&lt;/em>, June 2013.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo13expositor">&lt;a href="khoo13expositor.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Expositor: Scriptable Time-Travel Debugging with First Class Traces&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ In &lt;em>Proceedings of the International Conference on Software
+ Engineering (ICSE)&lt;/em>, May 2013.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hammer13adaptontr">&lt;a href="hammer13adaptontr.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Adapton: Composable, Demand-Driven Incremental Computation&lt;/b>.
+ Matthew Hammer, Yit&amp;nbsp;Phang Khoo, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ Technical Report CS-TR-5027, Department of Computer Science, the
+ University of Maryland, College Park, July 2013.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo13cs-tr-5021">&lt;a href="khoo13cs-tr-5021.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Expositor: Scriptable Time-Travel Debugging with First-Class Traces&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ Technical Report CS-TR-5021, Department of Computer Science,
+ University of Maryland, College Park, February 2013.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2012&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden12testing-journal">&lt;a href="hayden12testing-journal.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Evaluating Dynamic Software Update Safety Using Efficient Systematic
+ Testing&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Eric&amp;nbsp;A. Hardisty, Michael
+ Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ &lt;em>IEEE Transactions on Software Engineering&lt;/em>, 38(6):1340--1354,
+ December 2012.
+ Accepted September 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="magill12tos">&lt;a href="magill12tos.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Automating Object Transformations for Dynamic Software Updating&lt;/b>.
+ Stephen Magill, Michael Hicks, Suriya Subramanian, and Kathryn&amp;nbsp;S.
+ McKinley.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2012.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden12kitsune">&lt;a href="hayden12kitsune.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Kitsune: Efficient, General-purpose Dynamic Software Updating for C&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Michail Denchev, Michael
+ Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ In &lt;em>Proceedings of the ACM Conference on Object-Oriented
+ Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2012.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="srivatsa12mobility">&lt;a href="srivatsa12mobility.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Deanonymizing Mobility Traces: Using a Social Network as a Side-Channel&lt;/b>.
+ Mudhakar Srivatsa and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Computer and
+ Communications Security (CCS)&lt;/em>, October 2012.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="smith12benchmark">&lt;a href="smith12benchmark.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Towards Standardized Benchmarks for Dynamic Software Updating Systems&lt;/b>.
+ Edward&amp;nbsp;K. Smith, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ In &lt;em>Proceedings of the Workshop on Hot Topics in Software
+ Upgrades (HotSWUp)&lt;/em>, pages 11--15, June 2012.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden12quiescence">&lt;a href="hayden12quiescence.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Study of Dynamic Software Update Quiescence for Multithreaded Programs&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Karla Saur, Michael Hicks, and Jeffrey&amp;nbsp;S.
+ Foster.
+ In &lt;em>Proceedings of the Workshop on Hot Topics in Software
+ Upgrades (HotSWUp)&lt;/em>, pages 6--10, June 2012.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel12smc">&lt;a href="mardziel12smc.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Knowledge-Oriented Secure Multiparty Computation&lt;/b>.
+ Piotr Mardziel, Michael Hicks, Jonathan Katz, and Mudhakar Srivatsa.
+ In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
+ Languages and Analysis for Security (PLAS)&lt;/em>, June 2012.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks12popl">&lt;a href="hicks12popl.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>POPL'12 Program Chair's Report (or, how to run a medium-sized
+ conference)&lt;/b>.
+ Michael Hicks.
+ &lt;em>SIGPLAN Notices&lt;/em>, 47(4), April 2012.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden12dsucorrect">&lt;a href="hayden12dsucorrect.html">9&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Specifying and Verifying the Correctness of Dynamic Software Updates&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Stephen Magill, Michael Hicks, Nate Foster,
+ and Jeffrey&amp;nbsp;S. Foster.
+ In &lt;em>Proceedings of the International Conference on Verified
+ Software: Theories, Tools, and Experiments (VSTTE)&lt;/em>, pages 278--293,
+ January 2012.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks12polymonadTR">&lt;a href="hicks12polymonadTR.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Polymonads&lt;/b>.
+ Nataliya Guts, Michael Hicks, Nikhil Swamy, Daan Leijen, and Gavin
+ Bierman.
+ Technical Report XXX, University of Maryland Department of Computer
+ Science, July 2012.
+ Extended version of POPL'13 submission.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2011&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy11monad">&lt;a href="swamy11monad.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Lightweight Monadic Programming in ML&lt;/b>.
+ Nikhil Swamy, Nataliya Guts, Daan Leijen, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM International Conference on
+ Functional Programming (ICFP)&lt;/em>, pages 15--27, September 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ma11directed">&lt;a href="ma11directed.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Directed Symbolic Execution&lt;/b>.
+ Kin-Keung Ma, Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ In Eran Yahav, editor, &lt;em>Proceedings of the Static Analysis
+ Symposium (SAS)&lt;/em>, volume 6887 of &lt;em>Lecture Notes in Computer Science&lt;/em>,
+ pages 95--111. Springer, September 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="guts11coco">&lt;a href="guts11coco.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A demo of Coco: a compiler for monadic coercions in ML&lt;/b>.
+ Nataliya Guts, Michael Hicks, Nikhil Swamy, and Daan Leijen.
+ In &lt;em>Informal proceedings of the ML Workshop&lt;/em>, September 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel11belief">&lt;a href="mardziel11belief.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamic Enforcement of Knowledge-based Security Policies&lt;/b>.
+ Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
+ In &lt;em>Proceedings of the Computer Security Foundations Symposium
+ (CSF)&lt;/em>, pages 114--128, June 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden2011xfer">&lt;a href="hayden2011xfer.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>State Transfer for Clear and Efficient Runtime Upgrades&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Michael Hicks, and Jeffrey&amp;nbsp;S.
+ Foster.
+ In &lt;em>Proceedings of the Workshop on Hot Topics in Software
+ Upgrades (HotSWUp)&lt;/em>, pages 179--184, April 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pratikakis11locksmith">&lt;a href="pratikakis11locksmith.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Locksmith: Practical Static Race Detection for C&lt;/b>.
+ Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ &lt;em>ACM Transactions on Programming Languages and Systems
+ (TOPLAS)&lt;/em>, 33(1):Article 3, January 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="an11rubydust">&lt;a href="an11rubydust.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
+ Jong hoon (David)&amp;nbsp;An, Avik Chaudhuri, Jeffrey&amp;nbsp;S. Foster, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, pages 459--472, January 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="an2011position">&lt;a href="an2011position.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Position Paper: Dynamically Inferred Types for Dynamic Languages&lt;/b>.
+ Jong hoon (David)&amp;nbsp;An, Avik Chaudhuri, Jeffrey&amp;nbsp;S. Foster, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the Workshop on Scripts to Programs (STOP)&lt;/em>,
+ January 2011.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden11dsucorrectTR">&lt;a href="hayden11dsucorrectTR.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Specifying and Verifying the Correctness of Dynamic Software Updates&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Stephen Magill, Michael Hicks, Nate Foster,
+ and Jeffrey&amp;nbsp;S. Foster.
+ Technical Report CS-TR-4997, University of Maryland Department of
+ Computer Science, November 2011.
+ Extended version of VSTTE'12 paper with proofs of theorems and
+ additional discussion.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden11testing-TR">&lt;a href="hayden11testing-TR.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Evaluating Dynamic Software Update Safety Using Efficient Systematic
+ Testing&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Eric&amp;nbsp;A. Hardisty, Michael
+ Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ Technical Report CS-TR-4993, University of Maryland, Department of
+ Computer Science, September 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="turpie11multiotter">&lt;a href="turpie11multiotter.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>MultiOtter: Multiprocess Symbolic Execution&lt;/b>.
+ Jonathan Turpie, Elnatan Reisner, Jeffrey&amp;nbsp;S. Foster, and Michael
+ Hicks.
+ Technical Report CS-TR-4982, University of Maryland Department of
+ Computer Science, August 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel11beliefTR">&lt;a href="mardziel11beliefTR.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamic Enforcement of Knowledge-based Security Policies&lt;/b>.
+ Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
+ Technical Report CS-TR-4978, University of Maryland Department of
+ Computer Science, July 2011.
+ Extended version with proofs and additional benchmarks.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy11monadTR">&lt;a href="swamy11monadTR.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Lightweight Monadic Programming in ML&lt;/b>.
+ Nikhil Swamy, Nataliya Guts, Daan Leijen, and Michael Hicks.
+ Technical Report MSR-TR-2011-039, Microsoft Research, May 2011.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="ma11directedTR">&lt;a href="ma11directedTR.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Directed Symbolic Execution&lt;/b>.
+ Kin-Keung Ma, Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ Technical Report CS-TR-4979, University of Maryland Department of
+ Computer Science, April 2011.
+ Extended version contains refinements and further experimental
+ analysis.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2010&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks10scoreshort">&lt;a href="hicks10scoreshort.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Score: Agile Research Group Management&lt;/b>.
+ Michael Hicks and Jeffrey&amp;nbsp;S. Foster.
+ &lt;em>Communications of the ACM&lt;/em>, 53(10):30--31, October 2010.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="mardziel10acita">&lt;a href="mardziel10acita.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Secure sharing in distributed information management applications:
+ problems and directions&lt;/b>.
+ Piotr Mardziel, Adam Bender, Michael Hicks, Dave Levin, Mudhakar
+ Srivatsa, and Jonathan Katz.
+ In &lt;em>Proceedings of the Annual Conference of the International
+ Technology Alliance (ACITA)&lt;/em>, September 2010.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="meister10cir">&lt;a href="meister10cir.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Serializing C intermediate representations for efficient and portable
+ parsing&lt;/b>.
+ Jeffrey&amp;nbsp;A. Meister, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ &lt;em>Software, Practice, and Experience&lt;/em>, 40(3):225--238, February
+ 2010.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="martin10ownership">&lt;a href="martin10ownership.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamically Checking Ownership Policies in Concurrent C/C++ Programs&lt;/b>.
+ Jean-Philippe Martin, Michael Hicks, Manuel Costa, Periklis
+ Akritidis, and Miguel Castro.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, pages 457--470, January 2010.
+ Full version.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks10score">&lt;a href="hicks10score.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Adapting Scrum to Managing a Research Group&lt;/b>.
+ Michael Hicks and Jeffrey&amp;nbsp;S. Foster.
+ Technical Report CS-TR-4966, University of Maryland, Department of
+ Computer Science, September 2010.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="an10rubydustTR">&lt;a href="an10rubydustTR.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
+ Jong hoon (David)&amp;nbsp;An, Avik Chaudhuri, Jeffrey&amp;nbsp;S. Foster, and Michael
+ Hicks.
+ Technical Report CS-TR-4965, University of Maryland Department of
+ Computer Science, July 2010.
+ Extended version contains proofs of theorems.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2009&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo09arrowlets">&lt;a href="khoo09arrowlets.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Directing JavaScript with Arrows&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Vibha Sazawal.
+ In &lt;em>Proceedings of the ACM SIGPLAN Dynamic Languages
+ Symposium (DLS)&lt;/em>, pages 49--58, October 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="furr09ril">&lt;a href="furr09ril.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>The Ruby Intermediate Language&lt;/b>.
+ Michael Furr, Jong hoon (David)&amp;nbsp;An, Jeffrey&amp;nbsp;S. Foster, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the ACM SIGPLAN Dynamic Languages
+ Symposium (DLS)&lt;/em>, pages 89--98, October 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo09checklist">&lt;a href="khoo09checklist.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Triaging Checklists: a Substitute for a PhD in Static Analysis&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Vibha Sazawal.
+ In &lt;em>Proceedings of the Workshop on the Evaluation and Usability
+ of Programming Languages and Tools (PLATEAU)&lt;/em>, October 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden09testing">&lt;a href="hayden09testing.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Efficient Systematic Testing for Dynamically Updatable Software&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Eric&amp;nbsp;A. Hardisty, Michael Hicks, and
+ Jeffrey&amp;nbsp;S. Foster.
+ In &lt;em>Proceedings of the Workshop on Hot Topics in Software
+ Upgrades (HotSWUp)&lt;/em>, October 2009.
+ Invited article.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="papageorgiou09mgrp">&lt;a href="papageorgiou09mgrp.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Passive Aggressive Measurement with MGRP&lt;/b>.
+ Pavlos Papageorge, Justin McCann, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM SIGCOMM Conference on
+ Applications, Technologies, Architectures, and Protocols for Computer
+ Communications (SIGCOMM)&lt;/em>, pages 279--290, August 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy09coercion">&lt;a href="swamy09coercion.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Theory of Typed Coercions and its Applications&lt;/b>.
+ Nikhil Swamy, Michael Hicks, and Gavin&amp;nbsp;S. Bierman.
+ In &lt;em>Proceedings of the ACM International Conference on
+ Functional Programming (ICFP)&lt;/em>, pages 329--340, August 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="furr09stop">&lt;a href="furr09stop.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Tests to the Left of Me, Types to the Right: How Not to Get Stuck in the
+ Middle of a Ruby Execution (A Demo of Diamondback Ruby)&lt;/b>.
+ Michael Furr, Jong hoon (David)&amp;nbsp;An, Jeffrey&amp;nbsp;S. Foster, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the Workshop on Scripts to Programs (STOP)&lt;/em>,
+ July 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="corcoran09selinks">&lt;a href="corcoran09selinks.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Cross-tier, Label-based Security Enforcement for Web Applications&lt;/b>.
+ Brian&amp;nbsp;J. Corcoran, Nikhil Swamy, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM SIGMOD International Conference on
+ Management of Data (SIGMOD)&lt;/em>, pages 269--282, June 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="subramanian09jvolve">&lt;a href="subramanian09jvolve.html">9&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamic Software Updates: A VM-Centric Approach&lt;/b>.
+ Suriya Subramanian, Michael Hicks, and Kathryn&amp;nbsp;S. McKinley.
+ In &lt;em>Proceedings of the ACM Conference on Programming Language
+ Design and Implementation (PLDI)&lt;/em>, pages 1--12, June 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="neamtiu09stump">&lt;a href="neamtiu09stump.html">10&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Safe and Timely Dynamic Updates for Multi-threaded Programs&lt;/b>.
+ Iulian Neamtiu and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Programming Language
+ Design and Implementation (PLDI)&lt;/em>, pages 13--24, June 2009.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="furr08druby">&lt;a href="furr08druby.html">11&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Static Type Inference for Ruby&lt;/b>.
+ Michael Furr, Jong hoon (David)&amp;nbsp;An, Jeffrey&amp;nbsp;S. Foster, and Michael
+ Hicks.
+ In &lt;em>Proceedings of the ACM Symposium on Applied Computing,
+ Object-oriented Programming Languages and Systems Track (OOPS)&lt;/em>, pages
+ 1859--1866, March 2009.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hayden09testingTR">&lt;a href="hayden09testingTR.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>A Testing Based Empirical Study of Dynamic Software Update Safety
+ Restrictions&lt;/b>.
+ Christopher&amp;nbsp;M. Hayden, Eric&amp;nbsp;A. Hardisty, Michael Hicks, and
+ Jeffrey&amp;nbsp;S. Foster.
+ Technical Report CS-TR-4949, University of Maryland, Department of
+ Computer Science, November 2009.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2008&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="king08implicit">&lt;a href="king08implicit.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Implicit Flows: Can't live with 'em, can't live without 'em&lt;/b>.
+ Dave King, Boniface Hicks, Michael Hicks, and Trent Jaeger.
+ In R.&amp;nbsp;Sekar and Arun&amp;nbsp;K. Pujari, editors, &lt;em>Proceedings of the
+ International Conference on Information Systems Security (ICISS)&lt;/em>, volume
+ 5352 of &lt;em>Lecture Notes in Computer Science&lt;/em>, pages 56--70. Springer,
+ December 2008.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo08pathproj">&lt;a href="khoo08pathproj.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Path Projection for User-Centered Static Analysis Tools&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Vibha Sazawal.
+ In &lt;em>Proceedings of the ACM Workshop on Program Analysis for
+ Software Tools and Engineering (PASTE)&lt;/em>, pages 57--63, November 2008.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo08jsarrows">&lt;a href="khoo08jsarrows.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Directing JavaScript with Arrows (poster summary)&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Vibha Sazawal.
+ In &lt;em>Poster Proceedings of the ACM International Conference on
+ Functional Programming (ICFP)&lt;/em>, September 2008.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pratikakis08context">&lt;a href="pratikakis08context.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Formalizing Soundness of Contextual Effects&lt;/b>.
+ Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Iulian
+ Neamtiu.
+ In Otmane&amp;nbsp;A&amp;iuml;t Mohamed, C&amp;eacute;sar Mun&amp;#x0304;oz, and Sofi&amp;egrave;ne Tahar,
+ editors, &lt;em>Proceedings of the International Conference on Theorem Proving
+ in Higher Order Logics (TPHOLs)&lt;/em>, volume 5170 of &lt;em>Lecture Notes in
+ Computer Science&lt;/em>, pages 262--277. Springer, August 2008.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="SewellSHBW07">&lt;a href="SewellSHBW07.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Dynamic Rebinding for Marshalling and Update, via Redex-time and
+ Destruct-time Reduction&lt;/b>.
+ Peter Sewell, Gareth Stoyle, Michael Hicks, Gavin Bierman, and Keith
+ Wansbrough.
+ &lt;em>Journal of Functional Programming (JFP)&lt;/em>, 18(4):437--502, July
+ 2008.
+ Appeared on-line October, 2007. Supercedes ICFP 2003 and USE 2003
+ papers.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy08air">&lt;a href="swamy08air.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Verified Enforcement of Stateful Information Release Policies&lt;/b>.
+ Nikhil Swamy and Michael Hicks.
+ In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
+ Languages and Analysis for Security (PLAS)&lt;/em>, pages 21--32, June 2008.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="srivastava08cmodjournal">&lt;a href="srivastava08cmodjournal.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Modular Information Hiding and Type Safe Linking for C&lt;/b>.
+ Saurabh Srivastava, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Patrick
+ Jenkins.
+ &lt;em>IEEE Transactions on Software Engineering&lt;/em>, 34(3):1--20, May
+ 2008.
+ Full version of TLDI 07 paper.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy08fable">&lt;a href="swamy08fable.html">8&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Fable: A Language for Enforcing User-defined Security Policies&lt;/b>.
+ Nikhil Swamy, Brian Corcoran, and Michael Hicks.
+ In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
+ (Oakland)&lt;/em>, pages 369--383, May 2008.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="neamtiu08context">&lt;a href="neamtiu08context.html">9&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Contextual Effects for Version-Consistent Dynamic Software Updating and
+ Safe Concurrent Programming&lt;/b>.
+ Iulian Neamtiu, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Polyvios
+ Pratikakis.
+ In &lt;em>Proceedings of the ACM Conference on Principles of
+ Programming Languages (POPL)&lt;/em>, pages 37--50, January 2008.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo08pathprojtr">&lt;a href="khoo08pathprojtr.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Path Projection for User-Centered Static Analysis Tools (long version)&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Vibha Sazawal.
+ Technical Report CS-TR-4919, University of Maryland, Department of
+ Computer Science, August 2008.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="khoo08jsarrowstr">&lt;a href="khoo08jsarrowstr.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Directing JavaScript with Arrows (Functional Pearl)&lt;/b>.
+ Yit&amp;nbsp;Phang Khoo, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Vibha Sazawal.
+ Technical Report CS-TR-4923, University of Maryland, Department of
+ Computer Science, August 2008.
+ Extended version of ICFP 2008 poster.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy08airTR">&lt;a href="swamy08airTR.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Verified Enforcement of Automaton-based Information Release Policies&lt;/b>.
+ Nikhil Swamy and Michael Hicks.
+ Technical Report CS-TR-4906, University of Maryland, Department of
+ Computer Science, 2008.
+ Full version of PLAS 08 paper.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2007&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="corcoran07provenance">&lt;a href="corcoran07provenance.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Combining Provenance and Security Policies in a Web-based Document
+ Management System&lt;/b>.
+ Brian Corcoran, Nikhil Swamy, and Michael Hicks.
+ In &lt;em>On-line Proceedings of the Workshop on Principles of
+ Provenance (PrOPr)&lt;/em>, November 2007.
+ &lt;a href="http://homepages.inf.ed.ac.uk/jcheney/propr/">http://homepages.inf.ed.ac.uk/jcheney/propr/&lt;/a>.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="petroni07sbcfi">&lt;a href="petroni07sbcfi.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Automated Detection of Persistent Kernel Control-Flow Attacks&lt;/b>.
+ Nick&amp;nbsp;L. Petroni, Jr. and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Computer and
+ Communications Security (CCS)&lt;/em>, pages 103--115, October 2007.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy07milcom">&lt;a href="swamy07milcom.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Verified Enforcement of Security Policies for Cross-Domain Information
+ Flows&lt;/b>.
+ Nikhil Swamy, Michael Hicks, and Simon Tsang.
+ In &lt;em>Proceedings of the 2007 Military Communications Conference
+ (MILCOM)&lt;/em>, October 2007.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="StoyleHBSN06">&lt;a href="StoyleHBSN06.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>&lt;em>Mutatis Mutandis&lt;/em>: Safe and Flexible Dynamic Software Updating (full
+ version)&lt;/b>.
+ Gareth Stoyle, Michael Hicks, Gavin Bierman, Peter Sewell, and Iulian
+ Neamtiu.
+ &lt;em>ACM Transactions on Programming Languages and Systems
+ (TOPLAS)&lt;/em>, 29(4), August 2007.
+ Full version of POPL 05 paper.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="foster07improving">&lt;a href="foster07improving.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Improving Software Quality with Static Analysis&lt;/b>.
+ Jeffrey&amp;nbsp;S. Foster, Michael&amp;nbsp;W. Hicks, and William Pugh.
+ In &lt;em>Proceedings of the ACM Workshop on Program Analysis for
+ Software Tools and Engineering (PASTE)&lt;/em>, pages 83--84, June 2007.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="jim07beep">&lt;a href="jim07beep.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Defeating Scripting Attacks with Browser-Enforced Embedded Policies&lt;/b>.
+ Trevor Jim, Nikhil Swamy, and Michael Hicks.
+ In &lt;em>Proceedings of the International World Wide Web Conference
+ (WWW)&lt;/em>, pages 601--610, May 2007.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="srivastava07cmod">&lt;a href="srivastava07cmod.html">7&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Modular Information Hiding and Type Safety for C&lt;/b>.
+ Saurabh Srivastava, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ In &lt;em>Proceedings of the ACM Workshop on Types in Language Design
+ and Implementation (TLDI)&lt;/em>, pages 3--14, January 2007.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
+&lt;table style="font-size: 85%">
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy07fableTR">&lt;a href="swamy07fableTR.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Fable: A Language for Enforcing User-defined Security Policies&lt;/b>.
+ Nikhil Swamy, Brian&amp;nbsp;J. Corcoran, and Michael Hicks.
+ Technical Report CS-TR-4895, University of Maryland, Department of
+ Computer Science, November 2007.
+ Full version of Oakland 08 paper.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="petroni07sbcfitr">&lt;a href="petroni07sbcfitr.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Automated Detection of Persistent Kernel Control-Flow Attacks&lt;/b>.
+ Nick&amp;nbsp;L. Petroni, Jr. and Michael Hicks.
+ Technical Report CS-TR-4880, Department of Computer Science,
+ University of Maryland, October 2007.
+ Extends the CCS 2007 paper with more thorough performance results.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="MT-TR">&lt;a href="MT-TR.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Contextual Effects for Version-Consistent Dynamic Software Updating and
+ Safe Concurrent Programming (extended version)&lt;/b>.
+ Iulian Neamtiu, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Polyvios
+ Pratikakis.
+ Technical Report CS-TR-4875, University of Maryland, Department of
+ Computer Science, July 2007.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="srivastava07cmodjournaltr">&lt;a href="srivastava07cmodjournaltr.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Appendix to CMod: Modular Information Hiding and Type-Safe Linking for
+ C&lt;/b>.
+ Saurabh Srivastava, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
+ Technical Report CS-TR-4874, Department of Computer Science,
+ University of Maryland, June 2007.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks07xdomtr">&lt;a href="hicks07xdomtr.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Toward Specifying and Validating Cross-Domain Policies&lt;/b>.
+ Michael Hicks, Nikhil Swamy, and Simon Tsang.
+ Technical Report CS-TR-4870, Department of Computer Science,
+ University of Maryland, April 2007.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>2006&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy05experience">&lt;a href="swamy05experience.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Safe Manual Memory Management in Cyclone&lt;/b>.
+ Nikhil Swamy, Michael Hicks, Greg Morrisett, Dan Grossman, and Trevor
+ Jim.
+ &lt;em>Science of Computer Programming (SCP)&lt;/em>, 62(2):122--144, October
+ 2006.
+ Special issue on memory management. Expands ISMM conference paper of
+ the same name.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pratikakis06exists">&lt;a href="pratikakis06exists.html">2&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Existential Label Flow Inference via CFL Reachability&lt;/b>.
+ Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ In Kwangkeun Yi, editor, &lt;em>Proceedings of the Static Analysis
+ Symposium (SAS)&lt;/em>, volume 4134 of &lt;em>Lecture Notes in Computer Science&lt;/em>,
+ pages 88--106. Springer-Verlag, August 2006.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="swamy06rx">&lt;a href="swamy06rx.html">3&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Managing Policy Updates in Security-Typed Languages&lt;/b>.
+ Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
+ In &lt;em>Proceedings of the Computer Security Foundations Workshop
+ (CSFW)&lt;/em>, pages 202--216, July 2006.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="neamtiu06dsu">&lt;a href="neamtiu06dsu.html">4&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Practical Dynamic Software Updating for C&lt;/b>.
+ Iulian Neamtiu, Michael Hicks, Gareth Stoyle, and Manuel Oriol.
+ In &lt;em>Proceedings of the ACM Conference on Programming Language
+ Design and Implementation (PLDI)&lt;/em>, pages 72--83, June 2006.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="pratikakis06locksmith">&lt;a href="pratikakis06locksmith.html">5&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Context-sensitive Correlation Analysis for Detecting Races&lt;/b>.
+ Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
+ In &lt;em>Proceedings of the ACM Conference on Programming Language
+ Design and Implementation (PLDI)&lt;/em>, pages 320--331, June 2006.
+&lt;/td>
+&lt;/tr>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="hicks06atomic">&lt;a href="hicks06atomic.html">6&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Inferring Locking for Atomic Sections&lt;/b>.
+ Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Polyvios Pratikakis.
+ In &lt;em>On-line Proceedings of the ACM SIGPLAN Workshop on Languages,
+ Compilers, and Hardware Support for Transactional Computing (TRANSACT)&lt;/em>, June
+ 2006.
+&lt;p>&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz">
+&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz" target="_blank" rel="noopener">http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz&lt;/a>&lt;/a>.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/an11rubydust.html</link><pubDate>Fri, 17 Oct 2025 07:37:49 -0400</pubDate><guid>https://mhicks.me/papers/an11rubydust.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
 Jong hoon (David) An, Avik Chaudhuri, Jeffrey S. Foster, and Michael
 Hicks.
 In &lt;em>Proceedings of the ACM Conference on Principles of
@@ -3102,1970 +5065,7 @@ Zenong Zhang, Zach Patterson, Michael Hicks, and Shiyi Wei.
 In &lt;em>Proceedings of the USENIX Security Symposium (USENIX SEC)&lt;/em>,
 August 2022.
 &lt;b>Distinguished Paper&lt;/b>.&lt;/font>&lt;p>
-Fuzz testing is an active area of research with proposed improvements published at a rapid pace. Such proposals are assessed &lt;em>empirically&lt;/em>: Can they be shown to perform better than the status quo? Such an assessment requires a benchmark of target programs with well-identified, realistic bugs. To ease the construction of such a benchmark, this paper presents FixReverter, a tool that automatically injects realistic bugs in a program. FixReverter takes as input a &lt;em>bugfix pattern&lt;/em> which contains both code syntax and semantic conditions. Any code site that matches the specified syntax is undone if the semantic conditions are satisfied, as checked by static analysis, thus (re)introducing a likely bug. This paper focuses on three bugfix patterns, which we call &lt;em>conditional-abort&lt;/em>, &lt;em>conditional-execute&lt;/em>, and &lt;em>conditional-assign&lt;/em>, based on a study of fixes in a corpus of Common Vulnerabilities and Exposures (CVEs). Using FixReverter we have built RevBugBench, which consists of 10 programs into which we have injected nearly 8,000 bugs; the programs are taken from FuzzBench and Binutils, and represent common targets of fuzzing evaluations. We have integrated RevBugBench into the FuzzBench service, and used it to evaluate five fuzzers. Fuzzing performance varies by fuzzer and program, as desired/expected. Overall, 219 unique bugs were reported, 19% of which were detected by just one fuzzer.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh-cat.html</link><pubDate>Sat, 11 Oct 2025 16:11:40 -0400</pubDate><guid>https://mhicks.me/papers/mwh-cat.html</guid><description>&lt;html>
-&lt;head>
-&lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
- &lt;link href="../style.css" rel="stylesheet" type="text/css">
-&lt;title>Mike Hicks' Publications, by Category&lt;/title>
-&lt;/head>
-&lt;body>
-&lt;h2>Mike Hicks' Publications, by Category&lt;/h2>
-Also see publications &lt;a href = "mwh.html">by year&lt;/a>,
-on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt;a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar&lt;/a>.
-&lt;h3>&lt;u>Security&lt;/u>&lt;/h3>
-&lt;span style="font-style:italic">
-&lt;p>The widespread sharing of information over the Internet has led to an
-explosive growth of useful services. The challenge is to provide
-information sharing while still ensuring integrity and confidentiality
-of data. I have looked at programming language-based techniques --
-new analyses and programming languages -- for ensuring these
-properties.
-&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh.html</link><pubDate>Sat, 11 Oct 2025 16:11:40 -0400</pubDate><guid>https://mhicks.me/papers/mwh.html</guid><description>&lt;html>
-&lt;head>
-&lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
- &lt;link href="../style.css" rel="stylesheet" type="text/css">
-&lt;title>Mike Hicks' Publications, by Year&lt;/title>
-&lt;/head>
-&lt;body>
-&lt;h2>Mike Hicks' Publications, by Year&lt;/h2>
-Also see publications &lt;a href = "mwh-cat.html">by category&lt;/a>,
-on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt;a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar&lt;/a>.
-&lt;h3>2025&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="chakarov25awsauth">&lt;a href="chakarov25awsauth.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Formally Verified Cloud-Scale Authorization&lt;/b>.
- Aleks Chakarov, Jaco Geldenhuys, Matthew Heck, Michael Hicks, Sam
- Huang, Georges-Axel Jaloyan, Anjali Joshi, K.&amp;nbsp;Rustan&amp;nbsp;M. Leino, Mikael Mayer,
- Sean McLaughlin, Akhilesh Mritunjai, Clement Pit-Claudel, Sorawee
- Porncharoenwase, Marianna Rapoport, Cody Roux, Neha Rungta, Robin Salkeld,
- Matthias Schlaipfer, Daniel Schoepe, Johanna Schwartzentruber, Serdar
- Tasiran, Aaron Tomb, Jean-Baptiste Tristan, Emina Torlak, Lucas Wagner,
- Michael&amp;nbsp;W. Whalen, Remy Willems, Tongtong Xiang, Tae&amp;nbsp;Joon Byun, Joshua Cohen,
- Ruijie Fang, Junyoung Jang, Jakob Rath, Hira&amp;nbsp;Taqdees Syeda, Dominik Wagner,
- and Yongwei Yuan.
- In &lt;em>Proceedings of the International Conference on Software
- Engineering (ICSE)&lt;/em>, April 2025.
- &lt;b>Distinguished Paper&lt;/b>.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2024&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="disselkoen24vgd">&lt;a href="disselkoen24vgd.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>How We Built Cedar: A Verification-Guided Approach&lt;/b>.
- Craig Disselkoen, Aaron Eline, Shaobo He, Kyle Headley, Michael
- Hicks, Kesha Hietala, John Kastner, Anwar Mamat, Matt McCutchen, Neha Rungta,
- Bhakti Shah, Emina Torlak, and Andrew Wells.
- In &lt;em>Proceedings of the European Software Engineering Conference
- and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
- (ESEC/FSE)&lt;/em>, July 2024.
- Industry papers track.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="cutler24cedar">&lt;a href="cutler24cedar.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Cedar: A New Language for Expressive, Fast, Safe, and Analyzable
- Authorization (Extended Version)&lt;/b>.
- Joseph&amp;nbsp;W. Cutler, Craig Disselkoen, Aaron Eline, Shaobo He, Kyle
- Headley, Michael Hicks, Kesha Hietala, Eleftherios Ioannidis, John Kastner,
- Anwar Mamat, Darin McAdams, Matt McCutchen, Neha Rungta, Emina Torlak, and
- Andrew Wells.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, April 2024.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="cutler24typesafety">&lt;a href="cutler24typesafety.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Improving the Stability of Type Safety Proofs in Dafny&lt;/b>.
- Joseph&amp;nbsp;W. Cutler, Michael Hicks, and Emina Torlak, January 2024.
- Dafny Workshop talk.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2023&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hietala22voqc-journal">&lt;a href="hietala22voqc-journal.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Verified Optimizer for Quantum Circuits&lt;/b>.
- Kesha Hietala, Robert Rand, Liyi Li, Shih-Han Hung, Xiaodi Wu, and
- Michael Hicks.
- &lt;em>ACM Transactions on Programming Languages and Systems
- (TOPLAS)&lt;/em>, 45(3), September 2023.
- Extends POPL'21 paper.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="peng2022shors">&lt;a href="peng2022shors.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Formally Certified End-to-End Implementation of Shor's Factorization
- Algorithm&lt;/b>.
- Yuxiang Peng, Kesha Hietala, Runzhou Tao, Liyi Li, Robert Rand,
- Michael Hicks, and Xiaodi Wu.
- &lt;em>Proceedings of the National Academy of Sciences&lt;/em>, 120(21), May
- 2023.
- Preprint at &lt;a href="https://arxiv.org/abs/2204.07112">https://arxiv.org/abs/2204.07112&lt;/a>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="zhou23fatpointers">&lt;a href="zhou23fatpointers.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Fat Pointers for Temporal Memory Safety of C&lt;/b>.
- Jie Zhou, John Criswell, and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, April 2023.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="deng23mqcc">&lt;a href="deng23mqcc.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Automating NISQ Application Design with Meta Quantum Circuits with
- Constraints (MQCC)&lt;/b>.
- Haowei Deng, Yuxiang Peng, Michael Hicks, and Xiaodi Wu.
- &lt;em>ACM Transactions on Quantum Computing (TQC)&lt;/em>, 4(3), April
- 2023.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="zhang23fuzzoptions">&lt;a href="zhang23fuzzoptions.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Fuzzing Configurations of Program Options&lt;/b>.
- Zenong Zhang, George Klees, Eric Wang, Michael Hicks, and Shiyi Wei.
- &lt;em>ACM Transactions on Software Engineering and Methodology
- (TOSEM)&lt;/em>, 32(2), March 2023.
- A shorter version appeared at the 2022 Fuzzing Workshop.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="sweet23symphony">&lt;a href="sweet23symphony.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Symphony: Expressive Secure Multiparty Computation with Coordination&lt;/b>.
- Ian Sweet, David Darais, David Heath, Ryan Estes, Bill Harris, and
- Michael Hicks.
- &lt;em>&amp;lt;Programming&amp;gt;&lt;/em>, 7(14), February 2023.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="coblenz23rust">&lt;a href="coblenz23rust.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Multimodal Study of Challenges Using Rust&lt;/b>.
- Michael Coblenz, April Porter, Varun Das, Teja Nallagorla, and
- Michael Hicks.
- In &lt;em>Proceedings of the Workshop on the Evaluation and Usability
- of Programming Languages and Tools (PLATEAU)&lt;/em>, February 2023.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="voichick23qunity">&lt;a href="voichick23qunity.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Qunity: A Unified Language for Quantum and Classical Computing&lt;/b>.
- Finn Voichick, Liyi Li, Robert Rand, and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, January 2023.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2022&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="li2022verified">&lt;a href="li2022verified.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Verified Compilation of Quantum Oracles&lt;/b>.
- Liyi Li, Finnegan Voichick, Kesha Hietala, Yuxiang Peng, Xiaodi Wu,
- and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, December 2022.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="machiry3c2022">&lt;a href="machiry3c2022.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>C to Checked C by 3C&lt;/b>.
- Aravind Machiry, John Kastner, Matt McCutchen, Aaron Eline, Kyle
- Headley, and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, December 2022.
- &lt;b>Distinguished Paper&lt;/b>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="fulton22contest">&lt;a href="fulton22contest.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Understanding the how and the why: Exploring secure development practices
- through a course competition&lt;/b>.
- Kelsey&amp;nbsp;R. Fulton, Daniel Votipka, Desiree Abrokwa, Michelle&amp;nbsp;L.
- Mazurek, Michael Hicks, and James Parker.
- In &lt;em>Proceedings of the ACM Conference on Computer and
- Communications Security (CCS)&lt;/em>, October 2022.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="li22checkedc">&lt;a href="li22checkedc.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Formal Model of Checked C&lt;/b>.
- Liyi Li, Yiyun Liu, Deena&amp;nbsp;L. Postol, Leonidas Lampropoulos, David&amp;nbsp;Van
- Horn, and Michael Hicks.
- In &lt;em>Proceedings of the Computer Security Foundations Symposium
- (CSF)&lt;/em>, August 2022.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="zhang22fixreverter">&lt;a href="zhang22fixreverter.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>FixReverter: A Realistic Bug Injection Methodology for Benchmarking Fuzz
- Testing&lt;/b>.
- Zenong Zhang, Zach Patterson, Michael Hicks, and Shiyi Wei.
- In &lt;em>Proceedings of the USENIX Security Symposium (USENIX SEC)&lt;/em>,
- August 2022.
- &lt;b>Distinguished Paper&lt;/b>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="coblenz21bronze">&lt;a href="coblenz21bronze.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Does the Bronze Garbage Collector Make Rust Easier to Use? A Controlled
- Experiment&lt;/b>.
- Michael Coblenz, Michelle Mazurek, and Michael Hicks.
- In &lt;em>Proceedings of the International Conference on Software
- Engineering (ICSE)&lt;/em>, May 2022.
- &lt;b>Distinguished Paper Award Nominee&lt;/b>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="zhang22configfuzz">&lt;a href="zhang22configfuzz.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Fuzzing Configurations of Program Options&lt;/b>.
- Zenong Zhang, George Klees, Eric Wang, Michael Hicks, and Shiyi Wei.
- In &lt;em>Proceedings of the International Fuzzing Workshop&lt;/em>, April
- 2022.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2021&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="fulton21rust">&lt;a href="fulton21rust.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Benefits and Drawbacks of Adopting a Secure Programming Language: Rust
- as a Case Study&lt;/b>.
- Kelsey Fulton, Anna Chan, Dan Votipka, Michael Hicks, and Michelle
- Mazurek.
- In &lt;em>Proceedings of the Symposium on Usable Privacy and Security
- (SOUPS)&lt;/em>, August 2021.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="darais21symphony">&lt;a href="darais21symphony.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Symphony: A Concise Language Model for MPC&lt;/b>.
- Ian Sweet, David Darais, David Heath, Ryan Estes, William Harris, and
- Michael Hicks.
- In &lt;em>Informal Proceedings of the Workshop on Foundations on
- Computer Secuirty (FCS)&lt;/em>, June 2021.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hietala21qproof">&lt;a href="hietala21qproof.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Proving Quantum Programs Correct&lt;/b>.
- Kesha Hietala, Robert Rand, Shih-Han Hung, Liyi Li, and Michael
- Hicks.
- In &lt;em>Proceedings of the Conference on Interative Theorem Proving
- (ITP)&lt;/em>, June 2021.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="bhattacherjee21bullfrog">&lt;a href="bhattacherjee21bullfrog.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>BullFrog: Online Schema Evolution via Lazy Evaluation&lt;/b>.
- Souvik Bhattacherjee, Gang Liao, Michael Hicks, and Daniel&amp;nbsp;J. Abadi.
- In &lt;em>Proceedings of the ACM SIGMOD International Conference on
- Management of Data (SIGMOD)&lt;/em>, June 2021.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="voichick21qone">&lt;a href="voichick21qone.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Toward A Quantum Programming Language for Higher-Level Formal
- Verification&lt;/b>.
- Finn Voichick and Michael Hicks.
- In &lt;em>Informal Proceedings of the Workshop on Programming Languages
- and Quantum Computing (PLanQC)&lt;/em>, June 2021.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hietala21expvoqc">&lt;a href="hietala21expvoqc.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Applying and Expanding the VOQC Toolkit&lt;/b>.
- Kesha Hietala, Liyi Li, Akshaj Gaur, Aaron Green, Robert Rand, Xiaodi
- Wu, and Michael Hicks.
- In &lt;em>Informal Proceedings of the Workshop on Programming Languages
- and Quantum Computing (PLanQC)&lt;/em>, June 2021.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hietala21voqc">&lt;a href="hietala21voqc.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Verified Optimizer for Quantum Circuits&lt;/b>.
- Kesha Hietala, Robert Rand, Shih-Han Hung, Xiaodi Wu, and Michael
- Hicks.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, January 2021.
- &lt;b>Distinguished Paper&lt;/b>.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2020&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="trilla20probprog">&lt;a href="trilla20probprog.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Probabilistic Abstract Interpretation: Sound Inference and Application to
- Privacy&lt;/b>.
- Jose Manuel&amp;nbsp;Calder&amp;oacute;n Trilla, Michael Hicks, Stephen Magill, Piotr
- Mardziel, and Ian Sweet.
- In Gilles Barthe, Joost-Pieter Katoen, and Alexandra Silva, editors,
- &lt;em>Foundations of Probabilistic Programming&lt;/em>, chapter&amp;nbsp;11, pages 361--389.
- Cambridge University Press, November 2020.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="sweet20odsnotpmto">&lt;a href="sweet20odsnotpmto.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Short Paper: Probabilistically Almost-Oblivious Computation&lt;/b>.
- Ian Sweet, David Darais, and Michael Hicks.
- In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
- Languages and Analysis for Security (PLAS)&lt;/em>, November 2020.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="liu20typeclasses">&lt;a href="liu20typeclasses.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Verifying Replicated Data Types with Typeclass Refinements in Liquid
- Haskell&lt;/b>.
- Yiyun Liu, James Parker, Patrick Redmond, Lindsey Kuper, Michael
- Hicks, and Niki Vazou.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2020.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="votipka19bibifiqual">&lt;a href="votipka19bibifiqual.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Understanding security mistakes developers make: Qualitative analysis from
- Build It, Break It, Fix It&lt;/b>.
- Daniel Votipka, Kelsey Fulton, James Parker, Matthew Hou, Michelle&amp;nbsp;L.
- Mazurek, and Michael Hicks.
- In &lt;em>Proceedings of the USENIX Security Symposium (USENIX SEC)&lt;/em>,
- August 2020.
- &lt;b>Distinguished Paper&lt;/b>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="parker20bibifi">&lt;a href="parker20bibifi.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Build It, Break It, Fix It: Contesting Secure Development&lt;/b>.
- James Parker, Michael Hicks, Andrew Ruef, Michelle&amp;nbsp;L. Mazurek, Dave
- Levin, Daniel Votipka, Piotr Mardziel, and Kelsey&amp;nbsp;R. Fulton.
- &lt;em>ACM Transactions on Privacy and Security (TOPS)&lt;/em>, 23(2), April
- 2020.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pierce20carbon">&lt;a href="pierce20carbon.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Conferences in an Era of Expensive Carbon&lt;/b>.
- Benjamin Pierce, Michael Hicks, Crista Lopes, and Jens Palsberg.
- &lt;em>Communications of the ACM&lt;/em>, March 2020.
- Preprint at &lt;a href="https://www.cs.umd.edu/~mwh/papers/co2acm.pdf">https://www.cs.umd.edu/~mwh/papers/co2acm.pdf&lt;/a>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="darais20obliv">&lt;a href="darais20obliv.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Language for Probabilistically Oblivious Computation&lt;/b>.
- David Darais, Ian Sweet, Chang Liu, and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, January 2020.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="votipka20bibifilogin">&lt;a href="votipka20bibifilogin.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Build It, Break It, Fix It Contests: Motivated Developers Still Make
- Security Mistakes&lt;/b>.
- Daniel Votipka, Kelsey&amp;nbsp;R. Fulton, James Parker, Matthew Hou,
- Michelle&amp;nbsp;L. Mazurek, and Michael Hicks.
- &lt;em>;login;&lt;/em>, 45(4), winter 2020.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2019&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="lampropoulos19fuzzchick">&lt;a href="lampropoulos19fuzzchick.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Coverage Guided, Property Based Testing&lt;/b>.
- Leonidas Lampropoulos, Michael Hicks, and Benjamin&amp;nbsp;C. Pierce.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2019.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ran19sqire">&lt;a href="ran19sqire.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Verified Optimization in a Quantum Intermediate Representation&lt;/b>.
- Kesha Hietala, Robert Rand, Shih-Han Hung, Xiaodi Wu, and Michael
- Hicks, June 2019.
- Extended abstract appeared at QPL 2019.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="rand19qplperspective">&lt;a href="rand19qplperspective.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Formal Verification vs. Quantum Uncertainty&lt;/b>.
- Robert Rand, Kesha Hietala, and Michael Hicks.
- In Benjamin&amp;nbsp;S. Lerner, Rastislav Bod&amp;iacute;k, and Shriram
- Krishnamurthi, editors, &lt;em>3rd Summit on Advances in Programming Languages
- (SNAPL 2019)&lt;/em>, volume 136 of &lt;em>Leibniz International Proceedings in
- Informatics (LIPIcs)&lt;/em>, pages 12:1--12:11, Dagstuhl, Germany, May 2019.
- Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pina19mvedsua">&lt;a href="pina19mvedsua.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>MVEDSUa: Higher Availability Dynamic Software Updates via Multi-Version
- Execution&lt;/b>.
- Luis Pina, Anastasios Andronidis, Michael Hicks, and Cristian Cadar.
- In &lt;em>Proceedings of the International Conference on Architectural
- Support for Programming Languages and Operating Systems (ASPLOS)&lt;/em>, April
- 2019.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ruef18checkedc-incr">&lt;a href="ruef18checkedc-incr.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Achieving Safety Incrementally with Checked C&lt;/b>.
- Andrew Ruef, Leonidas Lampropoulos, Ian Sweet, David Tarditi, and
- Michael Hicks.
- In &lt;em>Proceedings of the Symposium on Principles of Security and
- Trust (POST)&lt;/em>, April 2019.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="wysstar18wysstar">&lt;a href="wysstar18wysstar.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Wys&lt;sup>*&lt;/sup>: A DSL for Verified Secure Multi-party Computations&lt;/b>.
- Aseem Rastogi, Nikhil Swamy, and Michael Hicks.
- In &lt;em>Proceedings of the Symposium on Principles of Security and
- Trust (POST)&lt;/em>, April 2019.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="parker19lweb">&lt;a href="parker19lweb.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>LWeb: Information Flow Security for Multi-Tier Web Applications&lt;/b>.
- James Parker, Niki Vazou, and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, January 2019.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hung19qrobust">&lt;a href="hung19qrobust.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Quantitative Robustness Analysis of Quantum Programs&lt;/b>.
- Shih-Han Hung, Kesha Hietala, Shaopeng Zhu, Mingsheng Ying, Michael
- Hicks, and Xiaodi Wu.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, January 2019.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="darais19obliv">&lt;a href="darais19obliv.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Language for Probabilistically Oblivious Computation&lt;/b>.
- David Darais, Ian Sweet, Chang Liu, and Michael Hicks.
- Technical Report abs/1711.09305, CoRR, July 2019.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2018&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="klees2018fuzzeval">&lt;a href="klees2018fuzzeval.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Evaluating Fuzz Testing&lt;/b>.
- George&amp;nbsp;T. Klees, Andrew Ruef, Benjamin Cooper, Shiyi Wei, and Michael
- Hicks.
- In &lt;em>Proceedings of the ACM Conference on Computer and
- Communications Security (CCS)&lt;/em>, October 2018.
- Winner of the 7th NSA &lt;b>Best Scientific Cybersecurity Paper&lt;/b>
- competition.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="elliott18checkedc">&lt;a href="elliott18checkedc.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Checked C: Making C Safe by Extension&lt;/b>.
- Archibald&amp;nbsp;Samuel Elliott, Andrew Ruef, Michael Hicks, and David
- Tarditi.
- In &lt;em>Proceedings of the IEEE Conference on Secure Development
- (SecDev)&lt;/em>, September 2018.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="wei18evaluating">&lt;a href="wei18evaluating.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Evaluating Design Tradeoffs in Numeric Static Analysis for Java&lt;/b>.
- Shiyi Wei, Piotr Mardziel, Andrew Ruef, Jeffrey&amp;nbsp;S. Foster, and
- Michael Hicks.
- In &lt;em>Proceedings of the European Symposium on Programming (ESOP)&lt;/em>,
- April 2018.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="sweet18prob">&lt;a href="sweet18prob.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>What's the Over/Under? Probabilistic Bounds on Information Leakage&lt;/b>.
- Ian Sweet, Jos&amp;eacute; Manuel&amp;nbsp;Calder&amp;oacute;n Trilla, Chad Scherrer, Michael
- Hicks, and Stephen Magill.
- In &lt;em>Proceedings of the Symposium on Principles of Security and
- Trust (POST)&lt;/em>, April 2018.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2017&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks17plas">&lt;a href="hicks17plas.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Languages for Oblivious Computation&lt;/b>.
- Michael Hicks.
- In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
- Languages and Analysis for Security (PLAS)&lt;/em>, October 2017.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ngyuen17numinv">&lt;a href="ngyuen17numinv.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Counterexample-guided Approach to Finding Numerical Invariants&lt;/b>.
- ThanhVu Nguyen, Timos Antopoulos, Andrew Ruef, and Michael Hicks.
- In &lt;em>Proceedings of the European Software Engineering Conference
- and the ACM SIGSOFT Symposium on the Foundations of Software Engineering
- (ESEC/FSE)&lt;/em>, September 2017.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="antopoulous17blazer">&lt;a href="antopoulous17blazer.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Decomposition Instead of Self-Composition for Proving the Absence of
- Timing Channels&lt;/b>.
- Timos Antonopoulos, Paul Gazzillo, Michael Hicks, Eric Koskinen,
- Tachio Terauchi, and Shiyi Wei.
- In &lt;em>Proceedings of the ACM Conference on Programming Language
- Design and Implementation (PLDI)&lt;/em>, June 2017.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="alvim17strat">&lt;a href="alvim17strat.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Quantifying vulnerability of secret generation using hyper-distributions&lt;/b>.
- M&amp;aacute;rio&amp;nbsp;S. Alvim, Piotr Mardziel, and Michael Hicks.
- In &lt;em>Proceedings of the Symposium on Principles of Security and
- Trust (POST)&lt;/em>, April 2017.
- Extended version of short paper that appeared at FCS 2016:
- &lt;a href="http://www.cs.umd.edu/~mwh/papers/stratquant.pdf">http://www.cs.umd.edu/~mwh/papers/stratquant.pdf&lt;/a>.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="rastogi16wysstar">&lt;a href="rastogi16wysstar.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Wys&lt;sup>*&lt;/sup>: A Verified Language Extension for Secure Multi-Party
- Computations&lt;/b>.
- Aseem Rastogi, Nikhil Swamy, and Michael Hicks.
- Technical Report abs/1711.06467, CoRR, November 2017.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2016&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="saur16kvolve">&lt;a href="saur16kvolve.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Evolving NoSQL Databases Without Downtime&lt;/b>.
- Karla Saur, Tudor Dumitra&amp;#x015F;, and Michael Hicks.
- In &lt;em>Proceedings of the International Conference on Software
- Maintenance and Evolution (ICSME)&lt;/em>, October 2016.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ruef2016bibifi">&lt;a href="ruef2016bibifi.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Build It, Break It, Fix It: Contesting Secure Development&lt;/b>.
- Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Michelle&amp;nbsp;L.
- Mazurek, and Piotr Mardziel.
- In &lt;em>Proceedings of the ACM Conference on Computer and
- Communications Security (CCS)&lt;/em>, October 2016.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pina16tedsuto">&lt;a href="pina16tedsuto.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Tedsuto: A General Framework for Testing Dynamic Software Updates&lt;/b>.
- Luis Pina and Michael Hicks.
- In &lt;em>Proceedings of the International Conference on Software
- Testing (ICST)&lt;/em>, April 2016.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="saur15morpheus">&lt;a href="saur15morpheus.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Safe and Flexible Controller Upgrades for SDNs&lt;/b>.
- Karla Saur, Joseph Collard, Nate Foster, Arjun Guha, Laurent
- Vanbever, and Michael Hicks.
- In &lt;em>Proceedings of the Symposium on SDN Research (SOSR)&lt;/em>, March
- 2016.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2015&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hammer14nominal">&lt;a href="hammer14nominal.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Incremental Computation with Names&lt;/b>.
- Matthew Hammer, Kyle Headley, Nicholas Labich, Jeffrey&amp;nbsp;S. Foster,
- Michael Hicks, David&amp;nbsp;Van Horn, and Jana Dunfield.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2015.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ruef15bibifi">&lt;a href="ruef15bibifi.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Build It Break It: Measuring and Comparing Development Security&lt;/b>.
- Andrew Ruef, Michael Hicks, James Parker, Dave Levin, Atif Memon,
- Jandelyn Plane, and Piotr Mardziel.
- In &lt;em>Proceedings of the USENIX Workshop on Cyber Security
- Instrumentation and Test (CSET)&lt;/em>, August 2015.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="saur15strider">&lt;a href="saur15strider.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>C-Strider: Type-Aware Heap Traversal for C&lt;/b>.
- Karla Saur, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
- &lt;em>Software, Practice, and Experience&lt;/em>, May 2015.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="liu15ghostrider">&lt;a href="liu15ghostrider.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>GhostRider: A Hardware-Software System for Memory Trace Oblivious
- Computation&lt;/b>.
- Chang Liu, Austin Harris, Martin Maas, Michael Hicks, Mohit Tiwari,
- and Elaine Shi.
- In &lt;em>Proceedings of the International Conference on Architectural
- Support for Programming Languages and Operating Systems (ASPLOS)&lt;/em>, March
- 2015.
- &lt;b>Winner of Best Paper Award&lt;/b>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="barthe2015dagstuhl">&lt;a href="barthe2015dagstuhl.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>The Synergy Between Programming Languages and Cryptography (Dagstuhl
- Seminar 14492)&lt;/b>.
- Gilles Barthe, Michael Hicks, Florian Kerschbaum, and Dominique
- Unruh.
- &lt;em>Dagstuhl Reports&lt;/em>, 4(12):29--47, 2015.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ruef15bibifiNW">&lt;a href="ruef15bibifiNW.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Build it, break it, fix it: Competing to build secure systems&lt;/b>.
- Andrew Ruef and Michael Hicks.
- &lt;em>The Next Wave&lt;/em>, 21(1):19--23, 2015.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2014&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden14kitsune-journal">&lt;a href="hayden14kitsune-journal.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Efficient, General-purpose Dynamic Software Updating for C&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Karla Saur, Edward&amp;nbsp;K. Smith, Michael Hicks,
- and Jeffrey&amp;nbsp;S. Foster.
- &lt;em>ACM Transactions on Programming Languages and Systems
- (TOPLAS)&lt;/em>, 36(4):13, October 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pina14rubah">&lt;a href="pina14rubah.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Rubah: DSU for Java on a stock JVM&lt;/b>.
- Lu&amp;iacute;s Pina, Lu&amp;iacute;s Veiga, and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel14qifgl">&lt;a href="mardziel14qifgl.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Adversary Gain vs. Defender Loss in Quantified Information Flow&lt;/b>.
- Piotr Mardziel, M&amp;aacute;rio&amp;nbsp;S. Alvim, and Michael Hicks.
- In &lt;em>(Unofficial) Proceedings of the International Workshop on
- Foundations of Computer Security (FCS)&lt;/em>, July 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hammer13adapton">&lt;a href="hammer13adapton.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Adapton: Composable, Demand-Driven Incremental Computation&lt;/b>.
- Matthew Hammer, Yit&amp;nbsp;Phang Khoo, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
- In &lt;em>Proceedings of the ACM Conference on Programming Language
- Design and Implementation (PLDI)&lt;/em>, June 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="rastogi14wysteria">&lt;a href="rastogi14wysteria.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Wysteria: A Programming Language for Generic, Mixed-Mode Multiparty
- Computations&lt;/b>.
- Aseem Rastogi, Matthew&amp;nbsp;A. Hammer, and Michael Hicks.
- In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
- (Oakland)&lt;/em>, May 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel14time">&lt;a href="mardziel14time.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Quantifying Information Flow for Dynamic Secrets&lt;/b>.
- Piotr Mardziel, Mario Alvim, Michael Hicks, and Michael Clarkson.
- In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
- (Oakland)&lt;/em>, May 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="liu14scram">&lt;a href="liu14scram.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Automating Efficient RAM-Model Secure Computation&lt;/b>.
- Chang Liu, Yan Huang, Elaine Shi, Jonathan Katz, and Michael Hicks.
- In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
- (Oakland)&lt;/em>, May 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks14polymonad">&lt;a href="hicks14polymonad.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Polymonadic Programming&lt;/b>.
- Michael Hicks, Gavin Bierman, Nataliya Guts, Daan Leijen, and Nikhil
- Swamy.
- In &lt;em>Proceedings of the Fifth Workshop on Mathematically
- Structured Functional Programming (MSFP)&lt;/em>, April 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="miller14gpads">&lt;a href="miller14gpads.html">9&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Authenticated Data Structures, Generically&lt;/b>.
- Andrew Miller, Michael Hicks, Jonathan Katz, and Elaine Shi.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, January 2014.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="rastogi14wysteriaTR">&lt;a href="rastogi14wysteriaTR.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Wysteria: A Programming Language for Generic, Mixed-Mode Multiparty
- Computations (extended version)&lt;/b>.
- Aseem Rastogi, Matthew&amp;nbsp;A. Hammer, and Michael Hicks.
- Technical Report CS-TR-5034, Department of Computer Science, the
- University of Maryland, College Park, May 2014.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel14timeTR">&lt;a href="mardziel14timeTR.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Quantifying Information Flow for Dynamic Secrets (extended version)&lt;/b>.
- Piotr Mardziel, Mario Alvim, Michael Hicks, and Michael Clarkson.
- Technical Report CS-TR-5035, Department of Computer Science, the
- University of Maryland, College Park, May 2014.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2013&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo13expositor-journal">&lt;a href="khoo13expositor-journal.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Expositor: Scriptable Time-Travel Debugging with First Class Traces (Full
- version)&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks, December 2013.
- Extended version of ICSE'13 paper.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel13belieflong">&lt;a href="mardziel13belieflong.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamic Enforcement of Knowledge-based Security Policies using
- Probabilistic Abstract Interpretation&lt;/b>.
- Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
- &lt;em>Journal of Computer Security&lt;/em>, 21:463--532, October 2013.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel13belief">&lt;a href="mardziel13belief.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Knowledge inference for optimizing and enforcing secure computations&lt;/b>.
- Piotr Mardziel, Michael Hicks, Jonathan Katz, Matthew Hammer, Aseem
- Rastogi, and Mudhakar Srivatsa.
- In &lt;em>Proceedings of the Annual Meeting of the US/UK International
- Technology Alliance&lt;/em>, September 2013.
- This short paper consists of coherent excerpts from several prior
- papers.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="rastogi13knowledge">&lt;a href="rastogi13knowledge.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Knowledge Inference for Optimizing Secure Multi-party Computation&lt;/b>.
- Aseem Rastogi, Piotr Mardziel, Matthew Hammer, and Michael Hicks.
- In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
- Languages and Analysis for Security (PLAS)&lt;/em>, June 2013.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="liu13oblivious">&lt;a href="liu13oblivious.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Memory Trace Oblivious Program Execution&lt;/b>.
- Chang Liu, Michael Hicks, and Elaine Shi.
- In &lt;em>Proceedings of the Computer Security Foundations Symposium
- (CSF)&lt;/em>, June 2013.
- Winner of the 2nd NSA &lt;b>Best Scientific Cybersecurity Paper&lt;/b>
- competition.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pina13rubah">&lt;a href="pina13rubah.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Rubah: Efficient, General-purpose Dynamic Software Updating for Java&lt;/b>.
- Luis Pina and Michael Hicks.
- In &lt;em>Proceedings of the Workshop on Hot Topics in Software
- Upgrades (HotSWUp)&lt;/em>, June 2013.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo13expositor">&lt;a href="khoo13expositor.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Expositor: Scriptable Time-Travel Debugging with First Class Traces&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- In &lt;em>Proceedings of the International Conference on Software
- Engineering (ICSE)&lt;/em>, May 2013.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hammer13adaptontr">&lt;a href="hammer13adaptontr.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Adapton: Composable, Demand-Driven Incremental Computation&lt;/b>.
- Matthew Hammer, Yit&amp;nbsp;Phang Khoo, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
- Technical Report CS-TR-5027, Department of Computer Science, the
- University of Maryland, College Park, July 2013.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo13cs-tr-5021">&lt;a href="khoo13cs-tr-5021.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Expositor: Scriptable Time-Travel Debugging with First-Class Traces&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- Technical Report CS-TR-5021, Department of Computer Science,
- University of Maryland, College Park, February 2013.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2012&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden12testing-journal">&lt;a href="hayden12testing-journal.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Evaluating Dynamic Software Update Safety Using Efficient Systematic
- Testing&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Eric&amp;nbsp;A. Hardisty, Michael
- Hicks, and Jeffrey&amp;nbsp;S. Foster.
- &lt;em>IEEE Transactions on Software Engineering&lt;/em>, 38(6):1340--1354,
- December 2012.
- Accepted September 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="magill12tos">&lt;a href="magill12tos.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Automating Object Transformations for Dynamic Software Updating&lt;/b>.
- Stephen Magill, Michael Hicks, Suriya Subramanian, and Kathryn&amp;nbsp;S.
- McKinley.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2012.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden12kitsune">&lt;a href="hayden12kitsune.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Kitsune: Efficient, General-purpose Dynamic Software Updating for C&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Michail Denchev, Michael
- Hicks, and Jeffrey&amp;nbsp;S. Foster.
- In &lt;em>Proceedings of the ACM Conference on Object-Oriented
- Programming Languages, Systems, and Applications (OOPSLA)&lt;/em>, October 2012.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="srivatsa12mobility">&lt;a href="srivatsa12mobility.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Deanonymizing Mobility Traces: Using a Social Network as a Side-Channel&lt;/b>.
- Mudhakar Srivatsa and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Computer and
- Communications Security (CCS)&lt;/em>, October 2012.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="smith12benchmark">&lt;a href="smith12benchmark.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Towards Standardized Benchmarks for Dynamic Software Updating Systems&lt;/b>.
- Edward&amp;nbsp;K. Smith, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
- In &lt;em>Proceedings of the Workshop on Hot Topics in Software
- Upgrades (HotSWUp)&lt;/em>, pages 11--15, June 2012.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden12quiescence">&lt;a href="hayden12quiescence.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Study of Dynamic Software Update Quiescence for Multithreaded Programs&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Karla Saur, Michael Hicks, and Jeffrey&amp;nbsp;S.
- Foster.
- In &lt;em>Proceedings of the Workshop on Hot Topics in Software
- Upgrades (HotSWUp)&lt;/em>, pages 6--10, June 2012.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel12smc">&lt;a href="mardziel12smc.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Knowledge-Oriented Secure Multiparty Computation&lt;/b>.
- Piotr Mardziel, Michael Hicks, Jonathan Katz, and Mudhakar Srivatsa.
- In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
- Languages and Analysis for Security (PLAS)&lt;/em>, June 2012.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks12popl">&lt;a href="hicks12popl.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>POPL'12 Program Chair's Report (or, how to run a medium-sized
- conference)&lt;/b>.
- Michael Hicks.
- &lt;em>SIGPLAN Notices&lt;/em>, 47(4), April 2012.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden12dsucorrect">&lt;a href="hayden12dsucorrect.html">9&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Specifying and Verifying the Correctness of Dynamic Software Updates&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Stephen Magill, Michael Hicks, Nate Foster,
- and Jeffrey&amp;nbsp;S. Foster.
- In &lt;em>Proceedings of the International Conference on Verified
- Software: Theories, Tools, and Experiments (VSTTE)&lt;/em>, pages 278--293,
- January 2012.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks12polymonadTR">&lt;a href="hicks12polymonadTR.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Polymonads&lt;/b>.
- Nataliya Guts, Michael Hicks, Nikhil Swamy, Daan Leijen, and Gavin
- Bierman.
- Technical Report XXX, University of Maryland Department of Computer
- Science, July 2012.
- Extended version of POPL'13 submission.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2011&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy11monad">&lt;a href="swamy11monad.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Lightweight Monadic Programming in ML&lt;/b>.
- Nikhil Swamy, Nataliya Guts, Daan Leijen, and Michael Hicks.
- In &lt;em>Proceedings of the ACM International Conference on
- Functional Programming (ICFP)&lt;/em>, pages 15--27, September 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ma11directed">&lt;a href="ma11directed.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Directed Symbolic Execution&lt;/b>.
- Kin-Keung Ma, Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- In Eran Yahav, editor, &lt;em>Proceedings of the Static Analysis
- Symposium (SAS)&lt;/em>, volume 6887 of &lt;em>Lecture Notes in Computer Science&lt;/em>,
- pages 95--111. Springer, September 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="guts11coco">&lt;a href="guts11coco.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A demo of Coco: a compiler for monadic coercions in ML&lt;/b>.
- Nataliya Guts, Michael Hicks, Nikhil Swamy, and Daan Leijen.
- In &lt;em>Informal proceedings of the ML Workshop&lt;/em>, September 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel11belief">&lt;a href="mardziel11belief.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamic Enforcement of Knowledge-based Security Policies&lt;/b>.
- Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
- In &lt;em>Proceedings of the Computer Security Foundations Symposium
- (CSF)&lt;/em>, pages 114--128, June 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden2011xfer">&lt;a href="hayden2011xfer.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>State Transfer for Clear and Efficient Runtime Upgrades&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Michael Hicks, and Jeffrey&amp;nbsp;S.
- Foster.
- In &lt;em>Proceedings of the Workshop on Hot Topics in Software
- Upgrades (HotSWUp)&lt;/em>, pages 179--184, April 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pratikakis11locksmith">&lt;a href="pratikakis11locksmith.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Locksmith: Practical Static Race Detection for C&lt;/b>.
- Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- &lt;em>ACM Transactions on Programming Languages and Systems
- (TOPLAS)&lt;/em>, 33(1):Article 3, January 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="an11rubydust">&lt;a href="an11rubydust.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
- Jong hoon (David)&amp;nbsp;An, Avik Chaudhuri, Jeffrey&amp;nbsp;S. Foster, and Michael
- Hicks.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, pages 459--472, January 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="an2011position">&lt;a href="an2011position.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Position Paper: Dynamically Inferred Types for Dynamic Languages&lt;/b>.
- Jong hoon (David)&amp;nbsp;An, Avik Chaudhuri, Jeffrey&amp;nbsp;S. Foster, and Michael
- Hicks.
- In &lt;em>Proceedings of the Workshop on Scripts to Programs (STOP)&lt;/em>,
- January 2011.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden11dsucorrectTR">&lt;a href="hayden11dsucorrectTR.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Specifying and Verifying the Correctness of Dynamic Software Updates&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Stephen Magill, Michael Hicks, Nate Foster,
- and Jeffrey&amp;nbsp;S. Foster.
- Technical Report CS-TR-4997, University of Maryland Department of
- Computer Science, November 2011.
- Extended version of VSTTE'12 paper with proofs of theorems and
- additional discussion.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden11testing-TR">&lt;a href="hayden11testing-TR.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Evaluating Dynamic Software Update Safety Using Efficient Systematic
- Testing&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Edward&amp;nbsp;K. Smith, Eric&amp;nbsp;A. Hardisty, Michael
- Hicks, and Jeffrey&amp;nbsp;S. Foster.
- Technical Report CS-TR-4993, University of Maryland, Department of
- Computer Science, September 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="turpie11multiotter">&lt;a href="turpie11multiotter.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>MultiOtter: Multiprocess Symbolic Execution&lt;/b>.
- Jonathan Turpie, Elnatan Reisner, Jeffrey&amp;nbsp;S. Foster, and Michael
- Hicks.
- Technical Report CS-TR-4982, University of Maryland Department of
- Computer Science, August 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel11beliefTR">&lt;a href="mardziel11beliefTR.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamic Enforcement of Knowledge-based Security Policies&lt;/b>.
- Piotr Mardziel, Stephen Magill, Michael Hicks, and Mudhakar Srivatsa.
- Technical Report CS-TR-4978, University of Maryland Department of
- Computer Science, July 2011.
- Extended version with proofs and additional benchmarks.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy11monadTR">&lt;a href="swamy11monadTR.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Lightweight Monadic Programming in ML&lt;/b>.
- Nikhil Swamy, Nataliya Guts, Daan Leijen, and Michael Hicks.
- Technical Report MSR-TR-2011-039, Microsoft Research, May 2011.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="ma11directedTR">&lt;a href="ma11directedTR.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Directed Symbolic Execution&lt;/b>.
- Kin-Keung Ma, Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- Technical Report CS-TR-4979, University of Maryland Department of
- Computer Science, April 2011.
- Extended version contains refinements and further experimental
- analysis.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2010&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks10scoreshort">&lt;a href="hicks10scoreshort.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Score: Agile Research Group Management&lt;/b>.
- Michael Hicks and Jeffrey&amp;nbsp;S. Foster.
- &lt;em>Communications of the ACM&lt;/em>, 53(10):30--31, October 2010.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="mardziel10acita">&lt;a href="mardziel10acita.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Secure sharing in distributed information management applications:
- problems and directions&lt;/b>.
- Piotr Mardziel, Adam Bender, Michael Hicks, Dave Levin, Mudhakar
- Srivatsa, and Jonathan Katz.
- In &lt;em>Proceedings of the Annual Conference of the International
- Technology Alliance (ACITA)&lt;/em>, September 2010.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="meister10cir">&lt;a href="meister10cir.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Serializing C intermediate representations for efficient and portable
- parsing&lt;/b>.
- Jeffrey&amp;nbsp;A. Meister, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- &lt;em>Software, Practice, and Experience&lt;/em>, 40(3):225--238, February
- 2010.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="martin10ownership">&lt;a href="martin10ownership.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamically Checking Ownership Policies in Concurrent C/C++ Programs&lt;/b>.
- Jean-Philippe Martin, Michael Hicks, Manuel Costa, Periklis
- Akritidis, and Miguel Castro.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, pages 457--470, January 2010.
- Full version.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks10score">&lt;a href="hicks10score.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Adapting Scrum to Managing a Research Group&lt;/b>.
- Michael Hicks and Jeffrey&amp;nbsp;S. Foster.
- Technical Report CS-TR-4966, University of Maryland, Department of
- Computer Science, September 2010.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="an10rubydustTR">&lt;a href="an10rubydustTR.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
- Jong hoon (David)&amp;nbsp;An, Avik Chaudhuri, Jeffrey&amp;nbsp;S. Foster, and Michael
- Hicks.
- Technical Report CS-TR-4965, University of Maryland Department of
- Computer Science, July 2010.
- Extended version contains proofs of theorems.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2009&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo09arrowlets">&lt;a href="khoo09arrowlets.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Directing JavaScript with Arrows&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Vibha Sazawal.
- In &lt;em>Proceedings of the ACM SIGPLAN Dynamic Languages
- Symposium (DLS)&lt;/em>, pages 49--58, October 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="furr09ril">&lt;a href="furr09ril.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>The Ruby Intermediate Language&lt;/b>.
- Michael Furr, Jong hoon (David)&amp;nbsp;An, Jeffrey&amp;nbsp;S. Foster, and Michael
- Hicks.
- In &lt;em>Proceedings of the ACM SIGPLAN Dynamic Languages
- Symposium (DLS)&lt;/em>, pages 89--98, October 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo09checklist">&lt;a href="khoo09checklist.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Triaging Checklists: a Substitute for a PhD in Static Analysis&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Vibha Sazawal.
- In &lt;em>Proceedings of the Workshop on the Evaluation and Usability
- of Programming Languages and Tools (PLATEAU)&lt;/em>, October 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden09testing">&lt;a href="hayden09testing.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Efficient Systematic Testing for Dynamically Updatable Software&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Eric&amp;nbsp;A. Hardisty, Michael Hicks, and
- Jeffrey&amp;nbsp;S. Foster.
- In &lt;em>Proceedings of the Workshop on Hot Topics in Software
- Upgrades (HotSWUp)&lt;/em>, October 2009.
- Invited article.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="papageorgiou09mgrp">&lt;a href="papageorgiou09mgrp.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Passive Aggressive Measurement with MGRP&lt;/b>.
- Pavlos Papageorge, Justin McCann, and Michael Hicks.
- In &lt;em>Proceedings of the ACM SIGCOMM Conference on
- Applications, Technologies, Architectures, and Protocols for Computer
- Communications (SIGCOMM)&lt;/em>, pages 279--290, August 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy09coercion">&lt;a href="swamy09coercion.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Theory of Typed Coercions and its Applications&lt;/b>.
- Nikhil Swamy, Michael Hicks, and Gavin&amp;nbsp;S. Bierman.
- In &lt;em>Proceedings of the ACM International Conference on
- Functional Programming (ICFP)&lt;/em>, pages 329--340, August 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="furr09stop">&lt;a href="furr09stop.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Tests to the Left of Me, Types to the Right: How Not to Get Stuck in the
- Middle of a Ruby Execution (A Demo of Diamondback Ruby)&lt;/b>.
- Michael Furr, Jong hoon (David)&amp;nbsp;An, Jeffrey&amp;nbsp;S. Foster, and Michael
- Hicks.
- In &lt;em>Proceedings of the Workshop on Scripts to Programs (STOP)&lt;/em>,
- July 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="corcoran09selinks">&lt;a href="corcoran09selinks.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Cross-tier, Label-based Security Enforcement for Web Applications&lt;/b>.
- Brian&amp;nbsp;J. Corcoran, Nikhil Swamy, and Michael Hicks.
- In &lt;em>Proceedings of the ACM SIGMOD International Conference on
- Management of Data (SIGMOD)&lt;/em>, pages 269--282, June 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="subramanian09jvolve">&lt;a href="subramanian09jvolve.html">9&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamic Software Updates: A VM-Centric Approach&lt;/b>.
- Suriya Subramanian, Michael Hicks, and Kathryn&amp;nbsp;S. McKinley.
- In &lt;em>Proceedings of the ACM Conference on Programming Language
- Design and Implementation (PLDI)&lt;/em>, pages 1--12, June 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="neamtiu09stump">&lt;a href="neamtiu09stump.html">10&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Safe and Timely Dynamic Updates for Multi-threaded Programs&lt;/b>.
- Iulian Neamtiu and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Programming Language
- Design and Implementation (PLDI)&lt;/em>, pages 13--24, June 2009.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="furr08druby">&lt;a href="furr08druby.html">11&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Static Type Inference for Ruby&lt;/b>.
- Michael Furr, Jong hoon (David)&amp;nbsp;An, Jeffrey&amp;nbsp;S. Foster, and Michael
- Hicks.
- In &lt;em>Proceedings of the ACM Symposium on Applied Computing,
- Object-oriented Programming Languages and Systems Track (OOPS)&lt;/em>, pages
- 1859--1866, March 2009.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hayden09testingTR">&lt;a href="hayden09testingTR.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>A Testing Based Empirical Study of Dynamic Software Update Safety
- Restrictions&lt;/b>.
- Christopher&amp;nbsp;M. Hayden, Eric&amp;nbsp;A. Hardisty, Michael Hicks, and
- Jeffrey&amp;nbsp;S. Foster.
- Technical Report CS-TR-4949, University of Maryland, Department of
- Computer Science, November 2009.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2008&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="king08implicit">&lt;a href="king08implicit.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Implicit Flows: Can't live with 'em, can't live without 'em&lt;/b>.
- Dave King, Boniface Hicks, Michael Hicks, and Trent Jaeger.
- In R.&amp;nbsp;Sekar and Arun&amp;nbsp;K. Pujari, editors, &lt;em>Proceedings of the
- International Conference on Information Systems Security (ICISS)&lt;/em>, volume
- 5352 of &lt;em>Lecture Notes in Computer Science&lt;/em>, pages 56--70. Springer,
- December 2008.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo08pathproj">&lt;a href="khoo08pathproj.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Path Projection for User-Centered Static Analysis Tools&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Vibha Sazawal.
- In &lt;em>Proceedings of the ACM Workshop on Program Analysis for
- Software Tools and Engineering (PASTE)&lt;/em>, pages 57--63, November 2008.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo08jsarrows">&lt;a href="khoo08jsarrows.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Directing JavaScript with Arrows (poster summary)&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Vibha Sazawal.
- In &lt;em>Poster Proceedings of the ACM International Conference on
- Functional Programming (ICFP)&lt;/em>, September 2008.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pratikakis08context">&lt;a href="pratikakis08context.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Formalizing Soundness of Contextual Effects&lt;/b>.
- Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Iulian
- Neamtiu.
- In Otmane&amp;nbsp;A&amp;iuml;t Mohamed, C&amp;eacute;sar Mun&amp;#x0304;oz, and Sofi&amp;egrave;ne Tahar,
- editors, &lt;em>Proceedings of the International Conference on Theorem Proving
- in Higher Order Logics (TPHOLs)&lt;/em>, volume 5170 of &lt;em>Lecture Notes in
- Computer Science&lt;/em>, pages 262--277. Springer, August 2008.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="SewellSHBW07">&lt;a href="SewellSHBW07.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Dynamic Rebinding for Marshalling and Update, via Redex-time and
- Destruct-time Reduction&lt;/b>.
- Peter Sewell, Gareth Stoyle, Michael Hicks, Gavin Bierman, and Keith
- Wansbrough.
- &lt;em>Journal of Functional Programming (JFP)&lt;/em>, 18(4):437--502, July
- 2008.
- Appeared on-line October, 2007. Supercedes ICFP 2003 and USE 2003
- papers.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy08air">&lt;a href="swamy08air.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Verified Enforcement of Stateful Information Release Policies&lt;/b>.
- Nikhil Swamy and Michael Hicks.
- In &lt;em>Proceedings of the ACM SIGPLAN Workshop on Programming
- Languages and Analysis for Security (PLAS)&lt;/em>, pages 21--32, June 2008.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="srivastava08cmodjournal">&lt;a href="srivastava08cmodjournal.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Modular Information Hiding and Type Safe Linking for C&lt;/b>.
- Saurabh Srivastava, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Patrick
- Jenkins.
- &lt;em>IEEE Transactions on Software Engineering&lt;/em>, 34(3):1--20, May
- 2008.
- Full version of TLDI 07 paper.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy08fable">&lt;a href="swamy08fable.html">8&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Fable: A Language for Enforcing User-defined Security Policies&lt;/b>.
- Nikhil Swamy, Brian Corcoran, and Michael Hicks.
- In &lt;em>Proceedings of the IEEE Symposium on Security and Privacy
- (Oakland)&lt;/em>, pages 369--383, May 2008.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="neamtiu08context">&lt;a href="neamtiu08context.html">9&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Contextual Effects for Version-Consistent Dynamic Software Updating and
- Safe Concurrent Programming&lt;/b>.
- Iulian Neamtiu, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Polyvios
- Pratikakis.
- In &lt;em>Proceedings of the ACM Conference on Principles of
- Programming Languages (POPL)&lt;/em>, pages 37--50, January 2008.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo08pathprojtr">&lt;a href="khoo08pathprojtr.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Path Projection for User-Centered Static Analysis Tools (long version)&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Jeffrey&amp;nbsp;S. Foster, Michael Hicks, and Vibha Sazawal.
- Technical Report CS-TR-4919, University of Maryland, Department of
- Computer Science, August 2008.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="khoo08jsarrowstr">&lt;a href="khoo08jsarrowstr.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Directing JavaScript with Arrows (Functional Pearl)&lt;/b>.
- Yit&amp;nbsp;Phang Khoo, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Vibha Sazawal.
- Technical Report CS-TR-4923, University of Maryland, Department of
- Computer Science, August 2008.
- Extended version of ICFP 2008 poster.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy08airTR">&lt;a href="swamy08airTR.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Verified Enforcement of Automaton-based Information Release Policies&lt;/b>.
- Nikhil Swamy and Michael Hicks.
- Technical Report CS-TR-4906, University of Maryland, Department of
- Computer Science, 2008.
- Full version of PLAS 08 paper.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2007&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="corcoran07provenance">&lt;a href="corcoran07provenance.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Combining Provenance and Security Policies in a Web-based Document
- Management System&lt;/b>.
- Brian Corcoran, Nikhil Swamy, and Michael Hicks.
- In &lt;em>On-line Proceedings of the Workshop on Principles of
- Provenance (PrOPr)&lt;/em>, November 2007.
- &lt;a href="http://homepages.inf.ed.ac.uk/jcheney/propr/">http://homepages.inf.ed.ac.uk/jcheney/propr/&lt;/a>.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="petroni07sbcfi">&lt;a href="petroni07sbcfi.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Automated Detection of Persistent Kernel Control-Flow Attacks&lt;/b>.
- Nick&amp;nbsp;L. Petroni, Jr. and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Computer and
- Communications Security (CCS)&lt;/em>, pages 103--115, October 2007.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy07milcom">&lt;a href="swamy07milcom.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Verified Enforcement of Security Policies for Cross-Domain Information
- Flows&lt;/b>.
- Nikhil Swamy, Michael Hicks, and Simon Tsang.
- In &lt;em>Proceedings of the 2007 Military Communications Conference
- (MILCOM)&lt;/em>, October 2007.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="StoyleHBSN06">&lt;a href="StoyleHBSN06.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>&lt;em>Mutatis Mutandis&lt;/em>: Safe and Flexible Dynamic Software Updating (full
- version)&lt;/b>.
- Gareth Stoyle, Michael Hicks, Gavin Bierman, Peter Sewell, and Iulian
- Neamtiu.
- &lt;em>ACM Transactions on Programming Languages and Systems
- (TOPLAS)&lt;/em>, 29(4), August 2007.
- Full version of POPL 05 paper.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="foster07improving">&lt;a href="foster07improving.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Improving Software Quality with Static Analysis&lt;/b>.
- Jeffrey&amp;nbsp;S. Foster, Michael&amp;nbsp;W. Hicks, and William Pugh.
- In &lt;em>Proceedings of the ACM Workshop on Program Analysis for
- Software Tools and Engineering (PASTE)&lt;/em>, pages 83--84, June 2007.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="jim07beep">&lt;a href="jim07beep.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Defeating Scripting Attacks with Browser-Enforced Embedded Policies&lt;/b>.
- Trevor Jim, Nikhil Swamy, and Michael Hicks.
- In &lt;em>Proceedings of the International World Wide Web Conference
- (WWW)&lt;/em>, pages 601--610, May 2007.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="srivastava07cmod">&lt;a href="srivastava07cmod.html">7&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Modular Information Hiding and Type Safety for C&lt;/b>.
- Saurabh Srivastava, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
- In &lt;em>Proceedings of the ACM Workshop on Types in Language Design
- and Implementation (TLDI)&lt;/em>, pages 3--14, January 2007.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;span style="font-size: 85%">Technical Reports&lt;/span>&lt;p>
-&lt;table style="font-size: 85%">
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy07fableTR">&lt;a href="swamy07fableTR.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Fable: A Language for Enforcing User-defined Security Policies&lt;/b>.
- Nikhil Swamy, Brian&amp;nbsp;J. Corcoran, and Michael Hicks.
- Technical Report CS-TR-4895, University of Maryland, Department of
- Computer Science, November 2007.
- Full version of Oakland 08 paper.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="petroni07sbcfitr">&lt;a href="petroni07sbcfitr.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Automated Detection of Persistent Kernel Control-Flow Attacks&lt;/b>.
- Nick&amp;nbsp;L. Petroni, Jr. and Michael Hicks.
- Technical Report CS-TR-4880, Department of Computer Science,
- University of Maryland, October 2007.
- Extends the CCS 2007 paper with more thorough performance results.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="MT-TR">&lt;a href="MT-TR.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Contextual Effects for Version-Consistent Dynamic Software Updating and
- Safe Concurrent Programming (extended version)&lt;/b>.
- Iulian Neamtiu, Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Polyvios
- Pratikakis.
- Technical Report CS-TR-4875, University of Maryland, Department of
- Computer Science, July 2007.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="srivastava07cmodjournaltr">&lt;a href="srivastava07cmodjournaltr.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Appendix to CMod: Modular Information Hiding and Type-Safe Linking for
- C&lt;/b>.
- Saurabh Srivastava, Michael Hicks, and Jeffrey&amp;nbsp;S. Foster.
- Technical Report CS-TR-4874, Department of Computer Science,
- University of Maryland, June 2007.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks07xdomtr">&lt;a href="hicks07xdomtr.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Toward Specifying and Validating Cross-Domain Policies&lt;/b>.
- Michael Hicks, Nikhil Swamy, and Simon Tsang.
- Technical Report CS-TR-4870, Department of Computer Science,
- University of Maryland, April 2007.
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;h3>2006&lt;/h3>
-&lt;table>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy05experience">&lt;a href="swamy05experience.html">1&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Safe Manual Memory Management in Cyclone&lt;/b>.
- Nikhil Swamy, Michael Hicks, Greg Morrisett, Dan Grossman, and Trevor
- Jim.
- &lt;em>Science of Computer Programming (SCP)&lt;/em>, 62(2):122--144, October
- 2006.
- Special issue on memory management. Expands ISMM conference paper of
- the same name.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pratikakis06exists">&lt;a href="pratikakis06exists.html">2&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Existential Label Flow Inference via CFL Reachability&lt;/b>.
- Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- In Kwangkeun Yi, editor, &lt;em>Proceedings of the Static Analysis
- Symposium (SAS)&lt;/em>, volume 4134 of &lt;em>Lecture Notes in Computer Science&lt;/em>,
- pages 88--106. Springer-Verlag, August 2006.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="swamy06rx">&lt;a href="swamy06rx.html">3&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Managing Policy Updates in Security-Typed Languages&lt;/b>.
- Nikhil Swamy, Michael Hicks, Stephen Tse, and Steve Zdancewic.
- In &lt;em>Proceedings of the Computer Security Foundations Workshop
- (CSFW)&lt;/em>, pages 202--216, July 2006.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="neamtiu06dsu">&lt;a href="neamtiu06dsu.html">4&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Practical Dynamic Software Updating for C&lt;/b>.
- Iulian Neamtiu, Michael Hicks, Gareth Stoyle, and Manuel Oriol.
- In &lt;em>Proceedings of the ACM Conference on Programming Language
- Design and Implementation (PLDI)&lt;/em>, pages 72--83, June 2006.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="pratikakis06locksmith">&lt;a href="pratikakis06locksmith.html">5&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Context-sensitive Correlation Analysis for Detecting Races&lt;/b>.
- Polyvios Pratikakis, Jeffrey&amp;nbsp;S. Foster, and Michael Hicks.
- In &lt;em>Proceedings of the ACM Conference on Programming Language
- Design and Implementation (PLDI)&lt;/em>, pages 320--331, June 2006.
-&lt;/td>
-&lt;/tr>
-&lt;tr valign="top">
-&lt;td align="right" class="bibtexnumber">
-[&lt;a name="hicks06atomic">&lt;a href="hicks06atomic.html">6&lt;/a>&lt;/a>]
-&lt;/td>
-&lt;td class="bibtexitem">
-&lt;b>Inferring Locking for Atomic Sections&lt;/b>.
- Michael Hicks, Jeffrey&amp;nbsp;S. Foster, and Polyvios Pratikakis.
- In &lt;em>On-line Proceedings of the ACM SIGPLAN Workshop on Languages,
- Compilers, and Hardware Support for Transactional Computing (TRANSACT)&lt;/em>, June
- 2006.
-&lt;p>&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz">
-&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz" target="_blank" rel="noopener">http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz&lt;/a>&lt;/a>.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/AlexanderAHKKMGNS98.html</link><pubDate>Sat, 11 Oct 2025 16:07:06 -0400</pubDate><guid>https://mhicks.me/papers/AlexanderAHKKMGNS98.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>The SwitchWare Active Network Architecture&lt;/b>.
+Fuzz testing is an active area of research with proposed improvements published at a rapid pace. Such proposals are assessed &lt;em>empirically&lt;/em>: Can they be shown to perform better than the status quo? Such an assessment requires a benchmark of target programs with well-identified, realistic bugs. To ease the construction of such a benchmark, this paper presents FixReverter, a tool that automatically injects realistic bugs in a program. FixReverter takes as input a &lt;em>bugfix pattern&lt;/em> which contains both code syntax and semantic conditions. Any code site that matches the specified syntax is undone if the semantic conditions are satisfied, as checked by static analysis, thus (re)introducing a likely bug. This paper focuses on three bugfix patterns, which we call &lt;em>conditional-abort&lt;/em>, &lt;em>conditional-execute&lt;/em>, and &lt;em>conditional-assign&lt;/em>, based on a study of fixes in a corpus of Common Vulnerabilities and Exposures (CVEs). Using FixReverter we have built RevBugBench, which consists of 10 programs into which we have injected nearly 8,000 bugs; the programs are taken from FuzzBench and Binutils, and represent common targets of fuzzing evaluations. We have integrated RevBugBench into the FuzzBench service, and used it to evaluate five fuzzers. Fuzzing performance varies by fuzzer and program, as desired/expected. Overall, 219 unique bugs were reported, 19% of which were detected by just one fuzzer.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/AlexanderAHKKMGNS98.html</link><pubDate>Sat, 11 Oct 2025 16:07:06 -0400</pubDate><guid>https://mhicks.me/papers/AlexanderAHKKMGNS98.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>The SwitchWare Active Network Architecture&lt;/b>.
 D. Scott Alexander, William A. Arbaugh, Michael Hicks, Pankaj Kakkar,
 Angelos Keromytis, Jonathan T. Moore, Carl A. Gunter, Scott M. Nettles, and
 Jonathan M. Smith.
