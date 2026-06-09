@@ -9,7 +9,7 @@ enableGitInfo = true
   lastmod = [":git", "lastmod", "date", "publishDate"]
 
 #title = "Hugo Apéro"
-title = "Mike Hicks"
+title = "Michael Hicks"
 author = "Alison Hill"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -37,7 +37,7 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "Mike Hicks"
+  orgName = "Michael Hicks"
   orgLocal = ""
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   # favicon = "img/favicon.ico"

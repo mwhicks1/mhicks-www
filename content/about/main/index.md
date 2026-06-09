@@ -8,7 +8,7 @@ show_intro: false
 show_outro: false
 ---
 
-<img src="/img/Michael-Hicks_08.26.25.jpg" alt="Mike Hicks" style="max-width: 300px; float: right; margin-left: 20px; margin-bottom: 20px; border-radius: 8px;">
+<img src="/img/Michael-Hicks_08.26.25.jpg" alt="Michael Hicks" style="max-width: 300px; float: right; margin-left: 20px; margin-bottom: 20px; border-radius: 8px;">
 
 I am the Cecilia Fitler Moore Professor and Associate Chair of the [Department of Computer and Information Science](https://directory.seas.upenn.edu/computer-and-information-science/), and the Director of the [Schlein Center for Cybersecurity](https://cybersecurity.seas.upenn.edu) at the [University of Pennsylvania](https://directory.seas.upenn.edu/computer-and-information-science/), and I am an [Amazon Scholar](https://www.amazon.science/scholars) and an [ACM Fellow](https://awards.acm.org/fellows/award-recipients).
 

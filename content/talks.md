@@ -1,7 +1,7 @@
 ---
 title: "Talks"
 subtitle: "Video recordings of conference presentations and invited talks"
-excerpt: "Watch recordings of Mike Hicks' talks on programming languages, security, and software engineering."
+excerpt: "Watch recordings of Michael Hicks' talks on programming languages, security, and software engineering."
 categories:
   - Talks
   - Videos

@@ -1,7 +1,7 @@
 ---
 title: "Research Group"
 subtitle: "Students, postdocs, and collaborators"
-excerpt: "Information about Mike Hicks' research group, including previous students, postdocs, and collaborators."
+excerpt: "Information about Michael Hicks' research group, including previous students, postdocs, and collaborators."
 categories:
   - Research
   - Group

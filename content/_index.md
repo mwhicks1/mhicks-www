@@ -1,5 +1,5 @@
 ---
-title: "Mike Hicks"
+title: "Michael Hicks"
 subtitle: "Professor. Director. Scholar."
 description: "I am the Cecilia Fitler Moore Professor and Associate Chair of the Department of Computer and Information Science at the University of Pennsylvania, and the Director of its [Schlein Center for Cybersecurity](https://cybersecurity.seas.upenn.edu). I am also an Amazon Scholar."
 images:

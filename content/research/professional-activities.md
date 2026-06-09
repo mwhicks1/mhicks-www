@@ -1,7 +1,7 @@
 ---
 title: "Professional Activities"
 subtitle: "Service and leadership in the research community"
-excerpt: "Mike Hicks' professional service activities, including conference committees, editorial roles, and leadership positions."
+excerpt: "Michael Hicks' professional service activities, including conference committees, editorial roles, and leadership positions."
 categories:
   - Research
   - Service

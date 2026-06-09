@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 subtitle: "Academic publications, papers, and research work"
-excerpt: "View Mike Hicks' academic publications by year or category, plus links to DBLP and Google Scholar."
+excerpt: "View Michael Hicks' academic publications by year or category, plus links to DBLP and Google Scholar."
 categories:
   - Research
   - Publications
