@@ -130,7 +130,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://linkedin.com/in/mike-hicks-a053311/"
+      url       = "https://www.linkedin.com/in/michael-hicks-a053311/"
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
