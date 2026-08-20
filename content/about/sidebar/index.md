@@ -18,7 +18,7 @@ Dept. of Computer & Information Science<br>
 Philadelphia, PA 19104
 
 **Office:**
-321 Amy Guttman Hall (3317 Chestnut St)
+608B Amy Guttman Hall (3317 Chestnut St)
 
 **Email:**
 <a id="mailto-sidebar" href="#" class="email"><span id="cutme-sidebar">[point here]</span></a>

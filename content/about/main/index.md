@@ -16,8 +16,6 @@ From 2022-2025 I was a Senior Principal Scientist at [Amazon Web Services](https
 
 ## [Research](/research/)
 
-**I'm looking for new PhD students to join my lab in 2026!**
-
 My research focuses on improving software availability, reliability, and security through programming languages and software engineering techniques. 
 
 ### Ongoing projects

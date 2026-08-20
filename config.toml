@@ -184,8 +184,8 @@ enableEmoji = true
     weight = 4
   [[menu.header]]
     name = "Current Course"
-    title = "Secure System Engineering and Management: A Data-Driven Approach"
-    url = "/courses/cis-7000-spring2026/"
+    title = "Software Foundations"
+    url = "/courses/cis-5000/"
     parent = "Teaching"
     weight = 1
   [[menu.header]]
