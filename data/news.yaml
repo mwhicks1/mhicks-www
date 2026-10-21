@@ -1,5 +1,14 @@
+- date: 2026-10-21
+  text: "[Schlein Center for Cybersecurity](https://cybersecurity.engineering.upenn.edu/cybersecurity-launch-event/) publicly launched"
+
+- date: 2026-10-20
+  text: 'Paper "Agentic Root Cause Reasoning and Localization of Unsoundness in Static Call Graph Analysis" (with Mohammad Rafieian and [Shiyi Wei](https://personal.utdallas.edu/~swei/)) accepted to [ICSE 2027](https://conf.researchr.org/home/icse-2027)'
+
+- date: 2026-10-06
+  text: "Received funding (with [Benjamin Pierce](https://www.cis.upenn.edu/~bcpierce/) and [Harrison Goldstein](https://harrisongoldste.in/)) from Renaissance Philanthropy's [AI for Math Fund](https://www.renaissancephilanthropy.org/ai-for-math-fund-2026-projects) for Software Foundations in Lean"
+
 - date: 2026-08-20
-  text: "Teaching [Software Foundations](/courses/cis-5000/), now in Lean!"
+  text: "Teaching [Software Foundations](/courses/cis-5000/), now [in Lean](https://github.com/plclub/sf-in-lean)!"
 
 - date: 2026-04-15
   text: "Pleased to welcome [Cheng Zhang](https://www.linkedin.com/in/cheng-zhang-chengz3/) and [Mrigank Pawagi](https://mrigank.in/) to my group at Penn!"
