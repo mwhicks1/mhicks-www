@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael Hicks on</title><link>https://mhicks.me/</link><description>Recent content in Michael Hicks on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 20 Aug 2026 07:43:43 -0400</lastBuildDate><atom:link href="https://mhicks.me/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatically Synthesizing Structured Input Generators</title><link>https://mhicks.me/research/synthesizing-generators/</link><pubDate>Thu, 29 Jan 2026 16:20:06 -0500</pubDate><guid>https://mhicks.me/research/synthesizing-generators/</guid><description>&lt;h2 id="overview">Overview
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael Hicks on</title><link>https://mhicks.me/</link><description>Recent content in Michael Hicks on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 22 Oct 2026 09:17:41 -0400</lastBuildDate><atom:link href="https://mhicks.me/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatically Synthesizing Structured Input Generators</title><link>https://mhicks.me/research/synthesizing-generators/</link><pubDate>Thu, 29 Jan 2026 16:20:06 -0500</pubDate><guid>https://mhicks.me/research/synthesizing-generators/</guid><description>&lt;h2 id="overview">Overview
  &lt;a href="#overview">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
@@ -37,18 +37,44 @@
 &lt;li>&lt;strong>Analyzable&lt;/strong>: Automated reasoning can verify policy properties&lt;/li>
 &lt;/ul>
 &lt;p>Cedar demonstrates how programming language techniques — type systems, formal semantics, verification — can underpin practical, high-assurance security tools. I co-led Cedar&amp;rsquo;s development (with 
-&lt;a href="https://emina.github.io/" target="_blank" rel="noopener">Emina Torlak&lt;/a>) during 2022-2024 while full-time at Amazon Web Services, and I&amp;rsquo;m still involved today as a Cedar user and maintainer.&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="hiring">Hiring
- &lt;a href="#hiring">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+&lt;a href="https://emina.github.io/" target="_blank" rel="noopener">Emina Torlak&lt;/a>) during 2022-2024 while full-time at Amazon Web Services, and I&amp;rsquo;m still involved today as a Cedar user and maintainer.&lt;/p></description></item><item><title>Research Group</title><link>https://mhicks.me/research/research-group/</link><pubDate>Thu, 22 Oct 2026 09:17:41 -0400</pubDate><guid>https://mhicks.me/research/research-group/</guid><description>&lt;h2 id="current">Current
+ &lt;a href="#current">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h2>
-&lt;p>I am currently looking for talented PhD students to work on projects in computer security and software quality! See my 
-&lt;a href="https://mhicks.me/about/#research">research summary&lt;/a> for an overview, including in-flight projects, and my 
-&lt;a href="https://mhicks.me/research/publications/">publications&lt;/a> for specific past work.&lt;/p>
-&lt;p>&lt;strong>Update&lt;/strong>: I&amp;rsquo;m pleased to welcome 
-&lt;a href="https://www.linkedin.com/in/cheng-zhang-chengz3/" target="_blank" rel="noopener">Cheng Zhang&lt;/a> and 
-&lt;a href="https://mrigank.in/" target="_blank" rel="noopener">Mrigank Pawagi&lt;/a> to my group, starting in Fall 2026!&lt;/p></description></item><item><title>Talks</title><link>https://mhicks.me/talks/</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/talks/</guid><description/></item><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
+
+
+
+
+&lt;h3 id="phd-students">PhD Students
+ &lt;a href="#phd-students">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;table>
+ &lt;tbody>&lt;tr>
+ &lt;td valign="top">
+ &lt;a href="https://www.linkedin.com/in/cheng-zhang-chengz3/">Cheng Zhang&lt;/a>
+ &lt;/td>
+ &lt;td valign="top">&lt;small>2026&lt;/small>&lt;/td>
+ &lt;td>&lt;small>PhD student, University of Pennsylvania, since Fall 2026&lt;/small>&lt;/td>
+ &lt;/tr>&lt;tr>
+ &lt;td valign="top">
+ &lt;a href="https://mrigank.in/">Mrigank Pawagi&lt;/a>
+ &lt;/td>
+ &lt;td valign="top">&lt;small>2026&lt;/small>&lt;/td>
+ &lt;td>&lt;small>PhD student, University of Pennsylvania, since Fall 2026&lt;/small>&lt;/td>
+ &lt;/tr>&lt;/tbody>
+&lt;/table>
+
+&lt;p>Since I&amp;rsquo;ve been at Penn, I am also pleased to be working with 
+&lt;a href="https://www.linkedin.com/in/noopur-bhatt/" target="_blank" rel="noopener">Noopur Bhatt&lt;/a> (advised by 
+&lt;a href="https://www.cis.upenn.edu/~sga001/" target="_blank" rel="noopener">Sebastian Angel&lt;/a>) and 
+&lt;a href="https://thia.codes/" target="_blank" rel="noopener">Thia Richey&lt;/a> and 
+&lt;a href="https://www.cis.upenn.edu/~jwc/" target="_blank" rel="noopener">Joe Cutler&lt;/a> (both advised by 
+&lt;a href="https://www.cis.upenn.edu/~bcpierce/" target="_blank" rel="noopener">Benjamin Pierce&lt;/a>).&lt;/p></description></item><item><title>Talks</title><link>https://mhicks.me/talks/</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/talks/</guid><description/></item><item><title>Professional Activities</title><link>https://mhicks.me/research/professional-activities/</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/research/professional-activities/</guid><description>&lt;p>I was the Chair (2015-2018) and Past Chair (2018-2021) of &lt;a href="http://www.sigplan.org/">ACM SIGPLAN&lt;/a>; I was the Steering Committee Chair for &lt;a href="http://sigplan.org/Conferences/POPL/">POPL&lt;/a> (2018-2021); Founder and Editor of &lt;a href="https://blog.sigplan.org/">PL Perspectives, the SIGPLAN blog&lt;/a> (2019-2021); an Associate Editor for &lt;a href="http://toplas.acm.org/">TOPLAS&lt;/a> (2012-2016); and I have served (or am serving) on the following committees:&lt;/p>
 &lt;table>
  &lt;tbody>&lt;tr>&lt;td valign="top" align="center">&lt;b>2026&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="https://conf.researchr.org/track/splash-2026/oopsla-2026">OOPSLA&lt;/a>, &lt;a href="https://sp2026.ieee-security.org/">S&amp;amp;P&lt;/a>&lt;/td>
  &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2025&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="https://csf2025.ieee-security.org/">CSF&lt;/a>&lt;/td>
@@ -77,16 +103,7 @@
  &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2002&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://www.sigmod.org/dblp/db/conf/iwan/iwan2002.html">IWAN&lt;/a>, &lt;a href="http://www.informatik.uni-bonn.de/~gk/use/2002/">USE&lt;/a>&lt;/td>
  &lt;/tr>&lt;tr>&lt;td valign="top" align="center">&lt;b>2001&lt;/b>&lt;/td>&lt;td valign="top">&lt;a href="http://dblp2.uni-trier.de/db/conf/iwan/iwan2001">IWAN&lt;/a>&lt;/td>
  &lt;/tr>&lt;/tbody>
-&lt;/table></description></item><item><title>Software Foundations</title><link>https://mhicks.me/courses/cis-5000/</link><pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate><guid>https://mhicks.me/courses/cis-5000/</guid><description>&lt;h2 id="about">About
- &lt;a href="#about">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
- &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
- &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
- &lt;/svg>&lt;/a>
-&lt;/h2>
-&lt;p>This course covers the mathematical underpinnings of reliable software, using the &lt;em>Software Foundations&lt;/em> textbook series, now available as an interactive online book with executable 
-&lt;a href="https://leanprover.github.io/" target="_blank" rel="noopener">Lean&lt;/a> code embedded directly in the text. Students learn functional programming, logic, and how to construct machine-checked proofs about programs.&lt;/p>
-&lt;p>See the 
-&lt;a href="https://www.engineering.upenn.edu/~cis5000/current/index.html" target="_blank" rel="noopener">course website&lt;/a> for the syllabus, schedule, and other details.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh-cat.html</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/papers/mwh-cat.html</guid><description>&lt;html>
+&lt;/table></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh-cat.html</link><pubDate>Thu, 22 Oct 2026 09:12:36 -0400</pubDate><guid>https://mhicks.me/papers/mwh-cat.html</guid><description>&lt;html>
 &lt;head>
 &lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
  &lt;link href="../style.css" rel="stylesheet" type="text/css">
@@ -104,7 +121,7 @@ information sharing while still ensuring integrity and confidentiality
 of data. I have looked at programming language-based techniques --
 new analyses and programming languages -- for ensuring these
 properties.
-&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh.html</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/papers/mwh.html</guid><description>&lt;html>
+&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh.html</link><pubDate>Thu, 22 Oct 2026 09:12:36 -0400</pubDate><guid>https://mhicks.me/papers/mwh.html</guid><description>&lt;html>
 &lt;head>
 &lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
  &lt;link href="../style.css" rel="stylesheet" type="text/css">
@@ -114,6 +131,21 @@ properties.
 &lt;h2>Michael Hicks' Publications, by Year&lt;/h2>
 Also see publications &lt;a href = "mwh-cat.html">by category&lt;/a>,
 on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt;a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar&lt;/a>.
+&lt;h3>2027&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="rafieian27cgrizz">&lt;a href="rafieian27cgrizz.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Agentic Root Cause Reasoning and Localization of Unsoundness in Static
+ Call Graph Analysis&lt;/b>.
+ Mohammad Rafieian, Michael Hicks, and Shiyi Wei.
+ In &lt;em>Proceedings of the International Conference on Software
+ Engineering (ICSE)&lt;/em>, April 2027.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
 &lt;h3>2025&lt;/h3>
 &lt;table>
 &lt;tr valign="top">
@@ -2049,7 +2081,21 @@ on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt
  Compilers, and Hardware Support for Transactional Computing (TRANSACT)&lt;/em>, June
  2006.
 &lt;p>&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz">
-&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz" target="_blank" rel="noopener">http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz&lt;/a>&lt;/a>.&lt;/p></description></item><item><title>Beyond Penetrate-and-Patch</title><link>https://mhicks.me/blog/beyond-penetrate-and-patch/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><guid>https://mhicks.me/blog/beyond-penetrate-and-patch/</guid><description>&lt;p>In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> Days later, Mozilla announced patches for 271 vulnerabilities Mythos had surfaced in Firefox — a roughly twelve-fold leap over the 22 bugs Opus 4.6 had found only weeks earlier. Mozilla&amp;rsquo;s CTO declared, in a blog post titled &amp;ldquo;The zero-days are numbered,&amp;rdquo; that defenders finally had a chance to win decisively.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> Anthropic, in its own announcement, argued that once the security landscape reaches a new equilibrium, powerful language models will benefit defenders more than attackers.&lt;/p></description></item><item><title>Hello, World: A New Blog</title><link>https://mhicks.me/blog/hello-world/</link><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate><guid>https://mhicks.me/blog/hello-world/</guid><description>&lt;p>Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The 
+&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz" target="_blank" rel="noopener">http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz&lt;/a>&lt;/a>.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/rafieian27cgrizz.html</link><pubDate>Thu, 22 Oct 2026 09:12:36 -0400</pubDate><guid>https://mhicks.me/papers/rafieian27cgrizz.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Agentic Root Cause Reasoning and Localization of Unsoundness in Static
+Call Graph Analysis&lt;/b>.
+Mohammad Rafieian, Michael Hicks, and Shiyi Wei.
+In &lt;em>Proceedings of the International Conference on Software
+Engineering (ICSE)&lt;/em>, April 2027.&lt;/font>&lt;p>
+Static call graph construction tools cannot soundly model every dynamic language feature, yet they rarely reveal when, where, or why their results are unsound. Users cannot judge whether a call graph is complete for their program, and developers lack the precise root cause and code location needed to tell an implementation bug from an intended soundness/precision tradeoff. We present CGrizz, an agentic framework addressing both needs in two phases. In an analysis phase, CGrizz compares programs&amp;rsquo; static and dynamic call graphs to find boundary edges&amp;mdash;calls observed at runtime but missing from the static graph&amp;mdash;and, for each, an LLM agent suggests a root cause: the program pattern the analysis failed to model and the responsible location in the tool. Because such a suggestion may be wrong, CGrizz accepts it only when three independent pieces of evidence agree: runtime instrumentation that detects the pattern, a minimized test case that reproduces the missed edge, and a warning inserted at the implicated tool location. The validated reports, test cases, and code locations serve developers; the warnings accumulate into a warning-instrumented build that, in a deployment phase, flags unsoundness on new programs for users, with no dynamic analysis required. We evaluate CGrizz on three complementary benchmark suites with three state-of-the-art tools: WALA, OPAL, and Soot. CGrizz reasons about numerous unsoundness boundaries; the generated warnings generalize, firing on previously unseen programs during deployment; and the resulting artifacts help developers diagnose implementation issues and help users assess an analysis&amp;rsquo;s reliability and, in some cases, refactor programs to be more amenable to static analysis.&lt;/p></description></item><item><title>Software Foundations</title><link>https://mhicks.me/courses/cis-5000/</link><pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate><guid>https://mhicks.me/courses/cis-5000/</guid><description>&lt;h2 id="about">About
+ &lt;a href="#about">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>This course covers the mathematical underpinnings of reliable software, using the &lt;em>Software Foundations&lt;/em> textbook series, now available as an interactive online book with executable 
+&lt;a href="https://leanprover.github.io/" target="_blank" rel="noopener">Lean&lt;/a> code embedded directly in the text. Students learn functional programming, logic, and how to construct machine-checked proofs about programs.&lt;/p>
+&lt;p>See the 
+&lt;a href="https://www.engineering.upenn.edu/~cis5000/current/index.html" target="_blank" rel="noopener">course website&lt;/a> for the syllabus, schedule, and other details.&lt;/p></description></item><item><title>Beyond Penetrate-and-Patch</title><link>https://mhicks.me/blog/beyond-penetrate-and-patch/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><guid>https://mhicks.me/blog/beyond-penetrate-and-patch/</guid><description>&lt;p>In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> Days later, Mozilla announced patches for 271 vulnerabilities Mythos had surfaced in Firefox — a roughly twelve-fold leap over the 22 bugs Opus 4.6 had found only weeks earlier. Mozilla&amp;rsquo;s CTO declared, in a blog post titled &amp;ldquo;The zero-days are numbered,&amp;rdquo; that defenders finally had a chance to win decisively.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> Anthropic, in its own announcement, argued that once the security landscape reaches a new equilibrium, powerful language models will benefit defenders more than attackers.&lt;/p></description></item><item><title>Hello, World: A New Blog</title><link>https://mhicks.me/blog/hello-world/</link><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate><guid>https://mhicks.me/blog/hello-world/</guid><description>&lt;p>Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The 
 &lt;a href="http://www.pl-enthusiast.net/" target="_blank" rel="noopener">PL Enthusiast&lt;/a> will remain where it is, and new thoughts will show up here.&lt;/p>
 
 

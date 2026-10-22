@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications on</title><link>https://mhicks.me/papers/</link><description>Recent content in Publications on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jun 2026 06:48:49 -0400</lastBuildDate><atom:link href="https://mhicks.me/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Publication</title><link>https://mhicks.me/papers/mwh-cat.html</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/papers/mwh-cat.html</guid><description>&lt;html>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publications on</title><link>https://mhicks.me/papers/</link><description>Recent content in Publications on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 22 Oct 2026 09:12:36 -0400</lastBuildDate><atom:link href="https://mhicks.me/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Publication</title><link>https://mhicks.me/papers/mwh-cat.html</link><pubDate>Thu, 22 Oct 2026 09:12:36 -0400</pubDate><guid>https://mhicks.me/papers/mwh-cat.html</guid><description>&lt;html>
 &lt;head>
 &lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
  &lt;link href="../style.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@ information sharing while still ensuring integrity and confidentiality
 of data. I have looked at programming language-based techniques --
 new analyses and programming languages -- for ensuring these
 properties.
-&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh.html</link><pubDate>Tue, 09 Jun 2026 06:48:49 -0400</pubDate><guid>https://mhicks.me/papers/mwh.html</guid><description>&lt;html>
+&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/mwh.html</link><pubDate>Thu, 22 Oct 2026 09:12:36 -0400</pubDate><guid>https://mhicks.me/papers/mwh.html</guid><description>&lt;html>
 &lt;head>
 &lt;meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
  &lt;link href="../style.css" rel="stylesheet" type="text/css">
@@ -26,6 +26,21 @@ properties.
 &lt;h2>Michael Hicks' Publications, by Year&lt;/h2>
 Also see publications &lt;a href = "mwh-cat.html">by category&lt;/a>,
 on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt;a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar&lt;/a>.
+&lt;h3>2027&lt;/h3>
+&lt;table>
+&lt;tr valign="top">
+&lt;td align="right" class="bibtexnumber">
+[&lt;a name="rafieian27cgrizz">&lt;a href="rafieian27cgrizz.html">1&lt;/a>&lt;/a>]
+&lt;/td>
+&lt;td class="bibtexitem">
+&lt;b>Agentic Root Cause Reasoning and Localization of Unsoundness in Static
+ Call Graph Analysis&lt;/b>.
+ Mohammad Rafieian, Michael Hicks, and Shiyi Wei.
+ In &lt;em>Proceedings of the International Conference on Software
+ Engineering (ICSE)&lt;/em>, April 2027.
+&lt;/td>
+&lt;/tr>
+&lt;/table>
 &lt;h3>2025&lt;/h3>
 &lt;table>
 &lt;tr valign="top">
@@ -1961,7 +1976,12 @@ on &lt;a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP&lt;/a>, and &lt
  Compilers, and Hardware Support for Transactional Computing (TRANSACT)&lt;/em>, June
  2006.
 &lt;p>&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz">
-&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz" target="_blank" rel="noopener">http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz&lt;/a>&lt;/a>.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/an11rubydust.html</link><pubDate>Fri, 17 Oct 2025 07:37:49 -0400</pubDate><guid>https://mhicks.me/papers/an11rubydust.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
+&lt;a href="http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz" target="_blank" rel="noopener">http://www.cs.purdue.edu/homes/jv/events/TRANSACT/transact-06.tgz&lt;/a>&lt;/a>.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/rafieian27cgrizz.html</link><pubDate>Thu, 22 Oct 2026 09:12:36 -0400</pubDate><guid>https://mhicks.me/papers/rafieian27cgrizz.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Agentic Root Cause Reasoning and Localization of Unsoundness in Static
+Call Graph Analysis&lt;/b>.
+Mohammad Rafieian, Michael Hicks, and Shiyi Wei.
+In &lt;em>Proceedings of the International Conference on Software
+Engineering (ICSE)&lt;/em>, April 2027.&lt;/font>&lt;p>
+Static call graph construction tools cannot soundly model every dynamic language feature, yet they rarely reveal when, where, or why their results are unsound. Users cannot judge whether a call graph is complete for their program, and developers lack the precise root cause and code location needed to tell an implementation bug from an intended soundness/precision tradeoff. We present CGrizz, an agentic framework addressing both needs in two phases. In an analysis phase, CGrizz compares programs&amp;rsquo; static and dynamic call graphs to find boundary edges&amp;mdash;calls observed at runtime but missing from the static graph&amp;mdash;and, for each, an LLM agent suggests a root cause: the program pattern the analysis failed to model and the responsible location in the tool. Because such a suggestion may be wrong, CGrizz accepts it only when three independent pieces of evidence agree: runtime instrumentation that detects the pattern, a minimized test case that reproduces the missed edge, and a warning inserted at the implicated tool location. The validated reports, test cases, and code locations serve developers; the warnings accumulate into a warning-instrumented build that, in a deployment phase, flags unsoundness on new programs for users, with no dynamic analysis required. We evaluate CGrizz on three complementary benchmark suites with three state-of-the-art tools: WALA, OPAL, and Soot. CGrizz reasons about numerous unsoundness boundaries; the generated warnings generalize, firing on previously unseen programs during deployment; and the resulting artifacts help developers diagnose implementation issues and help users assess an analysis&amp;rsquo;s reliability and, in some cases, refactor programs to be more amenable to static analysis.&lt;/p></description></item><item><title>Publication</title><link>https://mhicks.me/papers/an11rubydust.html</link><pubDate>Fri, 17 Oct 2025 07:37:49 -0400</pubDate><guid>https://mhicks.me/papers/an11rubydust.html</guid><description>&lt;p>&lt;font size="+1">&lt;b>Dynamic Inference of Static Types for Ruby&lt;/b>.
 Jong hoon (David) An, Avik Chaudhuri, Jeffrey S. Foster, and Michael
 Hicks.
 In &lt;em>Proceedings of the ACM Conference on Principles of
