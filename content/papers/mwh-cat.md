@@ -1958,7 +1958,22 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="wei18evaluating"><a href="wei18evaluating.html">1</a></a>]
+[<a name="rafieian27cgrizz"><a href="rafieian27cgrizz.html">1</a></a>]
+</td>
+<td class="bibtexitem">
+<b>Agentic Root Cause Reasoning and Localization of Unsoundness in Static
+  Call Graph Analysis</b>.
+ Mohammad Rafieian, Michael Hicks, and Shiyi Wei.
+ In <em>Proceedings of the International Conference on Software
+  Engineering (ICSE)</em>, April 2027.
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="wei18evaluating"><a href="wei18evaluating.html">2</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Evaluating Design Tradeoffs in Numeric Static Analysis for Java</b>.
@@ -1973,7 +1988,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="ngyuen17numinv"><a href="ngyuen17numinv.html">2</a></a>]
+[<a name="ngyuen17numinv"><a href="ngyuen17numinv.html">3</a></a>]
 </td>
 <td class="bibtexitem">
 <b>A Counterexample-guided Approach to Finding Numerical Invariants</b>.
@@ -1988,7 +2003,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="antopoulous17blazer"><a href="antopoulous17blazer.html">3</a></a>]
+[<a name="antopoulous17blazer"><a href="antopoulous17blazer.html">4</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Decomposition Instead of Self-Composition for Proving the Absence of
@@ -2004,7 +2019,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="hicks14polymonad"><a href="hicks14polymonad.html">4</a></a>]
+[<a name="hicks14polymonad"><a href="hicks14polymonad.html">5</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Polymonadic Programming</b>.
@@ -2019,7 +2034,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="swamy11monad"><a href="swamy11monad.html">5</a></a>]
+[<a name="swamy11monad"><a href="swamy11monad.html">6</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Lightweight Monadic Programming in ML</b>.
@@ -2033,7 +2048,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="ma11directed"><a href="ma11directed.html">6</a></a>]
+[<a name="ma11directed"><a href="ma11directed.html">7</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Directed Symbolic Execution</b>.
@@ -2048,7 +2063,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="guts11coco"><a href="guts11coco.html">7</a></a>]
+[<a name="guts11coco"><a href="guts11coco.html">8</a></a>]
 </td>
 <td class="bibtexitem">
 <b>A demo of Coco: a compiler for monadic coercions in ML</b>.
@@ -2061,7 +2076,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="an11rubydust"><a href="an11rubydust.html">8</a></a>]
+[<a name="an11rubydust"><a href="an11rubydust.html">9</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Dynamic Inference of Static Types for Ruby</b>.
@@ -2076,7 +2091,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="an2011position"><a href="an2011position.html">9</a></a>]
+[<a name="an2011position"><a href="an2011position.html">10</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Position Paper: Dynamically Inferred Types for Dynamic Languages</b>.
@@ -2091,7 +2106,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="meister10cir"><a href="meister10cir.html">10</a></a>]
+[<a name="meister10cir"><a href="meister10cir.html">11</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Serializing C intermediate representations for efficient and portable
@@ -2106,7 +2121,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="furr09ril"><a href="furr09ril.html">11</a></a>]
+[<a name="furr09ril"><a href="furr09ril.html">12</a></a>]
 </td>
 <td class="bibtexitem">
 <b>The Ruby Intermediate Language</b>.
@@ -2121,7 +2136,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="swamy09coercion"><a href="swamy09coercion.html">12</a></a>]
+[<a name="swamy09coercion"><a href="swamy09coercion.html">13</a></a>]
 </td>
 <td class="bibtexitem">
 <b>A Theory of Typed Coercions and its Applications</b>.
@@ -2135,7 +2150,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="furr09stop"><a href="furr09stop.html">13</a></a>]
+[<a name="furr09stop"><a href="furr09stop.html">14</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Tests to the Left of Me, Types to the Right: How Not to Get Stuck in the
@@ -2151,7 +2166,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="furr08druby"><a href="furr08druby.html">14</a></a>]
+[<a name="furr08druby"><a href="furr08druby.html">15</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Static Type Inference for Ruby</b>.
@@ -2167,7 +2182,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="pratikakis08context"><a href="pratikakis08context.html">15</a></a>]
+[<a name="pratikakis08context"><a href="pratikakis08context.html">16</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Formalizing Soundness of Contextual Effects</b>.
@@ -2184,7 +2199,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="foster07improving"><a href="foster07improving.html">16</a></a>]
+[<a name="foster07improving"><a href="foster07improving.html">17</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Improving Software Quality with Static Analysis</b>.
@@ -2198,7 +2213,7 @@ of software.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="pratikakis06exists"><a href="pratikakis06exists.html">17</a></a>]
+[<a name="pratikakis06exists"><a href="pratikakis06exists.html">18</a></a>]
 </td>
 <td class="bibtexitem">
 <b>Existential Label Flow Inference via CFL Reachability</b>.

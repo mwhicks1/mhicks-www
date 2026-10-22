@@ -17,6 +17,25 @@ url: /papers/mwh.html
 <h2>Michael Hicks' Publications, by Year</h2>
 Also see publications <a href = "mwh-cat.html">by category</a>,
 on <a href = "https://dblp.org/pid/h/MichaelWHicks.html">DBLP</a>, and <a href = "https://scholar.google.com/citations?user=Gggzp7UAAAAJ&hl=en&oi=ao">Google Scholar</a>.
+<h3>2027</h3>
+
+
+<table>
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="rafieian27cgrizz"><a href="rafieian27cgrizz.html">1</a></a>]
+</td>
+<td class="bibtexitem">
+<b>Agentic Root Cause Reasoning and Localization of Unsoundness in Static
+  Call Graph Analysis</b>.
+ Mohammad Rafieian, Michael Hicks, and Shiyi Wei.
+ In <em>Proceedings of the International Conference on Software
+  Engineering (ICSE)</em>, April 2027.
+
+</td>
+</tr>
+</table>
 <h3>2025</h3>
 
 
